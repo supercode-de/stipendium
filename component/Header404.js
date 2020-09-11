@@ -13,7 +13,7 @@ const Header404 = (props) => {
       <div className="buttons"></div>
       <Telefon />
 
-      <img src="/img/_DSC2571_LowRes 3.png" alt="" />
+      <img src="/error.png" alt="" />
 
       <style jsx>{`
       a {

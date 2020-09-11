@@ -9,13 +9,18 @@ const DsgvoHeader = (props) => {
 
   return (
     <div id="dsgvo">
-      <Link href="/"><a>Zurück</a></Link>
+      <div className="center">
+        <Link href="/"><a>Zurück</a></Link>
+      </div>
       <h1>Datenschutz</h1>
 
       <Telefon />
       <Arrow />
 
       <style jsx>{`
+      .center{
+        text-align:center
+      }
       a {
         text-decoration: none;
         display: block;

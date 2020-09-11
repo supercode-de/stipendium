@@ -7,13 +7,18 @@ const ImpressumHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background
   return (
     <div id="impressum">
-      <Link href="/"><a>Zurück</a></Link>
+      <div className="center">
+        <Link href="/"><a>Zurück</a></Link>
+      </div>
       <h1>Impressum</h1>
 
 
       <Telefon color="#fff" />
       <Arrow />
       <style jsx>{`
+      .center{
+        text-align:center
+      }
       a {
         text-decoration: none;
         display: block;
