@@ -1,8 +1,9 @@
 
-import DsgvoHeader from "../components/DsgvoHeader";
-import DsgvoBody from "../components/DsgvoBody";
-import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
+import DsgvoHeader from "../component/DsgvoHeader";
+import DsgvoBody from "../component/DsgvoBody";
+import { useWindowSize } from "../component/functions/windowSize";
+import Layout from "../component/Layout";
+import Footer from "../component/Footer";
 
 export default function Home(props) {
   if (process.browser) {
@@ -13,6 +14,7 @@ export default function Home(props) {
           <main>
             <DsgvoHeader width={width} />
             <DsgvoBody width={width} />
+            <Footer width={width} />
           </main>
           <style jsx>{``}</style>
         </div>

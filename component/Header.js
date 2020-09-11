@@ -1,25 +1,25 @@
 
-import Arrow from "../components/small/Arrow";
+import Arrow from "./small/Arrow";
 
 const Header = (props) => {
-    const pixelSize = 1; // Width of Lines in Background
+  const pixelSize = 1; // Width of Lines in Background
 
 
-    return (
-        <div id="header">
-            <span className="aside">lerne programmieren</span>
-            <h1>
-                <span>Super-Stipendium</span>
-                <span>Super-Stipendium</span>
+  return (
+    <div id="header">
+      <span className="aside">lerne programmieren</span>
+      <h1>
+        <span>Super-Stipendium</span>
+        <span>Super-Stipendium</span>
                 Super-Stipendium
             </h1>
-            <h3>Erhalte ein Super-Stipendium</h3>
-            <h3>und lerne Programmieren!</h3>
+      <h3>Erhalte ein Super-Stipendium</h3>
+      <h3>und lerne Programmieren!</h3>
 
-            <p>Erfahre mehr</p>
-            <Arrow />
+      <p>Erfahre mehr</p>
+      <Arrow />
 
-            <style jsx>{`
+      <style jsx>{`
             
         #header {
             background:url('/header.png') center/cover no-repeat;
@@ -101,27 +101,41 @@ const Header = (props) => {
             
             color: #FFFFFF;
          }
+         @media (max-width: 1040px) {
+                 
+          h1{
+              font-size:4em;
+          }
+    }
         @media (max-width: 768px) {
+          
           h1 {
-            font-size: 3em;
-            width: 90%;
-            margin: 0 auto;
+            
+            font-size: 4em;
+            line-height:32px;
           }
         }
         @media (max-width: 468px) {
-          button {
-            font-size: 1.2em;
+          h3{
+            font-size:2em;
+            margin-bottom:0
           }
-          #header {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
-            min-height: 90vh;
+          h3:first-of-type{
+            margin-top:20px
+          }
+          h3:last-of-type{
+            margin-bottom:20px
+        }
+          h1 {
+            font-size: 2.5em;
+            line-height:20px;
+            font-weight:500;
+            margin-bottom:40px
           }
         }
       `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default Header;

@@ -5,22 +5,20 @@ const JetztBewerben = (props) => {
     return (
 
         <div id="unser-campus">
-            <span className="aside">Bewirb dich jetzt!</span>
+            <span className="aside" > Bewirb dich jetzt! </span>
 
-            <div className="twocolumn">
-                <div className="onecolumn">
-                    <h1>Du willst <br /> <span>programmieren</span> lernen <br /> und einen Job mit <br />Zukunft? Das <span className="super">Super-<br />Stipendium</span> ist deine <br /> <span> Chance!</span></h1>
-                    <p>Worauf wartest Du noch?<br />
-                Bewirb dich jetzt und mit etwas Glück <br /> wirst du Germany’s Next SuperCoder*in!</p>
+            <div className="twocolumn" >
+                <div className="onecolumn" >
+                    <h1> Du willst < br /> < span > programmieren </span> lernen <br /> und einen Job mit < br /> Zukunft ? Das < span className="super" > Super - < br /> Stipendium </span> ist deine <br /> <span> Chance! </span></h1>
+                    <p > Worauf wartest Du noch ? < br />
+        Bewirb dich jetzt und mit etwas Glück < br /> wirst du Germany’ s Next SuperCoder * in ! </p>
                 </div>
-                <img src="/jetztbewerben.png" alt="" />
+                <img src="/jetztbewerben.png"
+                    alt="" />
             </div>
-            <div className="onecolumn">
-                <button>
-                    Jetzt bewerben – Mehr Informationen
-            </button>
-            </div>
-            <style jsx>{`
+            <div className="onecolumn" >
+                <button >Jetzt bewerben– Mehr Informationen </button> </div >
+            <style jsx > {`
             .aside {
                 position: absolute;
                 transform: rotate(-90deg);
@@ -36,12 +34,11 @@ const JetztBewerben = (props) => {
                 line-height: 18px;
                 letter-spacing: 3px;
                 text-transform: uppercase;
-    
                 color: #FFFFFF;
               }
         #unser-campus {
           padding:100px 0 100px 10%;  
-          height:100vh;
+          
           position: relative;
           background-color: #5D3EDE;
           background-image: linear-gradient(
@@ -61,37 +58,37 @@ const JetztBewerben = (props) => {
           background-position: 0 0, 0 0;
           background-size: ${props.width}px ${props.width}px;
         }
-        .twocolumn{
+        #unser-campus .twocolumn{
             display:grid;
             grid-template-columns:60% 40%;
             padding-bottom:40px;
+            margin-bottom:100px
         }
-        .onecolumn{
+        #unser-campus .onecolumn{
             display:grid;
-            grid-template-columns:100%;
+            grid-template-columns:1fr;
             
         }
-        .twocolumn>img{
+        #unser-campus .twocolumn>img{
             width:100%;
-            height:100%;
         }
-        h1{
+        #unser-campus h1{
             font-family:"Neue_Machina_Regular_400";
             font-size:3em;
             color:#fff;
             line-height:60px
         }
-        h1 span.super{
+        #unser-campus h1 span.super{
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 1px;
             -webkit-text-stroke-color: #fff;
             font-weight:300;
         }
-        h1 span:first-of-type,h1 span:last-of-type{
+        #unser-campus h1 span:first-of-type,h1 span:last-of-type{
             position:relative
         }
-        h1 span:first-of-type::after{
+        #unser-campus h1 span:first-of-type::after{
             position:absolute;
             background:url('/vector41.svg') center/cover no-repeat;
             height:2px;
@@ -101,7 +98,7 @@ const JetztBewerben = (props) => {
             content:'';
             display:block;
         }
-        h1 span:first-of-type::before{
+        #unser-campus h1 span:first-of-type::before{
             position:absolute;
             background:url('/Vector41.svg') center/cover no-repeat;
             height:2px;
@@ -112,7 +109,7 @@ const JetztBewerben = (props) => {
             display:block;
             transform:rotate(0.5deg)
         }
-        h1 span:last-of-type::after{
+        #unser-campus h1 span:last-of-type::after{
             position:absolute;
             background:url('/Vector43.svg') center/cover no-repeat;
             height:160%;
@@ -127,7 +124,7 @@ const JetztBewerben = (props) => {
             font-family: Fira Sans;
             font-style: normal;
             font-weight: normal;
-            font-size: 25px;
+            font-size: 1.5em;
             line-height: 30px;
             justify-self:center
         }
@@ -145,25 +142,52 @@ const JetztBewerben = (props) => {
             color:#fff;
             justify-self:center
         }
-      `}</style>
-        </div>
+        button:hover{
+            color:#5d3ede;
+            background:#fff;
+        }
+        @media (max-width: 1040px) {
+                 
+              h1{
+                  font-size:2em;
+                  line-height:40px
+              }
+        }
+        @media (max-width: 768px) {     
+            #unser-campus{
+                padding:100px 6%
+            }  
+            h1{
+                font-size:3em;
+                
+            }
+            p{
+                font-size:2em;
+                margin-bottom:50px
+            }
+            .twocolumn{
+                grid-template-columns:100%;
+                
+            }
+      }
+      @media (max-width: 468px) { 
+        #unser-campus{
+            padding:100px 30px
+        }       
+        h1{
+            font-size:3em
+        }
+        p{
+            font-size:1.5em
+        }
+        .twocolumn{
+            grid-template-columns:1fr;
+            margin-bottom:40px;
+        }
+  }
+      ` } </style>
+        </div >
     );
 };
 
 export default JetztBewerben;
-
-// .img-three {
-//   margin-left: ${props.width * 3}px;
-//   margin-top: ${props.width * .5}px;
-// }
-// .img-four {
-//   margin-left: ${props.width * 8}px;
-//   margin-top: -${1.5 * props.width}px
-// }
-// .img-five {
-//   margin-top: ${props.width}px;
-// }
-// .img-six {
-//   margin-left: ${props.width * 7}px;
-//   margin-top: ${props.width}px
-// }

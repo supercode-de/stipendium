@@ -1,19 +1,11 @@
-import Navigation from "./Navigation"
 
-import Footer from '../components/Footer'
-import Banner from '../components/Banner'
+
 import Head from 'next/head'
-import JetztAnmdelden from "./JetztAnmelden"
 import React, { Component } from 'react';
 
 
 class Layout extends Component {
-  state = {
-    isHidden: true
-  }
-  toggleJetztAnmelden = () => {
-    this.setState({ isHidden: !this.state.isHidden });
-  }
+
   render() {
     return (
       <div id="super-layout">

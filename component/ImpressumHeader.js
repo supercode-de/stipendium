@@ -1,25 +1,48 @@
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
+import Link from 'next/link'
 
 
 const ImpressumHeader = (props) => {
   const pixelSize = 1; // Width of Lines in Background
   return (
     <div id="impressum">
+      <Link href="/"><a>Zurück</a></Link>
       <h1>Impressum</h1>
 
-      <div className="aside">📞 +49 211 7817 233-0</div>
+
       <Telefon color="#fff" />
       <Arrow />
       <style jsx>{`
+      a {
+        text-decoration: none;
+        display: block;
+        padding: .5em 0;
+        font-size:3em;
+        color: transparent;
+          letter-spacing: 3px;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: #fff;
+    }
+    a:visited {
+      -webkit-text-stroke-color: #fff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        -webkit-text-stroke-color: #3dd7ac;
+    }
+    a:active {
+      -webkit-text-stroke-color: #5d3ede;
+    }
         #impressum {
           background: linear-gradient(
               90deg,
-              #03000f ${props.width - pixelSize}px,
+              #070021 ${props.width - pixelSize}px,
               transparent 1%
             ),
             linear-gradient(
-              #03000f ${props.width - pixelSize}px,
+              #070021 ${props.width - pixelSize}px,
               transparent 1%
             ),
             #fff;
@@ -32,7 +55,7 @@ const ImpressumHeader = (props) => {
           padding-bottom: 10vh;
           font-size: 5em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: #fff;
           text-align: center;
         }
         // .aside {

@@ -1,9 +1,10 @@
 
 
-import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
-import ImpressumBody from "../components/ImpressumBody";
-import ImpressumHeader from "../components/ImpressumHeader";
+import { useWindowSize } from "../component/functions/windowSize";
+import Layout from "../component/Layout";
+import ImpressumBody from "../component/ImpressumBody";
+import ImpressumHeader from "../component/ImpressumHeader";
+import Footer from "../component/Footer";
 
 export default function Home(props) {
   if (process.browser) {
@@ -14,8 +15,7 @@ export default function Home(props) {
           <main>
             <ImpressumHeader width={width} />
             <ImpressumBody width={width} />
-            {/* <DsgvoHeader width={width} />
-            <DsgvoBody width={width} /> */}
+            <Footer width={width} />
           </main>
           <style jsx>{``}</style>
         </div>

@@ -1,7 +1,7 @@
-import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
-import Header404 from "../components/Header404";
-import WiederZurueck from "../components/WiederZurueck";
+import { useWindowSize } from "../component/functions/windowSize";
+import Layout from "../component/Layout";
+import Header404 from "../component/Header404";
+import Footer from "../component/Footer";
 
 export default function Custom404() {
   if (process.browser) {
@@ -11,7 +11,7 @@ export default function Custom404() {
         <div className="container">
           <main>
             <Header404 width={width} />
-            <WiederZurueck width={width} />
+            <Footer width={width} />
           </main>
 
           <style jsx>{``}</style>

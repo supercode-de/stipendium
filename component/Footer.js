@@ -1,44 +1,8 @@
 import Link from 'next/link'
 
-const Footer = () => {
+const Footer = (props) => {
     return (
         <footer id="footer">
-            {/* <div className="footer-grid">
-                <div className="link-container">
-                    <Link href="/"><a className="line-bottom">Sitemap</a></Link>
-                    <Link href="/"><a>Customer Jurney &amp; Experience (CX)</a></Link>
-                    <Link href="/"><a>Personas</a></Link>
-                    <Link href="/"><a>Segmentierung</a></Link>
-                </div>
-                <div className="link-container">
-                    <Link href="/"><a className="line-bottom">Kurse</a></Link>
-                    <Link href="/"><a>Markenwert</a></Link>
-                    <Link href="/"><a>Markenbekanntheit</a></Link>
-                    <Link href="/"><a>Kundenzufriedenheit</a></Link>
-                    <Link href="/"><a>Preis</a></Link>
-                </div>
-                <div className="link-container">
-                    <Link href="/"><a className="line-bottom">Legal</a></Link>
-                    <Link href="/"><a>Markenanalyse</a></Link>
-                    <Link href="/"><a>Trend Radar</a></Link>
-                    <Link href="/"><a>Konzepttest</a></Link>
-                    <Link href="/"><a>Wettbewerb</a></Link>
-                </div>
-                <div className="link-container">
-                    <Link href="/"><a className="line-bottom">Blog</a></Link>
-                    <Link href="/"><a>Logo Test</a></Link>
-                    <Link href="/"><a>Verpackungstest</a></Link>
-                    <Link href="/"><a>Designtest</a></Link>
-                    <Link href="/"><a>Eye Tracking</a></Link>
-                </div>
-                <div className="link-container">
-                    <Link href="/"><a className="line-bottom">Panels</a></Link>
-                    <Link href="/"><a>Konsumenten (B2C)</a></Link>
-                    <Link href="/"><a>Business (B2B)</a></Link>
-                    <Link href="/"><a>Rekrutierung</a></Link>
-                    <Link href="/"><a>Pflege</a></Link>
-                </div>
-            </div> */}
             <div className="links">
                 <Link href="/impressum"><a>Impressum</a></Link>
                 <Link href="/dsgvo"><a>DSGVO</a></Link>
@@ -49,8 +13,24 @@ const Footer = () => {
             </div>
             <style jsx>{`
             #footer {
-                background: #03000F;
-                color: #3DD7AC;
+                background: #070021;
+                background-image: linear-gradient(
+                    to right,
+                    rgba(255, 255, 255, 0.25) 0,
+                    rgba(255, 255, 255, 0.25) 1px,
+                    transparent 1px,
+                    transparent 100%
+                  ),
+                  linear-gradient(
+                    to bottom,
+                    rgba(255, 255, 255, 0.25) 0,
+                    rgba(255, 255, 255, 0.25) 1px,
+                    transparent 1px,
+                    transparent 100%
+                  );
+                background-position: 0 0, 0 0;
+                background-size: ${props.width}px ${props.width}px;
+                color: #fff;
                 font-weight: 200;
                 padding-top: .8em;
             }
@@ -67,10 +47,10 @@ const Footer = () => {
                 text-decoration: none;
                 display: block;
                 padding: .5em 0;
-                color: #3DD7AC;
+                color: #fff;
             }
             a:visited {
-                color: #3DD7AC;
+                color: #fff;
             }
 
             a:hover {

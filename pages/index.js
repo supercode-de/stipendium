@@ -1,20 +1,26 @@
 ;
 import Header from "../component/Header";
-import { useWindowSize } from "../components/functions/windowSize";
-import Layout from "../components/Layout";
+import { useWindowSize } from "../component/functions/windowSize";
+import Layout from "../component/Layout";
 import JetztBewerben from "../component/JetztBewerben";
+import Partner from "../component/Partner";
+import SupercodeUsp2 from "../component/supercodeUsp2";
+import Footer from "../component/Footer";
+
 
 
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout banner={true}>
+      <Layout >
         <div className="container">
           <main>
             <Header width={width} />
             <JetztBewerben width={width} />
-            <JetztBewerben width={width} />
+            <Partner width={width} />
+            <SupercodeUsp2 width={width} />
+            <Footer width={width} />
           </main>
           <style jsx>{`
             main{

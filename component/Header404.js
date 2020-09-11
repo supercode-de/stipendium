@@ -1,9 +1,11 @@
 import Telefon from "./small/Telefon";
+import Link from 'next/link'
 
 const Header404 = (props) => {
   const pixelSize = 2; // Width of Lines in Background
   return (
     <div id="header">
+      <Link href="/"><a>Zurück</a></Link>
       <h1>
         <span>404</span>
         Baby
@@ -14,14 +16,36 @@ const Header404 = (props) => {
       <img src="/img/_DSC2571_LowRes 3.png" alt="" />
 
       <style jsx>{`
+      a {
+        text-decoration: none;
+        display: block;
+        padding: .5em 0;
+        color: #fff;
+        font-size:3em;
+        color: transparent;
+          letter-spacing: 3px;
+          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-color: #fff;
+    }
+    a:visited {
+      -webkit-text-stroke-color: #fff;
+    }
+
+    a:hover {
+        text-decoration: underline;
+        -webkit-text-stroke-color: #3dd7ac;
+    }
+    a:active {
+      -webkit-text-stroke-color: #5d3ede;
+    }
         #header {
           background: linear-gradient(
               90deg,
-              #03000f ${props.width - pixelSize}px,
+              #070021 ${props.width - pixelSize}px,
               transparent 1%
             ),
             linear-gradient(
-              #03000f ${props.width - pixelSize}px,
+              #070021 ${props.width - pixelSize}px,
               transparent 1%
             ),
             #fff;
@@ -32,7 +56,7 @@ const Header404 = (props) => {
           //   position: relative;
         }
         .large {
-          background: #03000f;
+          background: #070021;
           width: 100%;
           text-align: center;
         }
@@ -41,7 +65,7 @@ const Header404 = (props) => {
           padding-top: 11vh;
           font-size: 9em;
           letter-spacing: 2px;
-          color: #3dd7ac;
+          color: #fff;
           text-align: center;
         }
         h1 span {
@@ -49,14 +73,14 @@ const Header404 = (props) => {
           color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: #3dd7ac;
+          -webkit-text-stroke-color: #fff;
         }
         #header img {
           position: relative;
           z-index: 2;
-          margin-bottom: -10%;
+         
           width: 33.2%;
-          margin-top: 5%;
+          margin: 5% 0;
         }
         @media (max-width: 768px) {
           h1 {
