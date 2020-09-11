@@ -182,7 +182,7 @@ const SuperStipendium = (props) => {
             h5{
                 font-family:"Neue_Machina_Regular_400";
                 color: #ffffff;
-                opacity: .8;
+                opacity: .7;
                 font-size: 16px;
                 line-height: 18px;
             }
