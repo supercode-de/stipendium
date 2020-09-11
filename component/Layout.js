@@ -33,7 +33,7 @@ class Layout extends Component {
             body {
               padding: 0;
               margin: 0;
-              font-family: 'Fira Sans', sans-serif;
+              font-family: 'Fira Mono', sans-serif;
             }
             * {
               box-sizing: border-box;

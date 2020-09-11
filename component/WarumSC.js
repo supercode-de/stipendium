@@ -8,22 +8,22 @@ const WarumSC = (props) => {
                 <div>
                     <h1>WARUM <span>SUPERCODE?</span></h1>
                     <p>
-                        Egal ob du Quereinsteiger*in, Berufstätige*r, Alleinerziehend oder Studienabrecher*in bist: SuperCode bietet dir das Format, das dir am besten passt. 
+                        Egal ob du Quereinsteiger*in, Berufstätige*r, Alleinerziehend oder Studienabrecher*in bist: SuperCode bietet dir das Format, das dir am besten passt.
                     </p>
                     <p>
-                        In 5 - 7 Monaten lernst du in Düsseldorf alles, was du für deinen Einstieg als Webdeveloper*in brauchst. HTML, CSS, Javascript und die Grundlagen der Webtechnologien. 
+                        In 5 - 7 Monaten lernst du in Düsseldorf alles, was du für deinen Einstieg als Webdeveloper*in brauchst. HTML, CSS, Javascript und die Grundlagen der Webtechnologien.
                     </p>
                     <p>
                         Du lernst intensiv und schnell in Kursen mit einem hohen Praxisbezug, denn schon von Tag eins arbeitest du im Coworkingspace Super7000 an deinen Praxisprojekten.
                     </p>
                     <p>
-                        Pro Tag sorgen zwei Trainern*innen wir für eine optimale und effektive Lernbegleitung um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten. 
+                        Pro Tag sorgen zwei Trainern*innen wir für eine optimale und effektive Lernbegleitung um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten.
                     </p>
                 </div>
                 <div>
-                    <img src="/img/warumsc_bild1.png" alt="" className="centercenter"/>
-                    <img src="/img/warumsc_bild2.png" alt="" className="righttop"/>
-                    <img src="/img/warumsc_bild3.png" alt="" className="rightcenter"/>
+                    <img src="/img/warumsc_bild1.png" alt="" className="centercenter" />
+                    <img src="/img/warumsc_bild2.png" alt="" className="righttop" />
+                    <img src="/img/warumsc_bild3.png" alt="" className="rightcenter" />
                     <img src="/img/warumsc_bild4.png" alt="" className="rightbottom" />
                 </div>
                 <img src="/img/warumsc_bild5.png" alt="" className="leftbottom" />
@@ -46,7 +46,7 @@ const WarumSC = (props) => {
                 text-transform: uppercase;
             }
             #warum-sc {
-                font-family: Fira Sans;
+                font-family: Fira Mono;
                 padding:100px 0 100px 10%;  
                 position: relative;
                 background-color: #5D3EDE;

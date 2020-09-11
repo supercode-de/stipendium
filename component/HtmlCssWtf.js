@@ -52,7 +52,7 @@ const HtmlCssWtf = (props) => {
                 z-index: 9;
             }
             #html-css-wtf {
-                font-family: Fira Sans;
+                font-family: Fira Mono;
                 overflow: hidden;
                 padding:100px 0 100px 10%;  
                 position: relative;
