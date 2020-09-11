@@ -1,4 +1,4 @@
-import Layout from "../components/Layout";
+import Layout from "../component/Layout";
 import Link from "next/link";
 
 const Typeform = (props) => {
