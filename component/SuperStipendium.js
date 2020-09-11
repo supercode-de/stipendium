@@ -6,7 +6,7 @@ const SuperStipendium = (props) => {
 
         <div id="super-stipendium">
             <span className="aside">Arbeitsplatz der Zukunft</span>
-            <img src="/img/bgLine.png" alt="" className="bg-line"/>
+            <img src="/img/bgLine.png" alt="" className="bg-line" />
             <article className="stipendium-left">
                 <h1>Das <br /><span className="super">Super-<span className="break"></span>Stipendium</span></h1>
                 <h4>Das DigiHub und der StartupDorf eV aka. die beiden wichtigsten digitalen Matchmaker Düsseldorfs ermöglichen dir ein <span className="square">Stipendium</span> der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizirten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Web-Entwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse. <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche die eines der beiden Stipendia erhält!</h4>
@@ -60,6 +60,7 @@ const SuperStipendium = (props) => {
                 background-size: ${props.width}px ${props.width}px;
                 z-index:-2;
                 overflow: hidden;
+                padding:100px 0
             }
             .bg-line{
                 position: absolute;
