@@ -3,6 +3,7 @@ import Header from "../component/Header";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import JetztBewerben from "../component/JetztBewerben";
+import SuperStipendium from "../component/SuperStipendium";
 
 
 export default function Home(props) {
@@ -13,8 +14,9 @@ export default function Home(props) {
         <div className="container">
           <main>
             <Header width={width} />
-            <JetztBewerben width={width} />
-            <JetztBewerben width={width} />
+            {/* <JetztBewerben width={width} />
+            <JetztBewerben width={width} /> */}
+            <SuperStipendium width={width} />
           </main>
           <style jsx>{`
             main{
