@@ -2,13 +2,12 @@ import Header from "../component/Header";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import JetztBewerben from "../component/JetztBewerben";
-<<<<<<< HEAD
 import WarumWeb from "../component/WarumWeb";
 import CTA4 from "../component/CTA4";
-=======
 import SuperStipendium from "../component/SuperStipendium";
+import HtmlCssWtf from "../component/HtmlCssWtf"
+import WarumSC from "../component/WarumSC";
 
->>>>>>> 71dcd0900d762746418237de7f268cc9ebae0667
 
 export default function Home(props) {
   if (process.browser) {
@@ -18,17 +17,16 @@ export default function Home(props) {
         <div className="container">
           <main>
             <Header width={width} />
-<<<<<<< HEAD
             {/* <JetztBewerben width={width} /> */}
             <WarumWeb width={width} />
             {/* <JetztBewerben width={width} /> */}
             <CTA4 width={width} />
+            <HtmlCssWtf width={width} />
+            <WarumSC width={width} />
             {/* <JetztBewerben width={width} /> */}
-=======
             {/* <JetztBewerben width={width} />
             <JetztBewerben width={width} /> */}
             <SuperStipendium width={width} />
->>>>>>> 71dcd0900d762746418237de7f268cc9ebae0667
           </main>
           <style jsx>{`
             main{
