@@ -1,9 +1,9 @@
-;
 import Header from "../component/Header";
 import { useWindowSize } from "../components/functions/windowSize";
 import Layout from "../components/Layout";
 import JetztBewerben from "../component/JetztBewerben";
-
+import WarumWeb from "../component/WarumWeb";
+import CTA4 from "../component/CTA4";
 
 export default function Home(props) {
   if (process.browser) {
@@ -13,8 +13,11 @@ export default function Home(props) {
         <div className="container">
           <main>
             <Header width={width} />
-            <JetztBewerben width={width} />
-            <JetztBewerben width={width} />
+            {/* <JetztBewerben width={width} /> */}
+            <WarumWeb width={width} />
+            {/* <JetztBewerben width={width} /> */}
+            <CTA4 width={width} />
+            {/* <JetztBewerben width={width} /> */}
           </main>
           <style jsx>{`
             main{
