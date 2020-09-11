@@ -46,7 +46,7 @@ const WarumSC = (props) => {
                 text-transform: uppercase;
             }
             #warum-sc {
-                font-family: Fira Mono;
+                font-family: 'Fira Mono', monospace;
                 padding:100px 0 100px 10%;  
                 position: relative;
                 background-color: #5D3EDE;

@@ -121,7 +121,7 @@ const JetztBewerben = (props) => {
         }
         p{
             color:#fff;
-            font-family: Fira Mono;
+            font-family: 'Fira Mono', monospace;
             font-style: normal;
             font-weight: normal;
             font-size: 1.5em;
