@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Typeform from "./TypeForm";
 
 
 const JetztBewerben = (props) => {
@@ -16,9 +17,13 @@ const JetztBewerben = (props) => {
                 <img src="/jetztbewerben.png"
                     alt="" />
             </div>
-            <div className="onecolumn" >
-                <button >Jetzt bewerben– Mehr Informationen </button> </div >
+            <div className="center" >
+                <Typeform />
+            </div >
             <style jsx > {`
+            .center{
+                text-align:center
+            }
             .aside {
                 position: absolute;
                 transform: rotate(-90deg);

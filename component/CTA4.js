@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import TypeForm from "./TypeForm";
+
 
 const CTA4 = (props) => {
   return (
@@ -19,7 +21,7 @@ const CTA4 = (props) => {
         </div>
 
         <div className="buttoncolumn">
-          <button>Jetzt bewerben</button>
+          <TypeForm />
         </div>
       </div>
       <style jsx>{`

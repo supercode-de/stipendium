@@ -51,6 +51,16 @@ class Layout extends Component {
               right 10%;
               left: auto;
             }
+            .popup-content{
+              position:fixed !important;
+              top:10%  !important;
+              right:0 !important;
+              left:10% !important;
+              bottom:0 !important;
+              width:80% !important;
+              height:90% !important;
+              z-index:10000 !important;
+            }
             // Styling Carousel Blog End
             @media (max-width: 768px) {
               body {
