@@ -95,10 +95,10 @@ const CTA4 = (props) => {
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
-        @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+        
         p {
           color: #fff;
-          font-family: Roboto Mono;
+          font-family: 'Fira Mono', monospace;
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
@@ -106,10 +106,10 @@ const CTA4 = (props) => {
           justify-self: center;
           max-width: 480px;
         }
-        @import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+        
         button {
           margin: 2em 1em;
-          font-family: Karla;
+          font-family: 'Fira Mono', monospace;
           font-style: normal;
           font-weight: normal;
           font-size: 14px;
