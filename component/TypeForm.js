@@ -64,7 +64,12 @@ const Typeform = (props) => {
                     border: 1px solid #fff;
                     color: #fff;
                     justify-self: center;
+                    
                   }
+                  button:hover{
+                    color:#5d3ede;
+                    background:#fff;
+                }
                 iframe{ position: absolute; left:0; right:0; bottom:0; top:0px; border:0; }
             `}</style>
 
