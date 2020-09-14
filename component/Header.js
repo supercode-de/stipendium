@@ -83,6 +83,7 @@ const Header = (props) => {
             line-height: 37px;
             color:#fff;
             margin:0;
+            text-align:center;
         }
          h3:first-of-type{
              margin-top:100px

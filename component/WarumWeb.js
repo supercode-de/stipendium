@@ -102,15 +102,15 @@ const JetztBewerben = (props) => {
           font-family: "Neue_Machina_Regular_400";
           color: #fff;
           font-weight: 300;
-          font-size: 6em;
+          font-size: 4em;
 
-          line-height: 1.1em;
+          line-height: 1.3em;
           margin: 0;
         }
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;
-          -webkit-text-stroke-width: 3px;
+          -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
@@ -152,22 +152,26 @@ const JetztBewerben = (props) => {
           content: "";
           display: block;
         }
-        p {
+        p{
           color: #fff;
-          font-family: 'Fira Mono', monospace;
+          font-family: 'Fira Mono',monospace;
           font-style: normal;
           font-weight: normal;
-          font-size: 22px;
+          font-size: 1.1em;
           line-height: 30px;
-          letter-spacing: 1px;
           justify-self: center;
-        }
+      }
         @media only screen and (max-width: 1635px) {
           h1 {
             font-size: 5em;
           }
         }
         @media only screen and (max-width: 1440px) {
+          h1 {
+            font-size: 3em;
+          }
+        }
+        @media only screen and (max-width: 1040px) {
           h1 {
             font-size: 2.6em;
           }
@@ -190,11 +194,23 @@ const JetztBewerben = (props) => {
             grid-template-columns: 14fr 1fr;
             gap: 50px 0;
           }
+          h1 span.super {
+            color: transparent;
+            letter-spacing: 2px;
+            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-color: #fff;
+            font-weight: 300;
+            opacity:0.7;
+          }
           #unser-campus .imgleft {
             grid-column: 1/-1;
           }
           .onecolumn {
             padding: 0 5% 0 10%;
+          }
+          p{
+            font-size: 1.4em;
+          line-height: 24px;
           }
           @media only screen and (max-width: 375px) {
             h1 {

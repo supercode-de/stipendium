@@ -1,8 +1,31 @@
-import React from "react";
+import Carousel from "react-multi-carousel";
 
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 2,
+        partialVisibilityGutter: 70
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 1,
+        partialVisibilityGutter: 0
+
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
 const HtmlCssWtf = (props) => {
     return (
         <div id="html-css-wtf">
+
             <div className="asidebg">
                 <span className="aside">Arbeitsplatz der Zukunft</span>
             </div>
@@ -16,14 +39,36 @@ const HtmlCssWtf = (props) => {
                         Metro, IBM, Vodafone, Trivago – der Düsseldorfer IT-Markt boomt! Das Super Stipendium ist dein Türöffner in den digitalen Arbeitsmarkt der <span>Zukunft!</span>
                     </p>
                 </div>
-                <div>
+                <div className="gallery">
                     <img src="/img/htmlcsswtf_bild2.png" alt="" />
                     <img src="/img/htmlcsswtf_bild3.png" alt="" />
                     <img src="/img/htmlcsswtf_bild4.png" alt="" />
                     <img src="/img/htmlcsswtf_bild5.png" alt="" />
                 </div>
+                <section id="carousel">
+                    <Carousel
+                        responsive={responsive}
+                        ssr
+                        showDots={false}
+                        slidesToSlide={1}
+                        infinite
+                        containerClass="container-with-dots"
+                        deviceType={""}
+                        itemClass="carousel-item-padding-20-px"
+                    >
+                        <figure><img src="/img/htmlcsswtf_bild3.png" alt="" /></figure>
+                        <figure><img src="/img/htmlcsswtf_bild4.png" alt="" /></figure>
+                        <figure><img src="/img/htmlcsswtf_bild5.png" alt="" /></figure>
+
+
+
+                    </Carousel>
+                </section>
             </div>
             <style jsx>{`
+            #carousel{
+                display:none
+            }
             .aside {
                 transform: rotate(-90deg);
                 color:#fff;
@@ -51,6 +96,17 @@ const HtmlCssWtf = (props) => {
                 align-items: center;
                 z-index: 9;
             }
+            .asidebg:before{
+                content:'';
+                position:absolute;
+                top:0;
+                bottom:0;
+                left:0;
+                right:0;
+                display:block;
+                background: rgba(0,0,0,.5) center/contain no-repeat;
+                
+            }
             #html-css-wtf {
                 font-family: 'Fira Mono', monospace;
 
@@ -77,27 +133,33 @@ const HtmlCssWtf = (props) => {
             }
             .twocolumn{
                 display:grid;
-                grid-template-columns:40% 60%;
+                grid-template-columns:50% 50%;
                 padding-bottom:40px;
             }
             h1{
                 font-family:"Neue_Machina_Regular_400";
-                font-size:5em;
+                font-size:4em;
                 line-height:1em;
                 max-width: 300px;
                 color: transparent;
-                letter-spacing: 2px;
-                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: #fff;
                 font-weight:300;
                 margin: .5em 0 .3em;
             }
             .twocolumn div:first-of-type{
                 color: #fff;
-                line-height: 1.5em;
                 width: 90%;
-                max-width: 400px;
                 z-index: 99;
+            }
+            p{
+                color: #fff;
+                font-family: 'Fira Mono',monospace;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1.1em;
+                line-height: 30px;
+                justify-self: center;
             }
             .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1){
                 background: url(/img/htmlcsswtf_line1.svg) center bottom/100% no-repeat;
@@ -128,27 +190,66 @@ const HtmlCssWtf = (props) => {
             }
             .twocolumn div:last-of-type img:nth-of-type(1){
                 width: 50%;
+                min-width:200px;
                 transform: translate(5vw, 3vh);
             }
             .twocolumn div:last-of-type img:nth-of-type(2){
                 width: 60%;
-                transform: translate(1vw, 4vh);
+                min-width:280px;
+                transform: translate(1vw, 8vh);
             }
             .twocolumn div:last-of-type img:nth-of-type(3){
                 width: 80%;
+                min-width:280px;
                 transform: translate(-4vw, 5vh);
             }
             .twocolumn div:last-of-type img:nth-of-type(4){
                 width: 100%;
-                transform: scale(1.2, 1.2) translate(0vw, -2vw);
+                min-width:280px;
+                transform: scale(1.2, 1.2) translate(0vw, 0vw);
+            }
+            @media (max-width: 1024px) {
+                figure{
+                    margin:0;
+                }
+                #html-css-wtf .gallery{
+                    display:none ;
+                }
+                #html-css-wtf #carousel{
+                    display:block
+                }
+                #html-css-wtf #carousel img{
+                    width:100%
+                }
+                .twocolumn{
+                    display: block ;
+                }
             }
             @media (max-width: 768px) {
+                
                 .twocolumn{
-                    display: block;
+                    display: block ;
                 }
                 .twocolumn div:last-of-type{
                     width: 80%;
                 }
+                h1{
+                    font-size:5em;
+                    margin-bottom:50px
+                }
+                p{
+                    color: #fff;
+                    font-family: 'Fira Mono',monospace;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 1.4em;
+                    line-height: 24px;
+                    justify-self: center;
+                }
+                .asidebg,.asidebg:before{
+                    background:none
+                }
+
               }
               @media (max-width: 468px) {
                 

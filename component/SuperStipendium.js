@@ -1,10 +1,32 @@
-import React, { useState, useEffect } from "react";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 2
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 479 },
+        items: 1
+
+    },
+    mobile: {
+        breakpoint: { max: 479, min: 0 },
+        items: 1
+    },
+};
 
 
 const SuperStipendium = (props) => {
     return (
 
         <div id="super-stipendium">
+
             <span className="aside">Arbeitsplatz der Zukunft</span>
             <img src="/img/bgLine.png" alt="" className="bg-line" />
             <article className="stipendium-left">
@@ -12,7 +34,7 @@ const SuperStipendium = (props) => {
                 <h4>Das DigiHub und der StartupDorf eV aka. die beiden wichtigsten digitalen Matchmaker Düsseldorfs ermöglichen dir ein <span className="square">Stipendium</span> der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizirten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Web-Entwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse. <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche die eines der beiden Stipendia erhält!</h4>
             </article>
             <article className="stipendium-right">
-                <div className="stipendium-box1">
+                <div className="stipendium-box1 hide">
                     <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
                     <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                     <h5>Inhalte:</h5>
@@ -22,7 +44,7 @@ const SuperStipendium = (props) => {
                     <h5>Umfang:</h5>
                     <p>_22 Wochen Vollzeit <br />_Montag bis Freitag <br />_09:00 - 18:00 Uhr</p>
                 </div>
-                <div className="stipendium-box2">
+                <div className="stipendium-box2 hide">
                     <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
                     <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
                     <h6>Inhalte:</h6>
@@ -32,14 +54,52 @@ const SuperStipendium = (props) => {
                     <h6>Umfang:</h6>
                     <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
                 </div>
+                <div id="myCarousel">
+                    <Carousel
+                        responsive={responsive}
+                        ssr
+                        showDots={false}
+                        slidesToSlide={1}
+                        infinite
+                        containerClass="container-with-dots"
+                        deviceType={""}
+                        itemClass="carousel-item-padding-20-px"
+                    >
+                        <div className="stipendium-box1">
+                            <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                            <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
+                            <h5>Inhalte:</h5>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                            <h5>Trainer*innen:</h5>
+                            <p>2 Trainer*innen pro Tag</p>
+                            <h5>Umfang:</h5>
+                            <p>_22 Wochen Vollzeit <br />_Montag bis Freitag <br />_09:00 - 18:00 Uhr</p>
+                        </div>
+                        <div className="stipendium-box2">
+                            <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                            <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
+                            <h6>Inhalte:</h6>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                            <h6>Trainer*innen:</h6>
+                            <p>2 Trainer*innen pro Tag</p>
+                            <h6>Umfang:</h6>
+                            <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
+                        </div>
+                    </Carousel>
+                </div>
             </article>
+
             <style jsx>{`
             *{
                 margin: 0;
                 padding: 0;
             }
+            #myCarousel{
+                display:none;
+                position:relative;
+                z-index:30;
+            }
             #super-stipendium{
-                position: relative;
                 display: flex;
                 background-color: #5D3EDE;
                 background-image: linear-gradient(
@@ -171,6 +231,7 @@ const SuperStipendium = (props) => {
                 padding: 2vh 4% 0 2%;
                 width: 50%;
                 height: 100%;
+                
             }
             .stipendium-box2{
                 width: 50%;
@@ -204,29 +265,44 @@ const SuperStipendium = (props) => {
                 line-height: 18px;
                 font-weight: 600;
             }
-            @media only screen and (min-width: 320px) and (max-width: 479px) {
+            @media only screen and (min-width: 300px) and (max-width: 479px) {
+                #myCarousel{
+                    display:block
+                }
+                .hide{
+                    display:none;
+                }
                 #super-stipendium{
                     display: block;
                     padding-bottom: 2vh;
                 }
                 .stipendium-left{
                     width: 100%;
+                    
                 }
                 .stipendium-right{
                     display: block;
                     width: 100%;
                     padding: 0 2% 0 6%;
                 }
-                .stipendium-box1{
+                #myCarousel .stipendium-box1{
                     width: 100%;
                 }
-                .stipendium-box2{
+                #myCarousel .stipendium-box2{
                     width: 100%;
                     border: 2px solid #30E1B9;
                     border-top: none;
                 }
                 }
             @media only screen and (min-width: 480px) and (max-width: 767px) {
+                .myCarousel{
+                    display:none !important;
+                    position:relative;
+                    z-index:30;
+                }
+                .hide{
+                    display:block;
+                }
                 #super-stipendium{
                     display: block;
                     padding-bottom: 2vh;

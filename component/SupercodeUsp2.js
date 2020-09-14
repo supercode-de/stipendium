@@ -41,9 +41,9 @@ const SupercodeUsp2 = (props) => {
             .flex{
                 display:flex;
                 font-family:"Neue_Machina_Regular_400";
-            font-size:3em;
+            font-size:4em;
             color:#fff;
-            line-height:60px
+            line-height:80px
             }
             
             .aside {
@@ -102,7 +102,7 @@ const SupercodeUsp2 = (props) => {
         .super-stroke{
             color: transparent;
             letter-spacing: 2px;
-            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: #fff;
             font-weight:300;
         }
@@ -117,7 +117,10 @@ const SupercodeUsp2 = (props) => {
             padding-right:10px
         }
         @media (max-width: 1040px) {
-                 
+              .flex{
+                  font-size:3em;
+                  line-height:50px
+              }   
               h1{
                   font-size:2em;
                   line-height:40px
@@ -134,6 +137,13 @@ const SupercodeUsp2 = (props) => {
             p{
                 font-size:2em;
                 margin-bottom:50px
+            }
+            .super-stroke{
+                color: transparent;
+                letter-spacing: 2px;
+                -webkit-text-stroke-width: 1px;
+                -webkit-text-stroke-color: #fff;
+                font-weight:300;
             }
             
       }

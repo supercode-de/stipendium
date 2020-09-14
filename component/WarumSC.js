@@ -1,4 +1,27 @@
-import React from "react";
+import Carousel from "react-multi-carousel";
+
+const responsive = {
+    superLargeDesktop: {
+        // the naming can be any, depends on you.
+        breakpoint: { max: 4000, min: 3000 },
+        items: 5,
+    },
+    desktop: {
+        breakpoint: { max: 3000, min: 1024 },
+        items: 2,
+        partialVisibilityGutter: 70
+    },
+    tablet: {
+        breakpoint: { max: 1024, min: 464 },
+        items: 1,
+        partialVisibilityGutter: 0
+
+    },
+    mobile: {
+        breakpoint: { max: 464, min: 0 },
+        items: 1,
+    },
+};
 
 const WarumSC = (props) => {
     return (
@@ -20,15 +43,37 @@ const WarumSC = (props) => {
                         Pro Tag sorgen zwei Trainern*innen wir für eine optimale und effektive Lernbegleitung um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten.
                     </p>
                 </div>
-                <div>
+                <div className="gallery">
                     <img src="/img/warumsc_bild1.png" alt="" className="centercenter" />
                     <img src="/img/warumsc_bild2.png" alt="" className="righttop" />
                     <img src="/img/warumsc_bild3.png" alt="" className="rightcenter" />
                     <img src="/img/warumsc_bild4.png" alt="" className="rightbottom" />
                 </div>
-                <img src="/img/warumsc_bild5.png" alt="" className="leftbottom" />
+                <img src="/img/warumsc_bild5.png" alt="" className="leftbottom gallery" />
+                <section id="carousel">
+                    <Carousel
+                        responsive={responsive}
+                        ssr
+                        showDots={false}
+                        slidesToSlide={1}
+                        infinite
+                        containerClass="container-with-dots"
+                        deviceType={""}
+                        itemClass="carousel-item-padding-20-px"
+                    >
+                        <figure><img src="/img/htmlcsswtf_bild3.png" alt="" /></figure>
+                        <figure><img src="/img/htmlcsswtf_bild4.png" alt="" /></figure>
+                        <figure><img src="/img/htmlcsswtf_bild5.png" alt="" /></figure>
+
+
+
+                    </Carousel>
+                </section>
             </div>
             <style jsx>{`
+            #carousel{
+                display:none;
+            }
             .aside {
                 position: absolute;
                 transform: rotate(-90deg);
@@ -72,19 +117,31 @@ const WarumSC = (props) => {
                 grid-template-columns:50% 50%;
                 padding-bottom:40px;
             }
+            
             h1{
                 font-family:"Neue_Machina_Regular_400";
-                font-size:5em;
+                font-size:4em;
                 line-height:1em;
-                color: #fff;
-                letter-spacing: 2px;
+                max-width: 300px;
+                color: transparent;
+                -webkit-text-stroke-width: 2px;
+                -webkit-text-stroke-color: #fff;
                 font-weight:300;
                 margin: .5em 0 .3em;
             }
             h1 span{
                 color: transparent;
-                -webkit-text-stroke-width: 3px;
+                -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: #fff;
+            }
+            p{
+                color: #fff;
+                font-family: 'Fira Mono',monospace;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 1em;
+                line-height: 20px;
+                justify-self: center;
             }
             .twocolumn div:first-of-type{
                 color: #fff;
@@ -131,6 +188,27 @@ const WarumSC = (props) => {
                 transform: translateY(50%);
                 z-index: 999;
             }
+        }
+        @media (max-width: 1024px) {
+            .hide{
+                display:none ;
+            }
+            figure{
+                margin:0;
+            }
+            .gallery{
+                display:none ;
+            }
+            #carousel{
+                display:block
+            }
+             #carousel img{
+                width:100%
+            }
+            .twocolumn{
+                display: block ;
+            }
+        }
             @media (max-width: 768px) {
                 .twocolumn{
                     grid-template-columns: 1fr;
@@ -142,6 +220,13 @@ const WarumSC = (props) => {
                 }
                 .rightcenter{
                     right: 20%;
+                }
+                h1{
+                    opacity:0.8;
+                }
+                p{
+                    font-size:1.4em;
+                    line-height: 24px;
                 }
               }
               @media (max-width: 468px) {
