@@ -91,7 +91,7 @@ const WarumSC = (props) => {
                 text-transform: uppercase;
             }
             #warum-sc {
-                font-family: 'Fira Mono', monospace;
+                font-family: 'Fira Sans', sans-serif;
                 padding:100px 0 100px 10%;  
                 position: relative;
                 background-color: #5D3EDE;
@@ -136,7 +136,7 @@ const WarumSC = (props) => {
             }
             p{
                 color: #fff;
-                font-family: 'Fira Mono',monospace;
+                font-family: 'Fira Sans', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 1em;

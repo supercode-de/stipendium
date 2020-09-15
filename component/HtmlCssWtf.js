@@ -108,7 +108,7 @@ const HtmlCssWtf = (props) => {
                 
             }
             #html-css-wtf {
-                font-family: 'Fira Mono', monospace;
+                font-family: 'Fira Sans', sans-serif;
 
                 overflow: hidden;
                 padding:100px 0 100px 10%;  
@@ -154,7 +154,7 @@ const HtmlCssWtf = (props) => {
             }
             p{
                 color: #fff;
-                font-family: 'Fira Mono',monospace;
+                font-family: 'Fira Sans', sans-serif;
                 font-style: normal;
                 font-weight: normal;
                 font-size: 1.1em;
@@ -239,7 +239,7 @@ const HtmlCssWtf = (props) => {
                 }
                 p{
                     color: #fff;
-                    font-family: 'Fira Mono',monospace;
+                    font-family: 'Fira Sans', sans-serif;
                     font-style: normal;
                     font-weight: normal;
                     font-size: 1.4em;

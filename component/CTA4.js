@@ -95,7 +95,7 @@ const CTA4 = (props) => {
         
         p {
           color: #fff;
-          font-family: 'Fira Mono', monospace;
+          font-family: 'Fira Sans', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
@@ -106,7 +106,7 @@ const CTA4 = (props) => {
         
         button {
           margin: 2em 1em;
-          font-family: 'Fira Mono', monospace;
+          font-family: 'Fira Sans', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 14px;
