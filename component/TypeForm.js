@@ -24,7 +24,7 @@ const Typeform = (props) => {
                     top: 50px;
                     right: 50px;
                     display: inline-block;
-                    width: 50px;
+                    width: 450px;
                     height: 50px;
                     overflow: hidden;
                     transition: transform .5s linear;
@@ -64,6 +64,8 @@ const Typeform = (props) => {
                     border: 1px solid #fff;
                     color: #fff;
                     justify-self: center;
+                    display:inline-block;
+                    width:620px
                     
                   }
                   button:hover{
@@ -71,6 +73,17 @@ const Typeform = (props) => {
                     background:#fff;
                 }
                 iframe{ position: absolute; left:0; right:0; bottom:0; top:0px; border:0; }
+                @media (max-width: 768px) {
+          
+                    button{
+                        width:420px
+                    }
+                  }
+                  @media (max-width: 468px) {
+                    button{
+                        width:250px
+                    }
+                  }
             `}</style>
 
         </Layout >

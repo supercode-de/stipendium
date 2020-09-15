@@ -13,12 +13,7 @@ const CTA4 = (props) => {
       </div>
 
       <div className="twocolumn">
-        <div className="onecolumn">
-          <p>
-            It's a hug, Michael. I'm hugging you. Across from where? Oh, you're
-            gonna be in a coma, all right.
-          </p>
-        </div>
+
 
         <div className="buttoncolumn">
           <TypeForm />

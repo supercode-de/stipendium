@@ -61,9 +61,9 @@ const WarumSC = (props) => {
                         deviceType={""}
                         itemClass="carousel-item-padding-20-px"
                     >
-                        <figure><img src="/img/htmlcsswtf_bild3.png" alt="" /></figure>
-                        <figure><img src="/img/htmlcsswtf_bild4.png" alt="" /></figure>
-                        <figure><img src="/img/htmlcsswtf_bild5.png" alt="" /></figure>
+                        <figure><img src="/carousel1.png" alt="" /></figure>
+                        <figure><img src="/carousel2.png" alt="" /></figure>
+                        <figure><img src="/carousel3.png" alt="" /></figure>
 
 
 
@@ -157,33 +157,33 @@ const WarumSC = (props) => {
                 left: 0;
                 top: 50%;
                 transform: translateY(-50%);
-                width: 20vw;
+                width: 15vw;
             }
             .righttop{
                 position: absolute;
-                right: 5%;
+                right: 20%;
                 top: 0;
                 transform: translateY(-30%);
-                width: 20vw;
+                width: 16vw;
             }
             .rightcenter{
                 position: absolute;
-                right: 2%;
+                right: 10%;
                 top: 50%;
-                transform: translateY(-50%);
-                width: 15vw;
+                transform: translateY(-30%);
+                width: 10vw;
             }
             .rightbottom{
                 position: absolute;
                 right: 0;
                 bottom: 0;
                 transform: translateY(50%);
-                width: 25vw;
+                width: 20vw;
             }
             .leftbottom{
                 position: absolute;
                 left: 0;
-                bottom: 0;
+                bottom: -5vh;
                 width: 20vw;
                 transform: translateY(50%);
                 z-index: 999;

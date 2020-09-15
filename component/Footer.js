@@ -8,10 +8,13 @@ const Footer = (props) => {
                 <Link href="/dsgvo"><a>DSGVO</a></Link>
             </div>
             <div className="copyright">
-                <p className="white">super(code)</p>
-                <p>&copy; 2002-2020</p>
+                <p className="white"><img src="/superdigital_logo.svg" alt="" /></p>
+                <p>&copy; 2020</p>
             </div>
             <style jsx>{`
+            img{
+                width:150px
+            }
             #footer {
                 background: #070021;
                 background-image: linear-gradient(

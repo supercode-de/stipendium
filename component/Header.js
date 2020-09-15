@@ -7,28 +7,33 @@ const Header = (props) => {
 
   return (
     <div id="header">
-      <span className="aside">lerne programmieren</span>
-      <h1>
-        <span>Super-Stipendium</span>
-        <span>Super-Stipendium</span>
+      <div className="bg">
+        <span className="aside">lerne programmieren</span>
+        <h1>
+          <span>Super-Stipendium</span>
+          <span>Super-Stipendium</span>
                 Super-Stipendium
             </h1>
-      <h3>Erhalte ein Super-Stipendium</h3>
-      <h3>und lerne Programmieren!</h3>
+        <h3>Erhalte ein Super-Stipendium</h3>
+        <h3>und lerne Programmieren!</h3>
 
-      <p>Erfahre mehr</p>
-      <Arrow />
 
+        <Arrow />
+      </div>
       <style jsx>{`
             
         #header {
             background:url('/header.png') center/cover no-repeat;
-            height:100vh;
-            display:flex;
-            justify-content:flex-end;
-            align-items:center;
-            flex-direction:column;
-            position:relative;    
+             
+        }
+        .bg{
+          height:100vh;
+          display:flex;
+          justify-content:flex-end;
+          align-items:center;
+          flex-direction:column;
+          position:relative;  
+          background:rgba(0,0,0,.3)
         }
         .aside {
             position: absolute;

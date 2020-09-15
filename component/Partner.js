@@ -1,5 +1,5 @@
 import Carousel from "react-multi-carousel";
-
+import Link from 'next/link'
 const responsive = {
     superLargeDesktop: {
         // the naming can be any, depends on you.
@@ -51,21 +51,34 @@ const Partner = (props) => {
                             <img src="/Group25.svg" alt="" />
                             <figcaption>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                                <button >DIGIHUB – LINKEDIN – Facebook  </button>
+                                <div className="button">
+                                    <Link href="https://www.digihub.de/"><a>WEBSITE</a></Link> –
+                                    <Link href="https://www.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh/?originalSubdomain=de"><a>LINKEDIN</a></Link> –
+                                    <Link href="https://www.facebook.com/digihub.de/"><a>FACEBOOK</a></Link>
+                                </div>
+
+                            </figcaption>
+                        </figure>
+                        <figure>
+                            <img src="/Group26.svg" alt="" />
+                            <figcaption>
+                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <div className="button">
+                                    <Link href="https://www.startupdorf.de/"><a>WEBSITE</a></Link> –
+                                    <Link href="https://www.linkedin.com/company/startupdorf/"><a>LINKEDIN</a></Link> –
+                                    <Link href="https://www.facebook.com/startupdorf/?ref=page_internal"><a>FACEBOOK</a></Link>
+                                </div>
                             </figcaption>
                         </figure>
                         <figure>
                             <img src="/Group25.svg" alt="" />
                             <figcaption>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                                <button >DIGIHUB – LINKEDIN – Facebook  </button>
-                            </figcaption>
-                        </figure>
-                        <figure>
-                            <img src="/Group25.svg" alt="" />
-                            <figcaption>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
-                                <button >DIGIHUB – LINKEDIN – Facebook  </button>
+                                <div className="button">
+                                    <Link href="https://super-code.de"><a>WEBSITE</a></Link> –
+                                    <Link href="https://www.linkedin.com/school/19099791"><a>LINKEDIN</a></Link> –
+                                    <Link href="https://www.facebook.com/supercodegmbh"><a>FACEBOOK</a></Link>
+                                </div>
 
                             </figcaption>
                         </figure>
@@ -161,7 +174,7 @@ const Partner = (props) => {
         figure>img {
           width: 100px;
         }
-        button{
+        .button{
             font-family: Poppins;
             font-style: normal;
             font-weight: normal;
@@ -173,11 +186,16 @@ const Partner = (props) => {
             background:transparent;
             border:1px solid #fff;
             color:#fff;
-            justify-self:center
+            justify-self:center;
+            display:flex;
+            justify-content:space-around;
         }
-        button:hover{
-            color:#5d3ede;
-            background:#fff;
+        a{
+            color:#fff;
+            text-decoration:none;
+        }
+        a:hover{
+            text-decoration:underline;
         }
         @media (max-width: 1024px) {
             h2 img{

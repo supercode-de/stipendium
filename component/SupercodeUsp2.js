@@ -15,7 +15,7 @@ const SupercodeUsp2 = (props) => {
                         </div>
                         <div>
                             < span className="super-stroke" >2</span>
-                        Trainer*innen  zeitgleich < span className="super-stroke" >pro Tag</span>
+                        Trainer*innen <br />  zeitgleich < span className="super-stroke" >pro Tag</span>
                         </div>
                     </div>
                     <div className="flex">

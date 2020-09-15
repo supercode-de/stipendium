@@ -196,12 +196,12 @@ const HtmlCssWtf = (props) => {
             .twocolumn div:last-of-type img:nth-of-type(2){
                 width: 60%;
                 min-width:280px;
-                transform: translate(1vw, 8vh);
+                transform: translate(1vw, 0vh);
             }
             .twocolumn div:last-of-type img:nth-of-type(3){
                 width: 80%;
                 min-width:280px;
-                transform: translate(-4vw, 5vh);
+                transform: translate(-4vw, 11vh);
             }
             .twocolumn div:last-of-type img:nth-of-type(4){
                 width: 100%;

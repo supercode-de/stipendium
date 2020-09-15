@@ -13,13 +13,14 @@ const JetztBewerben = (props) => {
                     <h1> Du willst < br /> < span > programmieren </span> lernen <br /> und einen Job mit < br /> Zukunft ? Das < span className="super" > Super - < br /> Stipendium </span> ist deine <br /> <span> Chance! </span></h1>
                     <p > Worauf wartest Du noch ? < br />
         Bewirb dich jetzt und mit etwas Glück  wirst du Germany’ s Next SuperCoder * in ! </p>
+                    <div className="center" >
+                        <Typeform />
+                    </div >
                 </div>
                 <img src="/jetztbewerben.png"
                     alt="" />
             </div>
-            <div className="center" >
-                <Typeform />
-            </div >
+
             <style jsx > {`
             .center{
                 text-align:center

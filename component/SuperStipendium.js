@@ -35,7 +35,7 @@ const SuperStipendium = (props) => {
             </article>
             <article className="stipendium-right">
                 <div className="stipendium-box1 hide">
-                    <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                    <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: 16.11.2020 Ende: 21.04.2021</h5>
                     <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                     <h5>Inhalte:</h5>
                     <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
@@ -45,13 +45,13 @@ const SuperStipendium = (props) => {
                     <p>_22 Wochen Vollzeit <br />_Montag bis Freitag <br />_09:00 - 18:00 Uhr</p>
                 </div>
                 <div className="stipendium-box2 hide">
-                    <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                    <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
                     <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                    <h6>Inhalte:</h6>
+                    <h5>Inhalte:</h5>
                     <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                    <h6>Trainer*innen:</h6>
+                    <h5>Trainer*innen:</h5>
                     <p>2 Trainer*innen pro Tag</p>
-                    <h6>Umfang:</h6>
+                    <h5>Umfang:</h5>
                     <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
                 </div>
                 <div id="myCarousel">
@@ -66,7 +66,7 @@ const SuperStipendium = (props) => {
                         itemClass="carousel-item-padding-20-px"
                     >
                         <div className="stipendium-box1">
-                            <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                            <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: 16.11.2020 Ende: 21.04.2021</h5>
                             <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                             <h5>Inhalte:</h5>
                             <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
@@ -76,11 +76,11 @@ const SuperStipendium = (props) => {
                             <p>_22 Wochen Vollzeit <br />_Montag bis Freitag <br />_09:00 - 18:00 Uhr</p>
                         </div>
                         <div className="stipendium-box2">
-                            <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: xx.xx.xxxx Ende: xx.xx.xxxx</h5>
+                            <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
                             <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                            <h6>Inhalte:</h6>
+                            <h5>Inhalte:</h5>
                             <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                            <h6>Trainer*innen:</h6>
+                            <h5>Trainer*innen:</h5>
                             <p>2 Trainer*innen pro Tag</p>
                             <h6>Umfang:</h6>
                             <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
@@ -90,6 +90,30 @@ const SuperStipendium = (props) => {
             </article>
 
             <style jsx>{`
+            .stipendium-right>.stipendium-box1{
+                transition:all .4s
+            }
+            .stipendium-right>.stipendium-box2{
+                transition:transform .4s
+            }
+            .stipendium-right>.stipendium-box1:hover{
+                transform:scale(1.05);
+
+            }
+            .stipendium-right>.stipendium-box2:hover{
+                transform:scale(1.19);
+                border-left: 2px solid #30E1B9;
+            }
+            .stipendium-right>.stipendium-box1:hover h5:first-of-type{
+                color:#30E1B9;
+                font-weight:500;
+                opacity:1;
+            }
+            .stipendium-right>.stipendium-box2:hover h5:first-of-type{
+                color:#30E1B9;
+                font-weight:500;
+                opacity:1;
+            }
             *{
                 margin: 0;
                 padding: 0;
@@ -99,6 +123,7 @@ const SuperStipendium = (props) => {
                 position:relative;
                 z-index:30;
             }
+            
             #super-stipendium{
                 display: flex;
                 background-color: #5D3EDE;
