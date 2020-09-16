@@ -31,14 +31,15 @@ const SuperStipendium = (props) => {
             <img src="/img/bgLine.png" alt="" className="bg-line" />
             <article className="stipendium-left">
                 <h1>Das <br /><span className="super">Super-<span className="break"></span>Stipendium</span></h1>
-                <h4>Das DigiHub und der StartupDorf eV aka. die beiden wichtigsten digitalen Matchmaker Düsseldorfs ermöglichen dir ein <span className="square">Stipendium</span> der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizirten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Web-Entwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse. <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche die eines der beiden Stipendia erhält!</h4>
+                <h4>Das DigiHub und das Super7000 die beiden wichtigsten digitalen Matchmaker Düsseldorfs ermöglichen dir ein <span className="square">Stipendium</span>  in der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizierten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Webentwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse.
+                 <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 Persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche, die eines der beiden Stipendia erhält!</h4>
             </article>
             <article className="stipendium-right">
                 <div className="stipendium-box1 hide">
                     <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: 16.11.2020 Ende: 21.04.2021</h5>
                     <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                     <h5>Inhalte:</h5>
-                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
                     <h5>Trainer*innen:</h5>
                     <p>2 Trainer*innen pro Tag</p>
                     <h5>Umfang:</h5>
@@ -48,7 +49,7 @@ const SuperStipendium = (props) => {
                     <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
                     <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
                     <h5>Inhalte:</h5>
-                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
                     <h5>Trainer*innen:</h5>
                     <p>2 Trainer*innen pro Tag</p>
                     <h5>Umfang:</h5>
@@ -69,7 +70,7 @@ const SuperStipendium = (props) => {
                             <h5>Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br /> Start: 16.11.2020 Ende: 21.04.2021</h5>
                             <p>Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die Web-Entwicklung verpackt in einem ultra praxisorientierten Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und finde einen Job mit Zukunft.</p>
                             <h5>Inhalte:</h5>
-                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
                             <h5>Trainer*innen:</h5>
                             <p>2 Trainer*innen pro Tag</p>
                             <h5>Umfang:</h5>
@@ -79,7 +80,7 @@ const SuperStipendium = (props) => {
                             <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
                             <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
                             <h5>Inhalte:</h5>
-                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
+                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
                             <h5>Trainer*innen:</h5>
                             <p>2 Trainer*innen pro Tag</p>
                             <h6>Umfang:</h6>

@@ -33,10 +33,10 @@ const HtmlCssWtf = (props) => {
                 <div>
                     <h1>HTML, CSS, WTF?!</h1>
                     <p>
-                        Digitale Skills waren noch <span>nie wichtiger</span> – vor allem die Fähigkeit programmieren zu können ist gefragter denn je und ermöglicht den Zugang zu vielen tollen Jobs! Laut Bitkom sind in allein in Deutschland über <span>124.000</span> Stellen für IT-Expert*innen nicht besetzt – und die Zahl wird immer <span>größer.</span>
+                        Digitale Skills waren noch <span>nie wichtiger</span> – vor allem die Fähigkeit programmieren zu können ist gefragter denn je und ermöglicht den Zugang zu vielen tollen Jobs! Laut Bitkom sind allein in Deutschland über <span>124.000</span>  Stellen für IT-Expert*innen nicht besetzt – und die Zahl wird immer <span>größer.</span>
                     </p>
                     <p>
-                        Metro, IBM, Vodafone, Trivago – der Düsseldorfer IT-Markt boomt! Das Super Stipendium ist dein Türöffner in den digitalen Arbeitsmarkt der <span>Zukunft!</span>
+                        Metro, IBM, Vodafone, Trivago – der Düsseldorfer IT-Markt boomt! Das Super Stipendium ist dein Türöffner in den digitalen Arbeitsmarkt der <span>Zukunft!</span>
                     </p>
                 </div>
                 <div className="gallery">

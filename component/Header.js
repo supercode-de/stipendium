@@ -123,7 +123,7 @@ const Header = (props) => {
         }
         @media (max-width: 468px) {
           h3{
-            font-size:2em;
+            font-size:1.6em;
             margin-bottom:0
           }
           h3:first-of-type{

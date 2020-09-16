@@ -31,7 +31,7 @@ const WarumSC = (props) => {
                 <div>
                     <h1>WARUM <span>SUPERCODE?</span></h1>
                     <p>
-                        Egal ob du Quereinsteiger*in, Berufstätige*r, Alleinerziehend oder Studienabrecher*in bist: SuperCode bietet dir das Format, das dir am besten passt.
+                        Egal ob du Quereinsteiger*in, Berufstätige*r, alleinerziehend oder Studienabrecher*in bist: SuperCode bietet dir das Format, das dir am besten passt.
                     </p>
                     <p>
                         In 5 - 7 Monaten lernst du in Düsseldorf alles, was du für deinen Einstieg als Webdeveloper*in brauchst. HTML, CSS, Javascript und die Grundlagen der Webtechnologien.
@@ -40,7 +40,7 @@ const WarumSC = (props) => {
                         Du lernst intensiv und schnell in Kursen mit einem hohen Praxisbezug, denn schon von Tag eins arbeitest du im Coworkingspace Super7000 an deinen Praxisprojekten.
                     </p>
                     <p>
-                        Pro Tag sorgen zwei Trainern*innen wir für eine optimale und effektive Lernbegleitung um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten.
+                        Pro Tag sorgen zwei Trainern*innen für eine optimale und effektive Lernbegleitung, um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten.
                     </p>
                 </div>
                 <div className="gallery">

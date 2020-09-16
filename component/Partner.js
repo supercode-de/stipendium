@@ -48,9 +48,9 @@ const Partner = (props) => {
                         itemClass="carousel-item-padding-20-px"
                     >
                         <figure>
-                            <img src="/Group25.svg" alt="" />
+                            <img src="/digihub.png" alt="" />
                             <figcaption>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <p>Der digihub ist Matchmaker & Digital-Accelerator. Wir vernetzen Startups, Mittelstand, Konzerne, Wissenschaftler & Investoren und unterstützen bei der Entwicklung neuer digitaler Geschäftsmodelle, Produkte und Lösungen.</p>
                                 <div className="button">
                                     <Link href="https://www.digihub.de/"><a>WEBSITE</a></Link> –
                                     <Link href="https://www.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh/?originalSubdomain=de"><a>LINKEDIN</a></Link> –
@@ -59,7 +59,7 @@ const Partner = (props) => {
 
                             </figcaption>
                         </figure>
-                        <figure>
+                        {/* <figure>
                             <img src="/Group26.svg" alt="" />
                             <figcaption>
                                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
@@ -69,11 +69,14 @@ const Partner = (props) => {
                                     <Link href="https://www.facebook.com/startupdorf/?ref=page_internal"><a>FACEBOOK</a></Link>
                                 </div>
                             </figcaption>
-                        </figure>
+                        </figure> */}
                         <figure>
-                            <img src="/Group25.svg" alt="" />
+                            <img src="/supercode.png" alt="" />
                             <figcaption>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <p>SuperCode – Digitale Bildung für alle!
+                                Modern, nachhaltig und ultra praxisorientiert.
+                                
+                                Der Rockstar unter allen öffentlichen Bildungsinstituten in NRW!</p>
                                 <div className="button">
                                     <Link href="https://super-code.de"><a>WEBSITE</a></Link> –
                                     <Link href="https://www.linkedin.com/school/19099791"><a>LINKEDIN</a></Link> –
@@ -137,8 +140,9 @@ const Partner = (props) => {
           font-size: 5em;
           border-bottom: 1px solid #5d3ede;
           position:relative;
-          height:220px
-          
+          height:220px;
+          font-family:"Neue_Machina_Regular_400";
+          font-weight:300;
         }
         h2 span {
             position:absolute;
@@ -147,7 +151,7 @@ const Partner = (props) => {
         h2 span span{
           color: transparent;
           letter-spacing: 3px;
-          -webkit-text-stroke-width: 1.5px;
+          -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #fff;
          
         }
@@ -164,15 +168,22 @@ const Partner = (props) => {
         figure{
             border:2px solid #3dd7ac;
             padding:15px 40px ;
-            background:#5d3ede
+            background:#5d3ede;
+            min-height:250px;
+            
+            
         }
         p {
           font-weight: 400;
-          color:#fff
+          color:#fff;
+          min-height:150px;
+          font-size:18px;
         }
        
         figure>img {
-          width: 100px;
+          width: 150px;
+          height:40px;
+          border-radius:2px
         }
         .button{
             font-family: Poppins;
@@ -186,7 +197,7 @@ const Partner = (props) => {
             background:transparent;
             border:1px solid #fff;
             color:#fff;
-            justify-self:center;
+            align-self:flex-end;
             display:flex;
             justify-content:space-around;
         }
