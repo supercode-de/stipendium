@@ -48,7 +48,7 @@ const Partner = (props) => {
                         itemClass="carousel-item-padding-20-px"
                     >
                         <figure>
-                            <img src="/digihub.png" alt="" />
+                            <img className="border" src="/digihub.png" alt="" />
                             <figcaption>
                                 <p>Der digihub ist Matchmaker & Digital-Accelerator. Wir vernetzen Startups, Mittelstand, Konzerne, Wissenschaftler & Investoren und unterstützen bei der Entwicklung neuer digitaler Geschäftsmodelle, Produkte und Lösungen.</p>
                                 <div className="button">
@@ -59,24 +59,27 @@ const Partner = (props) => {
 
                             </figcaption>
                         </figure>
-                        {/* <figure>
-                            <img src="/Group26.svg" alt="" />
+                        <figure>
+
+                            <img src="/superdigital-white.svg" alt="" />
                             <figcaption>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus</p>
+                                <p>Unser Ziel ist es, Menschen für das Verstehen von digitaler Logik und Technologie zu begeistern, Kompetenzen für Gestaltung der digitalen Welt zu vermitteln und Wege der selbstbestimmten Nutzung aufzuzeigen.</p>
                                 <div className="button">
-                                    <Link href="https://www.startupdorf.de/"><a>WEBSITE</a></Link> –
-                                    <Link href="https://www.linkedin.com/company/startupdorf/"><a>LINKEDIN</a></Link> –
-                                    <Link href="https://www.facebook.com/startupdorf/?ref=page_internal"><a>FACEBOOK</a></Link>
+                                    <Link href="https://www.super-digital.xyz/"><a>WEBSITE</a></Link> –
+                                    <Link href="https://www.facebook.com/superdigitalev"><a>LINKEDIN</a></Link> –
+                                    <Link href="https://www.linkedin.com/company/superdigitalev"><a>FACEBOOK</a></Link>
                                 </div>
                             </figcaption>
-                        </figure> */}
+                        </figure>
                         <figure>
-                            <img src="/supercode.png" alt="" />
+                            <img className="border" src="/supercode.png" alt="" />
                             <figcaption>
-                                <p>SuperCode – Digitale Bildung für alle!
-                                Modern, nachhaltig und ultra praxisorientiert.
-                                
-                                Der Rockstar unter allen öffentlichen Bildungsinstituten in NRW!</p>
+                                <p>SuperCode steht für digitale Bildung für alle!
+                                Modern, zertifiziert, nachhaltig und ultra praxisorientiert.
+                                <br />
+                                    <br />
+                                Der Rockstar unter allen IT-Bildungsinstituten in NRW!</p>
+
                                 <div className="button">
                                     <Link href="https://super-code.de"><a>WEBSITE</a></Link> –
                                     <Link href="https://www.linkedin.com/school/19099791"><a>LINKEDIN</a></Link> –
@@ -90,6 +93,7 @@ const Partner = (props) => {
             </div>
 
             <style jsx>{`
+            
             .aside {
                 position: absolute;
                 transform: rotate(-90deg);
@@ -181,9 +185,13 @@ const Partner = (props) => {
         }
        
         figure>img {
-          width: 150px;
-          height:40px;
-          border-radius:2px
+          width: 180px;
+          height:50px;
+          
+        }
+        .border{
+            border-radius:2px;
+          border:3px solid #fff;
         }
         .button{
             font-family: Poppins;
