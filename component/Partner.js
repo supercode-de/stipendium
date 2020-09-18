@@ -191,10 +191,10 @@ const Partner = (props) => {
         }
         .border{
             border-radius:2px;
-          border:3px solid #fff;
+            border:3px solid #fff;
         }
         .button{
-            font-family: Poppins;
+            font-family: 'Fira Sans', sans-serif;
             font-style: normal;
             font-weight: normal;
             font-size: 12px;
