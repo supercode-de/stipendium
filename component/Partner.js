@@ -48,7 +48,7 @@ const Partner = (props) => {
                         itemClass="carousel-item-padding-20-px"
                     >
                         <figure>
-                            <img className="border" src="/digihub.png" alt="" />
+                            <img src="/digihub-logo.png" alt="" />
                             <figcaption>
                                 <p>Der digihub ist Matchmaker & Digital-Accelerator. Wir vernetzen Startups, Mittelstand, Konzerne, Wissenschaftler & Investoren und unterstützen bei der Entwicklung neuer digitaler Geschäftsmodelle, Produkte und Lösungen.</p>
                                 <div className="button">
@@ -61,7 +61,7 @@ const Partner = (props) => {
                         </figure>
                         <figure>
 
-                            <img src="/superdigital-white.svg" alt="" />
+                            <img src="/superdigital-logo.png" alt="" />
                             <figcaption>
                                 <p>Unser Ziel ist es, Menschen für das Verstehen von digitaler Logik und Technologie zu begeistern, Kompetenzen für Gestaltung der digitalen Welt zu vermitteln und Wege der selbstbestimmten Nutzung aufzuzeigen.</p>
                                 <div className="button">
@@ -72,7 +72,7 @@ const Partner = (props) => {
                             </figcaption>
                         </figure>
                         <figure>
-                            <img className="border" src="/supercode.png" alt="" />
+                            <img src="/supercode-logo.png" alt="" />
                             <figcaption>
                                 <p>SuperCode steht für digitale Bildung für alle!
                                 Modern, zertifiziert, nachhaltig und ultra praxisorientiert.
@@ -185,14 +185,10 @@ const Partner = (props) => {
         }
        
         figure>img {
-          width: 180px;
           height:50px;
           
         }
-        .border{
-            border-radius:2px;
-            border:3px solid #fff;
-        }
+        
         .button{
             font-family: 'Fira Sans', sans-serif;
             font-style: normal;
