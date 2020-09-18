@@ -53,10 +53,10 @@ class Layout extends Component {
             }
             .popup-content{
               position:fixed !important;
-              top:10%  !important;
+              top:5%  !important;
               right:0 !important;
               left:10% !important;
-              bottom:0 !important;
+              bottom:5% !important;
               width:80% !important;
               height:90% !important;
               z-index:10000 !important;

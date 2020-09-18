@@ -16,7 +16,6 @@ const Typeform = (props) => {
             <style jsx>{`
                 #typeform {
                     min-height: 100vh;
-                    background: #03000F;
                     color: #3DD7AC;
                 }
                 a {
