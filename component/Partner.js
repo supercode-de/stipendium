@@ -52,9 +52,14 @@ const Partner = (props) => {
                             <figcaption>
                                 <p>Der digihub ist Matchmaker & Digital-Accelerator. Wir vernetzen Startups, Mittelstand, Konzerne, Wissenschaftler & Investoren und unterstützen bei der Entwicklung neuer digitaler Geschäftsmodelle, Produkte und Lösungen.</p>
                                 <div className="button">
-                                    <Link href="https://www.digihub.de/"><a>WEBSITE</a></Link> –
-                                    <Link href="https://www.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh/?originalSubdomain=de"><a>LINKEDIN</a></Link> –
-                                    <Link href="https://www.facebook.com/digihub.de/"><a>FACEBOOK</a></Link>
+                                    <span className="block">
+                                        <Link href="https://www.digihub.de/"><a>WEBSITE</a></Link>
+                                    </span> <span className="hide">–</span>
+                                    <span className="block">
+                                        <Link href="https://www.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh/?originalSubdomain=de"><a>LINKEDIN</a></Link></span><span className="hide"> –</span>
+                                    <span className="block">
+                                        <Link href="https://www.facebook.com/digihub.de/"><a>FACEBOOK</a></Link></span>
+
                                 </div>
 
                             </figcaption>
@@ -65,9 +70,13 @@ const Partner = (props) => {
                             <figcaption>
                                 <p>Unser Ziel ist es, Menschen für das Verstehen von digitaler Logik und Technologie zu begeistern, Kompetenzen für Gestaltung der digitalen Welt zu vermitteln und Wege der selbstbestimmten Nutzung aufzuzeigen.</p>
                                 <div className="button">
-                                    <Link href="https://www.super-digital.xyz/"><a>WEBSITE</a></Link> –
-                                    <Link href="https://www.facebook.com/superdigitalev"><a>LINKEDIN</a></Link> –
-                                    <Link href="https://www.linkedin.com/company/superdigitalev"><a>FACEBOOK</a></Link>
+                                    <span className="block">
+                                        <Link href="https://www.super-digital.xyz/"><a>WEBSITE</a></Link>
+                                    </span> <span className="hide">–</span>
+                                    <span className="block">
+                                        <Link href="https://www.facebook.com/superdigitalev"><a>LINKEDIN</a></Link></span><span className="hide"> –</span>
+                                    <span className="block">
+                                        <Link href="https://www.linkedin.com/company/superdigitalev"><a>FACEBOOK</a></Link></span>
                                 </div>
                             </figcaption>
                         </figure>
@@ -81,9 +90,15 @@ const Partner = (props) => {
                                 Der Rockstar unter allen IT-Bildungsinstituten in NRW!</p>
 
                                 <div className="button">
-                                    <Link href="https://super-code.de"><a>WEBSITE</a></Link> –
-                                    <Link href="https://www.linkedin.com/school/19099791"><a>LINKEDIN</a></Link> –
-                                    <Link href="https://www.facebook.com/supercodegmbh"><a>FACEBOOK</a></Link>
+
+
+                                    <span className="block">
+                                        <Link href="https://super-code.de"><a>WEBSITE</a></Link>
+                                    </span> <span className="hide">–</span>
+                                    <span className="block">
+                                        <Link href="https://www.linkedin.com/school/19099791"><a>LINKEDIN</a></Link></span><span className="hide"> –</span>
+                                    <span className="block">
+                                        <Link href="https://www.facebook.com/supercodegmbh"><a>FACEBOOK</a></Link></span>
                                 </div>
 
                             </figcaption>
@@ -240,7 +255,17 @@ const Partner = (props) => {
                 left:60%;
                 transform:translateX(-50%);
                 max-height:550px
-            }    
+            }  
+            .block{
+                display:block
+            } 
+            .button{
+                display:block;
+                text-align:center
+            }
+            .hide{
+                display:block;
+            } 
         }
       `}</style>
         </div >
