@@ -82,12 +82,7 @@ const Footer = (props) => {
                 border-bottom: 1px solid #3DD7AC;
                 margin-bottom: 10px;
             }
-            .footer-grid {
-                width: 80%;
-                margin: 0 auto;
-                display: grid;
-                grid-template-columns: repeat(5, 1fr);
-            }
+            
             .copyright {
                 display: flex;
                 justify-content: space-between;
@@ -102,13 +97,16 @@ const Footer = (props) => {
                 margin-top:4px;
             }
             @media (max-width: 768px) {
-                .footer-grid {
-                    grid-template-columns: repeat(2, 1fr);
-                }
+                
             }
-            @media (max-width: 480px) {
-                .footer-grid {
+            @media (max-width: 560px) {
+                
+                .copyright {
                     display: block;
+                    text-align:center;
+                }
+                p{
+                    margin-bottom:0;
                 }
             }
 
