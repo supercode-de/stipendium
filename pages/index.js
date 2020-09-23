@@ -11,6 +11,7 @@ import CTA4 from "../component/CTA4";
 import SuperStipendium from "../component/SuperStipendium";
 import HtmlCssWtf from "../component/HtmlCssWtf"
 import WarumSC from "../component/WarumSC";
+import Head from 'next/head'
 
 
 export default function Home(props) {
@@ -67,6 +68,18 @@ export default function Home(props) {
       </Layout>
     );
   } else {
-    return "";
+    return (
+      <Head>
+        <meta property="og:image:secure" content="https://www.super-stipendium.de/page-preview.png" />
+        <meta property="og:image" content="http://www.super-stipendium.de/page-preview.png" />
+        <meta property="og:url" content="https://www.super-stipendium.de/" />
+        <meta property="og:type" content="Website" />
+        <meta property="og:title" content="Super-stipendiuem.de - Erhalte ein Super-Stipendium
+        und lerne Programmieren!" />
+        <title>Super-code</title>
+        <link rel="icon" href="/favicon.ico" />
+
+      </Head>
+    );
   }
 }
