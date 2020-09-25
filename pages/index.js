@@ -74,7 +74,7 @@ export default function Home(props) {
         <meta property="og:image" content="http://www.super-stipendium.de/img/page-preview.png" />
         <meta property="og:url" content="https://www.super-stipendium.de/" />
         <meta property="og:type" content="Website" />
-        <meta property="og:title" content="Super-stipendiuem.de - Erhalte ein Super-Stipendium
+        <meta property="og:title" content="super-stipendium.de - Erhalte ein Super-Stipendium
         und lerne Programmieren!" />
         <title>Super-code</title>
         <link rel="icon" href="/favicon.ico" />
