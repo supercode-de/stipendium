@@ -31,8 +31,8 @@ const SuperStipendium = (props) => {
             <img src="/img/bgLine.png" alt="" className="bg-line" />
             <article className="stipendium-left">
                 <h1>Das <br /><span className="super">Super-<span className="break"></span>Stipendium</span></h1>
-                <h4>Das DigiHub und das Super7000 die beiden wichtigsten digitalen Matchmaker Düsseldorfs ermöglichen dir ein <span className="square">Stipendium</span>  in der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizierten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Webentwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse.
-                 <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 Persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche, die eines der beiden Stipendia erhält!</h4>
+                <h4>Das DigiHub und der SuperDigital e.V., zwei der wichtigsten digitalen Matchmaker Düsseldorfs, ermöglichen dir ein <span className="square">Stipendium</span>  in der Landeshauptstadt bei SuperCode und damit die Teilnahme an einem der <span className="line2"><span className="line">zertifizierten</span></span> Vollzeit- oder Teilzeitbootcamps im Bereich Webentwicklung. Bewirb dich jetzt bis zum <span className="circle">10.10.2020</span> und mit etwas Glück erhälst DU ein Stipendium für einen dieser zwei Kurse.
+                 <br /><br /> Der Prozess: <br /> 1 Bis zum 10.10.2020 bewerben und Fragen beantworten. <br /> 2 Workshop - Teilnahme. <br /> 3 Persönliches Gespräch. <br /><br /> ...und mit etwas Glück bist du der oder die Glückliche, die eines der beiden Stipendien erhält!</h4>
             </article>
             <article className="stipendium-right">
                 <div className="stipendium-box1 hide">
