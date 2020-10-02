@@ -16,19 +16,11 @@ const JetztBewerben = (props) => {
             <span className="super">WEB-ENTWICKLUNG?</span>
           </h1>
           <p>
-            Die ganze Welt wird digitaler – ganze Branchen und Bereiche schiften
-            ihre Aktivitäten immer mehr ins{" "}
-            <span className="internet">Internet</span>. Einer der wichtigsten
-            Treiber dieses Wandels ist der Web Developer. Denn dieser ist
-            zuständig für die Planung und Entwicklung moderner{" "}
-            <span className="web-app">Websites und Apps.</span>
+
+            Die ganze Welt wird digitaler – ganze Branchen und Bereiche schiften ihre Aktivitäten immer mehr ins <span className="internet">Internet</span>. Einer der wichtigsten Treiber dieses Wandels sind die Web Developer*innen. Denn diese sind zuständig für die Planung und Entwicklung moderner{" "} <span className="web-app">Websites und Apps.</span>.
             <br />
             <br />
-            Er arbeitet als Freelancer oder im Team und muss sich mit
-            Webdesignern und Projektmanagern abstimmen, um Kunden das
-            bestmögliche Ergebnis zu liefern. HTML, CSS und JavaScript sind für
-            ihn keine Fremdwörter, und Google ist sein Freund. Denn lebenslanges
-            Lernen gehört zu diesem Job wie die 1 zu der 0.
+            Sie arbeiten als Freelancer oder im Team und müssen sich mit Webdesigner*innen und Projektmanager*innen abstimmen, um Kunden das bestmögliche Ergebnis zu liefern. HTML, CSS und JavaScript sind für sie keine Fremdwörter, und Google ist ihr Freund. Denn lebenslanges Lernen gehört zu diesem Job wie die 1 zu der 0.
           </p>
         </div>
 
