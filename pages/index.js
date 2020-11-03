@@ -70,12 +70,12 @@ export default function Home(props) {
   } else {
     return (
       <Head>
-        <meta property="og:image:secure" content="https://applyto.supercode.de/img/page-preview.png" />
-        <meta property="og:image" content="http://applyto.supercode.de/img/page-preview.png" />
-        <meta property="og:url" content="https://applyto.supercode.de/" />
+        <meta property="og:image:secure" content="https://super-stipendium.de/img/page-preview.png" />
+        <meta property="og:image" content="http://super-stipendium.de/img/page-preview.png" />
+        <meta property="og:url" content="https://super-stipendium.de/" />
         <meta property="og:type" content="Website" />
         <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle!" />
-        <meta property="og:description	" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
+        <meta property="og:description" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
         <title>Super-code</title>
         <link rel="icon" href="/favicon.ico" />
 
