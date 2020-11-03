@@ -14,7 +14,8 @@ class Layout extends Component {
           <meta property="og:image" content="http://applyto.supercode.de/img/page-preview.png" />
           <meta property="og:url" content="https://applyto.supercode.de/" />
           <meta property="og:type" content="Website" />
-          <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
+          <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle!" />
+          <meta property="og:description	" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
           <title>Super-code</title>
           <link rel="icon" href="/favicon.ico" />
 
