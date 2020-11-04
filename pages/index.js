@@ -77,8 +77,8 @@ export default function Home(props) {
         <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle!" />
         <meta property="og:description" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
         <title>Super-code</title>
-        <link rel="icon" href="/favicon.ico" />
-
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <link rel="alternate icon" href="/favicon.ico" />
       </Head>
     );
   }
