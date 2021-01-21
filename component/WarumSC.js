@@ -1,76 +1,96 @@
 import Carousel from "react-multi-carousel";
 
 const responsive = {
-    superLargeDesktop: {
-        // the naming can be any, depends on you.
-        breakpoint: { max: 4000, min: 3000 },
-        items: 5,
-    },
-    desktop: {
-        breakpoint: { max: 3000, min: 1024 },
-        items: 2,
-        partialVisibilityGutter: 70
-    },
-    tablet: {
-        breakpoint: { max: 1024, min: 464 },
-        items: 1,
-        partialVisibilityGutter: 0
-
-    },
-    mobile: {
-        breakpoint: { max: 464, min: 0 },
-        items: 1,
-    },
+  superLargeDesktop: {
+    // the naming can be any, depends on you.
+    breakpoint: { max: 4000, min: 3000 },
+    items: 5,
+  },
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 2,
+    partialVisibilityGutter: 70,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 1,
+    partialVisibilityGutter: 0,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
 };
 
 const WarumSC = (props) => {
-    return (
-        <div id="warum-sc">
-            <span className="aside">Warum supercode?</span>
-            <div className="twocolumn">
-                <div>
-                    <h1>WARUM <span>SUPERCODE?</span></h1>
-                    <p>
-                        Egal ob du Quereinsteiger*in, Berufstätige*r, alleinerziehend oder Studienabrecher*in bist: SuperCode bietet dir das Format, das dir am besten passt.
-                    </p>
-                    <p>
-                        In 5 - 7 Monaten lernst du in Düsseldorf alles, was du für deinen Einstieg als Webdeveloper*in brauchst. HTML, CSS, Javascript und die Grundlagen der Webtechnologien.
-                    </p>
-                    <p>
-                        Du lernst intensiv und schnell in Kursen mit einem hohen Praxisbezug, denn schon von Tag eins arbeitest du im Coworkingspace Super7000 an deinen Praxisprojekten.
-                    </p>
-                    <p>
-                        Pro Tag sorgen zwei Trainern*innen für eine optimale und effektive Lernbegleitung, um dich bestmöglich für einen reibungslosen Einstieg in den digitalen Arbeitsmarkt vorzubereiten.
-                    </p>
-                </div>
-                <div className="gallery">
-                    <img src="/img/warumsc_bild1.png" alt="" className="centercenter" />
-                    <img src="/img/warumsc_bild2.png" alt="" className="righttop" />
-                    <img src="/img/warumsc_bild3.png" alt="" className="rightcenter" />
-                    <img src="/img/warumsc_bild4.png" alt="" className="rightbottom" />
-                </div>
-                <img src="/img/warumsc_bild5.png" alt="" className="leftbottom gallery" />
-                <section id="carousel">
-                    <Carousel
-                        responsive={responsive}
-                        ssr
-                        showDots={false}
-                        slidesToSlide={1}
-                        infinite
-                        containerClass="container-with-dots"
-                        deviceType={""}
-                        itemClass="carousel-item-padding-20-px"
-                    >
-                        <figure><img src="/carousel1.png" alt="" /></figure>
-                        <figure><img src="/carousel2.png" alt="" /></figure>
-                        <figure><img src="/carousel3.png" alt="" /></figure>
+  return (
+    <div id="warum-sc">
+      <span className="aside">Warum supercode?</span>
+      <div className="twocolumn">
+        <div>
+          <h1>
+            WARUM <span>SUPERCODE?</span>
+          </h1>
 
-
-
-                    </Carousel>
-                </section>
-            </div>
-            <style jsx>{`
+          <p>
+            Egal ob du Quereinsteigerin, Berufstätige, alleinerziehend oder
+            Studienabrecherin bist: SuperCode unterstützt dich deinen Weg in die
+            IT zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich
+            jede Person gesehen und angenomen fühlt und ihr Potential voll
+            entfalten kann.
+          </p>
+          <p>
+            In 5 - 7 Monaten lernst du in Voll- oder Teilzeit alles, was du für
+            deinen Einstieg als Webdeveloperin brauchst: HTML, CSS, Javascript
+            und die Grundlagen der Webtechnologien.
+          </p>
+          <p>
+            Mit einem Mix aus Livecoding-Sessions, kurzen Theorieparts,
+            Gamification und Zeit für Austausch in der Gruppe, bekommst du
+            intensiv und schnell dein Coding-Know-How. und arbeitest an deinen
+            Praxisprojekten.
+          </p>
+          <p>
+            Zwei Trainern*innen sorgen täglich für eine optimale und effektive
+            Lernbegleitung. Unser Bewerbungscoaching unterstützt dich zusätzlich
+            bei deinem Einstieg in den digitalen Arbeitsmarkt.
+          </p>
+        </div>
+        <div className="gallery">
+          <img src="/img/warumsc_bild1.png" alt="" className="centercenter" />
+          <img src="/img/warumsc_bild2.png" alt="" className="righttop" />
+          <img src="/img/warumsc_bild3.png" alt="" className="rightcenter" />
+          <img src="/img/warumsc_bild4.png" alt="" className="rightbottom" />
+        </div>
+        <img
+          src="/img/warumsc_bild5.png"
+          alt=""
+          className="leftbottom gallery"
+        />
+        <section id="carousel">
+          <Carousel
+            responsive={responsive}
+            ssr
+            showDots={false}
+            slidesToSlide={1}
+            infinite
+            containerClass="container-with-dots"
+            deviceType={""}
+            itemClass="carousel-item-padding-20-px"
+          >
+            <figure>
+              <img src="/carousel1.png" alt="" />
+            </figure>
+            <figure>
+              <img src="/carousel2.png" alt="" />
+            </figure>
+            <figure>
+              <img src="/carousel3.png" alt="" />
+            </figure>
+          </Carousel>
+        </section>
+      </div>
+      <style jsx>{`
             #carousel{
                 display:none;
             }
@@ -171,14 +191,14 @@ const WarumSC = (props) => {
                 right: 10%;
                 top: 50%;
                 transform: translateY(-30%);
-                width: 10vw;
+                width: 12vw;
             }
             .rightbottom{
                 position: absolute;
-                right: 0;
+                right: 12%;
                 bottom: 0;
                 transform: translateY(50%);
-                width: 20vw;
+                width: 15vw;
             }
             .leftbottom{
                 position: absolute;
@@ -247,8 +267,8 @@ const WarumSC = (props) => {
                 }
               }
             `}</style>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default WarumSC;

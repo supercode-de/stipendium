@@ -1,29 +1,35 @@
-
-
-import Head from 'next/head'
-import React, { Component } from 'react';
-
+import Head from "next/head";
+import React, { Component } from "react";
 
 class Layout extends Component {
-
   render() {
     return (
       <div id="super-layout">
         <Head>
-          <meta property="og:image:secure" content="https://super-stipendium.de/img/page-preview.png" />
-          <meta property="og:image" content="http://super-stipendium.de/img/page-preview.png" />
+          <meta
+            property="og:image:secure"
+            content="https://super-stipendium.de/img/page-preview.png"
+          />
+          <meta
+            property="og:image"
+            content="http://super-stipendium.de/img/page-preview.png"
+          />
           <meta property="og:url" content="https://super-stipendium.de/" />
           <meta property="og:type" content="Website" />
-          <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle!" />
-          <meta property="og:description" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
+          <meta
+            property="og:title"
+            content="super-stipendium.de - Digitale Bildung für Alle!"
+          />
+          <meta
+            property="og:description"
+            content="Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!"
+          />
           <title>Super-code</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
         </Head>
 
         {this.props.children}
-
-
 
         <style jsx global>{`
             @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');

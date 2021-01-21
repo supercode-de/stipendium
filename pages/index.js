@@ -9,16 +9,15 @@ import Footer from "../component/Footer";
 import WarumWeb from "../component/WarumWeb";
 import CTA4 from "../component/CTA4";
 import SuperStipendium from "../component/SuperStipendium";
-import HtmlCssWtf from "../component/HtmlCssWtf"
+import HtmlCssWtf from "../component/HtmlCssWtf";
 import WarumSC from "../component/WarumSC";
-import Head from 'next/head'
-
+import Head from "next/head";
 
 export default function Home(props) {
   if (process.browser) {
     const width = useWindowSize().width / 12;
     return (
-      <Layout >
+      <Layout>
         <div className="container">
           <main>
             <Header width={width} />
@@ -28,19 +27,16 @@ export default function Home(props) {
             <WarumWeb width={width} />
             <WarumSC width={width} />
             <SupercodeUsp2 width={width} />
-            <Partner width={width} />
+            {/* <Partner width={width} /> */}
             <CTA4 width={width} />
             <Footer width={width} />
             {/* <JetztBewerben width={width} /> */}
 
             {/* <JetztBewerben width={width} /> */}
 
-
-
             {/* <JetztBewerben width={width} /> */}
             {/* <JetztBewerben width={width} />
             <JetztBewerben width={width} /> */}
-
           </main>
           <style jsx>{`
             main{
@@ -70,12 +66,24 @@ export default function Home(props) {
   } else {
     return (
       <Head>
-        <meta property="og:image:secure" content="https://super-stipendium.de/img/page-preview.png" />
-        <meta property="og:image" content="http://super-stipendium.de/img/page-preview.png" />
+        <meta
+          property="og:image:secure"
+          content="https://super-stipendium.de/img/page-preview.png"
+        />
+        <meta
+          property="og:image"
+          content="http://super-stipendium.de/img/page-preview.png"
+        />
         <meta property="og:url" content="https://super-stipendium.de/" />
         <meta property="og:type" content="Website" />
-        <meta property="og:title" content="super-stipendium.de - Digitale Bildung für Alle!" />
-        <meta property="og:description" content="super-stipendium.de - Digitale Bildung für Alle! – Unser Kurse starten bald wieder in die nächste Runde. Bewirb dich jetzt!" />
+        <meta
+          property="og:title"
+          content="super-stipendium.de - Digitale Bildung für Alle!"
+        />
+        <meta
+          property="og:description"
+          content="Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!"
+        />
         <title>Super-code</title>
         <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
         <link rel="alternate icon" href="/favicon.ico" />

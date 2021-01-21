@@ -7,7 +7,7 @@ const JetztBewerben = (props) => {
 
       <div className="threecolumn">
         <div className="imgleft">
-          <img src="/img/DSC2579_LowRes.png" alt="" />
+          <img src="/img/WarumWeb.png" alt="" />
         </div>
 
         <div className="onecolumn">
@@ -16,11 +16,21 @@ const JetztBewerben = (props) => {
             <span className="super">WEB-ENTWICKLUNG?</span>
           </h1>
           <p>
-
-            Die ganze Welt wird digitaler – ganze Branchen und Bereiche schiften ihre Aktivitäten immer mehr ins <span className="internet">Internet</span>. Einer der wichtigsten Treiber dieses Wandels sind die Web Developer*innen. Denn diese sind zuständig für die Planung und Entwicklung moderner{" "} <span className="web-app">Websites und Apps.</span>.
+            Die ganze Welt wird digitaler – ganze Branchen und Bereiche schiften
+            ihre Aktivitäten immer mehr ins{" "}
+            <span className="internet">Internet</span>. Als Webentwicklerin hast
+            du nicht nur hervorragende Karrierechancen für einen zukunftsfähigen
+            Job, du profitierst auch von flexiblen{" "}
+            <span className="web-app">Arbeitszeiten, Home Office</span>. und
+            flachen Hierarchien.
             <br />
             <br />
-            Sie arbeiten als Freelancer oder im Team und müssen sich mit Webdesigner*innen und Projektmanager*innen abstimmen, um Kunden das bestmögliche Ergebnis zu liefern. HTML, CSS und JavaScript sind für sie keine Fremdwörter, und Google ist ihr Freund. Denn lebenslanges Lernen gehört zu diesem Job wie die 1 zu der 0.
+            Gerade in der IT werden qualifizierte Frauen dringend benötigt - die
+            Branche tut einiges, um Entwicklerinnen für sich zu gewinnen. Mehr
+            Vielfalt und neue Perspektiven führen nachweislich zu mehr Erfolg
+            und einen guten Teamgeist. Also mehr weibliche Nerds? Nicht nur! Als
+            Entwicklerin übernimmst du vielfältge Aufgaben und bist in viele
+            Prozesse eingebunden.
           </p>
         </div>
 
@@ -144,15 +154,15 @@ const JetztBewerben = (props) => {
           content: "";
           display: block;
         }
-        p{
+        p {
           color: #fff;
-          font-family: 'Fira Sans', sans-serif;
+          font-family: "Fira Sans", sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 1.1em;
           line-height: 30px;
           justify-self: center;
-      }
+        }
         @media only screen and (max-width: 1635px) {
           h1 {
             font-size: 5em;
@@ -192,7 +202,7 @@ const JetztBewerben = (props) => {
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: #fff;
             font-weight: 300;
-            opacity:0.7;
+            opacity: 0.7;
           }
           #unser-campus .imgleft {
             grid-column: 1/-1;
@@ -200,9 +210,9 @@ const JetztBewerben = (props) => {
           .onecolumn {
             padding: 0 5% 0 10%;
           }
-          p{
+          p {
             font-size: 1.4em;
-          line-height: 24px;
+            line-height: 24px;
           }
           @media only screen and (max-width: 375px) {
             h1 {
