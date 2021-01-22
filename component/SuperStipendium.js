@@ -109,6 +109,10 @@ const SuperStipendium = (props) => {
             _Montag bis Freitag <br />
             _09:00 - 18:00 Uhr
           </p>
+          <div className="certqua">
+            <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
+            <h4>zertifizierte und anerkannte Maßnahme durch Certqua</h4>
+          </div>
         </div>
         {/* <div className="stipendium-box2 hide">
                     <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
@@ -178,6 +182,15 @@ const SuperStipendium = (props) => {
       </article>
 
       <style jsx>{`
+        .certqua {
+          display: flex;
+          align-items: center;
+          margin: 15px 0;
+        }
+        .certqua h4 {
+          margin-left: 15px;
+          color: #30e1b9;
+        }
         .font {
           // font-family: "Neue_Machina_Regular_400";
 
