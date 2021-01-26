@@ -13,10 +13,17 @@ const JetztBewerben = (props) => {
             wollt - fangt einfach an. Überlegt nicht zu viel. Schreibt die
             ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas
             Großem sein!”
-            <br />
-            <br />
-            Emilija Sekulic, Video-Journalistin und Bootcamp-Teilnehmerin
           </h1>
+          <div className="circle">
+            <h1>
+              Emilija Sekulic, Video-
+              <br />
+              Journalistin und Bootcamp-
+              <br />
+              Teilnehmerin
+            </h1>
+          </div>
+
           {/* 
                     <h1> Du willst < br /> < span > programmieren </span> lernen <br /> und einen Job mit < br /> Zukunft ? Das < span className="super" > Super - < br /> Stipendium </span> ist deine <br /> <span> Chance! </span></h1>
                   */}
@@ -140,9 +147,28 @@ const JetztBewerben = (props) => {
             content: "";
             display: block;
           }
+          .circle {
+            position: relative;
+          }
+
+          .circle:after {
+            content: "";
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -70px;
+            right: 0;
+            display: block;
+            height: 100%;
+            width: 100%;
+            background: url(/img/CircleVectorEmilija.svg) center/contain
+              no-repeat;
+          }
+
           p {
             color: #fff;
-            font-family: "Fira Sans", sans-serif;
+            font-family: "Neue_Machina_Regular_400";
+
             font-style: normal;
             font-weight: normal;
             font-size: 1.5em;
@@ -186,6 +212,13 @@ const JetztBewerben = (props) => {
             #unser-campus {
               padding: 100px 6%;
             }
+
+            .circle {
+            }
+            .circle:after {
+              width: 70%;
+              left: -7%;
+            }
           }
           @media (max-width: 768px) {
             h1 {
@@ -222,6 +255,12 @@ const JetztBewerben = (props) => {
               width: 100%;
               align-self: center;
               justify-self: center;
+            }
+
+            .circle:after {
+              height: 100;
+              width: 110%;
+              // left: -7%;
             }
           }
         `}

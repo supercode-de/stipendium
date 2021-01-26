@@ -24,7 +24,7 @@ const SuperStipendium = (props) => {
   return (
     <div id="super-stipendium">
       <span className="aside">Arbeitsplatz der Zukunft</span>
-      <img src="/img/bgLine.png" alt="" className="bg-line" />
+      {/* <img src="/img/bgLine.png" alt="" className="bg-line" /> */}
       <article className="stipendium-left">
         <div className="headline-left">
           <h1>
@@ -42,17 +42,19 @@ const SuperStipendium = (props) => {
             </span>
           </h1>
         </div>
-        <h4>
+        <p>
           Das Female Innovation Hub und der SuperDigital e.V. ermöglichen dir
           ein Stipendium bei SuperCode und damit die Teilnahme an einem der
           zertifizierten Vollzeit-Bootcamps im Bereich Full-Stack
           Webentwicklung.
           <br />
           <br />
-          Damit möchten wir noch mehr Frauen ermutigen, den Karrierewechsel in
-          die IT-Branche zu starten. Das Super-Stipendium ist damit ein nächster
-          Schritt in Richtung einer neuen Kultur der Wertschätzung von Frauen,
-          die sich für eine digitale Karriere entscheiden
+          Damit möchten wir noch{" "}
+          <span className="square">mehr&nbsp;Frauen</span> ermutigen, den
+          Karrierewechsel in die IT-Branche zu starten. Das Super-Stipendium ist
+          damit ein nächster Schritt in Richtung einer neuen Kultur der
+          Wertschätzung von Frauen, die sich für eine{" "}
+          <span className="circle">digitale Karriere</span> entscheiden
           <br />
           <br />
           <span className="font">Bewirb dich jetzt bis zum xx.xx.xxx</span>
@@ -70,7 +72,7 @@ const SuperStipendium = (props) => {
           <br />
           {"..."}und mit etwas Glück erhälst du das Stipendium und startest
           deine IT-Karriere!
-        </h4>
+        </p>
 
         {/* <span className="square">Stipendium</span>
           <span className="line2">
@@ -79,7 +81,41 @@ const SuperStipendium = (props) => {
           <span className="circle">16.10.2020</span> */}
       </article>
       <article className="stipendium-right">
-        <div className="stipendium-box1 hide">
+        <div className="general">
+          <h5>
+            Web-Developer Full-Stack
+            <br /> Umfang: 22 Wochen / Vollzeit
+            <br /> Start: 22.03.2021 Ende: 27.08.2021
+          </h5>
+          <img src="/img/StipendiumArrow.svg" alt="" />
+        </div>
+        <div className="information">
+          <p>
+            Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
+            Web-Entwicklung verpackt in einem ultra praxisorientierten
+            Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und
+            finde einen Job mit Zukunft.
+            <br />
+            <br />
+            <span className="bold">Inhalte:</span>
+            <br />
+            <br />
+            Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
+            Javascript Frameworks und Libraries, CMS
+            <br />
+            <br />
+            Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken
+            <br />
+            <br />
+            Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
+            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
+            <br />
+            <br />
+            <span className="bold">Trainer*innen:</span> 2 Trainer*innen pro Tag
+          </p>
+        </div>
+
+        {/* <div className="stipendium-box1 hide">
           <h5>
             Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />{" "}
             Start: 22.03.2021 Ende: 27.08.2021
@@ -113,7 +149,7 @@ const SuperStipendium = (props) => {
             <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
             <h4>zertifizierte und anerkannte Maßnahme durch Certqua</h4>
           </div>
-        </div>
+        </div> */}
         {/* <div className="stipendium-box2 hide">
                     <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
                     <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
@@ -290,7 +326,7 @@ const SuperStipendium = (props) => {
           color: #ffffff;
         }
         .stipendium-left {
-          padding: 10vh 4% 8vh 8.5%;
+          padding: 0 4% 0 8.5%;
           width: 50%;
         }
         h1 {
@@ -318,16 +354,43 @@ const SuperStipendium = (props) => {
         .circle {
           position: relative;
         }
-        .square::after {
-          position: absolute;
-          background: url("/Vector51.svg") center/cover no-repeat;
-          height: 109%;
-          width: 110%;
-          left: -4px;
-          bottom: 0;
+
+        .square:after {
           content: "";
+          position: absolute;
+          top: -5%;
+          bottom: 0;
+          left: -5px;
+          right: 0;
           display: block;
+          width: 110%;
+          height: 1.6em;
+          background: url(/img/StipendiumSquare.svg) center/contain no-repeat;
         }
+
+        .circle:after {
+          content: "";
+          position: absolute;
+          top: -5%;
+          bottom: 0;
+          left: -5px;
+          right: 0;
+          display: block;
+          width: 110%;
+          height: 1.8em;
+          background: url(/img/StipendiumCircle.svg) center/contain no-repeat;
+        }
+
+        // .square::after {
+        //   position: absolute;
+        //   background: url("/Vector51.svg") center/cover no-repeat;
+        //   height: 109%;
+        //   width: 110%;
+        //   left: -4px;
+        //   bottom: 0;
+        //   content: "";
+        //   display: block;
+        // }
         .line::after {
           position: absolute;
           background: url("/Vector52.svg") center/cover no-repeat;
@@ -348,31 +411,44 @@ const SuperStipendium = (props) => {
           content: "";
           display: block;
         }
-        .circle::after {
-          position: absolute;
-          background: url("/Vector54.svg") center/cover no-repeat;
-          height: 100%;
-          width: 110%;
-          left: -4px;
-          bottom: 0;
-          content: "";
-          display: block;
-        }
-        h4 {
+        // .circle::after {
+        //   position: absolute;
+        //   background: url("/Vector54.svg") center/cover no-repeat;
+        //   height: 100%;
+        //   width: 110%;
+        //   left: -4px;
+        //   bottom: 0;
+        //   content: "";
+        //   display: block;
+        // }
+        p {
           color: #fff;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
           line-height: 25px;
           justify-self: center;
         }
+        // p {
+        //   font-family: "Neue_Machina_Regular_400";
+        //   color: #ffffff;
+        //   font-size: 14px;
+        //   margin-bottom: 25px;
+        //   line-height: 20px;
+        // }
+
+        .bold {
+          font-weight: bold;
+        }
+
         .stipendium-right {
           width: 50%;
           display: flex;
+          flex-direction: column;
           align-items: center;
           justify-content: center;
-          padding: 9vh 3% 4vh 0;
+          padding: 9vh 3% 4vh 3%;
           position: relative;
         }
         .stipendium-box1 {
@@ -390,29 +466,59 @@ const SuperStipendium = (props) => {
           border-left: none;
           height: 92%;
         }
-        h5 {
-          font-family: "Neue_Machina_Regular_400";
-          color: #ffffff;
-          opacity: 0.7;
-          font-size: 16px;
-          line-height: 18px;
-        }
-        h5:nth-of-type(1) {
-          margin-bottom: 14px;
-        }
-        p {
-          font-family: "Fira Sans", sans-serif;
-          color: #ffffff;
-          font-size: 14px;
-          margin-bottom: 25px;
-          line-height: 20px;
-        }
+        // h5 {
+        //   font-family: "Neue_Machina_Regular_400";
+        //   color: #ffffff;
+        //   opacity: 0.7;
+        //   font-size: 16px;
+        //   line-height: 18px;
+        // }
+        // h5:nth-of-type(1) {
+        //   margin-bottom: 14px;
+        // }
+
         h6 {
           font-family: "Neue_Machina_Regular_400";
           color: #ffffff;
           font-size: 16px;
           line-height: 18px;
           font-weight: 600;
+        }
+
+        .general {
+          width: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-bottom: 50px;
+          position: relative;
+        }
+
+        .general:after {
+          content: "";
+          position: absolute;
+          top: -50%;
+          bottom: 0;
+          left: -5px;
+          right: 0;
+          display: block;
+          width: 100%;
+          height: 200%;
+          background: url(/img/StipendiumLargeCircle.svg) center/contain
+            no-repeat;
+        }
+
+        .general h5 {
+          font-family: "Neue_Machina_Regular_400";
+          color: #fff;
+          font-size: 25px;
+          line-height: 30px;
+        }
+
+        .general img {
+          position: absolute;
+          left: -50px;
+          top: 50%;
         }
 
         @media (max-width: 1199px) {
@@ -426,6 +532,7 @@ const SuperStipendium = (props) => {
           }
           .stipendium-left {
             width: 100%;
+            margin-bottom: 9vh;
           }
 
           .stipendium-right {

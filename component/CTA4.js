@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import TypeForm from "./TypeForm";
 
-
 const CTA4 = (props) => {
   return (
     <div id="unser-campus">
@@ -13,8 +12,6 @@ const CTA4 = (props) => {
       </div>
 
       <div className="twocolumn">
-
-
         <div className="buttoncolumn">
           <TypeForm />
         </div>
@@ -92,10 +89,10 @@ const CTA4 = (props) => {
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
-        
+
         p {
           color: #fff;
-          font-family: 'Fira Sans', sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
@@ -103,10 +100,10 @@ const CTA4 = (props) => {
           justify-self: center;
           max-width: 480px;
         }
-        
+
         button {
           margin: 2em 1em;
-          font-family: 'Fira Sans', sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: normal;
           font-size: 14px;

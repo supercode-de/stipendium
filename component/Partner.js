@@ -234,7 +234,7 @@ const Partner = (props) => {
         }
 
         .button {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: normal;
           font-size: 12px;

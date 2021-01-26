@@ -16,13 +16,13 @@ const JetztBewerben = (props) => {
             <span className="super">WEB-ENTWICKLUNG?</span>
           </h1>
           <p>
-            Die ganze Welt wird digitaler – ganze Branchen und Bereiche schiften
+            Die ganze Welt wird digitaler – ganze Branchen und Bereiche shiften
             ihre Aktivitäten immer mehr ins{" "}
             <span className="internet">Internet</span>. Als Webentwicklerin hast
             du nicht nur hervorragende Karrierechancen für einen zukunftsfähigen
             Job, du profitierst auch von flexiblen{" "}
-            <span className="web-app">Arbeitszeiten, Home Office</span>. und
-            flachen Hierarchien.
+            <span className="web-app">Arbeitszeiten,&nbsp;Home Office</span>.
+            und flachen Hierarchien.
             <br />
             <br />
             Gerade in der IT werden qualifizierte Frauen dringend benötigt - die
@@ -156,7 +156,8 @@ const JetztBewerben = (props) => {
         }
         p {
           color: #fff;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
+
           font-style: normal;
           font-weight: normal;
           font-size: 1.1em;

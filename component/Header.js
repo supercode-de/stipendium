@@ -92,7 +92,7 @@ const Header = (props) => {
           -webkit-text-stroke-color: #fff;
         }
         h3 {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
@@ -108,7 +108,7 @@ const Header = (props) => {
           margin-bottom: 50px;
         }
         p {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: 500;
           font-size: 12px;

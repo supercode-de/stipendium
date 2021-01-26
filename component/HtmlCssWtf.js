@@ -32,8 +32,8 @@ const HtmlCssWtf = (props) => {
           <h1>HTML, CSS, WTF?!</h1>
           <p>
             Digitale Skills waren noch{" "}
-            <span className="underline">nie wichtiger</span> – vor allem die
-            Fähigkeit programmieren zu können ist gefragter denn je und
+            <span className="underline">nie&nbsp;wichtiger</span> – vor allem
+            die Fähigkeit programmieren zu können ist gefragter denn je und
             ermöglicht den Zugang zu vielen tollen Jobs! Laut Bitkom sind allein
             in Deutschland über <span className="circle">124.000</span> Stellen
             für IT-Expert*innen nicht besetzt – und vor allem{" "}
@@ -117,7 +117,7 @@ const HtmlCssWtf = (props) => {
           background: rgba(0, 0, 0, 0.5) center/contain no-repeat;
         }
         #html-css-wtf {
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
 
           overflow: hidden;
           padding: 100px 0 100px 10%;
@@ -163,7 +163,8 @@ const HtmlCssWtf = (props) => {
         }
         p {
           color: #fff;
-          font-family: "Fira Sans", sans-serif;
+          font-family: "Neue_Machina_Regular_400";
+
           font-style: normal;
           font-weight: normal;
           font-size: 1.1em;
@@ -179,7 +180,7 @@ const HtmlCssWtf = (props) => {
           position: relative;
         }
 
-        .circle:before {
+        .circle:after {
           content: "";
           position: absolute;
           top: -5px;
@@ -187,12 +188,12 @@ const HtmlCssWtf = (props) => {
           left: -5px;
           right: 0;
           display: block;
-          width: 4em;
-          height: 1.8em;
+          width: 120%;
+          height: 2.1em;
           background: url(/img/htmlcsswtf_line2.svg) center/contain no-repeat;
         }
 
-        .square:before {
+        .square:after {
           content: "";
           position: absolute;
           top: -5px;
@@ -200,8 +201,8 @@ const HtmlCssWtf = (props) => {
           left: -5px;
           right: 0;
           display: block;
-          width: 6em;
-          height: 2.2em;
+          width: 110%;
+          height: 2.5em;
           background: url(/img/htmlcsswtf_line3.svg) center/contain no-repeat;
         }
         .twocolumn div:first-of-type p:last-of-type span {
@@ -267,7 +268,8 @@ const HtmlCssWtf = (props) => {
           }
           p {
             color: #fff;
-            font-family: "Fira Sans", sans-serif;
+            font-family: "Neue_Machina_Regular_400";
+
             font-style: normal;
             font-weight: normal;
             font-size: 1.4em;
