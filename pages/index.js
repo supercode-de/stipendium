@@ -27,7 +27,7 @@ export default function Home(props) {
             <WarumWeb width={width} />
             <WarumSC width={width} />
             <SupercodeUsp2 width={width} />
-            {/* <Partner width={width} /> */}
+            <Partner width={width} />
             <CTA4 width={width} />
             <Footer width={width} />
             {/* <JetztBewerben width={width} /> */}
