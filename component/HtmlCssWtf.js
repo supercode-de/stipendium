@@ -35,15 +35,14 @@ const HtmlCssWtf = (props) => {
             <span className="underline">nie&nbsp;wichtiger</span> – vor allem
             die Fähigkeit programmieren zu können ist gefragter denn je und
             ermöglicht den Zugang zu vielen tollen Jobs! Laut Bitkom sind allein
-            in Deutschland über <span className="circle">124.000</span> Stellen
-            für IT-Expert*innen nicht besetzt – und vor allem{" "}
-            <span className="square">qualifizierte</span> Frauen sind bei
-            Unternehmen sehr gefragt.
+            in Deutschland über 124.000 Stellen für IT-Expert*innen nicht
+            besetzt – und vor allem qualifizierte Frauen sind bei Unternehmen
+            sehr gefragt.
           </p>
           <p>
             Metro, IBM, Vodafone, Trivago – der Düsseldorfer IT-Markt boomt! Das
             Super Stipendium ist dein Türöffner in den digitalen Arbeitsmarkt
-            der <span>Zukunft!</span>
+            der <span className="one-line">Zukunft!</span>
           </p>
         </div>
         <div className="gallery">
@@ -205,9 +204,9 @@ const HtmlCssWtf = (props) => {
           height: 2.5em;
           background: url(/img/htmlcsswtf_line3.svg) center/contain no-repeat;
         }
-        .twocolumn div:first-of-type p:last-of-type span {
+        .one-line {
           display: inline-block;
-          width: 5em;
+          width: 4em;
           background: url(/img/htmlcsswtf_line4.svg) center bottom/contain
             no-repeat;
         }
