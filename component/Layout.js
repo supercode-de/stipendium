@@ -8,11 +8,11 @@ class Layout extends Component {
         <Head>
           <meta
             property="og:image:secure"
-            content="https://super-stipendium.de/img/page-preview.png"
+            content="https://super-stipendium.de/img/Webentwickler_Düsseldorf.webp"
           />
           <meta
             property="og:image"
-            content="http://super-stipendium.de/img/page-preview.png"
+            content="http://super-stipendium.de/img/Webentwickler_Düsseldorf.webp"
           />
           <meta property="og:url" content="https://super-stipendium.de/" />
           <meta property="og:type" content="Website" />
