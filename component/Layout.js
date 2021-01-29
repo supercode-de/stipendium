@@ -24,7 +24,7 @@ class Layout extends Component {
             property="og:description"
             content="Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!"
           />
-          <title>Super-code</title>
+          <title>Super-Stipendium</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
         </Head>
