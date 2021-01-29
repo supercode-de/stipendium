@@ -512,10 +512,10 @@ const SuperStipendium = (props) => {
           position: absolute;
           top: -50%;
           bottom: 0;
-          left: -5px;
+          left: -10%;
           right: 0;
           display: block;
-          width: 100%;
+          width: 120%;
           height: 200%;
           background: url(/img/StipendiumLargeCircle.svg) center/contain
             no-repeat;

@@ -12,7 +12,7 @@ const Typeform = (props) => {
             height="100%"
             frameborder="0"
             allow="camera; microphone; autoplay; encrypted-media;"
-            src="https://form.typeform.com/to/HeBNV6N0"
+            src="https://form.typeform.com/to/B8pWRrmH?typeform-medium=embed-snippet"
           ></iframe>
           <script
             type="text/javascript"

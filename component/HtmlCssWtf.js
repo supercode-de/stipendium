@@ -183,7 +183,7 @@ const HtmlCssWtf = (props) => {
         .circle:after {
           content: "";
           position: absolute;
-          top: -5px;
+          top: -0.25em;
           bottom: 0;
           left: -5px;
           right: 0;
@@ -196,7 +196,7 @@ const HtmlCssWtf = (props) => {
         .square:after {
           content: "";
           position: absolute;
-          top: -5px;
+          top: -0.25em;
           bottom: 0;
           left: -5px;
           right: 0;
