@@ -25,6 +25,7 @@ const SuperStipendium = (props) => {
     <div id="super-stipendium">
       <span className="aside">Arbeitsplatz der Zukunft</span>
       {/* <img src="/img/bgLine.png" alt="" className="bg-line" /> */}
+      {/* <div className="grid"> */}
       <article className="stipendium-left">
         <div className="headline-left">
           <h1>
@@ -49,26 +50,23 @@ const SuperStipendium = (props) => {
           Webentwicklung.
           <br />
           <br />
-          Damit möchten wir noch{" "}
-          <span className="square">mehr&nbsp;Frauen</span> ermutigen, den
-          Karrierewechsel in die IT-Branche zu starten. Das Super-Stipendium ist
-          damit ein nächster Schritt in Richtung einer neuen Kultur der
-          Wertschätzung von Frauen, die sich für eine{" "}
-          <span className="circle">digitale Karriere</span> entscheiden
+          Damit möchten wir noch mehr Frauen ermutigen, den Karrierewechsel in
+          die IT-Branche zu starten. Das Super-Stipendium ist damit ein nächster
+          Schritt in Richtung einer neuen Kultur der Wertschätzung von Frauen,
+          die sich für eine digitale Karriereentscheiden
           <br />
           <br />
-          <span className="font">Bewirb dich jetzt bis zum xx.xx.xxx</span>
           <br />
-          <br />
-          <span className="font">Der Prozess:</span>
-          <br />
-          <span className="font">1.</span> Bis zum xx.xx.xxxx bewerben und
-          Fragen beantworten.
-          <br />
-          <span className="font">2.</span> Workshop - Teilnahme.
-          <br />
-          <span className="font">3.</span> Persönliches Gespräch.
-          <br />
+          <div className="bold">
+            Der Prozess:
+            <br />
+            1. Bis zum <span className="circle">&nbsp;01.03.2021&nbsp;</span>
+            &nbsp; bewerben und Fragen beantworten
+            <br />
+            2. Teilnahme am kostenlosen Workshop
+            <br />
+            3. Persönliches Gespräch
+          </div>
           <br />
           {"..."}und mit etwas Glück erhälst du das Stipendium und startest
           deine IT-Karriere!
@@ -81,13 +79,15 @@ const SuperStipendium = (props) => {
           <span className="circle">16.10.2020</span> */}
       </article>
       <article className="stipendium-right">
+        <img src="/img/StipendiumArrow.svg" alt="" className="arrow-mobile" />
+
         <div className="general">
           <h5>
             Web-Developer Full-Stack
             <br /> Umfang: 22 Wochen / Vollzeit
             <br /> Start: 22.03.2021 Ende: 27.08.2021
           </h5>
-          <img src="/img/StipendiumArrow.svg" alt="" />
+          <img src="/img/StipendiumArrow.svg" alt="" className="arrow" />
         </div>
         <div className="information">
           <p>
@@ -216,6 +216,7 @@ const SuperStipendium = (props) => {
           </Carousel>
         </div> */}
       </article>
+      {/* </div> */}
 
       <style jsx>{`
         .certqua {
@@ -227,10 +228,9 @@ const SuperStipendium = (props) => {
           margin-left: 15px;
           color: #30e1b9;
         }
-        .font {
-          // font-family: "Neue_Machina_Regular_400";
-
-          // font-weight: 300;
+        .bold {
+          font-weight: 500;
+          line-height: 1.8em;
         }
         .headline-left {
           margin-bottom: 70px;
@@ -245,7 +245,19 @@ const SuperStipendium = (props) => {
           max-width: 80vw;
           height: 7rem;
         }
+        .arrow {
+          position: relative;
+          transform: rotate(20deg);
+        }
+        .arrow-mobile {
+          display: none;
+          margin: 20px;
+        }
 
+        .grid {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+        }
         .stipendium-right > .stipendium-box1 {
           transition: all 0.4s;
         }
@@ -371,14 +383,15 @@ const SuperStipendium = (props) => {
         .circle:after {
           content: "";
           position: absolute;
-          top: -5%;
+          top: -10px;
           bottom: 0;
           left: -5px;
           right: 0;
           display: block;
-          width: 110%;
-          height: 1.8em;
-          background: url(/img/StipendiumCircle.svg) center/contain no-repeat;
+          width: 115%;
+          height: 2.5em;
+          background: url(/img/StipendiumDateCircle.svg) center/contain
+            no-repeat;
         }
 
         // .square::after {
@@ -448,7 +461,7 @@ const SuperStipendium = (props) => {
           flex-direction: column;
           align-items: center;
           justify-content: center;
-          padding: 9vh 3% 4vh 3%;
+          padding: 0 8.5% 0 4%;
           position: relative;
         }
         .stipendium-box1 {
@@ -558,7 +571,34 @@ const SuperStipendium = (props) => {
           }
         }
 
+        @media (max-width: 568px) {
+          .arrow,
+          .general:after {
+            display: none;
+          }
+          .arrow-mobile {
+            display: block;
+          }
+          .stipendium-left {
+            margin-bottom: 0;
+          }
+        }
+
         @media (max-width: 479px) {
+          // .general:after {
+          //   content: "";
+          //   position: absolute;
+          //   top: -50%;
+          //   bottom: 0;
+          //   left: -5px;
+          //   right: 0;
+          //   display: block;
+          //   width: 100%;
+          //   height: 200%;
+          //   background: url(/img/StipendiumLargeCircleMobile.svg) center/contain
+          //     no-repeat;
+          // }
+
           // #myCarousel {
           //   display: block;
           // }

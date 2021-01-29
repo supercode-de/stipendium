@@ -46,29 +46,28 @@ const Partner = (props) => {
             itemClass="carousel-item-padding-20-px"
           >
             <figure>
-              <img src="/digihub-logo.png" alt="" />
+              <img src="/female-innovation-hub.png" alt="" />
               <figcaption>
                 <p>
-                  Der digihub ist Matchmaker & Digital-Accelerator. Wir
-                  vernetzen Startups, Mittelstand, Konzerne, Wissenschaftler &
-                  Investoren und unterstützen bei der Entwicklung neuer
-                  digitaler Geschäftsmodelle, Produkte und Lösungen.
+                  Das Fe:male Innovation Hub ist die Plattform für Female
+                  Empowerment und Entrepreneurship und steht für stehen für
+                  digitale Bildung, Diversität und Chancengleichheit.
                 </p>
                 <div className="button">
                   <span className="block">
-                    <Link href="https://www.digihub.de/">
+                    <Link href="https://www.femaleinnovationhub.com/">
                       <a>WEBSITE</a>
                     </Link>
                   </span>{" "}
                   <span className="hide">–</span>
                   <span className="block">
-                    <Link href="https://www.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh/?originalSubdomain=de">
+                    <Link href="https://www.linkedin.com/company/female-innovation-hub/">
                       <a>LINKEDIN</a>
                     </Link>
                   </span>
                   <span className="hide"> –</span>
                   <span className="block">
-                    <Link href="https://www.facebook.com/digihub.de/">
+                    <Link href="https://www.facebook.com/femaleinnovationhub/">
                       <a>FACEBOOK</a>
                     </Link>
                   </span>
