@@ -8,7 +8,7 @@ function gtag_report_conversion(url) {
   //     window.location = url;
   //   }
   // };
-  console.log("object");
+  // console.log("object");
   // gtag("event", "conversion", {
   //   send_to: "AW-479170159/Zf_RCLDs3PMBEO-cvuQB",
   //   event_callback: callback,

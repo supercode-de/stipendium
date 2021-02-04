@@ -20,6 +20,10 @@ export default class MyDocument extends Document {
             gtag('config', 'AW-479170159', {
                 page_path: window.location.pathname,
               });
+            gtag('event', 'conversion', {
+                'send_to': 'AW-479170159/Zf_RCLDs3PMBEO-cvuQB'
+                'event_callback': callback
+              });
             `,
             }}
           />
