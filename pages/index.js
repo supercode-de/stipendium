@@ -68,11 +68,11 @@ export default function Home(props) {
       <Head>
         <meta
           property="og:image:secure"
-          content="https://super-stipendium.de/img/Webentwickler_Düsseldorf.webp"
+          content="https://super-stipendium.de/img/Webentwickler_Duesseldorf.webp"
         />
         <meta
           property="og:image"
-          content="http://super-stipendium.de/img/Webentwickler_Düsseldorf.webp"
+          content="http://super-stipendium.de/img/Webentwickler_Duesseldorf.webp"
         />
         <meta property="og:url" content="https://super-stipendium.de/" />
         <meta property="og:type" content="Website" />

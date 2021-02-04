@@ -1,10 +1,30 @@
 import Layout from "../component/Layout";
 import Link from "next/link";
 import Popup from "reactjs-popup";
+
+function gtag_report_conversion(url) {
+  // var callback = function () {
+  //   if (typeof url != "undefined") {
+  //     window.location = url;
+  //   }
+  // };
+  console.log("object");
+  // gtag("event", "conversion", {
+  //   send_to: "AW-479170159/Zf_RCLDs3PMBEO-cvuQB",
+  //   event_callback: callback,
+  // });
+  // return false;
+}
+
 const Typeform = (props) => {
   return (
     <Layout oneComponent={true}>
-      <Popup trigger={<button> JETZT BEWERBEN</button>} position=" center">
+      <Popup
+        trigger={
+          <button onClick={console.log("object")}>JETZT BEWERBEN</button>
+        }
+        position=" center"
+      >
         <div id="typeform">
           <iframe
             id="typeform-full"

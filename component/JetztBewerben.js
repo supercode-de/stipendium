@@ -147,20 +147,25 @@ const JetztBewerben = (props) => {
             content: "";
             display: block;
           }
+
           .circle {
             position: relative;
+            display: flex;
           }
-
+          .circle h1 {
+            display: inline-block;
+          }
           .circle:after {
             content: "";
+            display: flex;
             position: absolute;
             top: 0;
             bottom: 0;
             left: -70px;
             right: 0;
             display: block;
-            height: 100%;
-            width: 100%;
+            // height: 100%;
+            // width: 100%;
             background: url(/img/CircleVectorEmilija.svg) center/contain
               no-repeat;
           }
