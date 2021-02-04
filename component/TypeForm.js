@@ -19,12 +19,7 @@ function gtag_report_conversion(url) {
 const Typeform = (props) => {
   return (
     <Layout oneComponent={true}>
-      <Popup
-        trigger={
-          <button onClick={console.log("object")}>JETZT BEWERBEN</button>
-        }
-        position=" center"
-      >
+      <Popup trigger={<button>JETZT BEWERBEN</button>} position=" center">
         <div id="typeform">
           <iframe
             id="typeform-full"
