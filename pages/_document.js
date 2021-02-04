@@ -22,7 +22,7 @@ export default class MyDocument extends Document {
               });
             gtag('event', 'conversion', {
                 'send_to': 'AW-479170159/Zf_RCLDs3PMBEO-cvuQB'
-                'event_callback': callback
+                // 'event_callback': callback
               });
             `,
             }}
