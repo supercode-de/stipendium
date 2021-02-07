@@ -5,29 +5,7 @@ class Layout extends Component {
   render() {
     return (
       <div id="super-layout">
-        <Head>
-          <meta
-            property="og:image:secure"
-            content="https://super-stipendium.de/img/Webentwickler_Duesseldorf.webp"
-          />
-          <meta
-            property="og:image"
-            content="http://super-stipendium.de/img/Webentwickler_Duesseldorf.webp"
-          />
-          <meta property="og:url" content="https://super-stipendium.de/" />
-          <meta property="og:type" content="Website" />
-          <meta
-            property="og:title"
-            content="super-stipendium.de - Digitale Bildung für Alle!"
-          />
-          <meta
-            property="og:description"
-            content="Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!"
-          />
-          <title>Super-Stipendium</title>
-          <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-          <link rel="alternate icon" href="/favicon.ico" />
-        </Head>
+        <Head></Head>
 
         {this.props.children}
 

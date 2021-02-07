@@ -53,7 +53,7 @@ const SuperStipendium = (props) => {
           Damit möchten wir noch mehr Frauen ermutigen, den Karrierewechsel in
           die IT-Branche zu starten. Das Super-Stipendium ist damit ein nächster
           Schritt in Richtung einer neuen Kultur der Wertschätzung von Frauen,
-          die sich für eine digitale Karriereentscheiden
+          die sich für eine digitale Karriere entscheiden.
           <br />
           <br />
           <br />

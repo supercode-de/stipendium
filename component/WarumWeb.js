@@ -21,7 +21,7 @@ const JetztBewerben = (props) => {
             <span className="internet">Internet</span>. Als Webentwicklerin hast
             du nicht nur hervorragende Karrierechancen für einen zukunftsfähigen
             Job, du profitierst auch von flexiblen{" "}
-            <span className="web-app">Arbeitszeiten,&nbsp;Home Office</span>.
+            <span className="web-app">Arbeitszeiten,&nbsp;Home Office</span>
             und flachen Hierarchien.
             <br />
             <br />
