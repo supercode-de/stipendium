@@ -67,7 +67,7 @@ const Header = (props) => {
 
         h1 {
           // font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_bold';
           margin: 0;
           padding-bottom: 10vh;
           font-size: 5em;

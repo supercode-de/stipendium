@@ -343,7 +343,7 @@ const SuperStipendium_neu = (props) => {
         }
         h1 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_bold';
           font-size: 4.4em;
           color: #fff;
           line-height: 60px;
@@ -439,7 +439,7 @@ const SuperStipendium_neu = (props) => {
         p {
           color: #fff;
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 18px;

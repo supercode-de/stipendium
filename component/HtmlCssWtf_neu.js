@@ -123,7 +123,7 @@ const HtmlCssWtf_neu = (props) => {
         }
         #html-css-wtf {
         //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+        font-family: 'Fira Sans_regular';
 
           overflow: hidden;
           padding: 100px 0 100px 10%;
@@ -175,7 +175,7 @@ const HtmlCssWtf_neu = (props) => {
         p {
         
         //   font-family: 'Neue_Machina_Regular_400';
-        font-family: 'Fira Sans';
+        font-family: 'Fira Sans_regular';
 
           font-style: normal;
           font-weight: normal;

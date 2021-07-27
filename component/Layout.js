@@ -21,6 +21,22 @@ class Layout extends Component {
               font-family: "Fira Sans_extra_bold";
               src: url("/FiraSans-ExtraBold.ttf");
             }
+            @font-face {
+              font-family: "Fira Sans_bold";
+              src: url("/FiraSans-Bold.ttf");
+            }
+            @font-face {
+              font-family: "Fira Sans_regular";
+              src: url("/FiraSans-Regular.ttf");
+            }
+            @font-face {
+              font-family: "Fira Sans_medium";
+              src: url("/FiraSans-Medium.ttf");
+            }
+            @font-face {
+              font-family: "Fira Sans_200";
+              src: url("/FiraSans-ExtraLight.ttf");
+            }
             html {
               scroll-behavior: smooth;
             }  
