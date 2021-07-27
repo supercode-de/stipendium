@@ -25,7 +25,8 @@ class Layout extends Component {
             body {
               padding: 0;
               margin: 0;
-              font-family: "Neue_Machina_Regular_400";
+              // font-family: "Neue_Machina_Regular_400";
+              font-family: "Fira Sans";
             }
             * {
               box-sizing: border-box;
