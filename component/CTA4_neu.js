@@ -82,7 +82,7 @@ const CTA4_neu = (props) => {
         }
         h1 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_extra_bold';
           color: #fff;
           font-weight: 900;
           font-size: 4em;
@@ -102,7 +102,7 @@ const CTA4_neu = (props) => {
         p {
           color: #fff;
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
@@ -114,7 +114,7 @@ const CTA4_neu = (props) => {
         button {
           margin: 2em 1em;
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 14px;

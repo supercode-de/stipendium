@@ -106,7 +106,8 @@ const JetztBewerben_neu = (props) => {
             align-self: center;
           }
           h1 {
-            font-family: 'Neue_Machina_Regular_400';
+            // font-family: 'Neue_Machina_Regular_400';
+             font-family: 'Fira Sans_regular';
             font-size: 1.9em;
             color: #fff;
           }
