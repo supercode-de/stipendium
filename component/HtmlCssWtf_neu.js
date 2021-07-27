@@ -155,7 +155,7 @@ const HtmlCssWtf_neu = (props) => {
         //   font-family: 'Neue_Machina_Regular_400';
         font-family: 'Fira Sans_extra_bold';
           font-size: 4.4em;
-          line-height: 1em;
+          line-height: 0.87em;
         //   max-width: 300px;
           color: transparent;
           -webkit-text-stroke-width: 2px;

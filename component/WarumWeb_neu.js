@@ -104,12 +104,12 @@ const WarumWeb_neu = (props) => {
 
         h1 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_extra_bold';
 
           font-weight: 900;
           //   font-size: 4.4em;
 
-          line-height: 1em;
+          line-height: 0.85em;
           margin: 0;
         }
         h1 span.super {
@@ -160,7 +160,7 @@ const WarumWeb_neu = (props) => {
         p {
           //   font-family: 'Neue_Machina_Regular_400';
 
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           color: #10375c;
           font-style: normal;
           font-weight: normal;
