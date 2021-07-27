@@ -10,13 +10,13 @@ class Layout extends Component {
         {this.props.children}
 
         <style jsx global>{`
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
-          //  @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
+            // @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
+          @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
             @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-            @font-face {
-              font-family: "Neue_Machina_Regular_400";
-              src: url("/Neue_Machina_Regular_400.otf");
-            }
+            // @font-face {
+            //   font-family: "Neue_Machina_Regular_400";
+            //   src: url("/Neue_Machina_Regular_400.otf");
+            // }
             html {
               scroll-behavior: smooth;
             }  
