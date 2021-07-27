@@ -17,6 +17,10 @@ class Layout extends Component {
             //   font-family: "Neue_Machina_Regular_400";
             //   src: url("/Neue_Machina_Regular_400.otf");
             // }
+            @font-face {
+              font-family: "Fira Sans_extra_bold";
+              src: url("/FiraSans-ExtraBold.ttf");
+            }
             html {
               scroll-behavior: smooth;
             }  

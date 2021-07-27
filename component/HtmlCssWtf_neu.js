@@ -153,7 +153,7 @@ const HtmlCssWtf_neu = (props) => {
         }
         h1 {
         //   font-family: 'Neue_Machina_Regular_400';
-        font-family: 'Fira Sans';
+        font-family: 'Fira Sans_extra_bold';
           font-size: 4.4em;
           line-height: 1em;
         //   max-width: 300px;
