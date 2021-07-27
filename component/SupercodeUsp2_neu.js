@@ -55,7 +55,8 @@ const SupercodeUsp2_neu = (props) => {
         {`
           .flex {
             display: flex;
-            font-family: 'Neue_Machina_Regular_400';
+            // font-family: 'Neue_Machina_Regular_400';
+            font-family: 'Fira Sans_regular';
             font-size: 4em;
 
             line-height: 80px;
@@ -73,7 +74,8 @@ const SupercodeUsp2_neu = (props) => {
             font-weight: 300;
             left: 3%;
             top: 60%;
-            font-family: 'Poppins', sans-serif;
+            // font-family: 'Poppins', sans-serif;
+            font-family: 'Fira Sans_regular';
             font-style: normal;
             font-weight: normal;
             font-size: 12px;

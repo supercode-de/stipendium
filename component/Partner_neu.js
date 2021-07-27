@@ -193,7 +193,7 @@ const Partner = (props) => {
           position: relative;
           height: 220px;
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_extra_bold';
           font-weight: 900;
           line-height: 68px;
         }
@@ -227,7 +227,7 @@ const Partner = (props) => {
           margin: 0 40px;
         }
         p {
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           font-weight: 400;
           color: #ff0000;
           min-height: 150px;
@@ -241,7 +241,7 @@ const Partner = (props) => {
 
         .button {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 0.6rem;
