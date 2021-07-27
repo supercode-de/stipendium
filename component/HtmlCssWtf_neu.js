@@ -174,7 +174,8 @@ const HtmlCssWtf_neu = (props) => {
         }
         p {
         
-          font-family: 'Neue_Machina_Regular_400';
+        //   font-family: 'Neue_Machina_Regular_400';
+        font-family: 'Fira Sans';
 
           font-style: normal;
           font-weight: normal;
@@ -284,7 +285,8 @@ const HtmlCssWtf_neu = (props) => {
           }
           p {
             color: #fff;
-            font-family: 'Neue_Machina_Regular_400';
+            // font-family: 'Neue_Machina_Regular_400';
+            font-family: 'Fira Sans';
 
             font-style: normal;
             font-weight: normal;

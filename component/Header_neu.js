@@ -66,7 +66,8 @@ const Header = (props) => {
         }
 
         h1 {
-          font-family: 'Neue_Machina_Regular_400';
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans';
           margin: 0;
           padding-bottom: 10vh;
           font-size: 5em;
@@ -92,7 +93,8 @@ const Header = (props) => {
           -webkit-text-stroke-color: #fff;
         }
         h3 {
-          font-family: 'Neue_Machina_Regular_400';
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
@@ -108,7 +110,8 @@ const Header = (props) => {
           margin-bottom: 50px;
         }
         p {
-          font-family: 'Neue_Machina_Regular_400';
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans';
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
