@@ -173,12 +173,12 @@ const WarumWeb_neu = (props) => {
         }
         @media only screen and (max-width: 1635px) {
           h1 {
-            font-size: 4.4em;
+            font-size: 5.1em;
           }
         }
         @media only screen and (max-width: 1440px) {
           h1 {
-            font-size: 4.4em;
+            font-size: 5.1em;
           }
         }
         @media only screen and (max-width: 1040px) {
