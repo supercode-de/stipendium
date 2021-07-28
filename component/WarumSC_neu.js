@@ -185,20 +185,20 @@ const WarumSC_neu = (props) => {
             .centercenter{
                 position: absolute;
                 left: -10%;
-                top: 65%;
+                top: 60%;
                 transform: translateY(-50%);
                 width: 20vw;
             }
             .righttop{
                 position: absolute;
-                right: 10%;
-                top: 10%;
+                right: 22%;
+                top: 12%;
                 transform: translateY(-30%);
-                width: 20vw;
+                width: 17vw;
             }
             .rightcenter{
                 position: absolute;
-                right: 10%;
+                right: 5%;
                 top: 50%;
                 transform: translateY(-30%);
                 width: 20vw;
@@ -208,7 +208,7 @@ const WarumSC_neu = (props) => {
                 right: 0%;
                 bottom: 0;
                 transform: translateY(50%);
-                width: 25vw;
+                width: 27vw;
             }
             .leftbottom{
                 position: absolute;
