@@ -59,9 +59,9 @@ const Header = (props) => {
         }
         .frauen-in-tech {
           position: absolute;
-          right: 15%;
+          right: 11%;
           top: 37%;
-          max-width: 42vw;
+          max-width: 37vw;
           height: 15rem;
         }
 
