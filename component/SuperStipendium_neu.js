@@ -604,6 +604,9 @@ const SuperStipendium_neu = (props) => {
           .arrow-mobile {
             display: block;
           }
+          .arrow {
+            display: none;
+          }
           .stipendium-left {
             margin-bottom: 0;
           }

@@ -255,8 +255,11 @@ const JetztBewerben_neu = (props) => {
             .circle {
             }
             .circle:after {
-              width: 70%;
-              left: -7%;
+              // width: 70%;
+            
+              // background: url("") center/contain
+              // no-repeat;
+              display:none;
             }
           }
           @media (max-width: 768px) {
