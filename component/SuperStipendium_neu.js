@@ -344,7 +344,7 @@ const SuperStipendium_neu = (props) => {
         h1 {
           //   font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_bold';
-          font-size: 4.4em;
+          font-size: 5.1em;
           color: #fff;
           line-height: 60px;
           margin: 0 0 3vh;

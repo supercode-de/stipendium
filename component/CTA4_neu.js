@@ -85,7 +85,7 @@ const CTA4_neu = (props) => {
           font-family: 'Fira Sans_extra_bold';
           color: #fff;
           font-weight: 900;
-          font-size: 4em;
+          font-size: 5.1em;
 
           line-height: 68px;
 

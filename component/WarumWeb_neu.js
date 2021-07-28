@@ -107,7 +107,7 @@ const WarumWeb_neu = (props) => {
           font-family: 'Fira Sans_extra_bold';
 
           font-weight: 900;
-          //   font-size: 4.4em;
+          font-size: 5.1em;
 
           line-height: 0.85em;
           margin: 0;

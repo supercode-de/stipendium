@@ -47,7 +47,7 @@ const Partner = (props) => {
             width='100%'
           >
             <figure>
-              {/* <img src='/female-innovation-hub.png' alt='' /> */}
+              <img src='/female-innovation-hub.png' alt='' />
               <figcaption>
                 <p>
                   Das Fe:male Innovation Hub ist die Plattform für Female
@@ -75,7 +75,7 @@ const Partner = (props) => {
                 </div>
               </figcaption>
             </figure>
-            {/* <figure>
+            <figure>
               <img src='/superdigital-logo.png' alt='' />
               <figcaption>
                 <p>
@@ -104,9 +104,9 @@ const Partner = (props) => {
                   </span>
                 </div>
               </figcaption>
-            </figure> */}
+            </figure>
             <figure>
-              {/* <img src='/supercode-logo.png' alt='' /> */}
+              <img src='/supercode-logo.png' alt='' />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,
@@ -188,7 +188,7 @@ const Partner = (props) => {
           margin: 0;
           padding: 0 0 5vh 3%;
           color: #fff;
-          font-size: 5em;
+          font-size: 5.1em;
           border-bottom: 1px solid #10375c;
           position: relative;
           height: 220px;
@@ -229,10 +229,10 @@ const Partner = (props) => {
         p {
           font-family: 'Fira Sans_regular';
           font-weight: 400;
-          color: #ff0000;
+          color: #fff;
           min-height: 150px;
           font-size: 1rem;
-          padding-top: 30px;
+          //   padding-top: 30px;
         }
 
         figure > img {

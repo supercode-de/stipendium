@@ -135,7 +135,7 @@ const SupercodeUsp2_neu = (props) => {
             -webkit-text-stroke-color: #30e1b9;
             font-weight: 300;
             font-size: 0.5em;
-            padding-right: 10px;
+            padding-right: 25px;
           }
           @media (max-width: 1040px) {
             .flex {
