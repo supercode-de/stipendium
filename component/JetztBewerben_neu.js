@@ -191,7 +191,7 @@ const JetztBewerben_neu = (props) => {
           p {
             color: #fff;
             // font-family: 'Neue_Machina_Regular_400';
-            font-family: 'Fira Sans';
+            font-family: 'Fira Sans_regular';
 
             font-style: normal;
             font-weight: normal;

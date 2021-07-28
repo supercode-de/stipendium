@@ -77,7 +77,8 @@ const Typeform = (props) => {
           position: relative;
           top: ${props.top};
           margin: 2em 1em;
-          font-family: 'Neue_Machina_Regular_400';
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 0.6rem;
