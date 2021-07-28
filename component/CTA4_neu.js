@@ -59,17 +59,21 @@ const CTA4_neu = (props) => {
           background-size: ${props.width}px ${props.width}px;
         }
         #unser-campus div:nth-of-type(1) {
-          width: 70%;
+          width: 75%;
         }
         #unser-campus div:nth-of-type(2) {
-          width: 20%;
+          width: 10%;
+          position: relative;
+          right: 5%;
         }
-
+        .buttoncolumn {
+          width: 10%;
+        }
         .twocolumn {
           display: grid;
           grid-template-columns: 1fr 1fr;
           gap: 4%;
-          padding: 0 8.3% 40px;
+          padding: 0 8.3% 30px;
         }
         .onecolumn {
           display: flex;
@@ -85,11 +89,11 @@ const CTA4_neu = (props) => {
           font-family: 'Fira Sans_extra_bold';
           color: #fff;
           font-weight: 900;
-          font-size: 5.1em;
+          font-size: 4.6em;
 
           line-height: 68px;
 
-          margin-left: 8.3%;
+          margin-left: 5.3%;
         }
         h1 span.super {
           color: transparent;
@@ -131,6 +135,7 @@ const CTA4_neu = (props) => {
         @media only screen and (max-width: 1024px) {
           #unser-campus {
             padding: 50px 0;
+            display: block;
           }
           h1 {
             font-size: 4em;

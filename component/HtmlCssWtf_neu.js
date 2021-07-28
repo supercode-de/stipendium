@@ -284,7 +284,7 @@ const HtmlCssWtf_neu = (props) => {
             margin-bottom: 50px;
           }
           p {
-            color: #fff;
+            color: #000;
             // font-family: 'Neue_Machina_Regular_400';
             font-family: 'Fira Sans_regular';
 

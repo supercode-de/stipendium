@@ -565,6 +565,18 @@ const SuperStipendium_neu = (props) => {
             width: 100%;
             padding: 0 6% 0 6%;
           }
+          .general:after {
+            content: '';
+            position: absolute;
+            top: -50%;
+            bottom: 0;
+            left: -20%;
+            right: 0;
+            display: block;
+            width: 140%;
+            height: 210%;
+            background: url('') center/contain no-repeat;
+          }
         }
         @media (max-width: 979px) {
         }
