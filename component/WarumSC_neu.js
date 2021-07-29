@@ -55,7 +55,7 @@ const WarumSC_neu = (props) => {
           <p>
             Mit über 60% Praxisanteil bilden wir dich optimal für die
             Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein
-            eigenes Portfolio mit großartigen Praxisprojekten. br
+            eigenes Portfolio mit großartigen Praxisprojekten.
           </p>
           <p>
             Zwei Trainern*innen sorgen täglich für eine optimale und effektive

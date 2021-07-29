@@ -164,8 +164,8 @@ const WarumWeb_neu = (props) => {
           color: #10375c;
           font-style: normal;
           font-weight: normal;
-          font-size: 1.1em;
-          line-height: 30px;
+          font-size: 1em;
+          line-height: 20px;
           justify-self: center;
         }
         .bold {

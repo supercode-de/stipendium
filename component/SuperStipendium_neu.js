@@ -55,13 +55,14 @@ const SuperStipendium_neu = (props) => {
           <div className='bold'>
             Der Prozess:
             <br />
-            <span className='nr'> 1 </span>Bis zum 31.08.2021 &nbsp; bewerben:
-            Fragen beantworten und die kleine Design-Aufgabe einsenden.
+            <span className='nr'> 1. </span>Bis zum 31.08.2021 bewerben: Fragen
+            beantworten und die kleine Design-Aufgabe einsenden.
             <br />
-            <span className='nr'> 2 </span>Workshop -Teilnahme: wenn du eine
-            Runde weiter bist, laden wir dich zum Workshop am xx.xx.xx ein.
+            <span className='nr'> 2. </span>Workshop -Teilnahme: wenn du eine
+            Runde weiter bist, laden wir dich zum Workshop ein. Die genauen
+            Termine findest du im Briefing.
             <br />
-            <span className='nr'> 3 </span> Persönliches Gespräch
+            <span className='nr'> 3. </span> Persönliches Gespräch
           </div>
           <br />
           <br />
@@ -444,8 +445,8 @@ const SuperStipendium_neu = (props) => {
           font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
-          font-size: 18px;
-          line-height: 25px;
+          font-size: 1em;
+          line-height: 20px;
           justify-self: center;
         }
         // p {

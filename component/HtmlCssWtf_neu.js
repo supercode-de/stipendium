@@ -179,8 +179,8 @@ const HtmlCssWtf_neu = (props) => {
 
           font-style: normal;
           font-weight: normal;
-          font-size: 1.1em;
-          line-height: 30px;
+          font-size: 1em;
+          line-height: 20px;
           justify-self: center;
         }
         .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1) {
@@ -237,23 +237,23 @@ const HtmlCssWtf_neu = (props) => {
         }
         .twocolumn div:last-of-type img:nth-of-type(1) {
           width: 50%;
-          min-width: 200px;
+          min-width: 180px;
           transform: translate(3vw, 12vh);
         }
         .twocolumn div:last-of-type img:nth-of-type(2) {
-          width: 60%;
-          min-width: 280px;
-          transform: translate(-1vw, 10vh);
+          width: 50%;
+          min-width: 260px;
+          transform: translate(-0.5vw, 8vh);
         }
         .twocolumn div:last-of-type img:nth-of-type(3) {
           width: 80%;
           min-width: 280px;
-          transform: translate(-4vw, 7vh);
+          transform: translate(-4vw, 15vh);
         }
         .twocolumn div:last-of-type img:nth-of-type(4) {
           width: 100%;
           min-width: 280px;
-          transform: scale(1.2, 1.2) translate(0vw, -6vh);
+          transform: scale(1.2, 1.2) translate(0vw, -1vh);
         }
         @media (max-width: 1024px) {
           figure {
