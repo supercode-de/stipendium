@@ -29,6 +29,7 @@ const WarumWeb_neu = (props) => {
             <span className='bold'>
               {' '}
               Unternehmen investieren in UX und UI
+              <br />
             </span>{' '}
             <br /> Immer mehr Unternehmen setzen UX und UI als festen
             Bestandteil des Entwicklungsprozesses ein. Damit sichern sie sich
@@ -170,6 +171,8 @@ const WarumWeb_neu = (props) => {
         }
         .bold {
           font-weight: 900;
+          font-family: 'Fira Sans_medium';
+          font-size: 1.3rem;
         }
         @media only screen and (max-width: 1635px) {
           h1 {

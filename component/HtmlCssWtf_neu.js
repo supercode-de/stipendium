@@ -33,7 +33,7 @@ const HtmlCssWtf_neu = (props) => {
             UX, UI, <br /> <span>WTF</span> ?!
           </h1>
           <p>
-            Ganz gleich, ob du Mediengestalter- *in, Kommunikationsdesigner*in,
+            Ganz gleich, ob du Mediengestalter*in, Kommunikationsdesigner*in,
             Grafik-Designer*in oder anderweitig kreativ ausgebildet bist:
             SuperCode bringt dich innerhalb von{' '}
             <span className='underline'>3 Monaten</span> auf das nächste Level

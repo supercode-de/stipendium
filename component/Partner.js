@@ -1,5 +1,5 @@
-import Carousel from "react-multi-carousel";
-import Link from "next/link";
+import Carousel from 'react-multi-carousel';
+import Link from 'next/link';
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -24,16 +24,16 @@ const responsive = {
 
 const Partner = (props) => {
   return (
-    <div id="Absolventen">
-      <span className="aside">Unsere Partner</span>
+    <div id='Absolventen'>
+      <span className='aside'>Unsere Partner</span>
       <h2>
-        <img src="/image14.png" alt="" />
+        <img src='/image14.png' alt='' />
         <span>
           UNSERE <br /> <span>PARTNER</span>
         </span>
       </h2>
-      <div className="Absolventen-list">
-        <div className="container">
+      <div className='Absolventen-list'>
+        <div className='container'>
           <Carousel
             responsive={responsive}
             ssr
@@ -41,33 +41,33 @@ const Partner = (props) => {
             slidesToSlide={1}
             infinite
             partialVisible
-            containerClass="container-with-dots"
-            deviceType={""}
-            itemClass="carousel-item-padding-20-px"
+            containerClass='container-with-dots'
+            deviceType={''}
+            itemClass='carousel-item-padding-20-px'
           >
             <figure>
-              <img src="/female-innovation-hub.png" alt="" />
+              <img src='/female-innovation-hub.png' alt='' />
               <figcaption>
                 <p>
                   Das Fe:male Innovation Hub ist die Plattform für Female
                   Empowerment und Entrepreneurship und steht für stehen für
                   digitale Bildung, Diversität und Chancengleichheit.
                 </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://www.femaleinnovationhub.com/">
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://www.femaleinnovationhub.com/'>
                       <a>WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/company/female-innovation-hub/">
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/company/female-innovation-hub/'>
                       <a>LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/femaleinnovationhub/">
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/femaleinnovationhub/'>
                       <a>FACEBOOK</a>
                     </Link>
                   </span>
@@ -75,7 +75,7 @@ const Partner = (props) => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/superdigital-logo.png" alt="" />
+              <img src='/superdigital-logo.png' alt='' />
               <figcaption>
                 <p>
                   Unser Ziel ist es, Menschen für das Verstehen von digitaler
@@ -83,21 +83,21 @@ const Partner = (props) => {
                   Gestaltung der digitalen Welt zu vermitteln und Wege der
                   selbstbestimmten Nutzung aufzuzeigen.
                 </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://www.super-digital.xyz/">
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://www.super-digital.xyz/'>
                       <a>WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/superdigitalev">
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/superdigitalev'>
                       <a>LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/company/superdigitalev">
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/company/superdigitalev'>
                       <a>FACEBOOK</a>
                     </Link>
                   </span>
@@ -105,7 +105,7 @@ const Partner = (props) => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/supercode-logo.png" alt="" />
+              <img src='/supercode-logo.png' alt='' />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,
@@ -115,21 +115,21 @@ const Partner = (props) => {
                   Der Rockstar unter allen IT-Bildungsinstituten in NRW!
                 </p>
 
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://super-code.de">
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://super-code.de'>
                       <a>WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/school/19099791">
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/school/19099791'>
                       <a>LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/supercodegmbh">
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/supercodegmbh'>
                       <a>FACEBOOK</a>
                     </Link>
                   </span>
@@ -149,7 +149,7 @@ const Partner = (props) => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
@@ -192,7 +192,7 @@ const Partner = (props) => {
           border-bottom: 1px solid #5d3ede;
           position: relative;
           height: 220px;
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           font-weight: 300;
         }
         h2 span {
@@ -233,7 +233,7 @@ const Partner = (props) => {
         }
 
         .button {
-          font-family: "Neue_Machina_Regular_400";
+          font-family: 'Neue_Machina_Regular_400';
           font-style: normal;
           font-weight: normal;
           font-size: 12px;

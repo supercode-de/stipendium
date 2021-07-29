@@ -84,7 +84,7 @@ const SuperStipendium_neu = (props) => {
 
         <div className='general'>
           <h5>
-            Start: 25.10.2021 Ende: 04.02.2022 Umfang: 13 Wochen / Teilzeit{' '}
+            Kurszeitraum: 25.10.2021 - 04.02.2022 Umfang: 13 Wochen / Teilzeit{' '}
             <br /> <br /> 1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr) 2x pro
             Woche abends (von 18:00 bis 21:00 Uhr)
           </h5>
@@ -528,12 +528,12 @@ const SuperStipendium_neu = (props) => {
           position: absolute;
           top: -56%;
           bottom: 0;
-          left: -20%;
+          left: -26.5%;
           right: 0;
           display: block;
           width: 140%;
           height: 210%;
-          transform: scale(0.95, 1.1);
+          transform: scale(0.85, 1.1);
           background: url(/img/StipendiumLargeCircle.svg) center/contain
             no-repeat;
         }
@@ -542,7 +542,7 @@ const SuperStipendium_neu = (props) => {
           //   font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_regular';
           color: #fff;
-          font-size: 1.5rem;
+          font-size: 1.3rem;
           line-height: 28px;
           letter-spacing: 1px;
         }

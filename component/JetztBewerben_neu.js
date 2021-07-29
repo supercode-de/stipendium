@@ -9,7 +9,7 @@ const JetztBewerben_neu = (props) => {
       <div className='twocolumn'>
         <div className='onecolumn'>
           <h1>
-            “An alle Karrierewechsel*innen da draußen... wenn ihr es wirklich
+            “An alle Karrierewechslerinnen da draußen... wenn ihr es wirklich
             wollt - fangt einfach an. Überlegt nicht zu viel. Schreibt die
             ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas
             Großem sein!”
@@ -34,7 +34,7 @@ const JetztBewerben_neu = (props) => {
                 <br />
                 Bewirb dich jetzt und mit etwas Glück
                 <br />
-                startest du bald deine IT Karriere!
+                startest du bald deine neue Karriere!
               </p>
             </div>
           </div>

@@ -33,33 +33,21 @@ const WarumSC_neu = (props) => {
           </h1>
 
           <p>
-            Egal ob du Quereinsteigerin, Berufstätige, alleinerziehend oder
-            Studienabrecherin bist: SuperCode unterstützt dich deinen Weg in die
-            IT zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich
-            jede Person gesehen und angenomen fühlt und ihr Potential voll
-            entfalten kann.
+            Egal ob du Quereinsteiger*in, Berufstätig, alleinerziehend bist oder
+            dein Studium abgebrochen hast: SuperCode unterstützt dich auf deinem
+            Weg in die digitale Branche. Du lernst alles, was du für deinen
+            Einstieg in die digitale Karriere brauchst: Ein umfangreiches
+            UX-Know-How in den Bereichen User-Research und -Methods, Prototyping
+            & Wireframing und die Prinzipien des benutzerzentrierten Designs.
             <br />
           </p>
           <p>
-            Du lernst alles, was du für deinen Einstieg in die digitale Karriere
-            brauchst: Ein umfangreiches UX-Know-How in den Bereichen
-            User-Research und -Methods, Prototyping & Wireframing und den
-            Prinzipien des benutzerzentrierten Designs.
+            Mit über 60% Praxisanteil bilden wir dich optimal für die
+            Berufspraxis als UX/UI-Designer*in aus und unterstützen dich dabei
+            ein eigenes Portfolios mit großartigen Praxisprojekten zu erstellen.
+            Bis zu zwei Trainern*innen sorgen täglich für eine optimale und
+            effektive Lernbegleitung.
             <br />
-          </p>
-          <p>
-            Ein umfangreiches UX-Know-How in den Bereichen User-Research und
-            -Methods, Prototyping & Wireframing und den Prinzipien des
-            benutzerzentrierten Designs.
-          </p>
-          <p>
-            Mit über 60% Praxisanteil bilden wir dich optimal für die
-            Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein
-            eigenes Portfolio mit großartigen Praxisprojekten.
-          </p>
-          <p>
-            Zwei Trainern*innen sorgen täglich für eine optimale und effektive
-            Lernbegleitung.
           </p>
         </div>
         <div className='gallery'>
@@ -142,7 +130,7 @@ const WarumSC_neu = (props) => {
             .twocolumn{
                 display:grid;
                 grid-template-columns:50% 50%;
-                padding-bottom:40px;
+                padding-bottom:45px;
             }
             
             h1{
@@ -184,14 +172,14 @@ const WarumSC_neu = (props) => {
             }
             .centercenter{
                 position: absolute;
-                left: -10%;
+                left: -3%;
                 top: 60%;
                 transform: translateY(-50%);
-                width: 20vw;
+                width: 17vw;
             }
             .righttop{
                 position: absolute;
-                right: 22%;
+                right: 16%;
                 top: 12%;
                 transform: translateY(-30%);
                 width: 17vw;
@@ -201,14 +189,14 @@ const WarumSC_neu = (props) => {
                 right: 5%;
                 top: 50%;
                 transform: translateY(-30%);
-                width: 20vw;
+                width: 18vw;
             }
             .rightbottom{
                 position: absolute;
                 right: 0%;
                 bottom: 0;
-                transform: translateY(50%);
-                width: 27vw;
+                transform: translateY(53%);
+                width: 26vw;
             }
             .leftbottom{
                 position: absolute;

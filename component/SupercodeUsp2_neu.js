@@ -13,7 +13,7 @@ const SupercodeUsp2_neu = (props) => {
                 <span className='super-green'>01</span>
               </div>
               <div>
-                <span className='super-stroke'>bis zu 2Trainer*innen</span>
+                <span className='super-stroke'>bis zu 2 Trainer*innen</span>
               </div>
             </div>
             <div className='flex'>
@@ -30,7 +30,7 @@ const SupercodeUsp2_neu = (props) => {
                 <span className='super-green'>03</span>
               </div>
               <div>
-                <span className='super-stroke'> Fokus auf Javascript</span>
+                <span className='super-stroke'> Fokus auf Prototyping</span>
               </div>
             </div>
             <div className='flex'>

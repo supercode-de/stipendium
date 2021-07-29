@@ -25,7 +25,7 @@ const responsive = {
 const Partner = (props) => {
   return (
     <div id='Absolventen'>
-      <span className='aside'>Unsere Partner</span>
+      {/* <span className='aside'>Unsere Partner</span> */}
       <h2>
         <img src='/image14.png' alt='' />
         <span>
@@ -47,12 +47,13 @@ const Partner = (props) => {
             width='100%'
           >
             <figure>
-              <img src='/female-innovation-hub.png' alt='' />
+              <img src='/digihub.svg' alt='' />
               <figcaption>
                 <p>
-                  Das Fe:male Innovation Hub ist die Plattform für Female
-                  Empowerment und Entrepreneurship und steht für stehen für
-                  digitale Bildung, Diversität und Chancengleichheit.
+                  Der digihub umfasst ein großes Netzwerk aus unterschiedlichen
+                  Akteuren wie Städten und Gemeinden, IHKs, Mittelstand und
+                  Corporates, Co-Working-Spaces, Finanzinstituten, Hochschulen
+                  und Business Angels.
                 </p>
                 <div className='button'>
                   <span className='block'>
@@ -76,7 +77,7 @@ const Partner = (props) => {
               </figcaption>
             </figure>
             <figure>
-              <img src='/superdigital-logo.png' alt='' />
+              <img src='/superdigital.svg' alt='' />
               <figcaption>
                 <p>
                   Unser Ziel ist es, Menschen für das Verstehen von digitaler
@@ -106,7 +107,7 @@ const Partner = (props) => {
               </figcaption>
             </figure>
             <figure>
-              <img src='/supercode-logo.png' alt='' />
+              <img src='/supercode.svg' alt='' />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,
@@ -236,9 +237,14 @@ const Partner = (props) => {
         }
 
         figure > img {
-          height: 50px;
+          height: 30px;
+          margin-top: 10px;
+          margin-bottom: 10px;
         }
-
+        figcaption p {
+          margin-bottom: 0px;
+          margin: 0 1%;
+        }
         .button {
           //   font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_regular';
