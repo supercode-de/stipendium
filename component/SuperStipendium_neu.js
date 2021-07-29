@@ -520,13 +520,14 @@ const SuperStipendium_neu = (props) => {
         .general:after {
           content: '';
           position: absolute;
-          top: -50%;
+          top: -52%;
           bottom: 0;
           left: -20%;
           right: 0;
           display: block;
           width: 140%;
           height: 210%;
+          transform: scale(1, 1.1);
           background: url(/img/StipendiumLargeCircle.svg) center/contain
             no-repeat;
         }

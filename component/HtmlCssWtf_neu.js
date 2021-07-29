@@ -204,8 +204,8 @@ const HtmlCssWtf_neu = (props) => {
           left: -5px;
           right: 0;
           display: block;
-          width: 110%;
-          height: 1.4em;
+          width: 112%;
+          height: 1.5em;
           background: url(/img/StipendiumDateCircle.svg) center/contain no-repeat;
         }
 
@@ -219,7 +219,7 @@ const HtmlCssWtf_neu = (props) => {
           display: block;
           width: 150%;
           height: 2.5em;
-          transform: scale(1.4, 0.8);
+          transform: scale(1.17, 0.8);
           background: url(/img/htmlcsswtf_line3.svg) center/contain no-repeat;
         }
         .one-line {
