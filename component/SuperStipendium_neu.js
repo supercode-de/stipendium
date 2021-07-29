@@ -48,7 +48,10 @@ const SuperStipendium_neu = (props) => {
           <br />
           Damit möchten wir noch mehr Kreativschaffende ermutigen, den
           Karrierewechsel in die Digital-Branche zu starten. <br /> <br />
-          <span className='circle'> Bewirb dich jetzt bis zum 31.08.2021</span>
+          <span className='circle'>
+            {' '}
+            Bewirb&nbsp; dich jetzt bis zum 31.08.2021
+          </span>
           <br />
           <br />
           <br />
@@ -387,14 +390,14 @@ const SuperStipendium_neu = (props) => {
         .circle:after {
           content: '';
           position: absolute;
-          top: -80%;
+          top: -85%;
           bottom: 0;
-          left: 13%;
+          left: 10.5%;
           right: 0;
           display: block;
           width: 115%;
           height: 3.5em;
-          transform: scale(1.5, 0.7);
+          transform: scale(1.5, 1);
           background: url(/img/StipendiumDateCircle.svg) center/contain
             no-repeat;
         }
