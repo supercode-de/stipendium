@@ -48,14 +48,14 @@ const SuperStipendium_neu = (props) => {
           <br />
           Damit möchten wir noch mehr Kreativschaffende ermutigen, den
           Karrierewechsel in die Digital-Branche zu starten. <br /> <br />
-          <span className='circle'> Bewirb dich jetzt bis zum xx.xx.xxx</span>
+          <span className='circle'> Bewirb dich jetzt bis zum 31.08.2021</span>
           <br />
           <br />
           <br />
           <div className='bold'>
             Der Prozess:
             <br />
-            <span className='nr'> 1 </span>Bis zum xx.xx.xx &nbsp; bewerben:
+            <span className='nr'> 1 </span>Bis zum 31.08.2021 &nbsp; bewerben:
             Fragen beantworten und die kleine Design-Aufgabe einsenden.
             <br />
             <span className='nr'> 2 </span>Workshop -Teilnahme: wenn du eine
@@ -241,9 +241,11 @@ const SuperStipendium_neu = (props) => {
           max-width: 70vw;
           height: 6.3rem;
         }
-        .arrow {
+        .general .arrow {
           position: relative;
-          transform: rotate(20deg);
+          transform: rotate(-10deg);
+          left: -106%;
+          top: 112px;
         }
         .arrow-mobile {
           display: none;
@@ -520,14 +522,14 @@ const SuperStipendium_neu = (props) => {
         .general:after {
           content: '';
           position: absolute;
-          top: -54%;
+          top: -56%;
           bottom: 0;
           left: -20%;
           right: 0;
           display: block;
           width: 140%;
           height: 210%;
-          transform: scale(1, 1.1);
+          transform: scale(0.95, 1.1);
           background: url(/img/StipendiumLargeCircle.svg) center/contain
             no-repeat;
         }
