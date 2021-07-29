@@ -520,7 +520,7 @@ const SuperStipendium_neu = (props) => {
         .general:after {
           content: '';
           position: absolute;
-          top: -52%;
+          top: -54%;
           bottom: 0;
           left: -20%;
           right: 0;
