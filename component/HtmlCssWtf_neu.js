@@ -44,11 +44,9 @@ const HtmlCssWtf_neu = (props) => {
             <span className='square'> Digitalwirtschaft.</span>
           </p>
           <p>
-            Der Bedarf an qualifizierten UX/UI-Designer*innen ist hoch und wird
-            weiter steigen, denn nutzerzentrierte Produkte bieten nicht nur
-            einen Wettbewerbsvorteil, sondern werden im Zuge der
-            fortschreitenden Digitalisierung zu dem Erfolgskriterium Nummer Eins
-            werden.
+            Unternehmen werden dich lieben, denn du lernst, dich frei zwischen
+            UX und UI zu bewegen und damit das perfekte Nutzererlebnis bei
+            Digitalprodukten zu erschaffen.
           </p>
         </div>
         <div className='gallery'>

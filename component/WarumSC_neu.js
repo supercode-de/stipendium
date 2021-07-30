@@ -33,12 +33,13 @@ const WarumSC_neu = (props) => {
           </h1>
 
           <p>
-            Egal ob du Quereinsteiger*in, Berufstätig, alleinerziehend bist oder
+            Egal ob du Quereinsteiger*in, berufstätig, alleinerziehend bist oder
             dein Studium abgebrochen hast: SuperCode unterstützt dich auf deinem
             Weg in die digitale Branche. Du lernst alles, was du für deinen
             Einstieg in die digitale Karriere brauchst: Ein umfangreiches
             UX-Know-How in den Bereichen User-Research und -Methods, Prototyping
-            & Wireframing und die Prinzipien des benutzerzentrierten Designs.
+            & Wireframing und die Prinzipien des benutzerzentrierten Designs für
+            UI.
             <br />
           </p>
           <p>

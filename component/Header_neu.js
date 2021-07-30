@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <div id='header'>
       <div className='bg'>
-        <span className='aside'>lerne programmieren</span>
+        <span className='aside'>lerne ux/ui-design</span>
 
         <div className='content'>
           <h1>

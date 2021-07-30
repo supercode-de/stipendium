@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 const WarumWeb_neu = (props) => {
   return (
     <div id='unser-campus'>
-      <span className='aside'>Digitale Zukunft</span>
+      {/* <span className='aside'>Digitale Zukunft</span> */}
 
       <div className='threecolumn'>
         <div className='imgleft'>
@@ -34,7 +34,7 @@ const WarumWeb_neu = (props) => {
             <br /> Immer mehr Unternehmen setzen UX und UI als festen
             Bestandteil des Entwicklungsprozesses ein. Damit sichern sie sich
             Wettbewerbsvorteile und machen ihr Produkt zu einem einzigartigen
-            Erlebnis
+            Erlebnis.
           </p>
         </div>
 
