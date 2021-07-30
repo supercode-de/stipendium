@@ -107,7 +107,7 @@ const WarumSC_neu = (props) => {
             #warum-sc {
                             font-family: "Neue_Machina_Regular_400";
 
-                padding:100px 0 100px 10%;  
+                padding:100px 0 170px 10%;  
                 position: relative;
                 background-color: #10375C;
                 // background-image: linear-gradient(
@@ -195,7 +195,7 @@ const WarumSC_neu = (props) => {
                 position: absolute;
                 right: 0%;
                 bottom: 0;
-                transform: translateY(59%);
+                transform: translateY(68%);
                 width: 26vw;
             }
             .leftbottom{
