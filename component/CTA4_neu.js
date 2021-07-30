@@ -138,8 +138,6 @@ const CTA4_neu = (props) => {
             display: block;
           }
           h1 {
-            font-size: 4em;
-
             line-height: 1em;
           }
         }
@@ -150,7 +148,7 @@ const CTA4_neu = (props) => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 3em;
+            font-size: 4em;
 
             line-height: 2em;
           }
@@ -171,6 +169,13 @@ const CTA4_neu = (props) => {
             // justify-content: center;
             // align-items: flex-end;
             padding-bottom: 100px;
+          }
+          @media only screen and (max-width: 568px) {
+            h1 {
+              font-size: 4em;
+              margin-bottom: 0;
+              line-height: 1em;
+            }
           }
         }
       `}</style>

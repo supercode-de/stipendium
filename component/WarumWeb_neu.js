@@ -185,20 +185,20 @@ const WarumWeb_neu = (props) => {
           }
         }
         @media only screen and (max-width: 1040px) {
-          h1 {
-            font-size: 2.6em;
-          }
+          // h1 {
+          //   font-size: 2.6em;
+          // }
         }
         @media only screen and (max-width: 768px) {
           #unser-campus {
             padding: 50px 0 0;
             min-height: 50vh;
           }
-          h1 {
-            font-size: 3.4em;
+          // h1 {
+          //   font-size: 3.4em;
 
-            line-height: 2em;
-          }
+          //   line-height: 2em;
+          // }
           h1 span.super {
             -webkit-text-stroke-width: 2px;
           }
@@ -211,7 +211,7 @@ const WarumWeb_neu = (props) => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #fff;
+            -webkit-text-stroke-color: #000;
             font-weight: 300;
             opacity: 0.7;
           }
@@ -225,10 +225,15 @@ const WarumWeb_neu = (props) => {
             font-size: 1.4em;
             line-height: 24px;
           }
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-width: 450px) {
             h1 {
-              font-size: 2em;
+              font-size: 4em;
             }
+          }
+          @media only screen and (max-width: 375px) {
+            // h1 {
+            //   font-size: 2em;
+            // }
           }
         }
       `}</style>

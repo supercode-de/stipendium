@@ -281,7 +281,7 @@ const HtmlCssWtf_neu = (props) => {
           }
           h1 {
             font-size: 5em;
-            margin-bottom: 50px;
+            margin-bottom: 20px;
           }
           p {
             color: #000;
@@ -298,6 +298,23 @@ const HtmlCssWtf_neu = (props) => {
           .asidebg:before {
             background: none;
           }
+          #html-css-wtf {
+              padding: 20px 30px  50px 30px;
+          }
+          .twocolumn div:first-of-type {
+              width:100%;
+          }
+        }
+        @media (max-width: 568px) {
+h1{
+    font-size:4.5em;
+}
+p {
+    font-size:1.8em;
+}
+.twocolumn div:first-of-type p:last-of-type {
+    width: 100%;
+  }
         }
         @media (max-width: 468px) {
         }

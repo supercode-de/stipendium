@@ -601,6 +601,12 @@ const SuperStipendium_neu = (props) => {
             top: 40%;
             height: 6rem;
           }
+          // .arrow {
+          //   display: none;
+          // }
+          #super-stipendium {
+            padding: 40px 20px 50px 20px;
+          }
         }
 
         @media (max-width: 568px) {
@@ -609,13 +615,28 @@ const SuperStipendium_neu = (props) => {
             display: none;
           }
           .arrow-mobile {
-            display: block;
+            display: none;
           }
           .arrow {
             display: none;
           }
           .stipendium-left {
             margin-bottom: 0;
+          }
+          h1 {
+            font-size: 4em;
+
+            line-height: 0.87em;
+          }
+          .frauen-in-tech {
+            top: 40%;
+            height: 4rem;
+          }
+          .headline-left {
+            margin-bottom: 50px;
+          }
+          p {
+            font-size: 1.8em;
           }
         }
 

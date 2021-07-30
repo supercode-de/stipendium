@@ -278,10 +278,16 @@ const JetztBewerben_neu = (props) => {
               align-self: center;
               justify-self: center;
             }
+            .cta-container{
+              display:block;
+            }
+            #unser-campus {
+              padding: 50px 30px;
+  
           }
           @media (max-width: 468px) {
             #unser-campus {
-              padding: 100px 30px;
+              padding: 20px 30px;
             }
             h1 {
               font-size: 2em;

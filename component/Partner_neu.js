@@ -297,15 +297,26 @@ const Partner = (props) => {
             transform: translateX(-50%);
             max-height: 550px;
           }
+          h2 {
+            font-size: 4em;
+            line-height: 0.87em;
+          }
           .block {
             display: block;
           }
           .button {
             display: block;
             text-align: center;
+            margin: auto;
           }
           .hide {
             display: block;
+          }
+          #Absolventen {
+            padding: 50px 30px 40px 30px;
+          }
+          figure {
+            margin-left: 20px;
           }
         }
       `}</style>

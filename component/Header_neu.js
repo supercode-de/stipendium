@@ -149,14 +149,20 @@ const Header = (props) => {
             margin-bottom: 20px;
           }
           h1 {
-            font-size: 2.5em;
-            line-height: 20px;
+            font-size: 4em;
+            line-height: 0px;
             font-weight: 500;
             margin-bottom: 40px;
           }
+
           .frauen-in-tech {
             top: 40%;
-            height: 6rem;
+            height: 4rem;
+            width: 50%;
+            right: 28%;
+          }
+          #header {
+            height: 90vh;
           }
         }
       `}</style>

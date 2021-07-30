@@ -246,6 +246,9 @@ const WarumSC_neu = (props) => {
                     font-size:1.4em;
                     line-height: 24px;
                 }
+                #warum-sc {
+                    padding:30px 30px 50px 30px;
+                }
               }
               @media (max-width: 468px) {
                 h1{
@@ -262,6 +265,9 @@ const WarumSC_neu = (props) => {
                 }
                 .leftbottom{
                     width: 40vw;
+                }
+                p{
+                    font-size:1.8em;
                 }
               }
             `}</style>
