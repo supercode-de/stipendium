@@ -180,7 +180,7 @@ const WarumSC_neu = (props) => {
             .righttop{
                 position: absolute;
                 right: 16%;
-                top: 12%;
+                top: 7%;
                 transform: translateY(-30%);
                 width: 17vw;
             }
@@ -195,7 +195,7 @@ const WarumSC_neu = (props) => {
                 position: absolute;
                 right: 0%;
                 bottom: 0;
-                transform: translateY(53%);
+                transform: translateY(59%);
                 width: 26vw;
             }
             .leftbottom{
