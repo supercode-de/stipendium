@@ -128,16 +128,16 @@ const WarumWeb_neu = (props) => {
         .web-app {
           white-space: nowrap;
         }
-        .super::after {
-          position: absolute;
-          background: url('/Vector49.svg') center/cover no-repeat;
-          height: 3px;
-          width: 130px;
-          left: -160px;
-          bottom: 0;
-          content: '';
-          display: block;
-        }
+        // .super::after {
+        //   position: absolute;
+        //   background: url('/Vector49.svg') center/cover no-repeat;
+        //   height: 3px;
+        //   width: 130px;
+        //   left: -160px;
+        //   bottom: 0;
+        //   content: '';
+        //   display: block;
+        // }
         .internet::after {
           position: absolute;
           background: url('/Vector55.svg') center/cover no-repeat;
