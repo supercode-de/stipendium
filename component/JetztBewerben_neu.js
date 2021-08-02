@@ -15,7 +15,7 @@ const JetztBewerben_neu = (props) => {
             Großem sein!”
           </h1>
           <div className='circle'>
-            <h1>
+            <h1 className='emilija'>
               Emilija Sekulic, Video- Journalistin <br /> und Bootcamp-
               Teilnehmerin
             </h1>
@@ -291,6 +291,7 @@ const JetztBewerben_neu = (props) => {
             }
             h1 {
               font-size: 2em;
+              line-height:1em;
             }
             p {
               font-size: 1.3em;
@@ -304,6 +305,9 @@ const JetztBewerben_neu = (props) => {
               align-self: center;
               justify-self: center;
             }
+          .emilija{
+            margin-bottom:-50px;
+          }
 
             .circle:after {
               height: 100;

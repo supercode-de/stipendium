@@ -507,7 +507,7 @@ const SuperStipendium_neu = (props) => {
 
         h6 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
+          font-family: 'Fira Sans_regular';
           color: #ffffff;
           font-size: 16px;
           line-height: 18px;
@@ -638,6 +638,12 @@ const SuperStipendium_neu = (props) => {
           p {
             font-size: 1.8em;
           }
+
+          .bold {
+            line-height: 1.4em;
+            font-weight: normal;
+            font-family: 'Fira Sans_regular';
+          }
         }
 
         @media (max-width: 479px) {
@@ -654,7 +660,22 @@ const SuperStipendium_neu = (props) => {
           //   background: url(/img/StipendiumLargeCircleMobile.svg) center/contain
           //     no-repeat;
           // }
+          .general {
+            padding-top: 30px;
+          }
 
+          .general h5 {
+            //   font-family: 'Neue_Machina_Regular_400';
+            font-family: 'Fira Sans_regular';
+            color: #fff;
+            font-size: 1.2rem;
+            line-height: 20px;
+            letter-spacing: 1px;
+          }
+
+          .information {
+            margin-top: -20px;
+          }
           // #myCarousel {
           //   display: block;
           // }
