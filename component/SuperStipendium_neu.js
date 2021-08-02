@@ -702,9 +702,13 @@ const SuperStipendium_neu = (props) => {
             border-top: none;
           }
           @media (max-width: 375px) {
+            .bold {
+              margin-top: -20px;
+            }
             .circle:after {
               content: '';
               position: absolute;
+
               top: 3%;
               bottom: 0;
               left: 10.5%;
