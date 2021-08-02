@@ -46,7 +46,8 @@ class Layout extends Component {
               padding: 0;
               margin: 0;
               // font-family: "Neue_Machina_Regular_400";
-              font-family: "Fira Sans";
+              font-family: "Fira Sans_regular";
+              color:red;
             }
             * {
               box-sizing: border-box;

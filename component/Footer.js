@@ -32,7 +32,7 @@ const Footer = (props) => {
             <a>DSGVO</a>
           </Link>
         </div>
-        <p>&copy; 2020</p>
+        <p className='year'>&copy; 2020</p>
       </div>
       <style jsx>
         {`
@@ -59,6 +59,7 @@ const Footer = (props) => {
             background-size: ${props.width}px ${props.width}px;
             color: #fff;
             font-weight: 200;
+
             padding-top: 0.8em;
           }
           .flex {
@@ -72,6 +73,12 @@ const Footer = (props) => {
             display: flex;
             justify-content: space-around;
           }
+          .links a {
+            font-family: 'Fira Sans_regular';
+          }
+          .year {
+            font-family: 'Fira Sans_regular';
+          }
           .link-container {
             display: flex;
             flex-direction: column;
@@ -82,6 +89,7 @@ const Footer = (props) => {
             display: block;
             padding: 0.5em 5px;
             color: #fff;
+            font-family: 'Fira Sans_regular';
           }
           a:visited {
             color: #fff;
