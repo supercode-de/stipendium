@@ -42,7 +42,7 @@ const SuperStipendium_neu = (props) => {
         <p>
           Die Performance-Agentur Pine, das Düsseldorfer DigiHub und der
           SuperDigital e.V. ermöglichen dir ein Stipendium bei SuperCode und
-          damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamp im
+          damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps im
           Bereich UX/UI-Design.
           <br />
           <br />
@@ -679,6 +679,22 @@ const SuperStipendium_neu = (props) => {
             width: 100%;
             border: 2px solid #30e1b9;
             border-top: none;
+          }
+          @media (max-width: 375px) {
+            .circle:after {
+              content: '';
+              position: absolute;
+              top: 3%;
+              bottom: 0;
+              left: 10.5%;
+              right: 0;
+              display: block;
+              width: 115%;
+              height: 3.5em;
+              transform: scale(1.5, 1);
+              background: url(/img/StipendiumDateCircle.svg) center/contain
+                no-repeat;
+            }
           }
         }
       `}</style>

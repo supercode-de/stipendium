@@ -142,17 +142,19 @@ const Header = (props) => {
             font-size: 1.6em;
             margin-bottom: 0;
           }
-          h3:first-of-type {
-            margin-top: 20px;
-          }
-          h3:last-of-type {
-            margin-bottom: 20px;
-          }
+          // h3:first-of-type {
+          //   margin-top: 20px;
+          // }
+          // h3:last-of-type {
+          //   margin-bottom: 20px;
+          // }
           h1 {
-            font-size: 4em;
+            font-size: 3em;
             line-height: 0px;
-            font-weight: 500;
-            margin-bottom: 40px;
+            //   font-weight: 500;
+            //   margin-bottom: 40px;
+
+            width: 100%;
           }
 
           .frauen-in-tech {
