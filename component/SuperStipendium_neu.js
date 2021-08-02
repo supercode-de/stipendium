@@ -69,7 +69,7 @@ const SuperStipendium_neu = (props) => {
           </div>
           <br />
           <br />
-          {'...'}und mit etwas Glück erhälst du das Stipendium und startest
+          {'...'}und mit etwas Glück erhältst du das Stipendium und startest
           deine UX / UI-Karriere!
         </p>
 
