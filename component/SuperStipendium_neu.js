@@ -42,7 +42,7 @@ const SuperStipendium_neu = (props) => {
         <p>
           Der SuperDigital e.V., das Bildungsinstitut SuperCode und das
           Düsseldorfer DigiHub ermöglichen dir ein Stipendium bei SuperCode und
-          damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamp im
+          damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps im
           Bereich UX / UI Design.
           <br />
           <br />
