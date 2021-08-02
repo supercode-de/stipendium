@@ -50,7 +50,7 @@ const SuperStipendium_neu = (props) => {
           Karrierewechsel in die Digital-Branche zu starten. <br /> <br />
           <span className='circle'>
             {' '}
-            Bewirb&nbsp; dich jetzt bis zum 31.08.2021
+            Bewirb&nbsp; dich jetzt bis zum 31.08.2021.
           </span>
           <br />
           <br />
