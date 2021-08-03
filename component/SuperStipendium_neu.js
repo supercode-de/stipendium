@@ -392,7 +392,7 @@ const SuperStipendium_neu = (props) => {
           position: absolute;
           top: -85%;
           bottom: 0;
-          left: 10.5%;
+          left: 9%;
           right: 0;
           display: block;
           width: 115%;

@@ -167,12 +167,12 @@ const JetztBewerben_neu = (props) => {
             position: absolute;
             top: -30px;
             bottom: 0;
-            left: -50px;
+            left: -80px;
             right: 0;
             display: block;
              height: 140%;
-            width: 115%;
-            transform: scale(1.4, 0.8);
+            width: 114%;
+            transform: scale(1.2, 0.8);
             background: url(/img/CircleVectorEmilija.svg) center/contain
               no-repeat;
           }
