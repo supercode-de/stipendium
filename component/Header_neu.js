@@ -22,7 +22,7 @@ const Header = (props) => {
       </div>
       <style jsx>{`
         #header {
-          background: url('/img/hero.png') center/cover no-repeat;
+          background: url('/img/hero.jpg') center/cover no-repeat;
         }
         .bg {
           height: 100vh;
