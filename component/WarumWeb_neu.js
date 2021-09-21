@@ -242,19 +242,3 @@ const WarumWeb_neu = (props) => {
 };
 
 export default WarumWeb_neu;
-
-// .img-three {
-//   margin-left: ${props.width * 3}px;
-//   margin-top: ${props.width * .5}px;
-// }
-// .img-four {
-//   margin-left: ${props.width * 8}px;
-//   margin-top: -${1.5 * props.width}px
-// }
-// .img-five {
-//   margin-top: ${props.width}px;
-// }
-// .img-six {
-//   margin-left: ${props.width * 7}px;
-//   margin-top: ${props.width}px
-// }

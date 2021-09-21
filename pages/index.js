@@ -1,17 +1,14 @@
 import Header_neu from '../component/Header_neu';
-import { useWindowSize } from '../component/functions/windowSize';
 import Layout from '../component/Layout';
 import JetztBewerben_neu from '../component/JetztBewerben_neu';
 import Partner_neu from '../component/Partner_neu';
 import SupercodeUsp2_neu from '../component/SupercodeUsp2_neu';
 import Footer from '../component/Footer';
-
 import WarumWeb_neu from '../component/WarumWeb_neu';
 import CTA4_neu from '../component/CTA4_neu';
 import SuperStipendium_neu from '../component/SuperStipendium_neu';
 import HtmlCssWtf_neu from '../component/HtmlCssWtf_neu';
 import WarumSC_neu from '../component/WarumSC_neu';
-import Head from 'next/head';
 
 export default function Home(props) {
   return (

@@ -77,7 +77,7 @@ const JetztBewerben = (props) => {
               transparent 100%
             );
           background-position: 0 0, 0 0;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         #unser-campus .imgleft,
         #unser-campus .imgright {
@@ -227,19 +227,3 @@ const JetztBewerben = (props) => {
 };
 
 export default JetztBewerben;
-
-// .img-three {
-//   margin-left: ${props.width * 3}px;
-//   margin-top: ${props.width * .5}px;
-// }
-// .img-four {
-//   margin-left: ${props.width * 8}px;
-//   margin-top: -${1.5 * props.width}px
-// }
-// .img-five {
-//   margin-top: ${props.width}px;
-// }
-// .img-six {
-//   margin-left: ${props.width * 7}px;
-//   margin-top: ${props.width}px
-// }
