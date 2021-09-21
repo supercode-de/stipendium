@@ -12,7 +12,8 @@ export default function Custom404() {
           <Footer />
         </main>
 
-        <style jsx>{``}</style>
+        <style jsx>{`
+        `}</style>
       </div>
     </Layout>
   );

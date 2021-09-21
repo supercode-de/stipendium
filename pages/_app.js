@@ -10,7 +10,8 @@ function MyApp({ Component, pageProps }) {
   useEffect(() => {
     TagManager.initialize({ gtmId: 'GTM-MRLL6RX' });
   }, []);
-  return <Component {...pageProps} />;
+  return <Component {...pageProps} />
+    ;
 }
 // export default withFBQ("353903998812058", Router)(MyApp);
 export default withAnalytics(Router, {

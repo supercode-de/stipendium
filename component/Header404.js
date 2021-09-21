@@ -45,7 +45,7 @@ const Header404 = (props) => {
               transparent 1%
             ),
             linear-gradient(
-              #070021 ${props.width - pixelSize}px,
+              #070021 calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
             #fff;
@@ -54,6 +54,7 @@ const Header404 = (props) => {
           flex-direction: column;
           align-items: center;
           //   position: relative;
+          min-height: 95vh;
         }
         .large {
           background: #070021;

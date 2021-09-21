@@ -23,7 +23,6 @@ export default class MyDocument extends Document {
             property="og:description"
             content="Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!"
           />
-          <title>Super-Stipendium</title>
           <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
           <link rel="alternate icon" href="/favicon.ico" />
 
