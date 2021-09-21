@@ -43,15 +43,15 @@ const ImpressumHeader = (props) => {
         #impressum {
           background: linear-gradient(
               90deg,
-              #070021 ${props.width - pixelSize}px,
+              #070021 calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
             linear-gradient(
-              #070021 ${props.width - pixelSize}px,
+              #070021 calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
             #fff;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
           height: 90vh;
         }
         h1 {
