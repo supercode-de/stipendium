@@ -5,7 +5,7 @@ const Typeform = () => {
     return (
         <Layout oneComponent={true}>
             <div id="typeform" >
-                <Link href="/"><a></a></Link>
+                {/* <Link href="/"><a></a></Link> */}
                 <iframe id="typeform-full" width="100%" height="100%" frameborder="0" allow="camera; microphone; autoplay; encrypted-media;" src="https://georg067469.typeform.com/to/bKVLnV"></iframe>
                 <script type="text/javascript" src="https://embed.typeform.com/embed.js"></script>
 

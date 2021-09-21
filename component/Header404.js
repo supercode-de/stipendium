@@ -5,7 +5,7 @@ const Header404 = () => {
   const pixelSize = 2; // Width of Lines in Background
   return (
     <div id="header">
-      <Link href="/"><a>Zurück</a></Link>
+      <Link href="/"><a aria-label="zurück">Zurück</a></Link>
       <h1>
         <span>404</span>
         Baby

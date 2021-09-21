@@ -8,7 +8,7 @@ const ImpressumHeader = () => {
   return (
     <div id="impressum">
       <div className="center">
-        <Link href="/"><a>Zurück</a></Link>
+        <Link href="/"><a aria-label="zurück">Zurück</a></Link>
       </div>
       <h1>Impressum</h1>
 

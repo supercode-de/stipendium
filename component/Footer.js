@@ -9,27 +9,27 @@ const Footer = () => {
             <img src='/superdigital_logo.svg' alt='' />
           </p>
           <Link href='https://www.facebook.com/superdigitalev'>
-            <a>
+            <a aria-label="Facebook">
               <img src='/iconmonstr-facebook-5.svg' alt='' />
             </a>
           </Link>
           <Link href='https://www.instagram.com/superdigitalev/'>
-            <a>
+            <a aria-label="instagram">
               <img src='/iconmonstr-instagram-11.svg' alt='' />
             </a>
           </Link>
           <Link href='https://www.linkedin.com/company/superdigitalev'>
-            <a>
+            <a aria-label="linkedin">
               <img src='/iconmonstr-linkedin-5.svg' alt='' />
             </a>
           </Link>
         </div>
         <div className='links'>
           <Link href='/impressum'>
-            <a>Impressum</a>
+            <a aria-label="Impressum">Impressum</a>
           </Link>
           <Link href='/dsgvo'>
-            <a>DSGVO</a>
+            <a aria-label="dsgvo">DSGVO</a>
           </Link>
         </div>
         <p className='year'>&copy; 2020</p>

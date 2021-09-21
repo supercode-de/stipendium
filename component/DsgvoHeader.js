@@ -10,7 +10,7 @@ const DsgvoHeader = () => {
   return (
     <div id="dsgvo">
       <div className="center">
-        <Link href="/"><a>Zurück</a></Link>
+        <Link href="/"><a aria-label="zurück">Zurück</a></Link>
       </div>
       <h1>Datenschutz</h1>
 

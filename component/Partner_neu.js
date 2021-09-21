@@ -58,19 +58,19 @@ const Partner = () => {
                 <div className='button'>
                   <span className='block'>
                     <Link href='https://www.femaleinnovationhub.com/'>
-                      <a>WEBSITE</a>
+                      <a aria-label="femaleinnovationhub website">WEBSITE</a>
                     </Link>
                   </span>{' '}
                   <span className='hide'>–</span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/company/female-innovation-hub/'>
-                      <a>LINKEDIN</a>
+                      <a aria-label="femaleinnovationhub linkedin">LINKEDIN</a>
                     </Link>
                   </span>
                   <span className='hide'> –</span>
                   <span className='block'>
                     <Link href='https://www.facebook.com/femaleinnovationhub/'>
-                      <a>FACEBOOK</a>
+                      <a aria-label="femaleinnovationhub facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
@@ -88,19 +88,19 @@ const Partner = () => {
                 <div className='button'>
                   <span className='block'>
                     <Link href='https://www.super-digital.xyz/'>
-                      <a>WEBSITE</a>
+                      <a aria-label="super-digital website">WEBSITE</a>
                     </Link>
                   </span>{' '}
                   <span className='hide'>–</span>
                   <span className='block'>
                     <Link href='https://www.facebook.com/superdigitalev'>
-                      <a>LINKEDIN</a>
+                      <a aria-label="super-digital linkedin">LINKEDIN</a>
                     </Link>
                   </span>
                   <span className='hide'> –</span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/company/superdigitalev'>
-                      <a>FACEBOOK</a>
+                      <a aria-label="super-digital facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
@@ -118,19 +118,19 @@ const Partner = () => {
                 <div className='button'>
                   <span className='block'>
                     <Link href='https://super-code.de'>
-                      <a>WEBSITE</a>
+                      <a aria-label="super-code website">WEBSITE</a>
                     </Link>
                   </span>{' '}
                   <span className='hide'>–</span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/school/19099791'>
-                      <a>LINKEDIN</a>
+                      <a aria-label="super-code linkedin">LINKEDIN</a>
                     </Link>
                   </span>
                   <span className='hide'> –</span>
                   <span className='block'>
                     <Link href='https://www.facebook.com/supercodegmbh'>
-                      <a>FACEBOOK</a>
+                      <a aria-label="super-code facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
