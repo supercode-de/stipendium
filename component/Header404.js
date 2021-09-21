@@ -41,7 +41,7 @@ const Header404 = (props) => {
         #header {
           background: linear-gradient(
               90deg,
-              #070021 ${props.width - pixelSize}px,
+              #070021 calc(100vw / 12 - ${pixelSize}px),
               transparent 1%
             ),
             linear-gradient(
@@ -49,7 +49,7 @@ const Header404 = (props) => {
               transparent 1%
             ),
             #fff;
-          background-size: ${props.width}px ${props.width}px;
+          background-size: calc(100vw / 12) calc(100vw / 12);
           display: flex;
           flex-direction: column;
           align-items: center;

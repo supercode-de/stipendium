@@ -1,5 +1,4 @@
 import Layout from '../component/Layout';
-import Link from 'next/link';
 import Popup from 'reactjs-popup';
 
 function gtag_report_conversion(url) {
