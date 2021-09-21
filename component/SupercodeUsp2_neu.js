@@ -104,7 +104,7 @@ const SupercodeUsp2_neu = (props) => {
             //     transparent 100%
             //   );
             background-position: 0 0, 0 0;
-            background-size: ${props.width}px ${props.width}px;
+            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .twocolumn {
             display: grid;

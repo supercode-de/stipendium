@@ -14,31 +14,22 @@ import WarumSC_neu from '../component/WarumSC_neu';
 import Head from 'next/head';
 
 export default function Home(props) {
-  if (process.browser) {
-    const width = useWindowSize().width / 12;
-    return (
-      <Layout>
-        <div className='container'>
-          <main>
-            <Header_neu width={width} />
-            <JetztBewerben_neu width={width} />
-            <HtmlCssWtf_neu width={width} />
-            <SuperStipendium_neu width={width} />
-            <WarumWeb_neu width={width} />
-            <WarumSC_neu width={width} />
-            <SupercodeUsp2_neu width={width} />
-            <Partner_neu width={width} />
-            <CTA4_neu width={width} />
-            <Footer width={width} />
-            {/* <JetztBewerben width={width} /> */}
-
-            {/* <JetztBewerben width={width} /> */}
-
-            {/* <JetztBewerben width={width} /> */}
-            {/* <JetztBewerben width={width} />
-            <JetztBewerben width={width} /> */}
-          </main>
-          <style jsx>{`
+  return (
+    <Layout>
+      <div className='container'>
+        <main>
+          <Header_neu />
+          <JetztBewerben_neu />
+          <HtmlCssWtf_neu />
+          <SuperStipendium_neu />
+          <WarumWeb_neu />
+          <WarumSC_neu />
+          <SupercodeUsp2_neu />
+          <Partner_neu />
+          <CTA4_neu />
+          <Footer />
+        </main>
+        <style jsx>{`
             main{
               position:relative;
               z-index:1
@@ -57,37 +48,11 @@ export default function Home(props) {
                 transparent 100%
               );
             background-position: 0 0, 0 0;
-            background-size: ${width}px ${width}px;
+            background-size: calc(100vw / 12) calc(100vw / 12);
             }
           `}</style>
-        </div>
-      </Layout>
-    );
-  } else {
-    return (
-      <Head>
-        <meta
-          property='og:image:secure'
-          content='https://super-stipendium.de/img/Webentwickler_Duesseldorf.webp'
-        />
-        <meta
-          property='og:image'
-          content='http://super-stipendium.de/img/Webentwickler_Duesseldorf.webp'
-        />
-        <meta property='og:url' content='https://super-stipendium.de/' />
-        <meta property='og:type' content='Website' />
-        <meta
-          property='og:title'
-          content='super-stipendium.de - Digitale Bildung für Alle!'
-        />
-        <meta
-          property='og:description'
-          content='Das SuperStipendium ist deine Chance auf einen Karrierestart als Programmiererin! Bewirb dich noch heute!'
-        />
-        <title>Super-Stipendium</title>
-        <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
-        <link rel='alternate icon' href='/favicon.ico' />
-      </Head>
-    );
-  }
+      </div>
+    </Layout>
+  );
+
 }
