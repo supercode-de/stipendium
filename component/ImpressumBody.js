@@ -1,4 +1,4 @@
-const ImpressumBody = (props) => {
+const ImpressumBody = () => {
   return (
     <div id="impressum-text">
       <div className="text-body">

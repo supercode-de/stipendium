@@ -1,6 +1,6 @@
 import Arrow from "./small/Arrow";
 
-const Header = (props) => {
+const Header = () => {
   const pixelSize = 1; // Width of Lines in Background
 
   return (

@@ -1,7 +1,6 @@
-import React, { useState, useEffect } from 'react';
 import Typeform from './TypeForm';
 
-const JetztBewerben_neu = (props) => {
+const JetztBewerben_neu = () => {
   return (
     <div id='unser-campus'>
       <span className='aside'> Bewirb dich jetzt! </span>

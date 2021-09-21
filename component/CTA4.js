@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import TypeForm from "./TypeForm";
 
-const CTA4 = (props) => {
+const CTA4 = () => {
   return (
     <div id="unser-campus">
       <div>

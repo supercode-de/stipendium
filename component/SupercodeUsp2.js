@@ -1,6 +1,6 @@
 import React from "react";
 
-const SupercodeUsp2 = (props) => {
+const SupercodeUsp2 = () => {
   return (
     <>
       <div id="supercode-usp2">

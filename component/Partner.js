@@ -22,7 +22,7 @@ const responsive = {
   },
 };
 
-const Partner = (props) => {
+const Partner = () => {
   return (
     <div id='Absolventen'>
       <span className='aside'>Unsere Partner</span>

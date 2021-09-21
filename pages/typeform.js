@@ -1,7 +1,7 @@
 import Layout from "../component/Layout";
 import Link from "next/link";
 
-const Typeform = (props) => {
+const Typeform = () => {
     return (
         <Layout oneComponent={true}>
             <div id="typeform" >

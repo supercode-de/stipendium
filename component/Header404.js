@@ -1,7 +1,7 @@
 import Telefon from "./small/Telefon";
 import Link from 'next/link'
 
-const Header404 = (props) => {
+const Header404 = () => {
   const pixelSize = 2; // Width of Lines in Background
   return (
     <div id="header">

@@ -3,7 +3,7 @@ import Telefon from "./small/Telefon";
 import Link from 'next/link'
 
 
-const DsgvoHeader = (props) => {
+const DsgvoHeader = () => {
   const pixelSize = 1; // Width of Lines in Background
 
 

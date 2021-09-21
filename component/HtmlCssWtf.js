@@ -21,7 +21,7 @@ const responsive = {
     items: 1,
   },
 };
-const HtmlCssWtf = (props) => {
+const HtmlCssWtf = () => {
   return (
     <div id="html-css-wtf">
       <div className="asidebg">

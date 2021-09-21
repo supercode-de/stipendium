@@ -20,7 +20,7 @@ const responsive = {
   },
 };
 
-const SuperStipendium_neu = (props) => {
+const SuperStipendium_neu = () => {
   return (
     <div id='super-stipendium'>
       <span className='aside'>Arbeitsplatz der Zukunft</span>

@@ -22,7 +22,7 @@ const responsive = {
   },
 };
 
-const WarumSC_neu = (props) => {
+const WarumSC_neu = () => {
   return (
     <div id='warum-sc'>
       <span className='aside'>Warum supercode?</span>

@@ -12,7 +12,7 @@ import WarumSC from "../component/WarumSC";
 
 
 
-export default function Home(props) {
+export default function Home() {
 
   return (
     <Layout>

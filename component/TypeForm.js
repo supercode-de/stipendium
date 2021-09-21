@@ -16,7 +16,6 @@ function gtag_report_conversion(url) {
 }
 
 const Typeform = (props) => {
-  console.log(props);
   return (
     <Layout oneComponent={true}>
       <Popup trigger={<button>JETZT BEWERBEN</button>} position=' center'>

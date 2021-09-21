@@ -1,5 +1,5 @@
 
-const DsgvoBody = (props) => {
+const DsgvoBody = () => {
   return (
     <div id="dsgvo-text">
       <div id="text-body">

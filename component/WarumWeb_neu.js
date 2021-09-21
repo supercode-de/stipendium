@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-const WarumWeb_neu = (props) => {
+const WarumWeb_neu = () => {
   return (
     <div id='unser-campus'>
       {/* <span className='aside'>Digitale Zukunft</span> */}

@@ -3,7 +3,7 @@ import ImpressumBody from "../component/ImpressumBody";
 import ImpressumHeader from "../component/ImpressumHeader";
 import Footer from "../component/Footer";
 
-export default function Home(props) {
+export default function Home() {
   return (
     <Layout banner={true}>
       <div className="container">

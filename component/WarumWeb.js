@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const JetztBewerben = (props) => {
+const JetztBewerben = () => {
   return (
     <div id="unser-campus">
       <span className="aside">Digitale Zukunft</span>

@@ -10,7 +10,7 @@ import SuperStipendium_neu from '../component/SuperStipendium_neu';
 import HtmlCssWtf_neu from '../component/HtmlCssWtf_neu';
 import WarumSC_neu from '../component/WarumSC_neu';
 
-export default function Home(props) {
+export default function Home() {
   return (
     <Layout>
       <div className='container'>
