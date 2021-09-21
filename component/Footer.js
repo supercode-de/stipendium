@@ -41,20 +41,20 @@ const Footer = (props) => {
           }
           #footer {
             background: #070021;
-            // background-image: linear-gradient(
-            //     to right,
-            //     rgba(255, 255, 255, 0.25) 0,
-            //     rgba(255, 255, 255, 0.25) 1px,
-            //     transparent 1px,
-            //     transparent 100%
-            //   ),
-            //   linear-gradient(
-            //     to bottom,
-            //     rgba(255, 255, 255, 0.25) 0,
-            //     rgba(255, 255, 255, 0.25) 1px,
-            //     transparent 1px,
-            //     transparent 100%
-            //   );
+            background-image: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
             background-position: 0 0, 0 0;
             background-size: calc(100vw / 12) calc(100vw / 12);
             color: #fff;
