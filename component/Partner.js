@@ -47,7 +47,7 @@ const Partner = () => {
           >
             <figure>
               <img
-                src="/female-innovation-hub.png"
+                src="/logo-female-innovation-hub-partner.png"
                 alt="female innovation hub logo"
               />
               <figcaption>
@@ -78,7 +78,10 @@ const Partner = () => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/women-in-tech-logo.png" alt="Women in Tech logo" />
+              <img
+                src="/logo-women-in-tech-partner.png"
+                alt="Women in Tech logo"
+              />
               <figcaption>
                 <p>
                   Women in Tech e.V. ist ein branchenübergreifender,
@@ -107,7 +110,7 @@ const Partner = () => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/digihub-logo.png" alt="digihub logo" />
+              <img src="/logo-digihub-partner.png" alt="digihub logo" />
               <figcaption>
                 <p>
                   Der digihub umfasst ein großes Netzwerk aus unterschiedlichen
@@ -137,7 +140,7 @@ const Partner = () => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/supercode-logo.png" alt="super-code logo" />
+              <img src="/logo-supercode-partner.png" alt="super-code logo" />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,
@@ -169,7 +172,10 @@ const Partner = () => {
               </figcaption>
             </figure>
             <figure>
-              <img src="/superdigital-logo.png" alt="superdigital logo" />
+              <img
+                src="/logo-superdigital-partner.png"
+                alt="superdigital logo"
+              />
               <figcaption>
                 <p>
                   Unser Ziel ist es, Menschen für das Verstehen von digitaler
