@@ -73,14 +73,15 @@ const CTA4 = () => {
           height: 100%;
         }
         h1 {
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_extra_bold";
           color: #fff;
-          font-weight: 300;
-          font-size: 6em;
+          font-weight: 900;
+          font-size: 4.6em;
 
-          line-height: 105px;
+          line-height: 68px;
 
-          margin-left: 8.3%;
+          margin-left: 9%;
         }
         h1 span.super {
           color: transparent;
@@ -92,7 +93,8 @@ const CTA4 = () => {
 
         p {
           color: #fff;
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans_regular'
           font-style: normal;
           font-weight: normal;
           font-size: 18px;
@@ -103,7 +105,8 @@ const CTA4 = () => {
 
         button {
           margin: 2em 1em;
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 14px;

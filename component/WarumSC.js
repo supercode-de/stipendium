@@ -140,9 +140,10 @@ const WarumSC = () => {
             }
             
             h1{
-                font-family:"Neue_Machina_Regular_400";
-                font-size:4em;
-                line-height:1em;
+              // font-family:"Neue_Machina_Regular_400";
+              font-family: 'Fira Sans_extra_bold';
+              font-size:5.1em;
+              line-height:0.8em;
                 max-width: 300px;
                 color: transparent;
                 -webkit-text-stroke-width: 2px;
@@ -157,7 +158,8 @@ const WarumSC = () => {
             }
             p{
                 color: #fff;
-                font-family: "Neue_Machina_Regular_400";
+                // font-family: "Neue_Machina_Regular_400";
+                font-family: "Fira Sans_regular";
 
                 font-style: normal;
                 font-weight: normal;

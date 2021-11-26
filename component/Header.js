@@ -66,7 +66,8 @@ const Header = () => {
         }
 
         h1 {
-          font-family: "Neue_Machina_Regular_400";
+          //font-family: "Neue_Machina_Regular_400";
+          font-family: "Fira Sans_bold";
           margin: 0;
           padding-bottom: 10vh;
           font-size: 5em;
@@ -92,7 +93,8 @@ const Header = () => {
           -webkit-text-stroke-color: #fff;
         }
         h3 {
-          font-family: "Neue_Machina_Regular_400";
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans";
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
@@ -108,7 +110,8 @@ const Header = () => {
           margin-bottom: 50px;
         }
         p {
-          font-family: "Neue_Machina_Regular_400";
+          // font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans";
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -139,17 +142,17 @@ const Header = () => {
             font-size: 1.6em;
             margin-bottom: 0;
           }
-          h3:first-of-type {
-            margin-top: 20px;
-          }
-          h3:last-of-type {
-            margin-bottom: 20px;
-          }
+          // h3:first-of-type {
+          //   margin-top: 20px;
+          // }
+          // h3:last-of-type {
+          //   margin-bottom: 20px;
+          // }
           h1 {
             font-size: 2.5em;
             line-height: 20px;
-            font-weight: 500;
-            margin-bottom: 40px;
+            //   font-weight: 500;
+            //   margin-bottom: 40px;
           }
           .frauen-in-tech {
             top: 40%;

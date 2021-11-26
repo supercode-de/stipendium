@@ -46,8 +46,7 @@ const SuperStipendium = () => {
         <p>
           Das Female Innovation Hub und der SuperDigital e.V. ermöglichen dir
           ein Stipendium bei SuperCode und damit die Teilnahme an einem der
-          zertifizierten Vollzeit-Bootcamps im Bereich Full-Stack
-          Webentwicklung.
+          zertifizierten Teilzeit-Bootcamps im Bereich Front-End Webentwicklung.
           <br />
           <br />
           Damit möchten wir noch mehr Frauen ermutigen, den Karrierewechsel in
@@ -56,11 +55,13 @@ const SuperStipendium = () => {
           die sich für eine digitale Karriere entscheiden.
           <br />
           <br />
+          Bewirb dich jetzt bis zum 31.12.2021
+          <br />
           <br />
           <div className="bold">
             Der Prozess:
             <br />
-            1. Bis zum <span className="circle">&nbsp;01.03.2021&nbsp;</span>
+            1. Bis zum <span className="circle">&nbsp;31.12.2021&nbsp;</span>
             &nbsp; bewerben und Fragen beantworten
             <br />
             2. Teilnahme am kostenlosen Workshop
@@ -83,15 +84,15 @@ const SuperStipendium = () => {
 
         <div className="general">
           <h5>
-            Web-Developer Full-Stack
-            <br /> Umfang: 22 Wochen / Vollzeit
-            <br /> Start: 22.03.2021 Ende: 27.08.2021
+            Web-Developerin Front-End
+            <br /> Umfang: 7 Monate / Teilzeit
+            <br /> Start: 28.02.2022 Ende: 15.10.2022
           </h5>
           <img src="/img/StipendiumArrow.svg" alt="" className="arrow" />
         </div>
         <div className="information">
           <p>
-            Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
+            Unser Front-End-Kurs ermöglicht dir einen Deep Dive in die
             Web-Entwicklung verpackt in einem ultra praxisorientierten
             Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und
             finde einen Job mit Zukunft.
@@ -104,11 +105,8 @@ const SuperStipendium = () => {
             Javascript Frameworks und Libraries, CMS
             <br />
             <br />
-            Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken
-            <br />
-            <br />
             Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
-            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
+            UX, Learn-To-Learn, Abschlussprojekt
             <br />
             <br />
             <span className="bold">Trainer*innen:</span> 2 Trainer*innen pro Tag
@@ -328,7 +326,8 @@ const SuperStipendium = () => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: "Poppins", sans-serif;
+          //font-family: "Poppins", sans-serif;
+          font-family: "Fira Sans";
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
@@ -342,13 +341,14 @@ const SuperStipendium = () => {
           width: 50%;
         }
         h1 {
-          font-family: "Neue_Machina_Regular_400";
-          font-size: 4em;
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_bold";
+          font-size: 5.1em;
           color: #fff;
-          line-height: 60px;
+          line-height: 80px;
           margin: 0 0 3vh;
           text-transform: uppercase;
-          font-weight: 300;
+          font-weight: bold;
         }
         .break {
           display: block;
@@ -436,11 +436,12 @@ const SuperStipendium = () => {
         // }
         p {
           color: #fff;
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_regular";
           font-style: normal;
           font-weight: normal;
-          font-size: 18px;
-          line-height: 25px;
+          font-size: 1em;
+          line-height: 20px;
           justify-self: center;
         }
         // p {
@@ -491,7 +492,8 @@ const SuperStipendium = () => {
         // }
 
         h6 {
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_regular";
           color: #ffffff;
           font-size: 16px;
           line-height: 18px;
@@ -522,10 +524,12 @@ const SuperStipendium = () => {
         }
 
         .general h5 {
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_regular";
           color: #fff;
-          font-size: 25px;
-          line-height: 30px;
+          font-size: 1.3rem;
+          line-height: 28px;
+          letter-spacing: 1px;
         }
 
         .general img {

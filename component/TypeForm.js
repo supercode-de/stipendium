@@ -1,5 +1,5 @@
-import Layout from '../component/Layout';
-import Popup from 'reactjs-popup';
+import Layout from "../component/Layout";
+import Popup from "reactjs-popup";
 
 function gtag_report_conversion(url) {
   // var callback = function () {
@@ -18,20 +18,20 @@ function gtag_report_conversion(url) {
 const Typeform = (props) => {
   return (
     <Layout oneComponent={true}>
-      <Popup trigger={<button>JETZT BEWERBEN</button>} position=' center'>
-        <div id='typeform'>
+      <Popup trigger={<button>JETZT BEWERBEN</button>} position=" center">
+        <div id="typeform">
           <iframe
-            id='typeform-full'
-            width='100%'
-            height='100%'
-            frameborder='0'
-            allow='camera; microphone; autoplay; encrypted-media;'
-            // src='https://form.typeform.com/to/B8pWRrmH?typeform-medium=embed-snippet'
-            src='https://form.typeform.com/to/sCEWmkIE?typeform-medium=embed-snippet'
+            id="typeform-full"
+            width="100%"
+            height="100%"
+            frameborder="0"
+            allow="camera; microphone; autoplay; encrypted-media;"
+            src="https://form.typeform.com/to/B8pWRrmH?typeform-medium=embed-snippet"
+            //src='https://form.typeform.com/to/sCEWmkIE?typeform-medium=embed-snippet'
           ></iframe>
           <script
-            type='text/javascript'
-            src='https://embed.typeform.com/embed.js'
+            type="text/javascript"
+            src="https://embed.typeform.com/embed.js"
           ></script>
         </div>
       </Popup>
@@ -53,7 +53,7 @@ const Typeform = (props) => {
         }
         a::before,
         a::after {
-          content: '';
+          content: "";
           position: absolute;
           height: 4px;
           width: 100%;
@@ -76,7 +76,7 @@ const Typeform = (props) => {
           top: ${props.top};
           margin: 2em 1em;
           // font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans_regular';
+          font-family: "Fira Sans_regular";
           font-style: normal;
           font-weight: normal;
           font-size: 0.6rem;

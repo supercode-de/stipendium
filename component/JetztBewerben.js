@@ -101,8 +101,9 @@ const JetztBewerben = () => {
             align-self: center;
           }
           h1 {
-            font-family: "Neue_Machina_Regular_400";
-            font-size: 2.3em;
+            // font-family: 'Neue_Machina_Regular_400';
+            font-family: "Fira Sans_regular";
+            font-size: 1.9em;
             color: #fff;
           }
           h1 span.super {
@@ -172,14 +173,14 @@ const JetztBewerben = () => {
 
           p {
             color: #fff;
-            font-family: "Neue_Machina_Regular_400";
-
+            font-family: "Fira Sans_regular";
             font-style: normal;
             font-weight: normal;
-            font-size: 1.5em;
-            line-height: 30px;
+            //font-size: 1.5em;
+            line-height: 22px;
             justify-self: center;
-            max-width: 620px;
+            //max-width: 620px;
+            padding-left: 10%;
           }
           button {
             font-family: Poppins;

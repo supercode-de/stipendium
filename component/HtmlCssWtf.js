@@ -80,7 +80,7 @@ const HtmlCssWtf = () => {
         }
         .aside {
           transform: rotate(-90deg);
-          color: #fff;
+          //color: #fff;
           font-weight: 300;
           font-family: "Poppins", sans-serif;
           font-style: normal;
@@ -116,7 +116,8 @@ const HtmlCssWtf = () => {
           background: rgba(0, 0, 0, 0.5) center/contain no-repeat;
         }
         #html-css-wtf {
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_regular";
 
           overflow: hidden;
           padding: 100px 0 100px 10%;
@@ -145,14 +146,15 @@ const HtmlCssWtf = () => {
           padding-bottom: 40px;
         }
         h1 {
-          font-family: "Neue_Machina_Regular_400";
-          font-size: 4em;
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_extra_bold";
+          font-size: 5.3em;
           line-height: 1em;
           max-width: 300px;
           color: transparent;
           -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #fff;
-          font-weight: 300;
+          font-weight: 900;
           margin: 0.5em 0 0.3em;
         }
         .twocolumn div:first-of-type {
@@ -162,12 +164,13 @@ const HtmlCssWtf = () => {
         }
         p {
           color: #fff;
-          font-family: "Neue_Machina_Regular_400";
+          //   font-family: 'Neue_Machina_Regular_400';
+          font-family: "Fira Sans_regular";
 
           font-style: normal;
           font-weight: normal;
-          font-size: 1.1em;
-          line-height: 30px;
+          font-size: 1em;
+          line-height: 20px;
           justify-self: center;
         }
         .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1) {
@@ -267,7 +270,8 @@ const HtmlCssWtf = () => {
           }
           p {
             color: #fff;
-            font-family: "Neue_Machina_Regular_400";
+            // font-family: 'Neue_Machina_Regular_400';
+            font-family: "Fira Sans_regular";
 
             font-style: normal;
             font-weight: normal;
