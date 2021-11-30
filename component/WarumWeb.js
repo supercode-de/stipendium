@@ -167,8 +167,8 @@ const JetztBewerben = () => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 60px;
-            line-height: 50px;
+            font-size: 4em;
+            line-height: 40px;
           }
           h1 span.super {
             -webkit-text-stroke-width: 2px;
