@@ -167,8 +167,8 @@ const JetztBewerben = () => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 4em;
-            line-height: 40px;
+            font-size: 45px;
+            line-height: 38px;
           }
           h1 span.super {
             -webkit-text-stroke-width: 2px;
@@ -195,8 +195,8 @@ const JetztBewerben = () => {
           }
           @media only screen and (max-width: 375px) {
             h1 {
-              font-size: 60px;
-              line-height: 50px;
+              font-size: 3em;
+              line-height: 1em;
             }
           }
         }
