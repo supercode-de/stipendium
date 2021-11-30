@@ -228,7 +228,12 @@ const WarumSC = () => {
                h1 {
                 font-size: 60px;
                 line-height: 50px;
+                -webkit-text-stroke-width: 1px;
                }
+               h1 span {
+                -webkit-text-stroke-width: 1px;
+               }
+
                 p{
                   font-size: 16px;
             line-height: 20px;
@@ -237,6 +242,7 @@ const WarumSC = () => {
               @media (max-width: 468px) {
                 h1{
                     font-size: 4em;
+                    line-height: 40px
                 }
                 .centercenter{
                     width: 40vw;

@@ -240,6 +240,10 @@ const HtmlCssWtf = () => {
           }
         }
         @media (max-width: 768px) {
+          h1 {
+            -webkit-text-stroke-width: 1px;
+          }
+
           .twocolumn {
             display: block;
           }

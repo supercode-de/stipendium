@@ -413,6 +413,10 @@ const SuperStipendium = () => {
             line-height: 50px;
           }
 
+          h1 span.super {
+            -webkit-text-stroke-width: 1px;
+          }
+
           p {
             font-size: 16px;
             line-height: 20px;
@@ -438,6 +442,11 @@ const SuperStipendium = () => {
         }
 
         @media (max-width: 479px) {
+          h1 {
+            font-size: 50px;
+            line-height: 45px;
+          }
+
           .stipendium-left {
             width: 100%;
           }

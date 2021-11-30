@@ -360,6 +360,10 @@ const Partner = () => {
         @media (max-width: 768px) {
           h2 {
             height: 150px;
+            line-height: 50px;
+          }
+          h2 span span {
+            -webkit-text-stroke-width: 1px;
           }
           figure {
             padding: 10px 10px;

@@ -171,18 +171,14 @@ const JetztBewerben = () => {
             line-height: 38px;
           }
           h1 span.super {
-            -webkit-text-stroke-width: 2px;
+            -webkit-text-stroke-width: 1px;
           }
 
           .threecolumn {
             grid-template-columns: 14fr 1fr;
             gap: 50px 0;
           }
-          h1 span.super {
-            color: transparent;
-            letter-spacing: 2px;
-            -webkit-text-stroke-width: 2px;
-          }
+
           #unser-campus .imgleft {
             grid-column: 1/-1;
           }
