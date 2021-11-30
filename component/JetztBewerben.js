@@ -24,9 +24,6 @@ const JetztBewerben = () => {
             </h1>
           </div>
 
-          {/* 
-                    <h1> Du willst < br /> < span > programmieren </span> lernen <br /> und einen Job mit < br /> Zukunft ? Das < span className="super" > Super - < br /> Stipendium </span> ist deine <br /> <span> Chance! </span></h1>
-                  */}
           <p>
             Worauf wartest Du noch?
             <br />
@@ -65,32 +62,12 @@ const JetztBewerben = () => {
           }
           #unser-campus {
             padding: 100px 0 100px 10%;
-
-            position: relative;
-            background-color: #5d3ede;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
+            background-color: #10375c;
           }
           .twocolumn {
             display: grid;
             grid-template-columns: 1fr 1fr;
             grid-gap: 0 10%;
-            // padding-bottom: 40px;
-            // margin-bottom: 100px;
           }
           .onecolumn {
             display: grid;
@@ -101,7 +78,6 @@ const JetztBewerben = () => {
             align-self: center;
           }
           h1 {
-            // font-family: 'Neue_Machina_Regular_400';
             font-family: "Fira Sans_regular";
             font-size: 1.9em;
             color: #fff;
@@ -165,8 +141,6 @@ const JetztBewerben = () => {
             left: -70px;
             right: 0;
             display: block;
-            // height: 100%;
-            // width: 100%;
             background: url(/img/CircleVectorEmilija.svg) center/contain
               no-repeat;
           }
@@ -176,35 +150,16 @@ const JetztBewerben = () => {
             font-family: "Fira Sans_regular";
             font-style: normal;
             font-weight: normal;
-            //font-size: 1.5em;
+            font-size: 18px
             line-height: 22px;
             justify-self: center;
-            //max-width: 620px;
             padding-left: 10%;
-          }
-          button {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 18px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            padding: 10px 30px;
-            background: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-            justify-self: center;
-          }
-          button:hover {
-            color: #5d3ede;
-            background: #fff;
           }
 
           @media (max-width: 1040px) {
             h1 {
               font-size: 2em;
-              line-height: 40px;
+              // line-height: 40px;
             }
             .twocolumn {
               grid-template-columns: 1fr;
@@ -231,7 +186,8 @@ const JetztBewerben = () => {
               font-size: 3em;
             }
             p {
-              font-size: 2em;
+              font-size: 16px;
+            line-height: 20px;
               margin-bottom: 50px;
             }
             .twocolumn {

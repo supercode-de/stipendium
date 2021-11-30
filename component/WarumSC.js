@@ -111,27 +111,10 @@ const WarumSC = () => {
                 text-transform: uppercase;
             }
             #warum-sc {
-                            font-family: "Neue_Machina_Regular_400";
-
+                font-family: "Neue_Machina_Regular_400";
                 padding:100px 0 100px 10%;  
                 position: relative;
-                background-color: #5D3EDE;
-                background-image: linear-gradient(
-                    to right,
-                    rgba(255, 255, 255, 0.25) 0,
-                    rgba(255, 255, 255, 0.25) 1px,
-                    transparent 1px,
-                    transparent 100%
-                    ),
-                    linear-gradient(
-                    to bottom,
-                    rgba(255, 255, 255, 0.25) 0,
-                    rgba(255, 255, 255, 0.25) 1px,
-                    transparent 1px,
-                    transparent 100%
-                    );
-                background-position: 0 0, 0 0;
-                background-size: calc(100vw / 12) calc(100vw / 12);
+                background-color: #10375C;
             }
             .twocolumn{
                 display:grid;
@@ -140,12 +123,11 @@ const WarumSC = () => {
             }
             
             h1{
-              // font-family:"Neue_Machina_Regular_400";
               font-family: 'Fira Sans_extra_bold';
-              font-size:5.1em;
-              line-height:0.8em;
+              font-size: 5.1em;
+              line-height: 80px;
                 max-width: 300px;
-                color: transparent;
+                color: #fff;
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: #fff;
                 font-weight:300;
@@ -158,13 +140,11 @@ const WarumSC = () => {
             }
             p{
                 color: #fff;
-                // font-family: "Neue_Machina_Regular_400";
                 font-family: "Fira Sans_regular";
-
                 font-style: normal;
                 font-weight: normal;
-                font-size: 1em;
-                line-height: 20px;
+                font-size: 18px;
+                line-height: 22px;
                 justify-self: center;
             }
             .twocolumn div:first-of-type{
@@ -245,12 +225,13 @@ const WarumSC = () => {
                 .rightcenter{
                     right: 20%;
                 }
-                h1{
-                    opacity:0.8;
-                }
+               h1 {
+                font-size: 60px;
+                line-height: 50px;
+               }
                 p{
-                    font-size:1.4em;
-                    line-height: 24px;
+                  font-size: 16px;
+            line-height: 20px;
                 }
               }
               @media (max-width: 468px) {

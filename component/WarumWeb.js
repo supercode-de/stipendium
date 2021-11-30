@@ -21,7 +21,7 @@ const JetztBewerben = () => {
             <span className="internet">Internet</span>. Als Webentwicklerin hast
             du nicht nur hervorragende Karrierechancen für einen zukunftsfähigen
             Job, du profitierst auch von flexiblen{" "}
-            <span className="web-app">Arbeitszeiten,&nbsp;Home Office</span>
+            <span className="web-app">Arbeitszeiten,&nbsp;Home Office </span>
             und flachen Hierarchien.
             <br />
             <br />
@@ -61,23 +61,7 @@ const JetztBewerben = () => {
           padding: 150px 0 100px;
           min-height: 100vh;
           position: relative;
-          background-color: #070021;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
+          background-color: #fff;
         }
         #unser-campus .imgleft,
         #unser-campus .imgright {
@@ -101,19 +85,18 @@ const JetztBewerben = () => {
         }
 
         h1 {
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_extra_bold";
           font-weight: 900;
-          font-size: 5.1em;
-          line-height: 0.85em;
-          color: #fff;
+          font-size: 70px;
+          line-height: 45px;
+          color: #10375c;
           margin: 0;
         }
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: #10375c;
           font-weight: 300;
         }
         .super,
@@ -150,20 +133,17 @@ const JetztBewerben = () => {
           height: 10%;
           width: 100%;
           right: 0;
-          bottom: -7px;
+          bottom: -2px;
           content: "";
           display: block;
         }
         p {
-          color: #fff;
-          //   font-family: 'Neue_Machina_Regular_400';
-
+          color: #10375c;
           font-family: "Fira Sans_regular";
-
           font-style: normal;
           font-weight: normal;
-          font-size: 1em;
-          line-height: 20px;
+          font-size: 18px;
+          line-height: 22px;
           justify-self: center;
         }
         @media only screen and (max-width: 1635px) {
@@ -187,9 +167,8 @@ const JetztBewerben = () => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 3.4em;
-
-            line-height: 2em;
+            font-size: 60px;
+            line-height: 50px;
           }
           h1 span.super {
             -webkit-text-stroke-width: 2px;
@@ -203,9 +182,6 @@ const JetztBewerben = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #fff;
-            font-weight: 300;
-            opacity: 0.7;
           }
           #unser-campus .imgleft {
             grid-column: 1/-1;
@@ -214,8 +190,8 @@ const JetztBewerben = () => {
             padding: 0 5% 0 10%;
           }
           p {
-            font-size: 1.4em;
-            line-height: 24px;
+            font-size: 16px;
+            line-height: 20px;
           }
           @media only screen and (max-width: 375px) {
             h1 {

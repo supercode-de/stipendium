@@ -24,8 +24,6 @@ const SuperStipendium = () => {
   return (
     <div id="super-stipendium">
       <span className="aside">Arbeitsplatz der Zukunft</span>
-      {/* <img src="/img/bgLine.png" alt="" className="bg-line" /> */}
-      {/* <div className="grid"> */}
       <article className="stipendium-left">
         <div className="headline-left">
           <h1>
@@ -35,7 +33,7 @@ const SuperStipendium = () => {
               <span className="tech-position">
                 Stipendium
                 <img
-                  src="/Frauen_in_Tech.svg"
+                  src="/Frauen_in_Tech_2.svg"
                   alt=""
                   className="frauen-in-tech"
                 />
@@ -72,12 +70,6 @@ const SuperStipendium = () => {
           {"..."}und mit etwas Glück erhälst du das Stipendium und startest
           deine IT-Karriere!
         </p>
-
-        {/* <span className="square">Stipendium</span>
-          <span className="line2">
-            <span className="line">zertifizierten</span>
-          </span>{" "}
-          <span className="circle">16.10.2020</span> */}
       </article>
       <article className="stipendium-right">
         <img src="/img/StipendiumArrow.svg" alt="" className="arrow-mobile" />
@@ -112,109 +104,7 @@ const SuperStipendium = () => {
             <span className="bold">Trainer*innen:</span> 2 Trainer*innen pro Tag
           </p>
         </div>
-
-        {/* <div className="stipendium-box1 hide">
-          <h5>
-            Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />{" "}
-            Start: 22.03.2021 Ende: 27.08.2021
-          </h5>
-          <p>
-            Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-            Web-Entwicklung verpackt in einem ultra praxisorientierten
-            Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und
-            finde einen Job mit Zukunft.
-          </p>
-          <h5>Inhalte:</h5>
-          <p>
-            Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
-            Javascript Frameworks und Libraries, CMS <br />
-            <br />
-            Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken{" "}
-            <br />
-            <br />
-            Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
-            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
-          </p>
-          <h5>Trainer*innen:</h5>
-          <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
-          <p>
-            _22 Wochen Vollzeit <br />
-            _Montag bis Freitag <br />
-            _09:00 - 18:00 Uhr
-          </p>
-          <div className="certqua">
-            <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
-            <h4>zertifizierte und anerkannte Maßnahme durch Certqua</h4>
-          </div>
-        </div> */}
-        {/* <div className="stipendium-box2 hide">
-                    <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
-                    <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                    <h5>Inhalte:</h5>
-                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                    <h5>Trainer*innen:</h5>
-                    <p>2 Trainer*innen pro Tag</p>
-                    <h5>Umfang:</h5>
-                    <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
-                </div> */}
-        {/* <div id="myCarousel">
-          <Carousel
-            responsive={responsive}
-            ssr
-            showDots={false}
-            slidesToSlide={1}
-            infinite
-            containerClass="container-with-dots"
-            deviceType={""}
-            itemClass="carousel-item-padding-20-px"
-          >
-            <div className="stipendium-box1">
-              <h5>
-                Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit{" "}
-                <br /> Start: 22.03.2021 Ende: 27.08.2021
-              </h5>
-              <p>
-                Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-                Web-Entwicklung verpackt in einem ultra praxisorientierten
-                Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
-                und finde einen Job mit Zukunft.
-              </p>
-              <h5>Inhalte:</h5>
-              <p>
-                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
-                Javascript Frameworks und Libraries, CMS <br />
-                <br />
-                Back-End: Essentials, Node.js, Express.js, npm, API &
-                Datenbanken <br />
-                <br />
-                Plus Skills: Grundlagen Projekt-Management & Präsentation,
-                Design & UX, Learn-To-Learn, Bewerbungscoaching,
-                Abschlussprojekt.
-              </p>
-              <h5>Trainer*innen:</h5>
-              <p>2 Trainer*innen pro Tag</p>
-              <h5>Umfang:</h5>
-              <p>
-                _22 Wochen Vollzeit <br />
-                _Montag bis Freitag <br />
-                _09:00 - 18:00 Uhr
-              </p>
-            </div>
-          <div className="stipendium-box2">
-                            <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
-                            <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                            <h5>Inhalte:</h5>
-                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                            <h5>Trainer*innen:</h5>
-                            <p>2 Trainer*innen pro Tag</p>
-                            <h6>Umfang:</h6>
-                            <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
-                        </div> 
-          </Carousel>
-        </div> */}
       </article>
-      {/* </div> */}
 
       <style jsx>{`
         .certqua {
@@ -279,10 +169,12 @@ const SuperStipendium = () => {
           font-weight: 500;
           opacity: 1;
         }
+
         * {
           margin: 0;
           padding: 0;
         }
+
         #myCarousel {
           display: none;
           position: relative;
@@ -291,33 +183,19 @@ const SuperStipendium = () => {
 
         #super-stipendium {
           display: flex;
-          background-color: #5d3ede;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
+          background-color: #10375c;
           z-index: -2;
           overflow: hidden;
           padding: 100px 0;
           position: relative;
         }
+
         .bg-line {
           position: absolute;
           z-index: -1;
           width: 100%;
         }
+
         .aside {
           position: absolute;
           transform: rotate(-90deg);
@@ -336,23 +214,26 @@ const SuperStipendium = () => {
           text-transform: uppercase;
           color: #ffffff;
         }
+
         .stipendium-left {
           padding: 0 4% 0 8.5%;
           width: 50%;
         }
+
         h1 {
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_bold";
           font-size: 5.1em;
-          color: #fff;
           line-height: 80px;
+          color: #fff;
           margin: 0 0 3vh;
           text-transform: uppercase;
           font-weight: bold;
         }
+
         .break {
           display: block;
         }
+
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;
@@ -360,6 +241,7 @@ const SuperStipendium = () => {
           -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
+
         .square,
         .line,
         .line2,
@@ -394,16 +276,6 @@ const SuperStipendium = () => {
             no-repeat;
         }
 
-        // .square::after {
-        //   position: absolute;
-        //   background: url("/Vector51.svg") center/cover no-repeat;
-        //   height: 109%;
-        //   width: 110%;
-        //   left: -4px;
-        //   bottom: 0;
-        //   content: "";
-        //   display: block;
-        // }
         .line::after {
           position: absolute;
           background: url("/Vector52.svg") center/cover no-repeat;
@@ -414,6 +286,7 @@ const SuperStipendium = () => {
           content: "";
           display: block;
         }
+
         .line2::after {
           position: absolute;
           background: url("/Vector53.svg") center/cover no-repeat;
@@ -424,33 +297,16 @@ const SuperStipendium = () => {
           content: "";
           display: block;
         }
-        // .circle::after {
-        //   position: absolute;
-        //   background: url("/Vector54.svg") center/cover no-repeat;
-        //   height: 100%;
-        //   width: 110%;
-        //   left: -4px;
-        //   bottom: 0;
-        //   content: "";
-        //   display: block;
-        // }
+
         p {
           color: #fff;
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_regular";
           font-style: normal;
           font-weight: normal;
-          font-size: 1em;
-          line-height: 20px;
+          font-size: 18px;
+          line-height: 22px;
           justify-self: center;
         }
-        // p {
-        //   font-family: "Neue_Machina_Regular_400";
-        //   color: #ffffff;
-        //   font-size: 14px;
-        //   margin-bottom: 25px;
-        //   line-height: 20px;
-        // }
 
         .bold {
           font-weight: bold;
@@ -465,6 +321,7 @@ const SuperStipendium = () => {
           padding: 0 8.5% 0 4%;
           position: relative;
         }
+
         .stipendium-box1 {
           background: #5d3ede;
           border: 2px solid #30e1b9;
@@ -472,6 +329,7 @@ const SuperStipendium = () => {
           width: 60%;
           height: 100%;
         }
+
         .stipendium-box2 {
           width: 50%;
           padding: 2vh 4% 0 2%;
@@ -480,16 +338,6 @@ const SuperStipendium = () => {
           border-left: none;
           height: 92%;
         }
-        // h5 {
-        //   font-family: "Neue_Machina_Regular_400";
-        //   color: #ffffff;
-        //   opacity: 0.7;
-        //   font-size: 16px;
-        //   line-height: 18px;
-        // }
-        // h5:nth-of-type(1) {
-        //   margin-bottom: 14px;
-        // }
 
         h6 {
           //   font-family: 'Neue_Machina_Regular_400';
@@ -507,6 +355,7 @@ const SuperStipendium = () => {
           align-items: center;
           margin-bottom: 50px;
           position: relative;
+          z-index: -200;
         }
 
         .general:after {
@@ -524,7 +373,6 @@ const SuperStipendium = () => {
         }
 
         .general h5 {
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_regular";
           color: #fff;
           font-size: 1.3rem;
@@ -543,6 +391,7 @@ const SuperStipendium = () => {
             display: inline;
           }
         }
+
         @media (max-width: 1023px) {
           #super-stipendium {
             display: block;
@@ -557,17 +406,17 @@ const SuperStipendium = () => {
             padding: 0 6% 0 6%;
           }
         }
-        @media (max-width: 979px) {
-        }
+
         @media (max-width: 767px) {
-          // .myCarousel {
-          //   display: none !important;
-          //   position: relative;
-          //   z-index: 30;
-          // }
-          // .hide {
-          //   display: block;
-          // }
+          h1 {
+            font-size: 60px;
+            line-height: 50px;
+          }
+
+          p {
+            font-size: 16px;
+            line-height: 20px;
+          }
 
           .frauen-in-tech {
             top: 40%;
@@ -589,40 +438,19 @@ const SuperStipendium = () => {
         }
 
         @media (max-width: 479px) {
-          // .general:after {
-          //   content: "";
-          //   position: absolute;
-          //   top: -50%;
-          //   bottom: 0;
-          //   left: -5px;
-          //   right: 0;
-          //   display: block;
-          //   width: 100%;
-          //   height: 200%;
-          //   background: url(/img/StipendiumLargeCircleMobile.svg) center/contain
-          //     no-repeat;
-          // }
-
-          // #myCarousel {
-          //   display: block;
-          // }
-          // .hide {
-          //   display: none;
-          // }
-          // #super-stipendium {
-          //   display: block;
-          // }
           .stipendium-left {
             width: 100%;
           }
+
           .stipendium-right {
             width: 100%;
             padding: 0 6% 0 6%;
           }
+
           .stipendium-box1 {
             width: 100%;
           }
-          // #myCarousel
+
           #myCarousel .stipendium-box2 {
             width: 100%;
             border: 2px solid #30e1b9;

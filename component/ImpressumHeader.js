@@ -1,59 +1,50 @@
 import Arrow from "./small/Arrow";
 import Telefon from "./small/Telefon";
-import Link from 'next/link'
-
+import Link from "next/link";
 
 const ImpressumHeader = () => {
   const pixelSize = 1; // Width of Lines in Background
   return (
     <div id="impressum">
       <div className="center">
-        <Link href="/"><a aria-label="zurück">Zurück</a></Link>
+        <Link href="/">
+          <a aria-label="zurück">Zurück</a>
+        </Link>
       </div>
       <h1>Impressum</h1>
-
 
       <Telefon color="#fff" />
       <Arrow />
       <style jsx>{`
-      .center{
-        text-align:center
-      }
-      a {
-        text-decoration: none;
-        display: block;
-        padding: .5em 0;
-        font-size:3em;
-        color: transparent;
+        .center {
+          text-align: center;
+        }
+        a {
+          text-decoration: none;
+          display: block;
+          padding: 0.5em 0;
+          font-size: 3em;
+          color: transparent;
           letter-spacing: 3px;
           -webkit-text-stroke-width: 1.5px;
           -webkit-text-stroke-color: #fff;
-    }
-    a:visited {
-      -webkit-text-stroke-color: #fff;
-    }
+        }
+        a:visited {
+          -webkit-text-stroke-color: #fff;
+        }
 
-    a:hover {
-        text-decoration: underline;
-        -webkit-text-stroke-color: #3dd7ac;
-    }
-    a:active {
-      -webkit-text-stroke-color: #5d3ede;
-    }
+        a:hover {
+          text-decoration: underline;
+          -webkit-text-stroke-color: #ffda19;
+        }
+        a:active {
+          -webkit-text-stroke-color: #ffda19;
+        }
         #impressum {
-          background: linear-gradient(
-              90deg,
-              #070021 calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #070021 calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #fff;
-          background-size: calc(100vw / 12) calc(100vw / 12);
+          background-color: #10375c;
           height: 90vh;
         }
+
         h1 {
           margin: 0;
           padding-top: 36vh;
@@ -63,14 +54,7 @@ const ImpressumHeader = () => {
           color: #fff;
           text-align: center;
         }
-        // .aside {
-        //   position: absolute;
-        //   transform: rotate(-90deg);
-        //   transform-origin: right;
-        //   right: 3%;
-        //   top: 30vh;
-        //   color: #fff;
-        // }
+
         @media (max-width: 768px) {
           h1 {
             font-size: 3em;

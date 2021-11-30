@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TypeForm from "./TypeForm";
+import TypeForm_blau from "./TypeForm_blau";
 
 const CTA4 = () => {
   return (
@@ -13,49 +13,16 @@ const CTA4 = () => {
 
       <div className="twocolumn">
         <div className="buttoncolumn">
-          <TypeForm />
+          <TypeForm_blau />
         </div>
       </div>
       <style jsx>{`
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: left;
-          color: #fff;
-          font-weight: 300;
-          left: 3%;
-          top: 60%;
-          font-family: "Poppins", sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 12px;
-          line-height: 18px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-
-          color: #ffffff;
-        }
         #unser-campus {
           padding: 100px 0 100px;
           min-height: 68vh;
           position: relative;
-          background-color: #070021;
-          background-image: linear-gradient(
-              to right,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
+          background-color: #ffda19;
+          color: #10375c;
         }
         .twocolumn {
           display: grid;
@@ -68,58 +35,21 @@ const CTA4 = () => {
           justify-content: flex-end;
           align-items: flex-start;
         }
-        .twocolumn > img {
-          width: 100%;
-          height: 100%;
-        }
         h1 {
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_extra_bold";
-          color: #fff;
           font-weight: 900;
-          font-size: 4.6em;
-
-          line-height: 68px;
-
+          font-size: 5.1em;
+          line-height: 80px;
           margin-left: 9%;
         }
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: #fff;
+          -webkit-text-stroke-color: #10375c;
           font-weight: 300;
         }
 
-        p {
-          color: #fff;
-          //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans_regular'
-          font-style: normal;
-          font-weight: normal;
-          font-size: 18px;
-          line-height: 29px;
-          justify-self: center;
-          max-width: 480px;
-        }
-
-        button {
-          margin: 2em 1em;
-          //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans_regular';
-          font-style: normal;
-          font-weight: normal;
-          font-size: 14px;
-          line-height: 16px;
-          text-align: center;
-          letter-spacing: 3.5px;
-          text-transform: uppercase;
-          padding: 18px 32px;
-          background: transparent;
-          border: 1px solid #fff;
-          color: #fff;
-          justify-self: center;
-        }
         @media only screen and (max-width: 1024px) {
           #unser-campus {
             padding: 50px 0;
@@ -137,9 +67,8 @@ const CTA4 = () => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 3em;
-
-            line-height: 2em;
+            font-size: 60px;
+            line-height: 60px;
           }
           h1 span.super {
             -webkit-text-stroke-width: 2px;

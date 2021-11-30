@@ -1,4 +1,4 @@
-import Layout from "../component/Layout";
+import Layout from "./Layout";
 import Popup from "reactjs-popup";
 
 function gtag_report_conversion(url) {
@@ -75,7 +75,6 @@ const Typeform = (props) => {
           position: relative;
           top: ${props.top};
           margin: 2em 1em;
-          // font-family: 'Neue_Machina_Regular_400';
           font-family: "Fira Sans_regular";
           font-style: normal;
           font-weight: normal;
@@ -86,15 +85,15 @@ const Typeform = (props) => {
           text-transform: uppercase;
           padding: 18px 32px;
           background: transparent;
-          border: 1px solid #fff;
-          color: #fff;
+          border: 1px solid #10375c;
+          color: #10375c;
           justify-self: center;
           display: inline-block;
           width: 200px;
         }
         button:hover {
-          color: #10375c;
-          background: #fff;
+          color: #fff;
+          background: #10375c;
         }
         iframe {
           position: absolute;
