@@ -195,7 +195,8 @@ const JetztBewerben = () => {
           }
           @media only screen and (max-width: 375px) {
             h1 {
-              font-size: 2em;
+              font-size: 60px;
+              line-height: 50px;
             }
           }
         }
