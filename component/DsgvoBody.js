@@ -15,7 +15,7 @@ const DsgvoBody = () => {
           (DS-GVO) ist die
         </p>
         <p>
-          SuperCode GmbH &amp; Co. KG
+          SuperDigital e.V.
           <span>Ratherstr.25</span>
           <span>40476 Düsseldorf</span>
         </p>
