@@ -32,7 +32,7 @@ const Footer = () => {
             <a aria-label="dsgvo">DSGVO</a>
           </Link>
         </div>
-        <p className="year">&copy; 2020</p>
+        <p className="year">&copy; 2021</p>
       </div>
       <style jsx>
         {`
