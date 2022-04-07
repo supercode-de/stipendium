@@ -1,38 +1,38 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer id="footer">
-      <div className="copyright">
-        <div className="flex">
-          <p className="white">
-            <img src="/superdigital_logo.svg" alt="" />
+    <footer id='footer'>
+      <div className='copyright'>
+        <div className='flex'>
+          <p className='white'>
+            <img src='/superdigital_logo.svg' alt='' />
           </p>
-          <Link href="https://www.facebook.com/superdigitalev">
+          <Link href='https://www.facebook.com/superdigitalev'>
             <a aria-label="Facebook">
-              <img src="/iconmonstr-facebook-5.svg" alt="" />
+              <img src='/iconmonstr-facebook-5.svg' alt='' />
             </a>
           </Link>
-          <Link href="https://www.instagram.com/superdigitalev/">
+          <Link href='https://www.instagram.com/superdigitalev/'>
             <a aria-label="instagram">
-              <img src="/iconmonstr-instagram-11.svg" alt="" />
+              <img src='/iconmonstr-instagram-11.svg' alt='' />
             </a>
           </Link>
-          <Link href="https://www.linkedin.com/company/superdigitalev">
+          <Link href='https://www.linkedin.com/company/superdigitalev'>
             <a aria-label="linkedin">
-              <img src="/iconmonstr-linkedin-5.svg" alt="" />
+              <img src='/iconmonstr-linkedin-5.svg' alt='' />
             </a>
           </Link>
         </div>
-        <div className="links">
-          <Link href="/impressum">
+        <div className='links'>
+          <Link href='/impressum'>
             <a aria-label="Impressum">Impressum</a>
           </Link>
-          <Link href="/dsgvo">
+          <Link href='/dsgvo'>
             <a aria-label="dsgvo">DSGVO</a>
           </Link>
         </div>
-        <p className="year">&copy; 2021</p>
+        <p className='year'>&copy; 2020</p>
       </div>
       <style jsx>
         {`
@@ -40,7 +40,23 @@ const Footer = () => {
             width: 150px;
           }
           #footer {
-            background: #10375c;
+            background: #070021;
+            background-image: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-position: 0 0, 0 0;
+            background-size: calc(100vw / 12) calc(100vw / 12);
             color: #fff;
             font-weight: 200;
 
@@ -58,10 +74,10 @@ const Footer = () => {
             justify-content: space-around;
           }
           .links a {
-            font-family: "Fira Sans_regular";
+            font-family: 'Fira Sans_regular';
           }
           .year {
-            font-family: "Fira Sans_regular";
+            font-family: 'Fira Sans_regular';
           }
           .link-container {
             display: flex;
@@ -73,7 +89,7 @@ const Footer = () => {
             display: block;
             padding: 0.5em 5px;
             color: #fff;
-            font-family: "Fira Sans_regular";
+            font-family: 'Fira Sans_regular';
           }
           a:visited {
             color: #fff;
@@ -81,7 +97,7 @@ const Footer = () => {
 
           a:hover {
             text-decoration: underline;
-            color: #ffda19;
+            color: #3dd7ac;
           }
           a:active {
             color: #5d3ede;

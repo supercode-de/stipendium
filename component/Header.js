@@ -14,8 +14,11 @@ const Header = () => {
             <span>Super-Stipendium</span>
             Super-Stipendium
           </h1>
-          <img src="/Frauen_in_Tech_2.svg" alt="" className="frauen-in-tech" />
+          <img src="/Frauen_in_Tech.svg" alt="" className="frauen-in-tech" />
         </div>
+        {/* <h3>Erhalte ein Super-Stipendium</h3>
+        <h3>und lerne Programmieren!</h3> */}
+        {/* <Arrow /> */}
       </div>
       <style jsx>{`
         #header {
@@ -56,21 +59,21 @@ const Header = () => {
         }
         .frauen-in-tech {
           position: absolute;
-          right: 0;
-          bottom: -50%;
-          max-width: 40vw;
+          right: -5%;
+          top: 35%;
+          max-width: 80vw;
           height: 15rem;
         }
 
         h1 {
-          font-family: "Fira Sans_bold";
+          font-family: "Neue_Machina_Regular_400";
           margin: 0;
           padding-bottom: 10vh;
-          font-size: 80px;
+          font-size: 5em;
           letter-spacing: 2px;
           color: #fff;
           text-align: center;
-          line-height: 20px;
+          line-height: 18px;
           font-weight: 200;
         }
 
@@ -89,7 +92,7 @@ const Header = () => {
           -webkit-text-stroke-color: #fff;
         }
         h3 {
-          font-family: "Fira Sans";
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: 500;
           font-size: 24px;
@@ -105,7 +108,7 @@ const Header = () => {
           margin-bottom: 50px;
         }
         p {
-          font-family: "Fira Sans";
+          font-family: "Neue_Machina_Regular_400";
           font-style: normal;
           font-weight: 500;
           font-size: 12px;
@@ -115,43 +118,39 @@ const Header = () => {
 
           color: #ffffff;
         }
-
         @media (max-width: 1040px) {
           h1 {
-            font-size: 50px;
-            line-height: 12px;
+            font-size: 4em;
           }
         }
-
         @media (max-width: 768px) {
           h1 {
-            font-size: 40px;
-            line-height: 10px;
+            font-size: 4em;
+            line-height: 32px;
           }
 
           .frauen-in-tech {
-            right: 0;
-            bottom: -30%;
-            max-width: 45vw;
+            top: 45%;
             height: 10rem;
           }
         }
-
         @media (max-width: 468px) {
           h3 {
             font-size: 1.6em;
             margin-bottom: 0;
           }
-
+          h3:first-of-type {
+            margin-top: 20px;
+          }
+          h3:last-of-type {
+            margin-bottom: 20px;
+          }
           h1 {
-            font-size: 24px;
-            line-height: 6px;
+            font-size: 2.5em;
+            line-height: 20px;
+            font-weight: 500;
+            margin-bottom: 40px;
           }
-          h1 span:nth-of-type(1),
-          h1 span:nth-of-type(2) {
-            -webkit-text-stroke-width: 0.8px;
-          }
-
           .frauen-in-tech {
             top: 40%;
             height: 6rem;

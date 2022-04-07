@@ -1,4 +1,4 @@
-import Carousel from "react-multi-carousel";
+import Carousel from 'react-multi-carousel';
 
 const responsive = {
   superLargeDesktop: {
@@ -22,19 +22,19 @@ const responsive = {
 
 const SuperStipendium_neu = () => {
   return (
-    <div id="super-stipendium">
-      <span className="aside">Arbeitsplatz der Zukunft</span>
+    <div id='super-stipendium'>
+      <span className='aside'>Arbeitsplatz der Zukunft</span>
       {/* <img src="/img/bgLine.png" alt="" className="bg-line" /> */}
       {/* <div className="grid"> */}
-      <article className="stipendium-left">
-        <div className="headline-left">
+      <article className='stipendium-left'>
+        <div className='headline-left'>
           <h1>
-            Das{" "}
-            <span className="super">
-              Super-<span className="break"></span>
-              <span className="tech-position">
+            Das{' '}
+            <span className='super'>
+              Super-<span className='break'></span>
+              <span className='tech-position'>
                 Stipendium
-                <img src="/img/UI.svg" alt="" className="frauen-in-tech" />
+                <img src='/img/UI.svg' alt='' className='frauen-in-tech' />
               </span>
             </span>
           </h1>
@@ -48,28 +48,28 @@ const SuperStipendium_neu = () => {
           <br />
           Damit möchten wir noch mehr Kreativschaffende ermutigen, den
           Karrierewechsel in die Digital-Branche zu starten. <br /> <br />
-          <span className="circle">
-            {" "}
+          <span className='circle'>
+            {' '}
             Bewirb&nbsp; dich jetzt bis zum 31.08.2021.
           </span>
           <br />
           <br />
           <br />
-          <div className="bold">
+          <div className='bold'>
             Der Prozess:
             <br />
-            <span className="nr"> 1. </span>Bis zum 31.08.2021 bewerben: Fragen
+            <span className='nr'> 1. </span>Bis zum 31.08.2021 bewerben: Fragen
             beantworten und die kleine Design-Aufgabe einsenden.
             <br />
-            <span className="nr"> 2. </span>Workshop -Teilnahme: wenn du eine
+            <span className='nr'> 2. </span>Workshop -Teilnahme: wenn du eine
             Runde weiter bist, laden wir dich zum Workshop ein. Die genauen
             Termine findest du im Briefing.
             <br />
-            <span className="nr"> 3. </span> Persönliches Gespräch.
+            <span className='nr'> 3. </span> Persönliches Gespräch.
           </div>
           <br />
           <br />
-          {"..."}und mit etwas Glück erhältst du das Stipendium und startest
+          {'...'}und mit etwas Glück erhältst du das Stipendium und startest
           deine UX / UI-Karriere!
         </p>
 
@@ -79,18 +79,18 @@ const SuperStipendium_neu = () => {
           </span>{" "}
           <span className="circle">16.10.2020</span> */}
       </article>
-      <article className="stipendium-right">
-        <img src="/img/StipendiumArrow.svg" alt="" className="arrow-mobile" />
+      <article className='stipendium-right'>
+        <img src='/img/StipendiumArrow.svg' alt='' className='arrow-mobile' />
 
-        <div className="general">
+        <div className='general'>
           <h5>
-            Kurszeitraum: 25.10.2021 - 04.02.2022 Umfang: 13 Wochen / Teilzeit{" "}
+            Kurszeitraum: 25.10.2021 - 04.02.2022 Umfang: 13 Wochen / Teilzeit{' '}
             <br /> <br /> 1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr) 2x pro
             Woche abends (von 18:00 bis 21:00 Uhr)
           </h5>
-          <img src="/img/StipendiumArrow.svg" alt="" className="arrow" />
+          <img src='/img/StipendiumArrow.svg' alt='' className='arrow' />
         </div>
-        <div className="information">
+        <div className='information'>
           <p>
             Durch unser Bootcamp UX/UI-Design bekommst du genau die Kenntnisse
             vermittelt, die für den Arbeitsmarkt relevant sind:
@@ -103,7 +103,7 @@ const SuperStipendium_neu = () => {
             erstellst ein responsives Design mit Designsystemen.
             <br />
             <br />
-            <span className="trainer">Trainer*innen: </span>
+            <span className='trainer'>Trainer*innen: </span>
             2 Trainer*innen pro Tag
             <br />
             <br />
@@ -334,7 +334,7 @@ const SuperStipendium_neu = () => {
           left: 3%;
           top: 60%;
           //   font-family: 'Poppins', sans-serif;
-          font-family: "Fira Sans";
+          font-family: 'Fira Sans';
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
@@ -349,7 +349,7 @@ const SuperStipendium_neu = () => {
         }
         h1 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: "Fira Sans_bold";
+          font-family: 'Fira Sans_bold';
           font-size: 5.1em;
           color: #fff;
           line-height: 60px;
@@ -375,7 +375,7 @@ const SuperStipendium_neu = () => {
         }
 
         .square:after {
-          content: "";
+          content: '';
           position: absolute;
           top: -5%;
           bottom: 0;
@@ -388,7 +388,7 @@ const SuperStipendium_neu = () => {
         }
 
         .circle:after {
-          content: "";
+          content: '';
           position: absolute;
           top: -85%;
           bottom: 0;
@@ -414,22 +414,22 @@ const SuperStipendium_neu = () => {
         // }
         .line::after {
           position: absolute;
-          background: url("/Vector52.svg") center/cover no-repeat;
+          background: url('/Vector52.svg') center/cover no-repeat;
           height: 2px;
           width: 110%;
           right: -12px;
           bottom: 0;
-          content: "";
+          content: '';
           display: block;
         }
         .line2::after {
           position: absolute;
-          background: url("/Vector53.svg") center/cover no-repeat;
+          background: url('/Vector53.svg') center/cover no-repeat;
           height: 2px;
           width: 50%;
           right: -5px;
           bottom: -3px;
-          content: "";
+          content: '';
           display: block;
         }
         // .circle::after {
@@ -445,7 +445,7 @@ const SuperStipendium_neu = () => {
         p {
           color: #fff;
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: "Fira Sans_regular";
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 1em;
@@ -467,7 +467,7 @@ const SuperStipendium_neu = () => {
 
         .bold {
           font-weight: normal;
-          font-family: "Fira Sans_regular";
+          font-family: 'Fira Sans_regular';
         }
 
         .stipendium-right {
@@ -507,7 +507,7 @@ const SuperStipendium_neu = () => {
 
         h6 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: "Fira Sans_regular";
+          font-family: 'Fira Sans_regular';
           color: #ffffff;
           font-size: 16px;
           line-height: 18px;
@@ -524,7 +524,7 @@ const SuperStipendium_neu = () => {
         }
 
         .general:after {
-          content: "";
+          content: '';
           position: absolute;
           top: -56%;
           bottom: 0;
@@ -540,7 +540,7 @@ const SuperStipendium_neu = () => {
 
         .general h5 {
           //   font-family: 'Neue_Machina_Regular_400';
-          font-family: "Fira Sans_regular";
+          font-family: 'Fira Sans_regular';
           color: #fff;
           font-size: 1.3rem;
           line-height: 28px;
@@ -573,7 +573,7 @@ const SuperStipendium_neu = () => {
             padding: 0 6% 0 6%;
           }
           .general:after {
-            content: "";
+            content: '';
             position: absolute;
             top: -50%;
             bottom: 0;
@@ -582,7 +582,7 @@ const SuperStipendium_neu = () => {
             display: block;
             width: 140%;
             height: 210%;
-            background: url("") center/contain no-repeat;
+            background: url('') center/contain no-repeat;
           }
         }
         @media (max-width: 979px) {
@@ -642,7 +642,7 @@ const SuperStipendium_neu = () => {
           .bold {
             line-height: 1.4em;
             font-weight: normal;
-            font-family: "Fira Sans_regular";
+            font-family: 'Fira Sans_regular';
           }
         }
 
@@ -666,7 +666,7 @@ const SuperStipendium_neu = () => {
 
           .general h5 {
             //   font-family: 'Neue_Machina_Regular_400';
-            font-family: "Fira Sans_regular";
+            font-family: 'Fira Sans_regular';
             color: #fff;
             font-size: 1.2rem;
             line-height: 20px;
@@ -706,7 +706,7 @@ const SuperStipendium_neu = () => {
               margin-top: -20px;
             }
             .circle:after {
-              content: "";
+              content: '';
               position: absolute;
 
               top: 3%;

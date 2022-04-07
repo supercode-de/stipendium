@@ -57,17 +57,14 @@ const SupercodeUsp2 = () => {
         {`
           .flex {
             display: flex;
-            font-family: "Fira Sans_bold";
-            font-size: 70px;
-            line-height: 60px;
-            color: #10375c;
+            font-family: "Neue_Machina_Regular_400";
+            font-size: 4em;
+            color: #fff;
+            line-height: 80px;
           }
           .flex:hover div:last-of-type {
             text-decoration: line-through;
-            text-decoration-color: #ffda19;
-          }
-          .flex div {
-            margin-bottom: 30px;
+            text-decoration-color: #30e1b9;
           }
 
           .aside {
@@ -91,7 +88,23 @@ const SupercodeUsp2 = () => {
             padding: 100px 0 100px 10%;
 
             position: relative;
-            background-color: #fff;
+            background-color: #070021;
+            background-image: linear-gradient(
+                to right,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              ),
+              linear-gradient(
+                to bottom,
+                rgba(255, 255, 255, 0.25) 0,
+                rgba(255, 255, 255, 0.25) 1px,
+                transparent 1px,
+                transparent 100%
+              );
+            background-position: 0 0, 0 0;
+            background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .twocolumn {
             display: grid;
@@ -111,15 +124,15 @@ const SupercodeUsp2 = () => {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
-            -webkit-text-stroke-color: #10375c;
+            -webkit-text-stroke-color: #fff;
             font-weight: 300;
           }
 
           .super-green {
             color: transparent;
             letter-spacing: 2px;
-            -webkit-text-stroke-width: 1.5px;
-            -webkit-text-stroke-color: #ffda19;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #30e1b9;
             font-weight: 300;
             font-size: 0.5em;
             padding-right: 10px;
@@ -129,21 +142,27 @@ const SupercodeUsp2 = () => {
               font-size: 3em;
               line-height: 50px;
             }
+            h1 {
+              font-size: 2em;
+              line-height: 40px;
+            }
           }
           @media (max-width: 768px) {
             #supercode-usp2 {
               padding: 60px 0% 60px 6%;
             }
-            .flex div {
-              font-size: 40px;
-              line-height: 40px;
+            h1 {
+              font-size: 3.5em;
             }
-
+            p {
+              font-size: 2em;
+              margin-bottom: 50px;
+            }
             .super-stroke {
               color: transparent;
               letter-spacing: 2px;
               -webkit-text-stroke-width: 1px;
-              -webkit-text-stroke-color: #10375c;
+              -webkit-text-stroke-color: #fff;
               font-weight: 300;
             }
           }

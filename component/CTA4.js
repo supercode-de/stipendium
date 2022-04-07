@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import TypeForm_blau from "./TypeForm_blau";
+import TypeForm from "./TypeForm";
 
 const CTA4 = () => {
   return (
@@ -13,16 +13,49 @@ const CTA4 = () => {
 
       <div className="twocolumn">
         <div className="buttoncolumn">
-          <TypeForm_blau />
+          <TypeForm />
         </div>
       </div>
       <style jsx>{`
+        .aside {
+          position: absolute;
+          transform: rotate(-90deg);
+          transform-origin: left;
+          color: #fff;
+          font-weight: 300;
+          left: 3%;
+          top: 60%;
+          font-family: "Poppins", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 12px;
+          line-height: 18px;
+          letter-spacing: 3px;
+          text-transform: uppercase;
+
+          color: #ffffff;
+        }
         #unser-campus {
           padding: 100px 0 100px;
           min-height: 68vh;
           position: relative;
-          background-color: #ffda19;
-          color: #10375c;
+          background-color: #070021;
+          background-image: linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            );
+          background-position: 0 0, 0 0;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .twocolumn {
           display: grid;
@@ -35,21 +68,55 @@ const CTA4 = () => {
           justify-content: flex-end;
           align-items: flex-start;
         }
+        .twocolumn > img {
+          width: 100%;
+          height: 100%;
+        }
         h1 {
-          font-family: "Fira Sans_extra_bold";
-          font-weight: 900;
-          font-size: 5.1em;
-          line-height: 80px;
-          margin-left: 9%;
+          font-family: "Neue_Machina_Regular_400";
+          color: #fff;
+          font-weight: 300;
+          font-size: 6em;
+
+          line-height: 105px;
+
+          margin-left: 8.3%;
         }
         h1 span.super {
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: #10375c;
+          -webkit-text-stroke-color: #fff;
           font-weight: 300;
         }
 
+        p {
+          color: #fff;
+          font-family: "Neue_Machina_Regular_400";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 29px;
+          justify-self: center;
+          max-width: 480px;
+        }
+
+        button {
+          margin: 2em 1em;
+          font-family: "Neue_Machina_Regular_400";
+          font-style: normal;
+          font-weight: normal;
+          font-size: 14px;
+          line-height: 16px;
+          text-align: center;
+          letter-spacing: 3.5px;
+          text-transform: uppercase;
+          padding: 18px 32px;
+          background: transparent;
+          border: 1px solid #fff;
+          color: #fff;
+          justify-self: center;
+        }
         @media only screen and (max-width: 1024px) {
           #unser-campus {
             padding: 50px 0;
@@ -67,8 +134,9 @@ const CTA4 = () => {
             min-height: 50vh;
           }
           h1 {
-            font-size: 60px;
-            line-height: 60px;
+            font-size: 3em;
+
+            line-height: 2em;
           }
           h1 span.super {
             -webkit-text-stroke-width: 2px;

@@ -2,6 +2,7 @@ import Carousel from "react-multi-carousel";
 
 const responsive = {
   superLargeDesktop: {
+    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5,
   },
@@ -28,11 +29,7 @@ const HtmlCssWtf = () => {
       </div>
       <div className="twocolumn">
         <div>
-          <h1>
-            WE <br />
-            CAN <br />
-            DO <span>IT</span>!
-          </h1>
+          <h1>HTML, CSS, WTF?!</h1>
           <p>
             Digitale Skills waren noch{" "}
             <span className="underline">nie&nbsp;wichtiger</span> – vor allem
@@ -83,6 +80,7 @@ const HtmlCssWtf = () => {
         }
         .aside {
           transform: rotate(-90deg);
+          color: #fff;
           font-weight: 300;
           font-family: "Poppins", sans-serif;
           font-style: normal;
@@ -118,11 +116,28 @@ const HtmlCssWtf = () => {
           background: rgba(0, 0, 0, 0.5) center/contain no-repeat;
         }
         #html-css-wtf {
-          font-family: "Fira Sans_regular";
+          font-family: "Neue_Machina_Regular_400";
+
           overflow: hidden;
           padding: 100px 0 100px 10%;
           position: relative;
-          background-color: #fff;
+          background-color: #070021;
+          background-image: linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            );
+          background-position: 0 0, 0 0;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .twocolumn {
           display: grid;
@@ -130,29 +145,29 @@ const HtmlCssWtf = () => {
           padding-bottom: 40px;
         }
         h1 {
-          font-family: "Fira Sans_extra_bold";
-          font-size: 120px;
-          line-height: 105px;
-          max-width: 346px;
+          font-family: "Neue_Machina_Regular_400";
+          font-size: 4em;
+          line-height: 1em;
+          max-width: 300px;
           color: transparent;
           -webkit-text-stroke-width: 2px;
-          -webkit-text-stroke-color: #10375c;
+          -webkit-text-stroke-color: #fff;
+          font-weight: 300;
           margin: 0.5em 0 0.3em;
         }
-        h1 span {
-          color: #10375c;
-        }
         .twocolumn div:first-of-type {
-          width: 80%;
+          color: #fff;
+          width: 90%;
           z-index: 99;
         }
         p {
-          color: #10375c;
-          font-family: "Fira Sans_regular";
+          color: #fff;
+          font-family: "Neue_Machina_Regular_400";
+
           font-style: normal;
           font-weight: normal;
-          font-size: 18px;
-          line-height: 22px;
+          font-size: 1.1em;
+          line-height: 30px;
           justify-self: center;
         }
         .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1) {
@@ -240,10 +255,6 @@ const HtmlCssWtf = () => {
           }
         }
         @media (max-width: 768px) {
-          h1 {
-            -webkit-text-stroke-width: 1px;
-          }
-
           .twocolumn {
             display: block;
           }
@@ -251,22 +262,25 @@ const HtmlCssWtf = () => {
             width: 80%;
           }
           h1 {
-            font-size: 60px;
-            line-height: 50px;
+            font-size: 5em;
             margin-bottom: 50px;
           }
           p {
-            font-family: "Fira Sans_regular";
+            color: #fff;
+            font-family: "Neue_Machina_Regular_400";
+
             font-style: normal;
             font-weight: normal;
-            font-size: 16px;
-            line-height: 20px;
+            font-size: 1.4em;
+            line-height: 24px;
             justify-self: center;
           }
           .asidebg,
           .asidebg:before {
             background: none;
           }
+        }
+        @media (max-width: 468px) {
         }
       `}</style>
     </div>

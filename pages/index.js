@@ -1,32 +1,29 @@
-import Header from "../component/Header";
-import Layout from "../component/Layout";
-import JetztBewerben from "../component/JetztBewerben";
-import Partner from "../component/Partner";
-import SupercodeUsp2 from "../component/SupercodeUsp2";
-import Footer from "../component/Footer";
-import WarumWeb from "../component/WarumWeb";
-import CTA4 from "../component/CTA4";
-import SuperStipendium from "../component/SuperStipendium";
-import HtmlCssWtf from "../component/HtmlCssWtf";
-import WarumSC from "../component/WarumSC";
-
-
+import Header_neu from '../component/Header_neu';
+import Layout from '../component/Layout';
+import JetztBewerben_neu from '../component/JetztBewerben_neu';
+import Partner_neu from '../component/Partner_neu';
+import SupercodeUsp2_neu from '../component/SupercodeUsp2_neu';
+import Footer from '../component/Footer';
+import WarumWeb_neu from '../component/WarumWeb_neu';
+import CTA4_neu from '../component/CTA4_neu';
+import SuperStipendium_neu from '../component/SuperStipendium_neu';
+import HtmlCssWtf_neu from '../component/HtmlCssWtf_neu';
+import WarumSC_neu from '../component/WarumSC_neu';
 
 export default function Home() {
-
   return (
     <Layout>
-      <div className="container">
+      <div className='container'>
         <main>
-          <Header />
-          <JetztBewerben />
-          <HtmlCssWtf />
-          <SuperStipendium />
-          <WarumWeb />
-          <WarumSC />
-          <SupercodeUsp2 />
-          <Partner />
-          <CTA4 />
+          <Header_neu />
+          <JetztBewerben_neu />
+          <HtmlCssWtf_neu />
+          <SuperStipendium_neu />
+          <WarumWeb_neu />
+          <WarumSC_neu />
+          <SupercodeUsp2_neu />
+          <Partner_neu />
+          <CTA4_neu />
           <Footer />
         </main>
         <style jsx>{`

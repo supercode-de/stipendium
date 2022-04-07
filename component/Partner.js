@@ -1,5 +1,5 @@
-import Carousel from "react-multi-carousel";
-import Link from "next/link";
+import Carousel from 'react-multi-carousel';
+import Link from 'next/link';
 const responsive = {
   superLargeDesktop: {
     // the naming can be any, depends on you.
@@ -24,16 +24,16 @@ const responsive = {
 
 const Partner = () => {
   return (
-    <div id="Absolventen">
-      <span className="aside">Unsere Partner</span>
+    <div id='Absolventen'>
+      <span className='aside'>Unsere Partner</span>
       <h2>
-        <img src="/image14.png" alt="" />
+        <img src='/image14.png' alt='' />
         <span>
           UNSERE <br /> <span>PARTNER</span>
         </span>
       </h2>
-      <div className="Absolventen-list">
-        <div className="container">
+      <div className='Absolventen-list'>
+        <div className='container'>
           <Carousel
             responsive={responsive}
             ssr
@@ -41,133 +41,71 @@ const Partner = () => {
             slidesToSlide={1}
             infinite
             partialVisible
-            containerClass="container-with-dots"
-            deviceType={""}
-            itemClass="carousel-item-padding-20-px"
+            containerClass='container-with-dots'
+            deviceType={''}
+            itemClass='carousel-item-padding-20-px'
           >
             <figure>
-              <img
-                src="/logo-female-innovation-hub-partner.png"
-                alt="female innovation hub logo"
-              />
+              <img src='/female-innovation-hub.png' alt='female innovation hub logo' />
               <figcaption>
                 <p>
                   Das Fe:male Innovation Hub ist die Plattform für Female
-                  Empowerment und Entrepreneurship und steht für digitale
-                  Bildung, Diversität und Chancengleichheit.
+                  Empowerment und Entrepreneurship und steht für stehen für
+                  digitale Bildung, Diversität und Chancengleichheit.
                 </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://www.femaleinnovationhub.com/">
-                      <a
-                        aria-label="femaleinnovationhub website"
-                        target="_blank"
-                      >
-                        WEBSITE
-                      </a>
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://www.femaleinnovationhub.com/'>
+                      <a aria-label="femaleinnovationhub website">WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/company/female-innovation-hub/">
-                      <a
-                        aria-label="femaleinnovationhub linkedin"
-                        target="_blank"
-                      >
-                        LINKEDIN
-                      </a>
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/company/female-innovation-hub/'>
+                      <a aria-label="femaleinnovationhub linkedin">LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/femaleinnovationhub/">
-                      <a
-                        aria-label="femaleinnovationhub facebook"
-                        target="_blank"
-                      >
-                        FACEBOOK
-                      </a>
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/femaleinnovationhub/'>
+                      <a aria-label="femaleinnovationhub facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
               </figcaption>
             </figure>
             <figure>
-              <img
-                src="/logo-women-in-tech-partner.png"
-                alt="Women in Tech logo"
-              />
+              <img src='/superdigital-logo.png' alt='superdigital logo' />
               <figcaption>
                 <p>
-                  Women in Tech e.V. ist ein branchenübergreifender,
-                  gemeinnütziger Verein mit dem Ziel Frauen in technischen
-                  Berufen zu gewinnen, fördern und sichtbarer zu machen.
+                  Unser Ziel ist es, Menschen für das Verstehen von digitaler
+                  Logik und Technologie zu begeistern, Kompetenzen für
+                  Gestaltung der digitalen Welt zu vermitteln und Wege der
+                  selbstbestimmten Nutzung aufzuzeigen.
                 </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/company/womenintechde/">
-                      <a aria-label="women in tech linkedin" target="_blank">
-                        LINKEDIN
-                      </a>
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://www.super-digital.xyz/'>
+                      <a aria-label="superdigital website">WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.instagram.com/womenintech_dach/">
-                      <a aria-label="women in tech instagram" target="_blank">
-                        INSTAGRAM
-                      </a>
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/superdigitalev'>
+                      <a aria-label="superdigital FACEBOOK">FACEBOOK</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/groups/womenintechgermany/">
-                      <a aria-label="women in tech facebook" target="_blank">
-                        FACEBOOK
-                      </a>
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/company/superdigitalev'>
+                      <a aria-label="superdigital LINKEDIN">LINKEDIN</a>
                     </Link>
                   </span>
                 </div>
               </figcaption>
             </figure>
             <figure>
-              <img src="/logo-digihub-partner.png" alt="digihub logo" />
-              <figcaption>
-                <p>
-                  Der digihub umfasst ein großes Netzwerk aus unterschiedlichen
-                  Akteuren wie Städten und Gemeinden, IHKs, Mittelstand und
-                  Corporates, Co-Working-Spaces, Finanzinstituten, Hochschulen
-                  und Business Angels.
-                </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://digihub.de/">
-                      <a aria-label="digihub website" target="_blank">
-                        WEBSITE
-                      </a>
-                    </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://de.linkedin.com/company/digital-innovation-hub-d%C3%BCsseldorf-rheinland-gmbh">
-                      <a aria-label="digihub linkedin" target="_blank">
-                        LINKEDIN
-                      </a>
-                    </Link>
-                  </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://de-de.facebook.com/digihub.de/">
-                      <a aria-label="digihub facebook" target="_blank">
-                        FACEBOOK
-                      </a>
-                    </Link>
-                  </span>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img src="/logo-supercode-partner.png" alt="super-code logo" />
+              <img src='/supercode-logo.png' alt='super-code logo' />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,
@@ -177,67 +115,22 @@ const Partner = () => {
                   Der Rockstar unter allen IT-Bildungsinstituten in NRW!
                 </p>
 
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://super-code.de">
-                      <a aria-label="super-code website" target="_blank">
-                        WEBSITE
-                      </a>
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://super-code.de'>
+                      <a aria-label="super-code website">WEBSITE</a>
                     </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/school/19099791">
-                      <a aria-label="super-code LINKEDIN" target="_blank">
-                        LINKEDIN
-                      </a>
+                  </span>{' '}
+                  <span className='hide'>–</span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/school/19099791'>
+                      <a aria-label="super-code LINKEDIN">LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/supercodegmbh">
-                      <a aria-label="super-code FACEBOOK" target="_blank">
-                        FACEBOOK
-                      </a>
-                    </Link>
-                  </span>
-                </div>
-              </figcaption>
-            </figure>
-            <figure>
-              <img
-                src="/logo-superdigital-partner.png"
-                alt="superdigital logo"
-              />
-              <figcaption>
-                <p>
-                  Unser Ziel ist es, Menschen für das Verstehen von digitaler
-                  Logik und Technologie zu begeistern, Kompetenzen für
-                  Gestaltung der digitalen Welt zu vermitteln und Wege der
-                  selbstbestimmten Nutzung aufzuzeigen.
-                </p>
-                <div className="button">
-                  <span className="block">
-                    <Link href="https://www.super-digital.xyz/">
-                      <a aria-label="superdigital website" target="_blank">
-                        WEBSITE
-                      </a>
-                    </Link>
-                  </span>{" "}
-                  <span className="hide">–</span>
-                  <span className="block">
-                    <Link href="https://www.facebook.com/superdigitalev">
-                      <a aria-label="superdigital FACEBOOK" target="_blank">
-                        FACEBOOK
-                      </a>
-                    </Link>
-                  </span>
-                  <span className="hide"> –</span>
-                  <span className="block">
-                    <Link href="https://www.linkedin.com/company/superdigitalev">
-                      <a aria-label="superdigital LINKEDIN" target="_blank">
-                        LINKEDIN
-                      </a>
+                  <span className='hide'> –</span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/supercodegmbh'>
+                      <a aria-label="super-code FACEBOOK">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
@@ -256,7 +149,7 @@ const Partner = () => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: "Poppins", sans-serif;
+          font-family: 'Poppins', sans-serif;
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
@@ -268,8 +161,24 @@ const Partner = () => {
         }
         #Absolventen {
           padding: 10vh 9vw 20vh;
-          background: #10375c;
+          background: #5d3ede;
           position: relative;
+          background-image: linear-gradient(
+              to right,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            ),
+            linear-gradient(
+              to bottom,
+              rgba(255, 255, 255, 0.25) 0,
+              rgba(255, 255, 255, 0.25) 1px,
+              transparent 1px,
+              transparent 100%
+            );
+          background-position: 0 0, 0 0;
+          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .container {
           width: 100%;
@@ -279,12 +188,12 @@ const Partner = () => {
           margin: 0;
           padding: 0 0 5vh 3%;
           color: #fff;
-          font-size: 5.1em;
-          line-height: 80px;
+          font-size: 5em;
+          border-bottom: 1px solid #5d3ede;
           position: relative;
           height: 220px;
-          font-family: "Fira Sans_extra_bold";
-          font-weight: 900;
+          font-family: 'Neue_Machina_Regular_400';
+          font-weight: 300;
         }
         h2 span {
           position: absolute;
@@ -307,9 +216,9 @@ const Partner = () => {
         .Absolventen-list {
         }
         figure {
-          border: 2px solid #ffda19;
+          border: 2px solid #3dd7ac;
           padding: 15px 40px;
-          background: #10375c;
+          background: #5d3ede;
           min-height: 250px;
         }
         p {
@@ -324,10 +233,10 @@ const Partner = () => {
         }
 
         .button {
-          font-family: "Fira Sans_regular";
+          font-family: 'Neue_Machina_Regular_400';
           font-style: normal;
           font-weight: normal;
-          font-size: 0.6rem;
+          font-size: 12px;
           line-height: 18px;
           letter-spacing: 3px;
           text-transform: uppercase;
@@ -360,10 +269,6 @@ const Partner = () => {
         @media (max-width: 768px) {
           h2 {
             height: 150px;
-            line-height: 50px;
-          }
-          h2 span span {
-            -webkit-text-stroke-width: 1px;
           }
           figure {
             padding: 10px 10px;
