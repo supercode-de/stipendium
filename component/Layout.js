@@ -39,6 +39,10 @@ class Layout extends Component {
               font-family: "Fira Sans_200";
               src: url("/FiraSans-ExtraLight.ttf");
             }
+            @font-face {
+              font-family: "Fira Sans_SemiBold";
+              src: url("/FiraSans-SemiBold.ttf");
+            }
             html {
               scroll-behavior: smooth;
             }  

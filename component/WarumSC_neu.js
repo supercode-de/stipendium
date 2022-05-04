@@ -33,22 +33,13 @@ const WarumSC_neu = () => {
           </h1>
 
           <p>
-            Egal ob du Quereinsteiger*in, berufstätig, alleinerziehend bist oder
-            dein Studium abgebrochen hast: SuperCode unterstützt dich auf deinem
-            Weg in die digitale Branche. Du lernst alles, was du für deinen
-            Einstieg in die digitale Karriere brauchst: Ein umfangreiches
-            UX-Know-How in den Bereichen User-Research und -Methods, Prototyping
-            & Wireframing und die Prinzipien des benutzerzentrierten Designs für
-            UI.
-            <br />
+            Egal ob du Quereinsteiger*in, Berufstätig*e, alleinerziehend oder Studienabrecher*in bist: SuperCode unterstützt dich deinen Weg in die Digitalbranche zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich jede Person gesehen und angenomen fühlt und ihr Potential voll entfalten kann.
           </p>
           <p>
-            Mit über 60% Praxisanteil bilden wir dich optimal für die
-            Berufspraxis als UX/UI-Designer*in aus und unterstützen dich dabei
-            ein eigenes Portfolios mit großartigen Praxisprojekten zu erstellen.
-            Bis zu zwei Trainern*innen sorgen täglich für eine optimale und
-            effektive Lernbegleitung.
-            <br />
+            Du lernst alles, was du für deinen Einstieg in die digitale Karriere brauchst: Ein umfangreiches UX-Know-How in den Bereichen User-Research und -Methods, Prototyping & Wireframing und den Prinzipien des benutzerzentrierten Designs.
+          </p>
+          <p>
+          Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
           </p>
         </div>
         <div className='gallery'>
@@ -57,11 +48,6 @@ const WarumSC_neu = () => {
           <img src='/img/warumsc_bild3.png' alt='' className='rightcenter' />
           <img src='/img/warumsc_bild4.png' alt='' className='rightbottom' />
         </div>
-        {/* <img
-          src='/img/warumsc_bild5.png'
-          alt=''
-          className='leftbottom gallery'
-        /> */}
         <section id='carousel'>
           <Carousel
             responsive={responsive}

@@ -1,6 +1,7 @@
 import Header_neu from '../component/Header_neu';
 import Layout from '../component/Layout';
-import JetztBewerben_neu from '../component/JetztBewerben_neu';
+import JetztBewerben_Emilija from '../component/JetztBewerben_Emilija';
+import JetztBewerben_Bob from '../component/JetztBewerben_Bob';
 import Partner_neu from '../component/Partner_neu';
 import SupercodeUsp2_neu from '../component/SupercodeUsp2_neu';
 import Footer from '../component/Footer';
@@ -9,6 +10,7 @@ import CTA4_neu from '../component/CTA4_neu';
 import SuperStipendium_neu from '../component/SuperStipendium_neu';
 import HtmlCssWtf_neu from '../component/HtmlCssWtf_neu';
 import WarumSC_neu from '../component/WarumSC_neu';
+import ShetaniEinsatz from '../component/ShetaniEinsatz';
 
 export default function Home() {
   return (
@@ -16,12 +18,13 @@ export default function Home() {
       <div className='container'>
         <main>
           <Header_neu />
-          <JetztBewerben_neu />
+          <JetztBewerben_Bob />
           <HtmlCssWtf_neu />
           <SuperStipendium_neu />
           <WarumWeb_neu />
           <WarumSC_neu />
-          <SupercodeUsp2_neu />
+          <ShetaniEinsatz />
+          {/* <SupercodeUsp2_neu /> */}
           <Partner_neu />
           <CTA4_neu />
           <Footer />

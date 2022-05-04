@@ -5,121 +5,90 @@ const Header = () => {
 
   return (
     <div id='header'>
-      <div className='bg'>
-        <span className='aside'>lerne ux/ui-design</span>
-
-        <div className='content'>
+      <div className="nav-headlines">
+        <h2>#SUPERSTIPENDIUM</h2>
+        <h2>EINE AKTION VON</h2>
+      </div>
+      <div className="nav-logos">
+        <img src="/img/shetani-logo-2.png" alt="shetani logo" title="Shetani oHG"/>
+        <img src="/img/supercode-signet.svg" alt="supercode logo" title="supercode GmbH"/>
+        <img src="/img/SuperDigital-signet.svg" alt="super digital logo" title="SuperDigital e.V."/>
+      </div>
+      <div className="graphical-headlines">
+        <div>
           <h1>
             <span>Super-Stipendium</span>
             <span>Super-Stipendium</span>
             Super-Stipendium
           </h1>
-          <img src='/img/UI.svg' alt='' className='frauen-in-tech' />
+          <div className="graphic-headline-uxui">
+            <img src='/img/UI.svg' alt='' className='uiuxheadline-graphic' />
+          </div>
         </div>
-        {/* <h3>Erhalte ein Super-Stipendium</h3>
-        <h3>und lerne Programmieren!</h3> */}
-        {/* <Arrow /> */}
+
       </div>
       <style jsx>{`
         #header {
-          background: url('/img/hero.jpg') center/cover no-repeat;
+          background: url('/img/hero_2.png') top/cover no-repeat;
+          height: 110vh;
         }
-        .bg {
-          height: 100vh;
+        .nav-headlines {
+          display: flex;
+          justify-content: space-between;
+          padding: 46px 32px 20px 32px;
+        }
+        .nav-headlines h2 {
+          font-family: 'Fira Sans_SemiBold';
+          font-size: 20px;
+          color: #fff;
+          margin: 0;
+        }
+        .nav-logos {
+          display: flex;
+          justify-content: flex-end;
+          align-items: center;
+          column-gap: 20px;
+          padding-right: 32px;
+        }
+        .nav-logos img:nth-of-type(1) {
+          width: 80px;
+        }
+        .nav-logos img:nth-of-type(2),
+        .nav-logos img:nth-of-type(3) {
+          width: 50px;
+        }
+        .graphical-headlines {
           display: flex;
           justify-content: center;
           align-items: center;
-          flex-direction: column;
-          position: relative;
-          background: rgba(0, 0, 0, 0.3);
+          height: 100vh;
         }
-        .aside {
-          position: absolute;
-          transform: rotate(-90deg);
-          transform-origin: left;
-          color: #fff;
-          font-weight: 300;
-          left: 3%;
-          top: 60%;
-          font-family: 'Poppins', sans-serif;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 12px;
-          line-height: 18px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-
-          color: #ffffff;
+        .graphic-headline-uxui {
+          text-align: center;
+          margin-top: -100px;
         }
-
-        .content {
-          position: relative;
-
-          padding-top: 70px;
+        .graphic-headline-uxui img {
+          width: 60%;
         }
-        .frauen-in-tech {
-          position: absolute;
-          right: 11%;
-          top: 37%;
-          max-width: 37vw;
-          height: 15rem;
-        }
-
         h1 {
-          // font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_bold';
           margin: 0;
           padding-bottom: 10vh;
-          font-size: 5em;
+          font-size: 120px;
           letter-spacing: 2px;
           color: #fff;
           text-align: center;
           line-height: 18px;
           font-weight: 200;
+          position: relative;
         }
 
-        h1 span:nth-of-type(1) {
+        h1 span {
           display: block;
           color: transparent;
           letter-spacing: 2px;
           -webkit-text-stroke-width: 1.5px;
           -webkit-text-stroke-color: #fff;
-        }
-        h1 span:nth-of-type(2) {
-          display: block;
-          color: transparent;
-          letter-spacing: 2px;
-          -webkit-text-stroke-width: 1.5px;
-          -webkit-text-stroke-color: #fff;
-        }
-        h3 {
-          // font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 24px;
-          line-height: 37px;
-          color: #fff;
-          margin: 0;
-          text-align: center;
-        }
-        h3:first-of-type {
-          margin-top: 100px;
-        }
-        h3:last-of-type {
-          margin-bottom: 50px;
-        }
-        p {
-          // font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans';
-          font-style: normal;
-          font-weight: 500;
-          font-size: 12px;
-          line-height: 14px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-
-          color: #ffffff;
         }
         @media (max-width: 1040px) {
           h1 {
@@ -132,36 +101,12 @@ const Header = () => {
             line-height: 32px;
           }
 
-          .frauen-in-tech {
-            top: 45%;
-            height: 10rem;
-          }
         }
         @media (max-width: 468px) {
-          h3 {
-            font-size: 1.6em;
-            margin-bottom: 0;
-          }
-          // h3:first-of-type {
-          //   margin-top: 20px;
-          // }
-          // h3:last-of-type {
-          //   margin-bottom: 20px;
-          // }
           h1 {
             font-size: 3em;
             line-height: 0px;
-            //   font-weight: 500;
-            //   margin-bottom: 40px;
-
             width: 100%;
-          }
-
-          .frauen-in-tech {
-            top: 40%;
-            height: 4rem;
-            width: 50%;
-            right: 28%;
           }
           #header {
             height: 90vh;

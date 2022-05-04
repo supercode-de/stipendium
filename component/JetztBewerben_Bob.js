@@ -8,21 +8,12 @@ const JetztBewerben_neu = () => {
       <div className='twocolumn'>
         <div className='onecolumn'>
           <h1>
-            “An alle Karrierewechslerinnen da draußen... wenn ihr es wirklich
-            wollt - fangt einfach an. Überlegt nicht zu viel. Schreibt die
-            ersten Zeilen in HTML, denn “Hallo Welt” könnte der Beginn von etwas
-            Großem sein!”
+          “Im Bootcamp habe ich nicht nur viel über die Gestaltung, Technik und Psychologie von Digitalprodukten gelernt, sondern konnte das neue Wissen auch direkt praktisch anwenden. Das Team und die Gruppe waren super motivierend und ich habe mich jeden Tag auf den Kurs gefreut!” 
           </h1>
           <div className='circle'>
-            <h1 className='emilija'>
-              Emilija Sekulic, Video- Journalistin <br /> und Bootcamp-
-              Teilnehmerin
-            </h1>
+            <h1 className='persona'>Bob Boost, Medienmanager und <br /> Audience Developer</h1>
           </div>
 
-          {/* 
-                    <h1> Du willst < br /> < span > programmieren </span> lernen <br /> und einen Job mit < br /> Zukunft ? Das < span className="super" > Super - < br /> Stipendium </span> ist deine <br /> <span> Chance! </span></h1>
-                  */}
           <div className='cta-container'>
             <div className='center'>
               <Typeform />
@@ -38,13 +29,10 @@ const JetztBewerben_neu = () => {
             </div>
           </div>
         </div>
-        <img src='/Emilija.png' alt='' />
-        {/* <div className='jetzt_bewerbern_img'>
-        </div> */}
+        <img src='/persona_bob.jpg' alt='' />
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .center {
             text-align: center;
           }
@@ -70,31 +58,20 @@ const JetztBewerben_neu = () => {
 
             position: relative;
             background-color: #10375c;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-            //   linear-gradient(
-            //     to bottom,
+            // background-image: linear-gradient(
+            //     to right,
             //     rgba(255, 255, 255, 0.25) 0,
             //     rgba(255, 255, 255, 0.25) 1px,
             //     transparent 1px,
             //     transparent 100%
-            //   );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
+            // );
+            // background-position: 0 0, 0 0;
+            // background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .twocolumn {
             display: grid;
             grid-template-columns: 1.2fr 1fr;
             grid-gap: 0  8%;
-            // padding-bottom: 40px;
-            // margin-bottom: 100px;
-            
-            
           }
           .onecolumn {
             display: grid;
@@ -105,8 +82,7 @@ const JetztBewerben_neu = () => {
             align-self: center;
           }
           h1 {
-            // font-family: 'Neue_Machina_Regular_400';
-             font-family: 'Fira Sans_regular';
+            font-family: 'Fira Sans_regular';
             font-size: 1.9em;
             color: #fff;
           }
@@ -162,49 +138,38 @@ const JetztBewerben_neu = () => {
           }
           .circle:after {
             content: '';
-            display: flex;
             position: absolute;
-            top: -30px;
+            top: -35%;
             bottom: 0;
-            left: -80px;
+            left: 0;
             right: 0;
-            display: block;
-             height: 140%;
-            width: 114%;
+            max-width: 60%;
             transform: scale(1.2, 0.8);
-            background: url(/img/CircleVectorEmilija.svg) center/contain
-              no-repeat;
+            background: url(/img/CircleVectorEmilija.svg) center/contain no-repeat;
           }
-.cta-container{
-    display:flex;
-    margin-top:90px;
-}
-
-// .cta-container div:nth-of-type(1){
-//   // width:20%;
-// }
-.cta-container div:nth-of-type(2){
-  width:70%;
-}
+          .cta-container{
+              display:flex;
+              margin-top:90px;
+          }
+          .cta-container div:nth-of-type(2){
+            width:70%;
+          }
 
           p {
             color: #fff;
-            // font-family: 'Neue_Machina_Regular_400';
             font-family: 'Fira Sans_regular';
 
             font-style: normal;
             font-weight: normal;
-            // font-size: 1.5em;
             line-height: 22px;
             justify-self: center;
-            // max-width: 620px;
             padding-left:10%;
           }
           button {
             font-family: Poppins;
             font-style: normal;
             font-weight: normal;
-             font-size: 12px;
+            font-size: 12px;
             line-height: 18px;
             letter-spacing: 3px;
             text-transform: uppercase;
@@ -219,20 +184,19 @@ const JetztBewerben_neu = () => {
             background: #fff;
           }
 
-        .twocolumn img{
-               width:80%;
-              justify-self:end;
-           }
+          .twocolumn img{
+            width:80%;
+            justify-self:end;
+          }
           .jetzt_bewerbern_img img{
-              width:100%;
+            width:100%;
           }
 
-.jetzt_bewerbern_img{
-    width:90%;
-    position:relative;
-    right:0;
-
-}
+          .jetzt_bewerbern_img{
+              width:90%;
+              position:relative;
+              right:0;
+          }
           @media (max-width: 1040px) {
             h1 {
               font-size: 2em;
@@ -251,13 +215,7 @@ const JetztBewerben_neu = () => {
               padding: 100px 6%;
             }
 
-            .circle {
-            }
             .circle:after {
-              // width: 70%;
-            
-              // background: url("") center/contain
-              // no-repeat;
               display:none;
             }
           }
@@ -304,7 +262,7 @@ const JetztBewerben_neu = () => {
               align-self: center;
               justify-self: center;
             }
-          .emilija{
+          .persona{
             margin-bottom:-50px;
           }
 

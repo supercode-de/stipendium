@@ -40,17 +40,15 @@ const SuperStipendium_neu = () => {
           </h1>
         </div>
         <p>
-          Der SuperDigital e.V., das Bildungsinstitut SuperCode und das
-          Düsseldorfer DigiHub ermöglichen dir ein Stipendium bei SuperCode und
-          damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps im
-          Bereich UX / UI Design.
+          Die Digital-Agentur Shetani, SuperCode und der SuperDigital e.V. ermöglichen dir ein Stipendium und damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps bei SuperCode im Bereich UX / UI- Design. Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei Shetani an.
           <br />
           <br />
-          Damit möchten wir noch mehr Kreativschaffende ermutigen, den
-          Karrierewechsel in die Digital-Branche zu starten. <br /> <br />
+          Mit diesem Stipendium möchten wir noch mehr Kreativschaffende ermutigen, den Karrierewechsel in die Digital-Branche zu starten.
+          <br />
+          <br />
           <span className='circle'>
             {' '}
-            Bewirb&nbsp; dich jetzt bis zum 31.08.2021.
+            Bewirb dich jetzt bis zum 06.06.2022
           </span>
           <br />
           <br />
@@ -58,19 +56,13 @@ const SuperStipendium_neu = () => {
           <div className='bold'>
             Der Prozess:
             <br />
-            <span className='nr'> 1. </span>Bis zum 31.08.2021 bewerben: Fragen
-            beantworten und die kleine Design-Aufgabe einsenden.
+            <span className='nr'> 1. </span>Bis spätestens 06.06.2022 24:00 Uhr bewerben: <br /> Fragen beantworten und die kleine Design-Aufgabe einsenden.
             <br />
-            <span className='nr'> 2. </span>Workshop -Teilnahme: wenn du eine
-            Runde weiter bist, laden wir dich zum Workshop ein. Die genauen
-            Termine findest du im Briefing.
+            <span className='nr'> 2. </span>Workshop - Teilnahme: wenn du eine Runde weiter bist, laden wir dich zum online Workshop am 09.06.2022 von 18:00 - 21:00 Uhr ein.
             <br />
-            <span className='nr'> 3. </span> Persönliches Gespräch.
+            <span className='nr'> 3. </span>{'...'}und mit etwas Glück erhälst du das Stipendium und startest deine UX / UI-Karriere!
           </div>
-          <br />
-          <br />
-          {'...'}und mit etwas Glück erhältst du das Stipendium und startest
-          deine UX / UI-Karriere!
+
         </p>
 
         {/* <span className="square">Stipendium</span>
@@ -84,32 +76,31 @@ const SuperStipendium_neu = () => {
 
         <div className='general'>
           <h5>
-            Kurszeitraum: 25.10.2021 - 04.02.2022 Umfang: 13 Wochen / Teilzeit{' '}
-            <br /> <br /> 1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr) 2x pro
-            Woche abends (von 18:00 bis 21:00 Uhr)
+            Kursstart: 18.07.2022 Ende: 14.10.2022
+            <br /> 
+            Umfang: 13 Wochen / Teilzeit
+            <br />
+            <br />
+            1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr) 
+            <br/> 
+            2x pro Woche abends (von 18:00 bis 21:00 Uhr)
+            <br/>
+            + anschließendes 3 monatiges Praktikum bei Shetani
           </h5>
           <img src='/img/StipendiumArrow.svg' alt='' className='arrow' />
         </div>
         <div className='information'>
           <p>
-            Durch unser Bootcamp UX/UI-Design bekommst du genau die Kenntnisse
-            vermittelt, die für den Arbeitsmarkt relevant sind:
+            Durch das Bootcamp UX/UI-Design bekommst du genau die Kenntnisse vermittelt, die für den Arbeitsmarkt relevant sind:
             <br />
             <br />
-            Ein umfangreiches UX-Know-How in den Bereichen User-Research und
-            -Methods, Prototyping & Wireframing und den Prinzipien des
-            benutzerzentrierten Designs. Dazu erlernst du die Gestaltung von
-            Benutzeroberflächen, arbeitest mit Design-Grundlagen für UI und
-            erstellst ein responsives Design mit Designsystemen.
+            Ein umfangreiches UX-Know-How in den Bereichen User-Research und -Methods, Prototyping & Wireframing und den Prinzipien des benutzerzentrierten Designs. Dazu erlernst du die Gestaltung von Benutzeroberflächen, arbeitest mit Design-Grundlagen für UI und erstellst ein responsives Design mit Designsystemen.
             <br />
             <br />
-            <span className='trainer'>Trainer*innen: </span>
-            2 Trainer*innen pro Tag
+            Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
             <br />
             <br />
-            Mit über 60% Praxisanteil bilden wir dich optimal für die
-            Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein
-            eigenes Portfolio mit großartigen Praxisprojekten.
+            Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei der Digitralagentur Shetani an.
             <br />
             <br />
           </p>

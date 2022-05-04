@@ -47,30 +47,26 @@ const Partner = () => {
             width='100%'
           >
             <figure>
-              <img src='/digihub.svg' alt='' />
+              <img src='/img/shetani-logo-2.png' alt='' />
               <figcaption>
-                <p>
-                  Der digihub umfasst ein großes Netzwerk aus unterschiedlichen
-                  Akteuren wie Städten und Gemeinden, IHKs, Mittelstand und
-                  Corporates, Co-Working-Spaces, Finanzinstituten, Hochschulen
-                  und Business Angels.
+                <p>shetani unterstützt Unternehmen bei der Digitalisierung. Jeder im Team investiert neben seiner fachlichen Qualifikation auch individuelle Erfahrungen aus dem Leben. 
                 </p>
                 <div className='button'>
                   <span className='block'>
-                    <Link href='https://www.femaleinnovationhub.com/'>
-                      <a aria-label="femaleinnovationhub website">WEBSITE</a>
+                    <Link href='https://shetani.de/'>
+                      <a aria-label="shetani website">WEBSITE</a>
                     </Link>
                   </span>{' '}
                   <span className='hide'>–</span>
                   <span className='block'>
-                    <Link href='https://www.linkedin.com/company/female-innovation-hub/'>
-                      <a aria-label="femaleinnovationhub linkedin">LINKEDIN</a>
+                    <Link href='https://www.linkedin.com/company/shetani-agency/'>
+                      <a aria-label="shetani linkedin">LINKEDIN</a>
                     </Link>
                   </span>
                   <span className='hide'> –</span>
                   <span className='block'>
-                    <Link href='https://www.facebook.com/femaleinnovationhub/'>
-                      <a aria-label="femaleinnovationhub facebook">FACEBOOK</a>
+                    <Link href='https://de-de.facebook.com/shetani.agency'>
+                      <a aria-label="shetani facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
