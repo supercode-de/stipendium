@@ -10,6 +10,7 @@ const Header = () => {
         <h2>EINE AKTION VON</h2>
       </div>
       <div className="nav-logos">
+        <img src="/img/startsteps-logo.svg" alt="startsteps logo" title="StartSteps Digital Education GmbH"/>
         <img src="/img/shetani-logo.svg" alt="shetani logo" title="Shetani oHG"/>
         <img src="/img/supercode-signet.svg" alt="supercode logo" title="supercode GmbH"/>
         <img src="/img/SuperDigital-signet.svg" alt="super digital logo" title="SuperDigital e.V."/>
@@ -50,11 +51,11 @@ const Header = () => {
           column-gap: 20px;
           padding-right: 32px;
         }
-        .nav-logos img:nth-of-type(1) {
+        .nav-logos img:nth-of-type(2) {
           width: 45px;
         }
-        .nav-logos img:nth-of-type(2),
-        .nav-logos img:nth-of-type(3) {
+        .nav-logos img:nth-of-type(3),
+        .nav-logos img:nth-of-type(4) {
           width: 50px;
         }
         .graphical-headlines {
