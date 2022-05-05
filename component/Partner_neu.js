@@ -56,14 +56,14 @@ const Partner = () => {
                     <Link href='https://shetani.de/'>
                       <a aria-label="shetani website">WEBSITE</a>
                     </Link>
-                  </span>{' '}
-                  <span className='hide'>–</span>
+                  </span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/company/shetani-agency/'>
                       <a aria-label="shetani linkedin">LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className='hide'> –</span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://de-de.facebook.com/shetani.agency'>
                       <a aria-label="shetani facebook">FACEBOOK</a>
@@ -86,14 +86,14 @@ const Partner = () => {
                     <Link href='https://www.super-digital.xyz/'>
                       <a aria-label="super-digital website">WEBSITE</a>
                     </Link>
-                  </span>{' '}
-                  <span className='hide'>–</span>
+                  </span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://www.facebook.com/superdigitalev'>
                       <a aria-label="super-digital linkedin">LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className='hide'> –</span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/company/superdigitalev'>
                       <a aria-label="super-digital facebook">FACEBOOK</a>
@@ -116,17 +116,45 @@ const Partner = () => {
                     <Link href='https://super-code.de'>
                       <a aria-label="super-code website">WEBSITE</a>
                     </Link>
-                  </span>{' '}
-                  <span className='hide'>–</span>
+                  </span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://www.linkedin.com/school/19099791'>
                       <a aria-label="super-code linkedin">LINKEDIN</a>
                     </Link>
                   </span>
-                  <span className='hide'> –</span>
+                  <span className='hide'> – </span>
                   <span className='block'>
                     <Link href='https://www.facebook.com/supercodegmbh'>
                       <a aria-label="super-code facebook">FACEBOOK</a>
+                    </Link>
+                  </span>
+                </div>
+              </figcaption>
+            </figure>
+            <figure>
+              <img src='/img/startsteps-logo.svg' alt='' />
+              <figcaption>
+                <p>
+                Mit StartSteps kannst du herausfinden, was dein Traumjob in der Technologiebranche ist. Mach deinen ersten Schritt zu den Kompetenzen und Arbeitsplätzen von morgen. 
+                </p>
+
+                <div className='button'>
+                  <span className='block'>
+                    <Link href='https://startsteps.org/de'>
+                      <a aria-label="startsteps website">WEBSITE</a>
+                    </Link>
+                  </span>
+                  <span className='hide'> – </span>
+                  <span className='block'>
+                    <Link href='https://www.linkedin.com/company/startsteps/'>
+                      <a aria-label="startsteps linkedin">LINKEDIN</a>
+                    </Link>
+                  </span>
+                  <span className='hide'> – </span>
+                  <span className='block'>
+                    <Link href='https://www.facebook.com/startsteps'>
+                      <a aria-label="startsteps facebook">FACEBOOK</a>
                     </Link>
                   </span>
                 </div>
@@ -159,26 +187,11 @@ const Partner = () => {
           padding: 10vh 9vw 20vh;
           background: #10375c;
           position: relative;
-          //   background-image: linear-gradient(
-          //       to right,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     ),
-          //     linear-gradient(
-          //       to bottom,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     );
           background-position: 0 0, 0 0;
           background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .container {
           width: 100%;
-          //   margin-left: auto;
           padding: 0 -5%;
         }
         h2 {
@@ -212,8 +225,7 @@ const Partner = () => {
           transform: translateX(-50%);
           max-height: 550px;
         }
-        .Absolventen-list {
-        }
+
         figure {
           border: 3px solid #fff;
           padding: 15px 20px;
@@ -242,10 +254,7 @@ const Partner = () => {
           margin: 0 1%;
         }
         .button {
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_regular';
-          font-style: normal;
-          font-weight: normal;
           font-size: 0.6rem;
           line-height: 18px;
           letter-spacing: 3px;
@@ -254,8 +263,6 @@ const Partner = () => {
           background: transparent;
           border: 1px solid #fff;
           color: #fff;
-          align-self: flex-end;
-          display: flex;
           width: 60%;
         }
         a {
