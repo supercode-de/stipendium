@@ -30,10 +30,11 @@ const ShetaniEinsatz = () => {
           <h1>
             Dein Praxiseinsatz bei <br/> <span>shetani</span>
           </h1>
-          <p>Im Anschluss an den Kurs kannst du dein Wissen in einem 3 monatigem, bezahlten Praktikum (remote möglich) bei der Digitalagentur Shetani direkt anwenden.
+          <p>Im Anschluss an den Kurs kannst du dein Wissen in einem 3 monatigem Praktikum (remote möglich) bei der Digitalagentur Shetani direkt anwenden. 
           </p>
-          <p>Shetani - Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          <p>Die Art Projekte bei Shetani ist genauso vielfältig wie deren Kund*innen. Das geht von schlichten UI Design Jobs über die detaillierte Entwicklung von Web-Apps von Anfang bis Ende. Also von der Konzeption, über die Recherche, das Design, das Frontend bis zum Backend. Dabei beschäftigen sie sich natürlich auch mit SEA und SEO und versuchen alle Lösungen mit idealer Performance abzugeben. Besonders spezialisiert sich Shetani dabei momentan auf den gesamten UX Bereich.
           </p>
+          <p>Am liebsten begleitet Shetani Unternehmen ganzheitlich auf deren Weg zum digitalen Arbeiten. Das heißt sie beginnen damit die Geschäftsprozesse der Kund*innen zu analysieren, abzubilden, und dann neuzudenken, weg von „das haben wir immer schon so gemacht“ und hin zum effizienten und intuitiven digitalen Arbeiten.</p>
         </div>
         <img src="/img/shetani-logo-2.png" alt="shetani logo" title="shetani oHG" />
 
@@ -63,6 +64,7 @@ const ShetaniEinsatz = () => {
             img {
               display: block;
               margin-left: 65%;
+              max-width: 100%;
             }
             p{
               color: #10375C;
@@ -77,12 +79,19 @@ const ShetaniEinsatz = () => {
             
         }
             @media (max-width: 768px) {
+              .twocolumn p {
+                width: 55%;
+              }
                 p{
                     font-size:1.4em;
                     line-height: 24px;
                 }
                 #warum-sc {
                     padding:30px 30px 50px 30px;
+                }
+                img {
+                  margin-left: 45%;
+
                 }
               }
               @media (max-width: 468px) {
@@ -91,6 +100,15 @@ const ShetaniEinsatz = () => {
                 }
                 p{
                     font-size:1.8em;
+                }
+              }
+              @media (max-width: 320px) {
+                .twocolumn p {
+                  width: 90%;
+                }
+                img {
+                  margin-left: 20%;
+                  width: 60%;
                 }
               }
             `}</style>

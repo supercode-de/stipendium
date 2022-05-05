@@ -49,7 +49,7 @@ const Partner = () => {
             <figure>
               <img src='/img/shetani-logo-2.png' alt='' />
               <figcaption>
-                <p>shetani unterstützt Unternehmen bei der Digitalisierung. Jeder im Team investiert neben seiner fachlichen Qualifikation auch individuelle Erfahrungen aus dem Leben. 
+                <p>Wir helfen Unternehmen aller Art bei der Digitalisierung. Unsere Kunden sind sehr vielfältig: vom kleinen Museum „um die Ecke“ bis hin zu renommierteren Projekten wie der Wuppertaler Schwebebahn oder dem Düsseldorfer Flughafen. 
                 </p>
                 <div className='button'>
                   <span className='block'>

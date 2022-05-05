@@ -10,7 +10,7 @@ const Header = () => {
         <h2>EINE AKTION VON</h2>
       </div>
       <div className="nav-logos">
-        <img src="/img/shetani-logo-2.png" alt="shetani logo" title="Shetani oHG"/>
+        <img src="/img/shetani-logo.svg" alt="shetani logo" title="Shetani oHG"/>
         <img src="/img/supercode-signet.svg" alt="supercode logo" title="supercode GmbH"/>
         <img src="/img/SuperDigital-signet.svg" alt="super digital logo" title="SuperDigital e.V."/>
       </div>
@@ -51,7 +51,7 @@ const Header = () => {
           padding-right: 32px;
         }
         .nav-logos img:nth-of-type(1) {
-          width: 80px;
+          width: 45px;
         }
         .nav-logos img:nth-of-type(2),
         .nav-logos img:nth-of-type(3) {
@@ -100,6 +100,9 @@ const Header = () => {
             font-size: 4em;
             line-height: 32px;
           }
+          h2 {
+            text-shadow: 0px 0px 15px rgb(0,0,0, 0.7);
+          }
 
         }
         @media (max-width: 468px) {
@@ -112,6 +115,22 @@ const Header = () => {
             height: 90vh;
           }
         }
+        @media (max-width: 320px) {
+          .nav-headlines {
+            flex-direction: column;
+          }
+          .nav-logos {
+            justify-content: flex-start;
+            padding-left: 32px;
+          }
+          .graphical-headlines {
+            height: 60vh;
+          }
+          .graphic-headline-uxui {
+            margin-top: -80px;
+          }
+        }
+
       `}</style>
     </div>
   );
