@@ -1,9 +1,9 @@
 import Header_neu from '../component/Header_neu';
 import Layout from '../component/Layout';
-import JetztBewerben_Emilija from '../component/JetztBewerben_Emilija';
+// import JetztBewerben_Emilija from '../component/JetztBewerben_Emilija';
 import JetztBewerben_Bob from '../component/JetztBewerben_Bob';
 import Partner_neu from '../component/Partner_neu';
-import SupercodeUsp2_neu from '../component/SupercodeUsp2_neu';
+// import SupercodeUsp2_neu from '../component/SupercodeUsp2_neu';
 import Footer from '../component/Footer';
 import WarumWeb_neu from '../component/WarumWeb_neu';
 import CTA4_neu from '../component/CTA4_neu';
