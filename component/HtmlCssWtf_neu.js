@@ -36,12 +36,11 @@ const HtmlCssWtf_neu = () => {
             Ganz gleich, ob du Mediengestalter*in, Kommunikationsdesigner*in,
             Grafik-Designer*in oder anderweitig kreativ ausgebildet bist:
             SuperCode bringt dich innerhalb von{' '}
-            <span className='underline'>3 Monaten</span> auf das nächste Level
+            <span className='underline'>4 Monaten</span> auf das nächste Level
             der Karriereleiter. Mit deinen bisherigen Kenntnissen im Design und
             in der Konzeption in Kombination mit den Kursinhalten zu{' '}
             <span className='circle'>UX und </span> UI wirst du optimal
-            qualifiziert und zur begehrten Fachkraft in der{' '}
-            <span className='square'> Digitalwirtschaft.</span>
+            qualifiziert und zur begehrten Fachkraft in der{' '} Digitalwirtschaft.
           </p>
           <p>
             Unternehmen werden dich lieben, denn du lernst, dich frei zwischen

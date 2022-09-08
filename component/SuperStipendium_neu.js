@@ -39,7 +39,7 @@ const SuperStipendium_neu = () => {
           </h1>
         </div>
         <p>
-          Die Digital-Agentur Shetani, SuperCode und der SuperDigital e.V. ermöglichen dir ein Stipendium und damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps bei SuperCode im Bereich UX / UI- Design. Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei Shetani an.
+          Die Digital-Agentur Shetani, deine Karrierestarter StartSteps, das Bildungsinstitut SuperCode und der gemeinnützige SuperDigital e.V. ermöglichen dir ein Stipendium und damit die Teilnahme an einem der zertifizierten Vollzeit-Bootcamps bei SuperCode im Bereich UX/UI- Design. Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei Shetani an.
           <br />
           <br />
           Mit diesem Stipendium möchten wir noch mehr Kreativschaffende ermutigen, den Karrierewechsel in die Digital-Branche zu starten.
@@ -47,7 +47,7 @@ const SuperStipendium_neu = () => {
           <br />
           <span className='circle'>
             {' '}
-            Bewirb dich jetzt bis zum 06.06.2022
+            Bewirb dich jetzt bis zum 02.10.2022
           </span>
           <br />
           <br />
@@ -55,9 +55,9 @@ const SuperStipendium_neu = () => {
           <div className='bold'>
             Der Prozess:
             <br />
-            <span className='nr'> 1. </span>Bis spätestens 06.06.2022 24:00 Uhr bewerben: <br /> Fragen beantworten und die kleine Design-Aufgabe einsenden.
+            <span className='nr'> 1. </span>Bis spätestens 02.10.2022 23:59 Uhr bewerben: <br /> Fragen beantworten und die kleine Design-Aufgabe einsenden.
             <br />
-            <span className='nr'> 2. </span>Workshop - Teilnahme: wenn du eine Runde weiter bist, laden wir dich zum online Workshop am 09.06.2022 von 18:00 - 21:00 Uhr ein.
+            <span className='nr'> 2. </span>Workshop - Teilnahme: wenn du eine Runde weiter bist, laden wir dich zum online Workshop am 07.10.2022 von 11:00 - 13:00 Uhr ein.
             <br />
             <span className='nr'> 3. </span>{'...'}und mit etwas Glück erhälst du das Stipendium und startest deine UX / UI-Karriere!
           </div>
@@ -70,16 +70,14 @@ const SuperStipendium_neu = () => {
 
         <div className='general'>
           <h5>
-            Kursstart: 18.07.2022 Ende: 14.10.2022
+            Kursstart: 28.11.2022 Ende: 03.04.2023
             <br />
-            Umfang: 13 Wochen / Teilzeit
+            Umfang: 18 Wochen / Vollzeit
             <br />
             <br />
-            1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr)
+            jeden Tag von 09:00 bis 18:00 Uhr
             <br />
-            2x pro Woche abends (von 18:00 bis 21:00 Uhr)
-            <br />
-            + anschließendes 3 monatiges Praktikum bei Shetani
+            + anschließendes 2 monatiges Praktikum bei 480hz
           </h5>
           <img src='/img/StipendiumArrow.svg' alt='' className='arrow' />
         </div>
@@ -94,7 +92,7 @@ const SuperStipendium_neu = () => {
             Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
             <br />
             <br />
-            Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei der Digitralagentur Shetani an.
+            Anschließend wendest du das Erlernte direkt in einem <span className="line"> 2-monatigen Praktikum bei 480hz an.</span>
             <br />
             <br />
           </p>

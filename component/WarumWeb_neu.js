@@ -16,25 +16,15 @@ const WarumWeb_neu = () => {
             <span className='super'>UX/UI-Design?</span>
           </h1>
           <p>
-            Die fortschreitende Digitalisierung in Unternehmen kann nur dann
-            erfolgreich sein, wenn die Nutzer*innen noch stärker in den
-            Mittelpunkt rücken. Der Bedarf an qualifizierten
-            UX/UI-Designer*innen ist hoch und wird weiter steigen, denn
-            nutzerzentrierte Produkte bieten nicht nur einen Wettbewerbsvorteil,
-            sondern werden im Zuge der fortschreitenden Digitalisierung zu
-            <span className='web-app'> dem Erfolgskriterium </span> Nummer Eins
-            werden.
+            Die fortschreitende Digitalisierung in Unternehmen kann nur dann erfolgreich sein, wenn die Nutzer*innen noch stärker in den Mittelpunkt rücken. Der Bedarf an qualifizierten UX/UI-Designer*innen ist hoch und wird weiter steigen, denn nutzerzentrierte Produkte bieten nicht nur einen Wettbewerbsvorteil, sondern werden im Zuge der fortschreitenden Digitalisierung zu dem Erfolgskriterium Nummer Eins werden.
             <br />
             <br />
-            <span className='bold'>
+            <span className='bold line'>
               {' '}
               Unternehmen investieren in UX und UI
               <br />
             </span>{' '}
-            <br /> Immer mehr Unternehmen setzen UX und UI als festen
-            Bestandteil des Entwicklungsprozesses ein. Damit sichern sie sich
-            Wettbewerbsvorteile und machen ihr Produkt zu einem einzigartigen
-            Erlebnis.
+            <br /> Immer mehr Unternehmen setzen UX und UI als festen Bestandteil des Entwicklungsprozesses ein. Damit sichern sie sich Wettbewerbsvorteile und machen ihr Produkt zu einem einzigartigen Erlebnis.
           </p>
         </div>
 
@@ -64,23 +54,6 @@ const WarumWeb_neu = () => {
           padding: 150px 0 100px;
           min-height: 100vh;
           position: relative;
-          //   background-color: #10375c;
-          //   background-image: linear-gradient(
-          //       to right,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     ),
-          //     linear-gradient(
-          //       to bottom,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         #unser-campus .imgleft,
         #unser-campus .imgright {
@@ -128,16 +101,11 @@ const WarumWeb_neu = () => {
         .web-app {
           white-space: nowrap;
         }
-        // .super::after {
-        //   position: absolute;
-        //   background: url('/Vector49.svg') center/cover no-repeat;
-        //   height: 3px;
-        //   width: 130px;
-        //   left: -160px;
-        //   bottom: 0;
-        //   content: '';
-        //   display: block;
-        // }
+        .line::after {
+          background: url("/Vector52.svg") center/cover no-repeat;
+          width: 50px;
+          height: 50px;
+        }
         .internet::after {
           position: absolute;
           background: url('/Vector55.svg') center/cover no-repeat;
