@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import React, { Component } from 'react';
+import Pixel from './small/facebook/index';
 
 class Layout extends Component {
   render() {
@@ -8,7 +9,7 @@ class Layout extends Component {
         <Head>
           <title>Super-Stipendium</title>
         </Head>
-
+        <Pixel name="FACEBOOK_PIXEL_1" />
         {this.props.children}
 
         <style jsx global>{`
