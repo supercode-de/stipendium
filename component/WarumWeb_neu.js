@@ -19,7 +19,7 @@ const WarumWeb_neu = () => {
             Die fortschreitende Digitalisierung in Unternehmen kann nur dann
             erfolgreich sein, wenn die Nutzer*innen noch stärker in den
             Mittelpunkt rücken. Der Bedarf an qualifizierten
-            UX/UI-Designer*innen ist hoch und wird weiter steigen, denn
+            UX/UI-Designer:innen ist hoch und wird weiter steigen, denn
             nutzerzentrierte Produkte bieten nicht nur einen Wettbewerbsvorteil,
             sondern werden im Zuge der fortschreitenden Digitalisierung zu
             <span className='web-app'> dem Erfolgskriterium </span> Nummer Eins

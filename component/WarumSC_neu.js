@@ -33,13 +33,13 @@ const WarumSC_neu = () => {
           </h1>
 
           <p>
-            Egal ob du Quereinsteiger*in, Berufstätig*e, alleinerziehend oder Studienabrecher*in bist: SuperCode unterstützt dich deinen Weg in die Digitalbranche zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich jede Person gesehen und angenomen fühlt und ihr Potential voll entfalten kann.
+            Egal ob du Quereinsteiger:in, berufstätig, alleinerziehend oder Studienabrecher:in bist: SuperCode unterstützt dich deinen Weg in die Digitalbranche zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich jede Person gesehen und angenomen fühlt und ihr Potential voll entfalten kann.
           </p>
           <p>
-            Du lernst alles, was du für deinen Einstieg in die digitale Karriere brauchst: Ein umfangreiches UX-Know-How in den Bereichen User-Research und -Methods, Prototyping & Wireframing und den Prinzipien des benutzerzentrierten Designs.
+            Das SuperCode Team besteht aus Expert:innen mit langjähriger Erfahrung in den Bereichen Webentwicklung, UX/UI Design Bildungsmanagement und IT-Recruitment. Wir haben eine klare Vision: Digitale Bildung für alle, nachhaltig und modern.
           </p>
           <p>
-          Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
+            Uns alle verbindet die Liebe zur digitalen Welt. Deshalb sind wir eng vernetzt mit unseren Partnerunternehmen sowie den wichtigsten Start Ups aus unserer Region. Unsere Branchenexpertise und unser Netzwerk führen dich zum SuperJob!
           </p>
         </div>
         <div className='gallery'>

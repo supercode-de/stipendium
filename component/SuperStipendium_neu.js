@@ -39,7 +39,7 @@ const SuperStipendium_neu = () => {
           </h1>
         </div>
         <p>
-          Die Digital-Agentur Shetani, SuperCode und der SuperDigital e.V. ermöglichen dir ein Stipendium und damit die Teilnahme an einem der zertifizierten Teilzeit-Bootcamps bei SuperCode im Bereich UX / UI- Design. Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei Shetani an.
+          Die Digital-Agentur Shetani, SuperCode und der SuperDigital e.V. ermöglichen dir ein Stipendium und damit die Teilnahme an einem der zertifizierten Vollzeit-Bootcamps bei SuperCode im Bereich UX/UI-Design. Anschließend wendest du das Erlernte direkt in einem 2-monatigem Praktikum bei Shetani an.
           <br />
           <br />
           Mit diesem Stipendium möchten wir noch mehr Kreativschaffende ermutigen, den Karrierewechsel in die Digital-Branche zu starten.
@@ -47,7 +47,7 @@ const SuperStipendium_neu = () => {
           <br />
           <span className='circle'>
             {' '}
-            Bewirb dich jetzt bis zum 06.06.2022
+            Bewirb dich jetzt bis zum 11.12.2022
           </span>
           <br />
           <br />
@@ -55,11 +55,11 @@ const SuperStipendium_neu = () => {
           <div className='bold'>
             Der Prozess:
             <br />
-            <span className='nr'> 1. </span>Bis spätestens 06.06.2022 24:00 Uhr bewerben: <br /> Fragen beantworten und die kleine Design-Aufgabe einsenden.
+            <span className='nr'> 1. </span>Bis spätestens 11.12.2022 23:59 Uhr bewerben: <br /> Fragen beantworten und die kleine Design-Aufgabe einsenden.
             <br />
-            <span className='nr'> 2. </span>Workshop - Teilnahme: wenn du eine Runde weiter bist, laden wir dich zum online Workshop am 09.06.2022 von 18:00 - 21:00 Uhr ein.
+            <span className='nr'> 2. </span>Workshop - Teilnahme: wenn du eine Runde weiter bist, laden wir dich zum online Workshop am 14.12.2022 von 17:30 - 19:30 Uhr ein.
             <br />
-            <span className='nr'> 3. </span>{'...'}und mit etwas Glück erhälst du das Stipendium und startest deine UX / UI-Karriere!
+            <span className='nr'> 3. </span>{'...'}und mit etwas Glück erhälst du das Stipendium und startest deine UX/UI-Karriere!
           </div>
 
         </p>
@@ -70,18 +70,15 @@ const SuperStipendium_neu = () => {
 
         <div className='general'>
           <h5>
-            Kursstart: 18.07.2022 Ende: 14.10.2022
+            Kursstart: 13.02.2022
             <br />
-            Umfang: 13 Wochen / Teilzeit
+            Umfang: 18 Wochen / Vollzeit
             <br />
             <br />
-            1 x pro Woche ganztägig (von 9:00 - 17:00 Uhr)
+            jeden Tag von 09:00 bis 17:00 Uhr
             <br />
-            2x pro Woche abends (von 18:00 bis 21:00 Uhr)
-            <br />
-            + anschließendes 3 monatiges Praktikum bei Shetani
+            + anschließendes 2-monatiges Praktikum bei Shetani
           </h5>
-          <img src='/img/StipendiumArrow.svg' alt='' className='arrow' />
         </div>
         <div className='information'>
           <p>
@@ -89,12 +86,13 @@ const SuperStipendium_neu = () => {
             <br />
             <br />
             Ein umfangreiches UX-Know-How in den Bereichen User-Research und -Methods, Prototyping & Wireframing und den Prinzipien des benutzerzentrierten Designs. Dazu erlernst du die Gestaltung von Benutzeroberflächen, arbeitest mit Design-Grundlagen für UI und erstellst ein responsives Design mit Designsystemen.
+
             <br />
             <br />
-            Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer*in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
+            Mit über 60% Praxisanteil bilden wir dich optimal für die Berufspraxis als UX/UI-Designer:in aus und erstellen mit dir dein eigenes Portfolio mit großartigen Praxisprojekten.
             <br />
             <br />
-            Anschließend wendest du das Erlernte direkt in einem 3-monatigem Praktikum bei der Digitralagentur Shetani an.
+            Anschließend wendest du das Erlernte direkt in einem 2-monatigen Praktikum bei Shetani an.
             <br />
             <br />
           </p>
@@ -336,16 +334,7 @@ const SuperStipendium_neu = () => {
           border-left: none;
           height: 92%;
         }
-        // h5 {
-        //   font-family: "Neue_Machina_Regular_400";
-        //   color: #ffffff;
-        //   opacity: 0.7;
-        //   font-size: 16px;
-        //   line-height: 18px;
-        // }
-        // h5:nth-of-type(1) {
-        //   margin-bottom: 14px;
-        // }
+
 
         h6 {
           //   font-family: 'Neue_Machina_Regular_400';
@@ -368,18 +357,15 @@ const SuperStipendium_neu = () => {
         .general::after {
           content: '';
           position: absolute;
-          top: -43%;
+          top: -36%;
           bottom: 0;
-          // left: -3.5%;
-          left: -20px;
+          left: -21%;
           right: 0;
           display: block;
-          // width: 119%;
-          width: 669px;
-          height: 185%;
+          width: 140%;
+          height: 225%;
           transform: scale(1, 0.9);
-          // background: url("/img/StipendiumLargeCircle.svg") center/contain no-repeat;
-          background: url("/img/Vector58.svg") center/contain no-repeat;
+          background: url("/img/Bubble.svg") center/contain no-repeat;
         }
 
         .general h5 {
@@ -398,13 +384,10 @@ const SuperStipendium_neu = () => {
           transform: rotate(-10deg);
         }
         @media (max-width: 1440px) {
-          .general .arrow {
-            left: -586px;
-            top: 141px;
-          }
           .general::after {
-            left: -115px;
-            height: 192%;
+            left: -166px;
+            height: 177%;
+            top: -17%;
           }
         }
         @media (max-width: 1199px) {
@@ -426,29 +409,17 @@ const SuperStipendium_neu = () => {
             padding: 0 6% 0 6%;
           }
           .general:after {
-            content: '';
-            position: absolute;
-            top: -50%;
-            bottom: 0;
-            left: -20%;
-            right: 0;
-            display: block;
-            width: 140%;
-            height: 210%;
-            background: url('') center/contain no-repeat;
+            display: none;
           }
         }
-        @media (max-width: 979px) {
-        }
+
         @media (max-width: 767px) {
 
           .frauen-in-tech {
             top: 40%;
             height: 6rem;
           }
-          // .arrow {
-          //   display: none;
-          // }
+
           #super-stipendium {
             padding: 40px 20px 50px 20px;
           }
@@ -496,7 +467,6 @@ const SuperStipendium_neu = () => {
           }
 
           .general h5 {
-            //   font-family: 'Neue_Machina_Regular_400';
             font-family: 'Fira Sans_regular';
             color: #fff;
             font-size: 1.2rem;

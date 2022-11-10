@@ -12,7 +12,7 @@ const Header = () => {
       <div className="nav-logos">
         <img src="/img/startsteps-logo.svg" alt="startsteps logo" title="StartSteps Digital Education GmbH"/>
         <img src="/img/shetani-logo.svg" alt="shetani logo" title="Shetani oHG"/>
-        <img src="/img/supercode-signet.svg" alt="supercode logo" title="supercode GmbH"/>
+        <img src="/img/Logo-2030.svg" alt="supercode logo" title="supercode GmbH"/>
         <img src="/img/SuperDigital-signet.svg" alt="super digital logo" title="SuperDigital e.V."/>
       </div>
       <div className="graphical-headlines">

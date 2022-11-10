@@ -30,11 +30,12 @@ const ShetaniEinsatz = () => {
           <h1>
             Dein Praxiseinsatz bei <br/> <span>shetani</span>
           </h1>
-          <p>Im Anschluss an den Kurs kannst du dein Wissen in einem 3 monatigem Praktikum (remote möglich) bei der Digitalagentur Shetani direkt anwenden. 
+          <p>Im Anschluss an den Kurs kannst du dein Wissen in einem 2-monatigem Praktikum (remote möglich) bei der Digitalagentur Shetani direkt anwenden. 
           </p>
-          <p>Die Art Projekte bei Shetani ist genauso vielfältig wie deren Kund*innen. Das geht von schlichten UI Design Jobs über die detaillierte Entwicklung von Web-Apps von Anfang bis Ende. Also von der Konzeption, über die Recherche, das Design, das Frontend bis zum Backend. Dabei beschäftigen sie sich natürlich auch mit SEA und SEO und versuchen alle Lösungen mit idealer Performance abzugeben. Besonders spezialisiert sich Shetani dabei momentan auf den gesamten UX Bereich.
+          <p>Die Art Projekte bei Shetani ist genauso vielfältig wie deren Kund:innen. Das geht von schlichten UI Design Jobs über die detaillierte Entwicklung von Web-Apps von Anfang bis Ende. Also von der Konzeption, über die Recherche, das Design, das Frontend bis zum Backend. Dabei beschäftigen sie sich natürlich auch mit SEA und SEO und versuchen alle Lösungen mit idealer Performance abzugeben. Besonders spezialisiert sich Shetani dabei momentan auf den gesamten UX Bereich.
           </p>
           <p>Am liebsten begleitet Shetani Unternehmen ganzheitlich auf deren Weg zum digitalen Arbeiten. Das heißt sie beginnen damit die Geschäftsprozesse der Kund*innen zu analysieren, abzubilden, und dann neuzudenken, weg von „das haben wir immer schon so gemacht“ und hin zum effizienten und intuitiven digitalen Arbeiten.</p>
+          <p>In deinem Praxiseinsatz bist du Teil des Teams und bekommst nicht nur wertvolle Einblicke in die Arbeit einer modernen Digital-Agentur, sondern kannst deine neuen Kenntnisse auch direkt anwenden. Das Team von shetani freut sich auf dich! </p>
         </div>
         <img src="/img/shetani-logo-2.png" alt="shetani logo" title="shetani oHG" />
 

@@ -103,7 +103,7 @@ const Partner = () => {
               </figcaption>
             </figure>
             <figure>
-              <img src='/supercode.svg' alt='' />
+              <img src='/supercode_logo_2022.svg' alt='' />
               <figcaption>
                 <p>
                   SuperCode steht für digitale Bildung für alle! Modern,

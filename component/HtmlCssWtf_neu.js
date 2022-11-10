@@ -33,15 +33,14 @@ const HtmlCssWtf_neu = () => {
             UX, UI, <br /> <span>WTF</span> ?!
           </h1>
           <p>
-            Ganz gleich, ob du Mediengestalter*in, Kommunikationsdesigner*in,
-            Grafik-Designer*in oder anderweitig kreativ ausgebildet bist:
+            Ganz gleich, ob du Mediengestalter:in, Kommunikationsdesigner:in,
+            Grafik-Designer:in oder anderweitig kreativ ausgebildet bist:
             SuperCode bringt dich innerhalb von{' '}
-            <span className='underline'>3 Monaten</span> auf das nächste Level
+            <span className='underline'>4 Monaten</span> auf das nächste Level
             der Karriereleiter. Mit deinen bisherigen Kenntnissen im Design und
             in der Konzeption in Kombination mit den Kursinhalten zu{' '}
             <span className='circle'>UX und </span> UI wirst du optimal
-            qualifiziert und zur begehrten Fachkraft in der{' '}
-            <span className='square'> Digitalwirtschaft.</span>
+            qualifiziert und zur begehrten Fachkraft in der Digitalwirtschaft.
           </p>
           <p>
             Unternehmen werden dich lieben, denn du lernst, dich frei zwischen
@@ -84,7 +83,6 @@ const HtmlCssWtf_neu = () => {
         }
         .aside {
           transform: rotate(-90deg);
-        //   color: #fff;
           font-weight: 300;
           font-family: 'Poppins', sans-serif;
           font-style: normal;
@@ -94,6 +92,7 @@ const HtmlCssWtf_neu = () => {
           letter-spacing: 3px;
           text-transform: uppercase;
           white-space: nowrap;
+          color: #fff;
         }
         .asidebg {
           position: absolute;
@@ -117,32 +116,12 @@ const HtmlCssWtf_neu = () => {
           left: 0;
           right: 0;
           display: block;
-          background: rgba(0, 0, 0, 0.5) center/contain no-repeat;
         }
         #html-css-wtf {
-        //   font-family: 'Neue_Machina_Regular_400';
-        font-family: 'Fira Sans_regular';
-
+          font-family: 'Fira Sans_regular';
           overflow: hidden;
           padding: 100px 0 100px 10%;
           position: relative;
-        //   background-color: #070021;
-        //   background-image: linear-gradient(
-        //       to right,
-        //       rgba(255, 255, 255, 0.25) 0,
-        //       rgba(255, 255, 255, 0.25) 1px,
-        //       transparent 1px,
-        //       transparent 100%
-        //     ),
-            linear-gradient(
-              to bottom,
-              rgba(255, 255, 255, 0.25) 0,
-              rgba(255, 255, 255, 0.25) 1px,
-              transparent 1px,
-              transparent 100%
-            );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .twocolumn {
           display: grid;
@@ -150,11 +129,9 @@ const HtmlCssWtf_neu = () => {
           padding-bottom: 40px;
         }
         h1 {
-        //   font-family: 'Neue_Machina_Regular_400';
-        font-family: 'Fira Sans_extra_bold';
+          font-family: 'Fira Sans_extra_bold';
           font-size: 5.3em;
           line-height: 0.87em;
-        //   max-width: 300px;
           color: transparent;
           -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #000;
@@ -170,13 +147,9 @@ const HtmlCssWtf_neu = () => {
         h1 span{
             color:#000;
         }
-        p {
-        
-        //   font-family: 'Neue_Machina_Regular_400';
-        font-family: 'Fira Sans_regular';
 
-          font-style: normal;
-          font-weight: normal;
+        p {
+          font-family: 'Fira Sans_regular';
           font-size: 1em;
           line-height: 20px;
           justify-self: center;
@@ -197,13 +170,13 @@ const HtmlCssWtf_neu = () => {
         .circle:after {
           content: '';
           position: absolute;
-          top: -0.25em;
+          top: -10px;
           bottom: 0;
-          left: -5px;
+          left: -6px;
           right: 0;
           display: block;
-          width: 112%;
-          height: 1.5em;
+          width: 150%;
+          height: 2.5em;
           background: url(/img/StipendiumDateCircle.svg) center/contain no-repeat;
         }
 

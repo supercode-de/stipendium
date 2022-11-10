@@ -32,31 +32,14 @@ const Footer = () => {
             <a aria-label="dsgvo">DSGVO</a>
           </Link>
         </div>
-        <p className='year'>&copy; 2020</p>
+        <p className='year'>&copy; 2022</p>
       </div>
-      <style jsx>
-        {`
+      <style jsx>{`
           .white img {
             width: 150px;
           }
           #footer {
             background: #070021;
-            background-image: linear-gradient(
-                to right,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              ),
-              linear-gradient(
-                to bottom,
-                rgba(255, 255, 255, 0.25) 0,
-                rgba(255, 255, 255, 0.25) 1px,
-                transparent 1px,
-                transparent 100%
-              );
-            background-position: 0 0, 0 0;
-            background-size: calc(100vw / 12) calc(100vw / 12);
             color: #fff;
             font-weight: 200;
 

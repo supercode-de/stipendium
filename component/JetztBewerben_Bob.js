@@ -24,7 +24,7 @@ const JetztBewerben_neu = () => {
                 <br />
                 Bewirb dich jetzt und mit etwas Glück
                 <br />
-                startest du bald deine neue Karriere!
+                startest du bald deine UX/UI-Karriere!
               </p>
             </div>
           </div>
