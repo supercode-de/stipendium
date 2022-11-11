@@ -33,5 +33,5 @@ function MyApp({ Component, pageProps }) {
 // export default withFBQ("353903998812058", Router)(MyApp);
 export default withAnalytics(Router, {
   ga: 'UA-140157887-1',
-  fbq: '353903998812058',
+  fbq: '922978195346577',
 })(MyApp);
