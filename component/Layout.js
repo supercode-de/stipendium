@@ -9,7 +9,7 @@ class Layout extends Component {
         <Head>
           <title>Super-Stipendium</title>
         </Head>
-        <Pixel name="FACEBOOK_PIXEL_1" />
+        {/* <Pixel name="FACEBOOK_PIXEL_1" /> */}
         {this.props.children}
 
         <style jsx global>{`
