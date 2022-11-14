@@ -18,7 +18,7 @@ class Layout extends Component {
           <meta property='og:type' content='Website' />
           <meta
             property='og:title'
-            content='super-stipendium.de - Programmieren lernen war noch nie digitaler.'
+            content='super-stipendium.de - Deine Chance deine digitale Karriere zu starten.'
           />
           <title>Super-Stipendium</title>
           <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
