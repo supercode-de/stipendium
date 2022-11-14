@@ -11,9 +11,6 @@ export default function Custom404() {
           <Header404 />
           <Footer />
         </main>
-
-        <style jsx>{`
-        `}</style>
       </div>
     </Layout>
   );

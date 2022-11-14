@@ -51,7 +51,7 @@ const WarumWeb_neu = () => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          //   font-family: 'Poppins', sans-serif;
+          //   font-family: 'Fira Sans_regular';
           font-family: 'Fira Sans';
           font-style: normal;
           font-weight: normal;
@@ -128,16 +128,6 @@ const WarumWeb_neu = () => {
         .web-app {
           white-space: nowrap;
         }
-        // .super::after {
-        //   position: absolute;
-        //   background: url('/Vector49.svg') center/cover no-repeat;
-        //   height: 3px;
-        //   width: 130px;
-        //   left: -160px;
-        //   bottom: 0;
-        //   content: '';
-        //   display: block;
-        // }
         .internet::after {
           position: absolute;
           background: url('/Vector55.svg') center/cover no-repeat;
@@ -159,8 +149,6 @@ const WarumWeb_neu = () => {
           display: block;
         }
         p {
-          //   font-family: 'Neue_Machina_Regular_400';
-
           font-family: 'Fira Sans_regular';
           color: #10375c;
           font-style: normal;
@@ -171,7 +159,7 @@ const WarumWeb_neu = () => {
         }
         .bold {
           font-weight: 900;
-          font-family: 'Fira Sans_medium';
+          font-family: 'Fira Sans_bold';
           font-size: 1.3rem;
         }
         @media only screen and (max-width: 1635px) {

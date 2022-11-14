@@ -31,7 +31,6 @@ const Header = () => {
       <style jsx>{`
         #header {
           background: url('/img/hero_2.png') top/cover no-repeat;
-          height: 110vh;
         }
         .nav-headlines {
           display: flex;
@@ -39,7 +38,7 @@ const Header = () => {
           padding: 46px 32px 20px 32px;
         }
         .nav-headlines h2 {
-          font-family: 'Fira Sans_SemiBold';
+          font-family: 'Fira Sans_bold';
           font-size: 20px;
           color: #fff;
           margin: 0;

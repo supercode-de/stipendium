@@ -84,7 +84,7 @@ const HtmlCssWtf_neu = () => {
         .aside {
           transform: rotate(-90deg);
           font-weight: 300;
-          font-family: 'Poppins', sans-serif;
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 12px;

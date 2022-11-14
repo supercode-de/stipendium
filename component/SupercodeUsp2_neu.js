@@ -43,16 +43,10 @@ const SupercodeUsp2_neu = () => {
             </div>
           </div>
           <img src='/img/Usp2.png' alt='' />
-
-          {/* <video autoPlay loop muted>
-            <source src="/Google-Store.mp4" type="video/mp4" />
-            "FILE should be deleted again!"
-          </video> */}
         </div>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .flex {
             display: flex;
             // font-family: 'Neue_Machina_Regular_400';
@@ -74,7 +68,7 @@ const SupercodeUsp2_neu = () => {
             font-weight: 300;
             left: 3%;
             top: 60%;
-            // font-family: 'Poppins', sans-serif;
+            // font-family: 'Fira Sans_regular';
             font-family: 'Fira Sans_regular';
             font-style: normal;
             font-weight: normal;

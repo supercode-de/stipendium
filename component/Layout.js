@@ -1,49 +1,51 @@
 import Head from 'next/head';
 import React, { Component } from 'react';
-import Pixel from './small/facebook/index';
 
 class Layout extends Component {
   render() {
     return (
       <div id='super-layout'>
         <Head>
+        <meta
+            property='og:image:secure'
+            content='https://www.super-stipendium.de/img/page-preview.png'
+          />
+          <meta
+            property='og:image'
+            content='http://www.super-stipendium.de/img/page-preview.png'
+          />
+          <meta property='og:url' content='https://www.super-stipendium.de' />
+          <meta property='og:type' content='Website' />
+          <meta
+            property='og:title'
+            content='super-stipendium.de - Programmieren lernen war noch nie digitaler.'
+          />
           <title>Super-Stipendium</title>
+          <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
+          <link rel='alternate icon' href='/favicon.ico' />
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+          <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+          <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+          <link rel="manifest" href="/site.webmanifest" />
+          <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5d3ede" />
+          <meta name="theme-color" content="#5d3ede"></meta>
         </Head>
-        {/* <Pixel name="FACEBOOK_PIXEL_1" /> */}
         {this.props.children}
 
         <style jsx global>{`
-            // @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300;400&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200&display=swap');
-            @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
-            // @font-face {
-            //   font-family: "Neue_Machina_Regular_400";
-            //   src: url("/Neue_Machina_Regular_400.otf");
-            // }
             @font-face {
-              font-family: "Fira Sans_extra_bold";
-              src: url("/FiraSans-ExtraBold.ttf");
+              font-family: "Fira Sans_regular";
+              src: url("/FiraSans-Regular.ttf");
             }
             @font-face {
               font-family: "Fira Sans_bold";
               src: url("/FiraSans-Bold.ttf");
             }
             @font-face {
-              font-family: "Fira Sans_regular";
-              src: url("/FiraSans-Regular.ttf");
+              font-family: "Fira Sans_extra_bold";
+              src: url("/FiraSans-ExtraBold.ttf");
             }
-            @font-face {
-              font-family: "Fira Sans_medium";
-              src: url("/FiraSans-Medium.ttf");
-            }
-            @font-face {
-              font-family: "Fira Sans_200";
-              src: url("/FiraSans-ExtraLight.ttf");
-            }
-            @font-face {
-              font-family: "Fira Sans_SemiBold";
-              src: url("/FiraSans-SemiBold.ttf");
-            }
+
             html {
               scroll-behavior: smooth;
             }  
@@ -52,9 +54,7 @@ class Layout extends Component {
             body {
               padding: 0;
               margin: 0;
-              // font-family: "Neue_Machina_Regular_400";
               font-family: "Fira Sans_regular";
-          
             }
             * {
               box-sizing: border-box;
@@ -88,7 +88,7 @@ class Layout extends Component {
                 font-size: 10px;
               }
             }
-           `}</style>
+          `}</style>
       </div>
     );
   }

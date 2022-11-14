@@ -41,18 +41,7 @@ const ImpressumHeader = () => {
       -webkit-text-stroke-color: #5d3ede;
     }
         #impressum {
-          background: linear-gradient(
-              90deg,
-              #070021 calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            linear-gradient(
-              #070021 calc(100vw / 12 - ${pixelSize}px),
-              transparent 1%
-            ),
-            #fff;
-          background-size: calc(100vw / 12) calc(100vw / 12);
-          height: 90vh;
+          background: #070021;
         }
         h1 {
           margin: 0;
@@ -63,14 +52,6 @@ const ImpressumHeader = () => {
           color: #fff;
           text-align: center;
         }
-        // .aside {
-        //   position: absolute;
-        //   transform: rotate(-90deg);
-        //   transform-origin: right;
-        //   right: 3%;
-        //   top: 30vh;
-        //   color: #fff;
-        // }
         @media (max-width: 768px) {
           h1 {
             font-size: 3em;

@@ -12,7 +12,6 @@ export default function Home() {
           <ImpressumBody />
           <Footer />
         </main>
-        <style jsx>{``}</style>
       </div>
     </Layout>
   );

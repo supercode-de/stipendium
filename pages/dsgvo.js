@@ -13,7 +13,6 @@ export default function Home() {
           <DsgvoBody />
           <Footer />
         </main>
-        <style jsx>{``}</style>
       </div>
     </Layout>
   );

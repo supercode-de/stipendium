@@ -43,18 +43,8 @@ const DsgvoHeader = () => {
       -webkit-text-stroke-color: #5d3ede;
     }
     #dsgvo {
-      background: linear-gradient(
-          90deg,
-          #070021 calc(100vw / 12 - ${pixelSize}px),
-          transparent 1%
-        ),
-        linear-gradient(
-          #070021 calc(100vw / 12 - ${pixelSize}px),
-          transparent 1%
-        ),
-        #fff;
-      background-size: calc(100vw / 12) calc(100vw / 12);
-      height: 90vh;
+      background: #070021;
+
     }
     h1 {
       margin: 0;

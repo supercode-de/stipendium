@@ -45,16 +45,10 @@ const SupercodeUsp2 = () => {
             </div>
           </div>
           <img src="/img/Usp2.png" alt="" />
-
-          {/* <video autoPlay loop muted>
-            <source src="/Google-Store.mp4" type="video/mp4" />
-            "FILE should be deleted again!"
-          </video> */}
         </div>
       </div>
 
-      <style jsx>
-        {`
+      <style jsx>{`
           .flex {
             display: flex;
             font-family: "Neue_Machina_Regular_400";

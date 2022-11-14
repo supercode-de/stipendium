@@ -25,7 +25,7 @@ const CTA4_neu = () => {
           font-weight: 300;
           left: 3%;
           top: 60%;
-          font-family: 'Poppins', sans-serif;
+          font-family: 'Fira Sans_regular';
           font-style: normal;
           font-weight: normal;
           font-size: 12px;
