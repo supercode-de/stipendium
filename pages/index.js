@@ -24,7 +24,6 @@ export default function Home() {
           <WarumWeb_neu />
           <WarumSC_neu />
           <ShetaniEinsatz />
-          {/* <SupercodeUsp2_neu /> */}
           <Partner_neu />
           <CTA4_neu />
           <Footer />
