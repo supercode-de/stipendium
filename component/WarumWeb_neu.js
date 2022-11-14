@@ -24,14 +24,11 @@ const WarumWeb_neu = () => {
             sondern werden im Zuge der fortschreitenden Digitalisierung zu
             <span className='web-app'> dem Erfolgskriterium </span> Nummer Eins
             werden.
-            <br />
-            <br />
-            <span className='bold'>
-              {' '}
-              Unternehmen investieren in UX und UI
-              <br />
-            </span>{' '}
-            <br /> Immer mehr Unternehmen setzen UX und UI als festen
+          </p>
+
+          <h3>Unternehmen investieren in UX und UI</h3>
+          <p>
+            Immer mehr Unternehmen setzen UX und UI als festen
             Bestandteil des Entwicklungsprozesses ein. Damit sichern sie sich
             Wettbewerbsvorteile und machen ihr Produkt zu einem einzigartigen
             Erlebnis.
@@ -62,25 +59,8 @@ const WarumWeb_neu = () => {
         }
         #unser-campus {
           padding: 150px 0 100px;
-          min-height: 100vh;
           position: relative;
-          //   background-color: #10375c;
-          //   background-image: linear-gradient(
-          //       to right,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     ),
-          //     linear-gradient(
-          //       to bottom,
-          //       rgba(255, 255, 255, 0.25) 0,
-          //       rgba(255, 255, 255, 0.25) 1px,
-          //       transparent 1px,
-          //       transparent 100%
-          //     );
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
+
         }
         #unser-campus .imgleft,
         #unser-campus .imgright {
@@ -104,14 +84,9 @@ const WarumWeb_neu = () => {
         }
 
         h1 {
-          //   font-family: 'Neue_Machina_Regular_400';
-          font-family: 'Fira Sans_extra_bold';
-
-          font-weight: 900;
-          font-size: 5.1em;
+          font-family: "Fira Sans_extra_bold";
 
           line-height: 0.85em;
-          margin: 0;
         }
         h1 span.super {
           color: transparent;
@@ -119,6 +94,7 @@ const WarumWeb_neu = () => {
           -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #000;
           font-weight: 900;
+          font-family: inherit;
         }
         .super,
         .internet,
@@ -149,44 +125,22 @@ const WarumWeb_neu = () => {
           display: block;
         }
         p {
-          font-family: 'Fira Sans_regular';
           color: #10375c;
-          font-style: normal;
-          font-weight: normal;
-          font-size: 1em;
-          line-height: 20px;
-          justify-self: center;
         }
-        .bold {
+        h3 {
           font-weight: 900;
           font-family: 'Fira Sans_bold';
           font-size: 1.3rem;
+          color: #10375c;
+          margin-top: 2%;
         }
-        @media only screen and (max-width: 1635px) {
-          h1 {
-            font-size: 5.1em;
-          }
-        }
-        @media only screen and (max-width: 1440px) {
-          h1 {
-            font-size: 5.1em;
-          }
-        }
-        @media only screen and (max-width: 1040px) {
-          // h1 {
-          //   font-size: 2.6em;
-          // }
-        }
+
         @media only screen and (max-width: 768px) {
           #unser-campus {
             padding: 50px 0 0;
             min-height: 50vh;
           }
-          // h1 {
-          //   font-size: 3.4em;
 
-          //   line-height: 2em;
-          // }
           h1 span.super {
             -webkit-text-stroke-width: 2px;
           }
@@ -209,19 +163,14 @@ const WarumWeb_neu = () => {
           .onecolumn {
             padding: 0 5% 0 10%;
           }
-          p {
-            font-size: 1.4em;
-            line-height: 24px;
-          }
-          @media only screen and (max-width: 450px) {
+
+          @media only screen and (max-width: 425px) {
             h1 {
-              font-size: 4em;
+              margin-bottom: 10%;
             }
           }
           @media only screen and (max-width: 375px) {
-            // h1 {
-            //   font-size: 2em;
-            // }
+
           }
         }
       `}</style>

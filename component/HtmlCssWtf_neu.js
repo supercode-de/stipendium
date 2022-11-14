@@ -78,17 +78,17 @@ const HtmlCssWtf_neu = () => {
         </section>
       </div>
       <style jsx>{`
+        #html-css-wtf {
+          overflow: hidden;
+          padding: 100px 0 100px 10%;
+          position: relative;
+        }
         #carousel {
           display: none;
         }
         .aside {
           transform: rotate(-90deg);
-          font-weight: 300;
-          font-family: 'Fira Sans_regular';
-          font-style: normal;
-          font-weight: normal;
           font-size: 12px;
-          line-height: 18px;
           letter-spacing: 3px;
           text-transform: uppercase;
           white-space: nowrap;
@@ -117,25 +117,21 @@ const HtmlCssWtf_neu = () => {
           right: 0;
           display: block;
         }
-        #html-css-wtf {
-          font-family: 'Fira Sans_regular';
-          overflow: hidden;
-          padding: 100px 0 100px 10%;
-          position: relative;
-        }
+        
         .twocolumn {
           display: grid;
           grid-template-columns: 50% 50%;
           padding-bottom: 40px;
         }
+        .twocolumn div p:nth-of-type(1) {
+          margin-bottom: 5%;
+        }
         h1 {
           font-family: 'Fira Sans_extra_bold';
-          font-size: 5.3em;
           line-height: 0.87em;
           color: transparent;
           -webkit-text-stroke-width: 2px;
           -webkit-text-stroke-color: #000;
-          font-weight: 900;
           margin: 0.5em 0 0.3em;
         }
         .twocolumn div:first-of-type {
@@ -145,15 +141,10 @@ const HtmlCssWtf_neu = () => {
         }
 
         h1 span{
+            font-family: inherit;
             color:#000;
         }
 
-        p {
-          font-family: 'Fira Sans_regular';
-          font-size: 1em;
-          line-height: 20px;
-          justify-self: center;
-        }
         .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1) {
           background: url(/img/htmlcsswtf_line1.svg) center bottom/100%
             no-repeat;
@@ -235,6 +226,7 @@ const HtmlCssWtf_neu = () => {
           }
           #html-css-wtf #carousel {
             display: block;
+            margin-top: 2%;
           }
           #html-css-wtf #carousel img {
             width: 100%;
@@ -251,19 +243,7 @@ const HtmlCssWtf_neu = () => {
             width: 80%;
           }
           h1 {
-            font-size: 5em;
             margin-bottom: 20px;
-          }
-          p {
-            color: #000;
-            // font-family: 'Neue_Machina_Regular_400';
-            font-family: 'Fira Sans_regular';
-
-            font-style: normal;
-            font-weight: normal;
-            font-size: 1.4em;
-            line-height: 24px;
-            justify-self: center;
           }
           .asidebg,
           .asidebg:before {
@@ -277,17 +257,9 @@ const HtmlCssWtf_neu = () => {
           }
         }
         @media (max-width: 568px) {
-h1{
-    font-size:4.5em;
-}
-p {
-    font-size:1.8em;
-}
-.twocolumn div:first-of-type p:last-of-type {
-    width: 100%;
-  }
-        }
-        @media (max-width: 468px) {
+          .twocolumn div:first-of-type p:last-of-type {
+              width: 100%;
+            }
         }
       `}</style>
     </div>

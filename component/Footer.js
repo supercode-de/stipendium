@@ -56,11 +56,12 @@ const Footer = () => {
             display: flex;
             justify-content: space-around;
           }
-          .links a {
+          .links a,
+          .year {
             font-family: 'Fira Sans_regular';
           }
           .year {
-            font-family: 'Fira Sans_regular';
+            font-size: 1rem;
           }
           .link-container {
             display: flex;
@@ -104,8 +105,7 @@ const Footer = () => {
             font-size: 1.2em;
             margin-top: 4px;
           }
-          @media (max-width: 768px) {
-          }
+
           @media (max-width: 560px) {
             .copyright {
               display: block;
@@ -113,6 +113,11 @@ const Footer = () => {
             }
             p {
               margin-bottom: 0;
+            }
+          }
+          @media (max-width: 425px) {
+            .flex {
+              justify-content: inherit;
             }
           }
         `}

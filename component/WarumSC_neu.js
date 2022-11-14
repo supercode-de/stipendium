@@ -35,7 +35,7 @@ const WarumSC_neu = () => {
           <p>
             Egal ob du Quereinsteiger:in, berufstätig, alleinerziehend oder Studienabrecher:in bist: SuperCode unterstützt dich deinen Weg in die Digitalbranche zu wagen. Wir möchten wir ein Arbeitsumfeld schaffen, in dem sich jede Person gesehen und angenomen fühlt und ihr Potential voll entfalten kann.
           </p>
-          <p>
+          <p className="marginTopBot">
             Das SuperCode Team besteht aus Expert:innen mit langjähriger Erfahrung in den Bereichen Webentwicklung, UX/UI Design Bildungsmanagement und IT-Recruitment. Wir haben eine klare Vision: Digitale Bildung für alle, nachhaltig und modern.
           </p>
           <p>
@@ -92,27 +92,9 @@ const WarumSC_neu = () => {
                 text-transform: uppercase;
             }
             #warum-sc {
-                            font-family: "Neue_Machina_Regular_400";
-
                 padding:100px 0 145px 10%;  
                 position: relative;
                 background-color: #10375C;
-                // background-image: linear-gradient(
-                //     to right,
-                //     rgba(255, 255, 255, 0.25) 0,
-                //     rgba(255, 255, 255, 0.25) 1px,
-                //     transparent 1px,
-                //     transparent 100%
-                //     ),
-                //     linear-gradient(
-                //     to bottom,
-                //     rgba(255, 255, 255, 0.25) 0,
-                //     rgba(255, 255, 255, 0.25) 1px,
-                //     transparent 1px,
-                //     transparent 100%
-                //     );
-                background-position: 0 0, 0 0;
-                background-size: calc(100vw / 12) calc(100vw / 12);
             }
             .twocolumn{
                 display:grid;
@@ -121,14 +103,8 @@ const WarumSC_neu = () => {
             }
             
             h1{
-                // font-family:"Neue_Machina_Regular_400";
                 font-family: 'Fira Sans_extra_bold';
-                font-size:5.1em;
                 line-height:0.8em;
-            
-                // color: transparent;
-                // -webkit-text-stroke-width: 2px;
-                // -webkit-text-stroke-color: #fff;
                 font-weight:900;
                 margin: .5em 0 .3em;
             }
@@ -136,17 +112,10 @@ const WarumSC_neu = () => {
                 color: transparent;
                 -webkit-text-stroke-width: 2px;
                 -webkit-text-stroke-color: #fff;
+                font-family: inherit;
             }
-            p{
-                color: #fff;
-                // font-family: "Neue_Machina_Regular_400";
-                font-family: "Fira Sans_regular";
-
-                font-style: normal;
-                font-weight: normal;
-                font-size: 1em;
-                line-height: 20px;
-                justify-self: center;
+            .marginTopBot {
+              margin: 2% 0;
             }
             .twocolumn div:first-of-type{
                 color: #fff;
@@ -205,9 +174,10 @@ const WarumSC_neu = () => {
                 display:none ;
             }
             #carousel{
-                display:block
+                display:block;
+                margin-top: 2%;
             }
-             #carousel img{
+            #carousel img{
                 width:100%
             }
             .twocolumn{
@@ -215,6 +185,9 @@ const WarumSC_neu = () => {
             }
         }
             @media (max-width: 768px) {
+              .aside {
+                display: none;
+              }
                 .twocolumn{
                     grid-template-columns: 1fr;
                     gap: 3vh;
@@ -226,21 +199,15 @@ const WarumSC_neu = () => {
                 .rightcenter{
                     right: 20%;
                 }
-                h1{
-                    opacity:0.8;
-                }
-                p{
-                    font-size:1.4em;
-                    line-height: 24px;
-                }
                 #warum-sc {
                     padding:30px 30px 50px 30px;
                 }
+                #carousel {
+                  margin-top: 5%;
+                }
               }
               @media (max-width: 468px) {
-                h1{
-                    font-size: 4em;
-                }
+
                 .centercenter{
                     width: 40vw;
                 }
@@ -253,8 +220,11 @@ const WarumSC_neu = () => {
                 .leftbottom{
                     width: 40vw;
                 }
-                p{
-                    font-size:1.8em;
+
+              }
+              @media (max-width: 425px) {
+                .twocolumn div:first-of-type {
+                  width: 100%;
                 }
               }
             `}</style>

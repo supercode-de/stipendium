@@ -17,7 +17,7 @@ const Header = () => {
       </div>
       <div className="graphical-headlines">
         <div>
-          <h1>
+          <h1 className="headerHeadline">
             <span>Super-Stipendium</span>
             <span>Super-Stipendium</span>
             Super-Stipendium
@@ -30,7 +30,7 @@ const Header = () => {
       </div>
       <style jsx>{`
         #header {
-          background: url('/img/hero_2.png') top/cover no-repeat;
+          background: url('/img/hero_3.png') top/cover no-repeat;
         }
         .nav-headlines {
           display: flex;
@@ -100,21 +100,33 @@ const Header = () => {
             font-size: 4em;
             line-height: 32px;
           }
-          h2 {
-            text-shadow: 0px 0px 15px rgb(0,0,0, 0.7);
+          @media (max-width: 468px) {
+            h1 {
+              font-size: 2.8em;
+              line-height: 13px;
+              width: 100%;
+            }
+            #header {
+              height: 70vh;
+            }
           }
-
+        @media (max-width: 425px) {
+          .graphical-headlines{
+            height: 58vh;
+          } 
+          .nav-logos img:nth-of-type(1) {
+            width: 50px;
+          }
+          .nav-logos img:nth-of-type(2) {
+            width: 25px;
+          }
+          .nav-logos img:nth-of-type(3),
+          .nav-logos img:nth-of-type(4) {
+            width: 40px;
+          }
         }
-        @media (max-width: 468px) {
-          h1 {
-            font-size: 3em;
-            line-height: 0px;
-            width: 100%;
-          }
-          #header {
-            height: 90vh;
-          }
         }
+        
         @media (max-width: 320px) {
           .nav-headlines {
             flex-direction: column;

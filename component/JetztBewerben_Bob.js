@@ -7,32 +7,31 @@ const JetztBewerben_neu = () => {
 
       <div className='twocolumn'>
         <div className='onecolumn'>
-          <h1>
+          <h2>
           “Im Bootcamp habe ich nicht nur viel über die Gestaltung, Technik und Psychologie von Digitalprodukten gelernt, sondern konnte das neue Wissen auch direkt praktisch anwenden. Das Team und die Gruppe waren super motivierend und ich habe mich jeden Tag auf den Kurs gefreut!” 
-          </h1>
+          </h2>
           <div className='circle'>
-            <h1 className='persona'>Bob Boost, Medienmanager und <br /> Audience Developer</h1>
+            <h2 className='persona'>Bob Boost, Medienmanager und <br /> Audience Developer</h2>
           </div>
 
           <div className='cta-container'>
             <div className='center'>
               <Typeform />
             </div>
-            <div>
-              <p>
-                Worauf wartest Du noch?
-                <br />
-                Bewirb dich jetzt und mit etwas Glück
-                <br />
-                startest du bald deine UX/UI-Karriere!
-              </p>
+            <div className="cta-container--hl">
+              <p>Worauf wartest Du noch?</p>
+              <p>Bewirb dich jetzt und mit etwas Glück</p>
+              <p>startest du bald deine UX/UI-Karriere!</p>
             </div>
           </div>
         </div>
-        <img src='/persona_bob.jpg' alt='' />
+        <img src='/persona_bob.jpg' alt='Unser Alumni Bob' />
       </div>
 
       <style jsx>{`
+          #unser-campus {
+            color: #fff;
+          }
           .center {
             text-align: center;
           }
@@ -40,33 +39,19 @@ const JetztBewerben_neu = () => {
             position: absolute;
             transform: rotate(-90deg);
             transform-origin: left;
-            color: #fff;
             font-weight: 300;
             left: 3%;
             top: 60%;
             font-family: 'Fira Sans_regular';
-            font-style: normal;
-            font-weight: normal;
             font-size: 12px;
-            line-height: 18px;
             letter-spacing: 3px;
             text-transform: uppercase;
-            color: #ffffff;
           }
           #unser-campus {
             padding: 100px 0 100px 10%;
 
             position: relative;
             background-color: #10375c;
-            // background-image: linear-gradient(
-            //     to right,
-            //     rgba(255, 255, 255, 0.25) 0,
-            //     rgba(255, 255, 255, 0.25) 1px,
-            //     transparent 1px,
-            //     transparent 100%
-            // );
-            // background-position: 0 0, 0 0;
-            // background-size: calc(100vw / 12) calc(100vw / 12);
           }
           .twocolumn {
             display: grid;
@@ -81,23 +66,21 @@ const JetztBewerben_neu = () => {
             width: 100%;
             align-self: center;
           }
-          h1 {
-            font-family: 'Fira Sans_regular';
-            font-size: 1.9em;
-            color: #fff;
+          h2 {
+            font-size: clamp(1.25rem, 1.125rem + 0.625vw, 1.875rem);
           }
-          h1 span.super {
+          h2 span.super {
             color: transparent;
             letter-spacing: 2px;
             -webkit-text-stroke-width: 2px;
             -webkit-text-stroke-color: #fff;
             font-weight: 300;
           }
-          h1 span:first-of-type,
-          h1 span:last-of-type {
+          h2 span:first-of-type,
+          h2 span:last-of-type {
             position: relative;
           }
-          h1 span:first-of-type::after {
+          h2 span:first-of-type::after {
             position: absolute;
             background: url('/vector41.svg') center/cover no-repeat;
             height: 2px;
@@ -107,7 +90,7 @@ const JetztBewerben_neu = () => {
             content: '';
             display: block;
           }
-          h1 span:first-of-type::before {
+          h2 span:first-of-type::before {
             position: absolute;
             background: url('/Vector41.svg') center/cover no-repeat;
             height: 2px;
@@ -118,7 +101,7 @@ const JetztBewerben_neu = () => {
             display: block;
             transform: rotate(0.5deg);
           }
-          h1 span:last-of-type::after {
+          h2 span:last-of-type::after {
             position: absolute;
             background: url('/Vector43.svg') center/cover no-repeat;
             height: 160%;
@@ -133,7 +116,7 @@ const JetztBewerben_neu = () => {
             position: relative;
             display: flex;
           }
-          .circle h1 {
+          .circle h2 {
             display: inline-block;
           }
           .circle:after {
@@ -149,41 +132,14 @@ const JetztBewerben_neu = () => {
           }
           .cta-container{
               display:flex;
-              margin-top:90px;
+              margin-top:9%;
           }
           .cta-container div:nth-of-type(2){
             width:70%;
           }
-
-          p {
-            color: #fff;
-            font-family: 'Fira Sans_regular';
-
-            font-style: normal;
-            font-weight: normal;
-            line-height: 22px;
-            justify-self: center;
-            padding-left:10%;
+          .cta-container--hl {
+            margin-left: 5%;
           }
-          button {
-            font-family: Poppins;
-            font-style: normal;
-            font-weight: normal;
-            font-size: 12px;
-            line-height: 18px;
-            letter-spacing: 3px;
-            text-transform: uppercase;
-            padding: 10px 30px;
-            background: transparent;
-            border: 1px solid #fff;
-            color: #fff;
-            justify-self: center;
-          }
-          button:hover {
-            color: #5d3ede;
-            background: #fff;
-          }
-
           .twocolumn img{
             width:80%;
             justify-self:end;
@@ -198,11 +154,7 @@ const JetztBewerben_neu = () => {
               right:0;
           }
           @media (max-width: 1040px) {
-            h1 {
-              font-size: 2em;
-              line-height: 40px;
-            }
-              .twocolumn {
+            .twocolumn {
               grid-template-columns: 1fr;
               margin-bottom: 40px;
             }
@@ -214,19 +166,11 @@ const JetztBewerben_neu = () => {
             #unser-campus {
               padding: 100px 6%;
             }
-
             .circle:after {
               display:none;
             }
           }
           @media (max-width: 768px) {
-            h1 {
-              font-size: 3em;
-            }
-            p {
-              font-size: 2em;
-              margin-bottom: 50px;
-            }
             .twocolumn {
               grid-template-columns: 1fr;
             }
@@ -237,6 +181,14 @@ const JetztBewerben_neu = () => {
             }
             .cta-container{
               display:block;
+              margin-bottom: 5%;
+              text-align: center;
+            }
+            .cta-container div:nth-of-type(2) {
+              width: 100%;
+            }
+            .cta-container--hl {
+              margin-left: 0;
             }
             #unser-campus {
               padding: 50px 30px;
@@ -244,14 +196,7 @@ const JetztBewerben_neu = () => {
           }
           @media (max-width: 468px) {
             #unser-campus {
-              padding: 20px 30px;
-            }
-            h1 {
-              font-size: 2em;
-              line-height:1em;
-            }
-            p {
-              font-size: 1.3em;
+              padding: 50px 30px;
             }
             .twocolumn {
               grid-template-columns: 1fr;
@@ -262,14 +207,12 @@ const JetztBewerben_neu = () => {
               align-self: center;
               justify-self: center;
             }
-          .persona{
-            margin-bottom:-50px;
-          }
-
+            .persona{
+              margin-bottom:-50px;
+            }
             .circle:after {
               height: 100;
               width: 110%;
-              // left: -7%;
             }
           }
         `}

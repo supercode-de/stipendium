@@ -25,7 +25,6 @@ const responsive = {
 const Partner = () => {
   return (
     <div id='Absolventen'>
-      {/* <span className='aside'>Unsere Partner</span> */}
       <h2>
         <img src='/image14.png' alt='' />
         <span>
@@ -49,27 +48,27 @@ const Partner = () => {
             <figure>
               <img src='/img/shetani-logo-2.png' alt='' />
               <figcaption>
-                <p>Wir helfen Unternehmen aller Art bei der Digitalisierung. Unsere Kunden sind sehr vielfältig: vom kleinen Museum „um die Ecke“ bis hin zu renommierteren Projekten wie der Wuppertaler Schwebebahn oder dem Düsseldorfer Flughafen. 
+                <p>Wir helfen Unternehmen aller Art bei der Digitalisierung. Unsere Kunden sind sehr vielfältig: vom kleinen Museum „um die Ecke“ bis hin zu renommierteren Projekten wie der Wuppertaler Schwebebahn oder dem Düsseldorfer Flughafen.
                 </p>
-                <div className='button'>
-                  <span className='block'>
+                <ul className="partner-links">
+                  <li>
                     <Link href='https://shetani.de/'>
-                      <a aria-label="shetani website">WEBSITE</a>
+                      <a aria-label="shetani website">WEBSITE </a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.linkedin.com/company/shetani-agency/'>
                       <a aria-label="shetani linkedin">LINKEDIN</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://de-de.facebook.com/shetani.agency'>
                       <a aria-label="shetani facebook">FACEBOOK</a>
                     </Link>
-                  </span>
-                </div>
+                  </li>
+                </ul>
               </figcaption>
             </figure>
             <figure>
@@ -81,25 +80,25 @@ const Partner = () => {
                   Gestaltung der digitalen Welt zu vermitteln und Wege der
                   selbstbestimmten Nutzung aufzuzeigen.
                 </p>
-                <div className='button'>
-                  <span className='block'>
+                <ul className="partner-links">
+                  <li>
                     <Link href='https://www.super-digital.xyz/'>
                       <a aria-label="super-digital website">WEBSITE</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
-                    <Link href='https://www.facebook.com/superdigitalev'>
-                      <a aria-label="super-digital linkedin">LINKEDIN</a>
-                    </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.linkedin.com/company/superdigitalev'>
-                      <a aria-label="super-digital facebook">FACEBOOK</a>
+                      <a aria-label="super-digital facebook">LINKEDIN</a>
                     </Link>
-                  </span>
-                </div>
+                  </li>
+                  <li>–</li>
+                  <li>
+                    <Link href='https://www.facebook.com/superdigitalev'>
+                      <a aria-label="super-digital linkedin">FACEBOOK</a>
+                    </Link>
+                  </li>
+                </ul>
               </figcaption>
             </figure>
             <figure>
@@ -110,54 +109,52 @@ const Partner = () => {
                   zertifiziert, nachhaltig und ultra praxisorientiert. Der
                   Rockstar unter allen IT-Bildungsinstituten in NRW!
                 </p>
-
-                <div className='button'>
-                  <span className='block'>
+                <ul className="partner-links">
+                  <li>
                     <Link href='https://super-code.de'>
                       <a aria-label="super-code website">WEBSITE</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.linkedin.com/school/19099791'>
                       <a aria-label="super-code linkedin">LINKEDIN</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.facebook.com/supercodegmbh'>
                       <a aria-label="super-code facebook">FACEBOOK</a>
                     </Link>
-                  </span>
-                </div>
+                  </li>
+                </ul>
               </figcaption>
             </figure>
             <figure>
               <img src='/img/startsteps-logo.svg' alt='' />
               <figcaption>
                 <p>
-                Mit StartSteps kannst du herausfinden, was dein Traumjob in der Technologiebranche ist. Mach deinen ersten Schritt zu den Kompetenzen und Arbeitsplätzen von morgen. 
+                  Mit StartSteps kannst du herausfinden, was dein Traumjob in der Technologiebranche ist. Mach deinen ersten Schritt zu den Kompetenzen und Arbeitsplätzen von morgen.
                 </p>
-
-                <div className='button'>
-                  <span className='block'>
+                <ul className="partner-links">
+                  <li>
                     <Link href='https://startsteps.org/de'>
                       <a aria-label="startsteps website">WEBSITE</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.linkedin.com/company/startsteps/'>
                       <a aria-label="startsteps linkedin">LINKEDIN</a>
                     </Link>
-                  </span>
-                  <span className='hide'> – </span>
-                  <span className='block'>
+                  </li>
+                  <li>–</li>
+                  <li>
                     <Link href='https://www.facebook.com/startsteps'>
                       <a aria-label="startsteps facebook">FACEBOOK</a>
                     </Link>
-                  </span>
-                </div>
+                  </li>
+                </ul>
               </figcaption>
             </figure>
           </Carousel>
@@ -187,22 +184,18 @@ const Partner = () => {
           padding: 10vh 9vw 20vh;
           background: #10375c;
           position: relative;
-          background-position: 0 0, 0 0;
-          background-size: calc(100vw / 12) calc(100vw / 12);
         }
         .container {
           width: 100%;
           padding: 0 -5%;
         }
         h2 {
-          margin: 0;
+          font-size: clamp(2.8125rem, 2.3125rem + 2.5vw, 5.3125rem);
           padding: 0 0 5vh 3%;
           color: #fff;
-          font-size: 5.1em;
           border-bottom: 1px solid #10375c;
           position: relative;
           height: 220px;
-          //   font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_extra_bold';
           font-weight: 900;
           line-height: 68px;
@@ -210,6 +203,7 @@ const Partner = () => {
         h2 span {
           position: absolute;
           z-index: 10;
+          font-family: inherit;
         }
         h2 span span {
           color: transparent;
@@ -230,8 +224,7 @@ const Partner = () => {
           border: 3px solid #fff;
           padding: 15px 20px;
           background: #10375c;
-          min-height: 200px;
-          //   min-width: 450px;
+          min-height: 20vh;
           width: 90%;
           margin: 0 40px;
         }
@@ -239,9 +232,8 @@ const Partner = () => {
           font-family: 'Fira Sans_regular';
           font-weight: 400;
           color: #fff;
-          min-height: 150px;
+          min-height: 15vh;
           font-size: 1rem;
-          //   padding-top: 30px;
         }
 
         figure > img {
@@ -253,17 +245,17 @@ const Partner = () => {
           margin-bottom: 0px;
           margin: 0 1%;
         }
-        .button {
-          font-family: 'Fira Sans_regular';
-          font-size: 0.6rem;
-          line-height: 18px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-          padding: 5px 10px;
-          background: transparent;
-          border: 1px solid #fff;
+        .partner-links {
+          list-style: none;
+          display: inline-flex;
           color: #fff;
-          width: 60%;
+          border: 1px solid #fff;
+          padding: 2%;
+          font-size: .7rem;
+          letter-spacing: 2px;
+        }
+        .partner-links li:nth-of-type(even) {
+          margin: 0 .7rem;
         }
         a {
           color: #fff;
@@ -281,6 +273,7 @@ const Partner = () => {
             transform: translateX(-50%);
             max-height: 550px;
           }
+
         }
 
         @media (max-width: 768px) {
@@ -307,11 +300,7 @@ const Partner = () => {
           .block {
             display: block;
           }
-          .button {
-            display: block;
-            text-align: center;
-            margin: auto;
-          }
+
           .hide {
             display: block;
           }
@@ -320,6 +309,23 @@ const Partner = () => {
           }
           figure {
             margin-left: 20px;
+          }
+        }
+        @media (max-width: 425px) {
+          figure {
+            padding: 20px;
+          }
+          figure:nth-of-type(1) figcaption p{
+            margin-bottom: 5%;
+          }
+        }
+        @media (max-width: 375px) {
+          figure {
+            width: 100%;
+            margin: 0;
+          }
+          .partner-links {
+            letter-spacing: .6px;
           }
         }
       `}</style>

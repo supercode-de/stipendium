@@ -72,25 +72,18 @@ const Typeform = (props) => {
           transform: rotate(180deg);
         }
         button {
-          position: relative;
-          top: ${props.top};
           margin: 2em 1em;
-          // font-family: 'Neue_Machina_Regular_400';
           font-family: 'Fira Sans_regular';
-          font-style: normal;
-          font-weight: normal;
           font-size: 0.6rem;
-          line-height: 16px;
-          text-align: center;
           letter-spacing: 3.5px;
           text-transform: uppercase;
           padding: 18px 32px;
           background: transparent;
           border: 1px solid #fff;
           color: #fff;
-          justify-self: center;
           display: inline-block;
-          width: 200px;
+          width: 15rem;
+          margin-left: auto;
         }
         button:hover {
           color: #5d3ede;
@@ -98,22 +91,16 @@ const Typeform = (props) => {
         }
         iframe {
           position: absolute;
+          height: 70vh;
+          width: 70vw;
+          z-index: 9;
           left: 0;
           right: 0;
           bottom: 0;
           top: 0px;
           border: 0;
         }
-        @media (max-width: 768px) {
-          button {
-            width: 380px;
-          }
-        }
-        @media (max-width: 468px) {
-          button {
-            width: 250px;
-          }
-        }
+
       `}</style>
     </Layout>
   );
