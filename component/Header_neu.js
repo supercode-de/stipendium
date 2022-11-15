@@ -126,11 +126,13 @@ const Header = () => {
           }
         }
         }
-        
-        @media (max-width: 320px) {
+        @media (max-width: 375px) {
           .nav-headlines {
             flex-direction: column;
+            padding-bottom: 0;
           }
+        }
+        @media (max-width: 320px) {
           .nav-logos {
             justify-content: flex-start;
             padding-left: 32px;
@@ -140,6 +142,9 @@ const Header = () => {
           }
           .graphic-headline-uxui {
             margin-top: -80px;
+          }
+          #header {
+            height: 88vh;
           }
         }
 
