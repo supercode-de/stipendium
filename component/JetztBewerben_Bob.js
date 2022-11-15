@@ -11,7 +11,7 @@ const JetztBewerben_neu = () => {
           “Im Bootcamp habe ich nicht nur viel über die Gestaltung, Technik und Psychologie von Digitalprodukten gelernt, sondern konnte das neue Wissen auch direkt praktisch anwenden. Das Team und die Gruppe waren super motivierend und ich habe mich jeden Tag auf den Kurs gefreut!” 
           </h2>
           <div className='circle'>
-            <h2 className='persona'>Bob Boost, Medienmanager und <br /> Audience Developer</h2>
+            <h2 className='persona'>Bob Boost, Medienmanager und <br className="breakHide"/> Audience Developer</h2>
           </div>
 
           <div className='cta-container'>
@@ -166,11 +166,29 @@ const JetztBewerben_neu = () => {
             #unser-campus {
               padding: 100px 6%;
             }
-            .circle:after {
-              display:none;
+          }
+
+          // .breakHide {
+          //   display: none;
+          // }
+          @media (max-width: 1024px) {
+            .circle::after {
+              top: -17%;
+              left: -10%;
+              max-width: 60%;
+              transform: scale(1.8,1.5);
+            }
+            .circle {
+              margin-top: 5%;
+            }
+            .twocolumn > img {
+              margin-top: 5%;
             }
           }
           @media (max-width: 768px) {
+            .circle::after {
+              left: -7%;
+            }
             .twocolumn {
               grid-template-columns: 1fr;
             }
@@ -207,12 +225,15 @@ const JetztBewerben_neu = () => {
               align-self: center;
               justify-self: center;
             }
-            .persona{
-              margin-bottom:-50px;
+
+            .circle::after {
+              display: none;
             }
-            .circle:after {
-              height: 100;
-              width: 110%;
+          }
+          @media (max-width: 320px) {
+            .breakHide,
+            .aside {
+              display: none;
             }
           }
         `}

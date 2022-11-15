@@ -288,7 +288,15 @@ const SuperStipendium_neu = () => {
               padding: 30px 30px 50px;
             }
           }
-
+          @media (max-width: 375px) {
+            .circle::after {
+              top: -25%;
+              left: 62%;
+              width: 161%;
+              transform: scale(2,3);
+            }
+            
+          }
         }
       `}</style>
     </div>
