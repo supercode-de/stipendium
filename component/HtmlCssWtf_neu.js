@@ -24,9 +24,7 @@ const responsive = {
 const HtmlCssWtf_neu = () => {
   return (
     <div id='html-css-wtf'>
-      <div className='asidebg'>
-        <span className='aside'>Arbeitsplatz der Zukunft</span>
-      </div>
+
       <div className='twocolumn'>
         <div>
           <h1>
@@ -34,12 +32,13 @@ const HtmlCssWtf_neu = () => {
           </h1>
           <p>
             Ganz gleich, ob du Mediengestalter:in, Kommunikationsdesigner:in,
-            Grafik-Designer:in oder anderweitig kreativ ausgebildet bist:
-            SuperCode bringt dich innerhalb von{' '}
+            Grafik-Designer:in oder anderweitig
+            kreativ ausgebildet bist: SuperCode
+            bringt dich innerhalb von{' '}
             <span className='underline'>4 Monaten</span> auf das nächste Level
             der Karriereleiter. Mit deinen bisherigen Kenntnissen im Design und
             in der Konzeption in Kombination mit den Kursinhalten zu{' '}
-            <span className='circle'>UX und </span> UI wirst du optimal
+            <span className='circle'>UX und UI</span> wirst du optimal
             qualifiziert und zur begehrten Fachkraft in der Digitalwirtschaft.
           </p>
           <p>
@@ -80,44 +79,12 @@ const HtmlCssWtf_neu = () => {
       <style jsx>{`
         #html-css-wtf {
           overflow: hidden;
-          padding: 100px 0 100px 10%;
+          padding: 100px 0 100px 8.5%;
           position: relative;
         }
         #carousel {
           display: none;
         }
-        .aside {
-          transform: rotate(-90deg);
-          font-size: 12px;
-          letter-spacing: 3px;
-          text-transform: uppercase;
-          white-space: nowrap;
-          color: #fff;
-        }
-        .asidebg {
-          position: absolute;
-          background: url('/img/htmlcsswtf_bild1.png') center/contain no-repeat;
-          top: 50%;
-          left: 0;
-          width: 3vw;
-          min-width: 30px;
-          height: 80vh;
-          transform: translateY(-50%);
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          z-index: 9;
-        }
-        .asidebg:before {
-          content: '';
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          left: 0;
-          right: 0;
-          display: block;
-        }
-        
         .twocolumn {
           display: grid;
           grid-template-columns: 50% 50%;
@@ -141,8 +108,8 @@ const HtmlCssWtf_neu = () => {
         }
 
         h1 span{
-            font-family: inherit;
-            color:#000;
+          font-family: inherit;
+          color:#000;
         }
 
         .twocolumn div:first-of-type p:first-of-type span:nth-of-type(1) {
@@ -161,12 +128,10 @@ const HtmlCssWtf_neu = () => {
         .circle:after {
           content: '';
           position: absolute;
-          top: -10px;
-          bottom: 0;
-          left: -6px;
-          right: 0;
+          top: -60%;
+          right: -8%;
           display: block;
-          width: 150%;
+          width: 118%;
           height: 2.5em;
           background: url(/img/StipendiumDateCircle.svg) center/contain no-repeat;
         }
@@ -212,11 +177,7 @@ const HtmlCssWtf_neu = () => {
           min-width: 280px;
           transform: translate(-4vw, 15vh);
         }
-        .twocolumn div:last-of-type img:nth-of-type(4) {
-          width: 100%;
-          min-width: 280px;
-          transform: scale(1.2, 1.2) translate(0vw, -1vh);
-        }
+        
         @media (max-width: 1024px) {
           figure {
             margin: 0;
@@ -228,9 +189,7 @@ const HtmlCssWtf_neu = () => {
             display: block;
             margin-top: 2%;
           }
-          #html-css-wtf #carousel img {
-            width: 100%;
-          }
+
           .twocolumn {
             display: block;
           }
@@ -245,10 +204,7 @@ const HtmlCssWtf_neu = () => {
           h1 {
             margin-bottom: 20px;
           }
-          .asidebg,
-          .asidebg:before {
-            background: none;
-          }
+
           #html-css-wtf {
               padding: 20px 30px  50px 30px;
           }

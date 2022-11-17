@@ -1,20 +1,8 @@
-import Arrow from './small/Arrow';
-
 const Header = () => {
   const pixelSize = 1; // Width of Lines in Background
 
   return (
     <div id='header'>
-      <div className="nav-headlines">
-        <h2>#SUPERSTIPENDIUM</h2>
-        <h2>EINE AKTION VON</h2>
-      </div>
-      <div className="nav-logos">
-        <img src="/img/startsteps-logo.svg" alt="startsteps logo" title="StartSteps Digital Education GmbH"/>
-        <img src="/img/shetani-logo.svg" alt="shetani logo" title="Shetani oHG"/>
-        <img src="/img/Logo-2030.svg" alt="supercode logo" title="supercode GmbH"/>
-        <img src="/img/SuperDigital-signet.svg" alt="super digital logo" title="SuperDigital e.V."/>
-      </div>
       <div className="graphical-headlines">
         <div>
           <h1 className="headerHeadline">
@@ -30,7 +18,7 @@ const Header = () => {
       </div>
       <style jsx>{`
         #header {
-          background: url('/img/hero_3.png') top/cover no-repeat;
+          background: url('/img/hero_4.png') top/cover no-repeat;
         }
         .nav-headlines {
           display: flex;
@@ -43,20 +31,7 @@ const Header = () => {
           color: #fff;
           margin: 0;
         }
-        .nav-logos {
-          display: flex;
-          justify-content: flex-end;
-          align-items: center;
-          column-gap: 20px;
-          padding-right: 32px;
-        }
-        .nav-logos img:nth-of-type(2) {
-          width: 45px;
-        }
-        .nav-logos img:nth-of-type(3),
-        .nav-logos img:nth-of-type(4) {
-          width: 50px;
-        }
+
         .graphical-headlines {
           display: flex;
           justify-content: center;
@@ -96,10 +71,17 @@ const Header = () => {
           }
         }
         @media (max-width: 768px) {
+          img:nth-of-type(2){
+            width: 15%;
+          }
+          .graphical-headlines{
+            height: 60vh;
+          }
           h1 {
             font-size: 4em;
             line-height: 32px;
           }
+        }
           @media (max-width: 468px) {
             h1 {
               font-size: 2.8em;
@@ -111,20 +93,11 @@ const Header = () => {
             }
           }
         @media (max-width: 425px) {
+
           .graphical-headlines{
             height: 58vh;
           } 
-          .nav-logos img:nth-of-type(1) {
-            width: 50px;
-          }
-          .nav-logos img:nth-of-type(2) {
-            width: 25px;
-          }
-          .nav-logos img:nth-of-type(3),
-          .nav-logos img:nth-of-type(4) {
-            width: 40px;
-          }
-        }
+
         }
         @media (max-width: 375px) {
           .nav-headlines {
@@ -133,10 +106,7 @@ const Header = () => {
           }
         }
         @media (max-width: 320px) {
-          .nav-logos {
-            justify-content: flex-start;
-            padding-left: 32px;
-          }
+
           .graphical-headlines {
             height: 60vh;
           }
@@ -144,7 +114,7 @@ const Header = () => {
             margin-top: -80px;
           }
           #header {
-            height: 88vh;
+            height: 46vh;
           }
         }
 

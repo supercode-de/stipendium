@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Diginexus",
+        "logo": "img/Diginexus-Wort-Bildmarke-weiss.png",
+        "Beschreibung": "Wir sind Ihre Digital-Agentur für Social Media, Performance Marketing und Webentwicklung. We ❤️ Digital.",
+        "websiteLink": "https://diginexus.de/"
+    },
+    {
+        "name": "StartSteps",
+        "logo": "img/startsteps-logo.svg",
+        "Beschreibung": "Mit StartSteps kannst du herausfinden, was dein Traumjob in der Technologiebranche ist. Mach deinen ersten Schritt zu den Kompetenzen und Arbeitsplätzen von morgen. ",
+        "websiteLink": "https://startsteps.org/de"
+    },
+    {
+        "name": "SuperCode",
+        "logo": "/supercode_logo_2022.svg",
+        "Beschreibung": "Der Rockstar unter den Coding und Design Bootcamps! Gegründet in 2019 ist nun in 2022 der bestbewerteter Bildungsanbieter Deutschlands! ",
+        "websiteLink": "https://super-code.de"
+    }
+]

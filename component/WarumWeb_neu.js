@@ -34,10 +34,6 @@ const WarumWeb_neu = () => {
             Erlebnis.
           </p>
         </div>
-
-        <div className='imgright'>
-          <img src='/img/DSC7185_LowRes.png' alt='' />
-        </div>
       </div>
       <style jsx>{`
         .aside {
@@ -62,8 +58,7 @@ const WarumWeb_neu = () => {
           position: relative;
 
         }
-        #unser-campus .imgleft,
-        #unser-campus .imgright {
+        #unser-campus .imgleft{
           overflow: hidden;
         }
 
@@ -134,10 +129,14 @@ const WarumWeb_neu = () => {
           color: #10375c;
           margin-top: 2%;
         }
-
+        @media (max-width: 1024px) {
+          h1 {
+            margin-bottom: 10%;
+          }
+        }
         @media only screen and (max-width: 768px) {
           #unser-campus {
-            padding: 50px 0 0;
+            padding: 100px 0 0;
             min-height: 50vh;
           }
 
@@ -148,6 +147,7 @@ const WarumWeb_neu = () => {
           .threecolumn {
             grid-template-columns: 14fr 1fr;
             gap: 50px 0;
+            padding-bottom: 100px;
           }
           h1 span.super {
             color: transparent;

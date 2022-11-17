@@ -1,13 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import TypeForm from './TypeForm';
 
-const CTA4_neu = () => {
+const CTA4_uxui = () => {
   return (
     <div id='unser-campus'>
       <div>
         <h1>
-          WARTE NICHT LÄNGER <br />
-          UND NUTZE <span className='super'>DEINE CHANCE!</span>
+          DEINE CHANCE <span className='super'>UX/UI-DESIGN</span><br />
+          kostenlos zu lernen!
         </h1>
       </div>
 
@@ -26,6 +26,7 @@ const CTA4_neu = () => {
         }
 
         h1 {
+          text-transform: uppercase;
           font-family: 'Fira Sans_extra_bold';
           color: #fff;
           line-height: 68px;
@@ -69,4 +70,4 @@ const CTA4_neu = () => {
   );
 };
 
-export default CTA4_neu;
+export default CTA4_uxui;

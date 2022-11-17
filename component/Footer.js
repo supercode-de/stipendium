@@ -10,17 +10,17 @@ const Footer = () => {
           </p>
           <Link href='https://www.facebook.com/superdigitalev'>
             <a aria-label="Facebook">
-              <img src='/iconmonstr-facebook-5.svg' alt='' />
+              <img src='/iconmonstr-facebook-5.svg' alt='' className="noBorderRadius"/>
             </a>
           </Link>
           <Link href='https://www.instagram.com/superdigitalev/'>
             <a aria-label="instagram">
-              <img src='/iconmonstr-instagram-11.svg' alt='' />
+              <img src='/iconmonstr-instagram-11.svg' alt='' className="noBorderRadius"/>
             </a>
           </Link>
           <Link href='https://www.linkedin.com/company/superdigitalev'>
             <a aria-label="linkedin">
-              <img src='/iconmonstr-linkedin-5.svg' alt='' />
+              <img src='/iconmonstr-linkedin-5.svg' alt='' className="noBorderRadius"/>
             </a>
           </Link>
         </div>

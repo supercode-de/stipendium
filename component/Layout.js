@@ -38,6 +38,14 @@ class Layout extends Component {
             p{
               font-size: clamp(1.125rem, 1.0375rem + 0.4375vw, 1.5625rem);
             }
+
+            img:not(.uiuxheadline-graphic, .noBorderRadius) {
+              border-radius: 50px;
+            }
+
+            @media (max-width: 425px) {
+              border-radius: 25px;
+            }
           `}</style>
       </div>
     );
