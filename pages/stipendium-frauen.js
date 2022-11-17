@@ -7,7 +7,7 @@ import WarumWeb from "../component/WarumWeb";
 import CTA4 from "../component/CTA4";
 import SuperStipendium from "../component/SuperStipendium";
 import HtmlCssWtf from "../component/HtmlCssWtf";
-import WarumSC from "../component/WarumSC";
+
 
 
 
@@ -21,7 +21,6 @@ export default function Home() {
           <HtmlCssWtf />
           <SuperStipendium />
           <WarumWeb />
-          <WarumSC />
           <SupercodeUsp2 />
           <CTA4 />
           <Footer />
