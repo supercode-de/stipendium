@@ -1,7 +1,6 @@
 import Header from "../component/Header";
 import Layout from "../component/Layout";
 import JetztBewerben from "../component/JetztBewerben";
-import Partner from "../component/Partner";
 import SupercodeUsp2 from "../component/SupercodeUsp2";
 import Footer from "../component/Footer";
 import WarumWeb from "../component/WarumWeb";
@@ -24,7 +23,6 @@ export default function Home() {
           <WarumWeb />
           <WarumSC />
           <SupercodeUsp2 />
-          <Partner />
           <CTA4 />
           <Footer />
         </main>

@@ -22,7 +22,7 @@ const responsive = {
   },
 };
 
-const Partner = () => {
+const Partner_neu = () => {
   return (
     <div id='Absolventen'>
       <h2>
@@ -333,4 +333,4 @@ const Partner = () => {
   );
 };
 
-export default Partner;
+export default Partner_neu;
