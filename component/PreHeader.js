@@ -15,6 +15,7 @@ const PreHeader = () => {
                     background: #121E28;
                     color: #fff;
                     padding: .5% 1%;
+
                 }
 
                 .preHeader div{
@@ -28,14 +29,21 @@ const PreHeader = () => {
                     margin-right: 2%;
                     font-family: "Fira Sans_bold";
                     letter-spacing: 2px;
+                    font-size: clamp(0.625rem, 0.4375rem + 0.9375vw, 1.5625rem);
                 }
-                // img:nth-of-type(2) {
-                //     width: 3%;
-                // }
 
                 @media(max-width: 1024px) {
-                    img:nth-of-type(2){
-                        width: 5%;
+
+                }
+                @media (max-width: 768px) {
+
+                }
+                @media (max-width: 425px) {
+                    .preHeader {
+                        padding: 2%;
+                    }
+                    .preHeader div p {
+                        margin-right: 5%;
                     }
                 }
             `}</style>

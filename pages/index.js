@@ -1,5 +1,4 @@
 import Layout from '../component/Layout';
-import Header_neu from '../component/Header_neu';
 import HtmlCssWtf_neu from '../component/HtmlCssWtf_neu';
 import SuperStipendium_neu from '../component/SuperStipendium_neu';
 import WarumWeb_neu from '../component/WarumWeb_neu';
@@ -11,13 +10,14 @@ import Partner_OhneCarousel from '../component/Partner_OhneCarousel';
 import WoraufWartestDu from '../component/WoraufWartestDu';
 import PreHeader from '../component/PreHeader';
 import WarumSC_clean from '../component/WarumSC_clean';
+import Header_graphicHL from '../component/Header_graphicHL';
 export default function Home() {
   return (
     <Layout>
       <div className='container'>
         <main>
           <PreHeader />
-          <Header_neu />
+          <Header_graphicHL />
           <CTA4_uxui />
           <SuperStipendium_neu />
           <HtmlCssWtf_neu />
