@@ -1,31 +1,7 @@
-import Carousel from "react-multi-carousel";
-
-const responsive = {
-  superLargeDesktop: {
-    // the naming can be any, depends on you.
-    breakpoint: { max: 4000, min: 3000 },
-    items: 5,
-  },
-  desktop: {
-    breakpoint: { max: 3000, min: 1024 },
-    items: 2,
-  },
-  tablet: {
-    breakpoint: { max: 1024, min: 479 },
-    items: 1,
-  },
-  mobile: {
-    breakpoint: { max: 479, min: 0 },
-    items: 1,
-  },
-};
-
 const SuperStipendium = () => {
   return (
     <div id="super-stipendium">
       <span className="aside">Arbeitsplatz der Zukunft</span>
-      {/* <img src="/img/bgLine.png" alt="" className="bg-line" /> */}
-      {/* <div className="grid"> */}
       <article className="stipendium-left">
         <div className="headline-left">
           <h1>
@@ -71,12 +47,6 @@ const SuperStipendium = () => {
           {"..."}und mit etwas Glück erhälst du das Stipendium und startest
           deine IT-Karriere!
         </p>
-
-        {/* <span className="square">Stipendium</span>
-          <span className="line2">
-            <span className="line">zertifizierten</span>
-          </span>{" "}
-          <span className="circle">16.10.2020</span> */}
       </article>
       <article className="stipendium-right">
         <img src="/img/StipendiumArrow.svg" alt="" className="arrow-mobile" />
@@ -115,108 +85,8 @@ const SuperStipendium = () => {
           </p>
         </div>
 
-        {/* <div className="stipendium-box1 hide">
-          <h5>
-            Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit <br />{" "}
-            Start: 22.03.2021 Ende: 27.08.2021
-          </h5>
-          <p>
-            Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-            Web-Entwicklung verpackt in einem ultra praxisorientierten
-            Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps und
-            finde einen Job mit Zukunft.
-          </p>
-          <h5>Inhalte:</h5>
-          <p>
-            Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
-            Javascript Frameworks und Libraries, CMS <br />
-            <br />
-            Back-End: Essentials, Node.js, Express.js, npm, API & Datenbanken{" "}
-            <br />
-            <br />
-            Plus Skills: Grundlagen Projekt-Management & Präsentation, Design &
-            UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.
-          </p>
-          <h5>Trainer*innen:</h5>
-          <p>2 Trainer*innen pro Tag</p>
-          <h5>Umfang:</h5>
-          <p>
-            _22 Wochen Vollzeit <br />
-            _Montag bis Freitag <br />
-            _09:00 - 18:00 Uhr
-          </p>
-          <div className="certqua">
-            <img src="/img/Certqua_Zeichen_AZAV_klein_4c.png" alt="" />
-            <h4>zertifizierte und anerkannte Maßnahme durch Certqua</h4>
-          </div>
-        </div> */}
-        {/* <div className="stipendium-box2 hide">
-                    <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
-                    <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                    <h5>Inhalte:</h5>
-                    <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                    <h5>Trainer*innen:</h5>
-                    <p>2 Trainer*innen pro Tag</p>
-                    <h5>Umfang:</h5>
-                    <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
-                </div> */}
-        {/* <div id="myCarousel">
-          <Carousel
-            responsive={responsive}
-            ssr
-            showDots={false}
-            slidesToSlide={1}
-            infinite
-            containerClass="container-with-dots"
-            deviceType={""}
-            itemClass="carousel-item-padding-20-px"
-          >
-            <div className="stipendium-box1">
-              <h5>
-                Web-Developer Full-Stack <br /> Umfang: 22 Wochen / Vollzeit{" "}
-                <br /> Start: 22.03.2021 Ende: 27.08.2021
-              </h5>
-              <p>
-                Unser Full-Stack-Kurs ermöglicht dir einen Deep Dive in die
-                Web-Entwicklung verpackt in einem ultra praxisorientierten
-                Intensiv-Kurs. Lerne das Programmieren moderner Websites & Apps
-                und finde einen Job mit Zukunft.
-              </p>
-              <h5>Inhalte:</h5>
-              <p>
-                Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript,
-                Javascript Frameworks und Libraries, CMS <br />
-                <br />
-                Back-End: Essentials, Node.js, Express.js, npm, API &
-                Datenbanken <br />
-                <br />
-                Plus Skills: Grundlagen Projekt-Management & Präsentation,
-                Design & UX, Learn-To-Learn, Bewerbungscoaching,
-                Abschlussprojekt.
-              </p>
-              <h5>Trainer*innen:</h5>
-              <p>2 Trainer*innen pro Tag</p>
-              <h5>Umfang:</h5>
-              <p>
-                _22 Wochen Vollzeit <br />
-                _Montag bis Freitag <br />
-                _09:00 - 18:00 Uhr
-              </p>
-            </div>
-          <div className="stipendium-box2">
-                            <h5>Web-Developer Front-End<br /> Umfang: 30 Wochen / Teilzeit <br /> Start: 24.05.2021 Ende: 23.12.2021</h5>
-                            <p>Programmieren lernen neben dem Beruf? <br /> Kein Problem! Unser Front-End Kurs findet abends und online statt! In 30 Wochen lernst du das Programmieren moderner Websites & Apps.</p>
-                            <h5>Inhalte:</h5>
-                            <p>Front-End: Essentials, HTML, CSS, GIT, Terminal, Javascript, Javascript Frameworks und Libraries, CMS <br /><br />Plus Skills: Grundlagen Projekt-Management & Präsentation, Design & UX, Learn-To-Learn, Bewerbungscoaching, Abschlussprojekt.</p>
-                            <h5>Trainer*innen:</h5>
-                            <p>2 Trainer*innen pro Tag</p>
-                            <h6>Umfang:</h6>
-                            <p>_30 Wochen Teilzeit <br />_3 Abende und jeden 2. Samstag <br />_In der Woche: 18:00 - 21:00 Uhr <br />_Samstags: 09:00 - 18:00 Uhr</p>
-                        </div> 
-          </Carousel>
-        </div> */}
       </article>
-      {/* </div> */}
+
 
       <style jsx>{`
         .certqua {

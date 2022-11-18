@@ -196,6 +196,14 @@ const WoraufWartestDu = () => {
                     .grid--container {
                         margin-bottom: 20%;
                     }
+                    .lines::after {
+                        width: 90%;
+                    }
+                }
+                @media (max-width: 375px) {
+                    .lines::after {
+                        display: none;
+                    }
                 }
                 `}
             </style>

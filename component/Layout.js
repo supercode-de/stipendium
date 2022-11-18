@@ -7,6 +7,14 @@ class Layout extends Component {
       <div id='super-layout'>
         <Head>
           <title>Super-Stipendium</title>
+          <meta
+            property="og:image:secure"
+            content="https://super-stipendium.de/img/page-preview.png"
+          />
+          <meta
+            property="og:image"
+            content="http://super-stipendium.de/img/page-preview.png"
+          />
         </Head>
         {this.props.children}
 
@@ -44,7 +52,10 @@ class Layout extends Component {
             }
 
             @media (max-width: 425px) {
-              border-radius: 25px;
+              img:not(.uiuxheadline-graphic, .noBorderRadius) {
+                border-radius: 25px;
+              }
+              
             }
           `}</style>
       </div>

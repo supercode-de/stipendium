@@ -181,7 +181,7 @@ const SuperStipendium_neu = () => {
             margin-bottom: 0;
           }
           .headline-left {
-            margin-bottom: 50px;
+            margin-bottom: 20px;
           }
         }
 
