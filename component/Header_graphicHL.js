@@ -15,11 +15,14 @@ const Header_graphicHL = () => {
           align-items: center;
           padding: 0 5%;
         }
-        // .graphical-headlines{
-        //   width: 80%;
-        // }
         img {
           width: 100%;
+        }
+
+        @media (max-width: 425px) {
+          #header {
+            height: 80vh;
+          }
         }
       `}</style>
     </div>

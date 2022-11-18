@@ -1,4 +1,5 @@
 import TypeForm from './TypeForm';
+import Typeform_neu2022 from './TypeForm_neu2022';
 const SuperStipendium_neu = () => {
   return (
     <div id='super-stipendium'>
@@ -53,7 +54,7 @@ const SuperStipendium_neu = () => {
             <p>Anschließend wendest du das Erlernte direkt in einem 2-monatigen Praktikum bei Diginexus (remote) an.</p>
           </div>
           <div className="kursCard-btns">
-            <TypeForm />
+            <Typeform_neu2022 />
           </div>
         </div>
 
@@ -144,6 +145,9 @@ const SuperStipendium_neu = () => {
         }
         .kursCard-abbinder {
           margin-bottom: 5%;
+        }
+        .kursCard-btns {
+          margin-top: 10%;
         }
         @media (max-width: 1199px) {
           .break {

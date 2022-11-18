@@ -39,6 +39,7 @@ const Typeform = (props) => {
         #typeform {
           min-height: 100vh;
           color: #3dd7ac;
+          border: 5px solid red;
         }
         a {
           position: absolute;
@@ -93,12 +94,10 @@ const Typeform = (props) => {
           position: absolute;
           height: 70vh;
           width: 70vw;
-          z-index: 9;
-          left: 0;
+          z-index: 10;
           right: 0;
-          bottom: 0;
-          top: 0px;
-          border: 0;
+          // top: -50%;
+          border: 5px solid #fff;
         }
 
       `}</style>

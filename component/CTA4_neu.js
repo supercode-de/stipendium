@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from 'react';
-import TypeForm from './TypeForm';
+import Typeform_neu2022 from './TypeForm_neu2022';
 
 const CTA4_neu = () => {
   return (
@@ -13,7 +12,7 @@ const CTA4_neu = () => {
 
       <div className='twocolumn'>
         <div className='buttoncolumn'>
-          <TypeForm/>
+          <Typeform_neu2022 />
         </div>
       </div>
       <style jsx>{`
@@ -49,6 +48,8 @@ const CTA4_neu = () => {
         @media only screen and (max-width: 768px) {
           #unser-campus {
             flex-direction: column;
+            gap: 2rem;
+            padding-right: 5%;
           }
           .buttoncolumn {
             text-align: center;

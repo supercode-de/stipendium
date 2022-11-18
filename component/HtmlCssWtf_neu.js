@@ -53,28 +53,7 @@ const HtmlCssWtf_neu = () => {
           <img src='/img/htmlcsswtf_bild4.png' alt='' />
           <img src='/img/htmlcsswtf_bild5.png' alt='' />
         </div>
-        <section id='carousel'>
-          <Carousel
-            responsive={responsive}
-            ssr
-            showDots={false}
-            slidesToSlide={1}
-            infinite
-            containerClass='container-with-dots'
-            deviceType={''}
-            itemClass='carousel-item-padding-20-px'
-          >
-            <figure>
-              <img src='/img/htmlcsswtf_bild3.png' alt='' />
-            </figure>
-            <figure>
-              <img src='/img/htmlcsswtf_bild4.png' alt='' />
-            </figure>
-            <figure>
-              <img src='/img/htmlcsswtf_bild5.png' alt='' />
-            </figure>
-          </Carousel>
-        </section>
+        <img src='/img/htmlcsswtf_bild5.png' alt='' id="showMobile"/>
       </div>
       <style jsx>{`
         #html-css-wtf {
@@ -82,9 +61,7 @@ const HtmlCssWtf_neu = () => {
           padding: 100px 0 100px 8.5%;
           position: relative;
         }
-        #carousel {
-          display: none;
-        }
+
         .twocolumn {
           display: grid;
           grid-template-columns: 50% 50%;
@@ -101,10 +78,10 @@ const HtmlCssWtf_neu = () => {
           -webkit-text-stroke-color: #000;
           margin: 0.5em 0 0.3em;
         }
-        .twocolumn div:first-of-type {
+        .gallery {
           color: #000;
           width: 90%;
-          z-index: 99;
+          z-index: 1;
         }
 
         h1 span{
@@ -155,39 +132,42 @@ const HtmlCssWtf_neu = () => {
           background: url(/img/htmlcsswtf_line4.svg) center bottom/contain
             no-repeat;
         }
-        .twocolumn div:first-of-type p:last-of-type {
+        .gallery p:last-of-type {
           width: 70%;
         }
-        .twocolumn div:last-of-type {
+        .gallery {
           display: grid;
           grid-template-columns: 1fr 1fr;
         }
-        .twocolumn div:last-of-type img:nth-of-type(1) {
+        .gallery img:nth-of-type(1) {
           width: 50%;
           min-width: 180px;
           transform: translate(3vw, 12vh);
         }
-        .twocolumn div:last-of-type img:nth-of-type(2) {
+        .gallery img:nth-of-type(2) {
           width: 50%;
           min-width: 260px;
           transform: translate(-0.5vw, 8vh);
         }
-        .twocolumn div:last-of-type img:nth-of-type(3) {
+        .gallery img:nth-of-type(3) {
           width: 80%;
           min-width: 280px;
           transform: translate(-4vw, 15vh);
         }
-        
+        #showMobile {
+          display: none;
+        }
         @media (max-width: 1024px) {
           figure {
             margin: 0;
           }
-          #html-css-wtf .gallery {
+          .gallery {
             display: none;
+            background: red;
           }
-          #html-css-wtf #carousel {
+          #showMobile{
             display: block;
-            margin-top: 2%;
+            margin-top: 5%;
           }
 
           .twocolumn {
@@ -198,7 +178,7 @@ const HtmlCssWtf_neu = () => {
           .twocolumn {
             display: block;
           }
-          .twocolumn div:last-of-type {
+          .gallery {
             width: 80%;
           }
           h1 {
@@ -216,6 +196,11 @@ const HtmlCssWtf_neu = () => {
           .twocolumn div:first-of-type p:last-of-type {
               width: 100%;
             }
+        }
+        @media (max-width: 425px) {
+          #showMobile {
+            width: 100%;
+          }
         }
       `}</style>
     </div>

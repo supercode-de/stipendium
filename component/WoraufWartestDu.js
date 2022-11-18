@@ -1,4 +1,4 @@
-import TypeForm from './TypeForm';
+import Typeform_neu2022 from './TypeForm_neu2022';
 import Carousel from 'react-multi-carousel';
 const responsive = {
     superLargeDesktop: {
@@ -35,7 +35,7 @@ const WoraufWartestDu = () => {
                             startest du bald deine UX/UI-Karriere!
                         </p>
                         <div className='buttoncolumn'>
-                            <TypeForm />
+                            <Typeform_neu2022 />
                         </div>
                     </article>
                     <article className="alumniCard--container">
@@ -192,6 +192,9 @@ const WoraufWartestDu = () => {
                     }
                     .alumniCard--container {
                         display: none;
+                    }
+                    .grid--container {
+                        margin-bottom: 20%;
                     }
                 }
                 `}
