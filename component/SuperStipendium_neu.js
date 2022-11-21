@@ -31,7 +31,7 @@ const SuperStipendium_neu = () => {
           </div>
           <div className="bewerben-ablauf--punkte">
             <h3 className="bewerben-ablauf--punkte--number">03</h3>
-            <h3 className="bewerben-ablauf--punkt">Start des Stipendiums am 12.12.</h3>
+            <h3 className="bewerben-ablauf--punkt">Vergabe des Stipendiums am 12.12.</h3>
           </div>
         </div>
       </article>
