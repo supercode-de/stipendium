@@ -2,7 +2,6 @@ import partnerData from "../component/data/partnerData.json";
 import Link from 'next/link';
 
 const Partner_OhneCarousel = () => {
-  console.log(partnerData)
   return (
     <div id='partner'>
       <h2>
