@@ -70,6 +70,9 @@ const HtmlCssWtf_neu = () => {
         .twocolumn div p:nth-of-type(1) {
           margin-bottom: 5%;
         }
+        .twocolumn div:nth-of-type(1) {
+          width: 93%;
+        }
         h1 {
           font-family: 'Fira Sans_extra_bold';
           line-height: 0.87em;

@@ -34,7 +34,7 @@ const DiginexusEinsatz
             <article className="layout--grid">
               <div className="layout-left">
                 <p>
-                  Im Anschluss an den Kurs kannst du dein Wissen in einem 3-monatigen Praktikum (remote möglich) bei der Digitalagentur Diginexus direkt anwenden.
+                  Im Anschluss an den Kurs kannst du dein Wissen in einem 2-monatigen Praktikum (remote möglich) bei der Digitalagentur Diginexus direkt anwenden.
                 </p>
                 <p>
                   Die Art Projekte bei Diginexus sind genauso vielfältig wie deren Kund:innen. Das Portfolio reicht von schlichten UI-Design-Jobs bis zur detaillierten Entwicklung von ganzheitlichen Konzepten. Von der Konzeption, über die Recherche, das Design bis hin zum Backend ist alles dabei, was das UX/UI-Herz höher schlagen lässt.

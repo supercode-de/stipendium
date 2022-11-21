@@ -2,7 +2,7 @@ import Popup from "reactjs-popup";
 const Typeform_neu2022 = (props) => {
   return (
     <>
-      <Popup trigger={<button>JETZT BEWERBEN</button>} position="center">
+      <Popup trigger={<button>JETZT BEWERBEN</button>} position="center center">
         <div id="typeform">
           <iframe
             src="https://form.typeform.com/to/sCEWmkIE?typeform-medium=embed-snippet"

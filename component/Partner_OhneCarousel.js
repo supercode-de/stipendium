@@ -11,8 +11,8 @@ const Partner_OhneCarousel = () => {
         </span>
       </h2>
       <div className="partnerCards">
-        {partnerData.map((partner) => (
-          <figure>
+        {partnerData.map((partner, i) => (
+          <figure key={i}>
             <img src={partner.logo} alt={partner.name} className="noBorderRadius" />
             <figcaption>
               <p>

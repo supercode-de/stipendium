@@ -1,4 +1,3 @@
-import TypeForm from './TypeForm';
 import Typeform_neu2022 from './TypeForm_neu2022';
 const CTA4_uxui = () => {
   return (
