@@ -42,7 +42,7 @@ const SuperStipendium_neu = () => {
             <h4>Bootcamp</h4>
           </div>
           <div className="kursCard-preInfos">
-            <p>Kursstart: 13.02.2022</p>
+            <p>Kursstart: 13.02.2023</p>
             <p>Umfang: 18 Wochen Vollzeit</p>
             <p>Mo. bis Fr.: 09:00 – 17:00 Uhr</p>
           </div>
